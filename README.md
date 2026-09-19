@@ -49,18 +49,18 @@ python -m props validate data/v1
 
 ## Running the app
 
-```sh
-cd app
-npm install
-npx expo start            # scan the QR code with Expo Go
-```
-
-To point it at a local build instead of the published data:
+Install **Expo Go** on the phone (App Store / Play Store), put the phone on the
+same wifi as the laptop, then:
 
 ```sh
-python -m http.server 8000 --directory data
-EXPO_PUBLIC_DATA_BASE=http://<your-lan-ip>:8000/v1 npx expo start
+make phone
 ```
+
+That serves `data/` and starts Metro with the app pointed at this machine.
+Scan the QR code with the iPhone Camera app, or from inside Expo Go on Android.
+
+Once the data is published to GitHub, `npx expo start` on its own is enough --
+the app falls back to the URL in `app.json` and no laptop needs to be running.
 
 Expo Go is the only permanently free way to run this on an iPhone — TestFlight
 needs the $99/yr Apple Developer Program, and a free-provisioned development
