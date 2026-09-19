@@ -4,7 +4,7 @@ import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import { useDvp, useProps, useSchedule, useUsage } from '../../src/api/queries';
 import type { Recommendation, UsagePlayer } from '../../src/api/schemas';
 import { Card, Chip, Empty, Loading, SectionTitle } from '../../src/components/common';
-import { ordinal, trim } from '../../src/components/PropRow';
+import { ordinal, scoreOutOf100, trim } from '../../src/components/PropRow';
 import { MARKETS } from '../../src/domain/markets';
 import { team as lookupTeam } from '../../src/domain/teams';
 import { rankTone, useTheme } from '../../src/theme';
@@ -291,7 +291,7 @@ function TheScore({ card }: { card: Recommendation }) {
 
   return (
     <>
-      <SectionTitle>Why it scored {card.score.toFixed(2)}</SectionTitle>
+      <SectionTitle>Why it scored {scoreOutOf100(card.score)}</SectionTitle>
       <Card>
         {parts.map((part, index) => {
           const value = card.components[part.key] ?? 0;
@@ -310,10 +310,10 @@ function TheScore({ card }: { card: Recommendation }) {
                   {part.label}
                 </Text>
                 <Text style={{ color: theme.muted, fontSize: 12 }}>
-                  {value.toFixed(2)} × {weight.toFixed(2)} ={' '}
+                  {Math.round(value * 100)} × {weight.toFixed(2)} ={' '}
                 </Text>
                 <Text style={{ color: theme.text, fontWeight: '700', width: 44, textAlign: 'right' }}>
-                  {(value * weight).toFixed(3)}
+                  {(value * weight * 100).toFixed(1)}
                 </Text>
               </View>
               <View
@@ -350,7 +350,7 @@ function TheScore({ card }: { card: Recommendation }) {
         >
           <Text style={{ flex: 1, color: theme.text, fontWeight: '700' }}>Total</Text>
           <Text style={{ color: theme.accent, fontWeight: '800' }}>
-            {card.score.toFixed(2)}
+            {(card.score * 100).toFixed(1)} / 100
           </Text>
         </View>
       </Card>

@@ -71,28 +71,28 @@ export function PropRow({ card }: { card: Recommendation }) {
             {card.market_label}
           </Text>
           <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '700' }}>
-            {trim(player.per_game)} {player.unit}/g
+            {trim(player.per_game)}
           </Text>
         </View>
+
+        <Text style={{ color: theme.muted, fontSize: 12, marginTop: 4 }}>
+          {defense.team} allows{' '}
+          <Text style={{ color: tone.fg, fontWeight: '700' }}>
+            {trim(defense.allowed_per_game)}
+          </Text>
+          {' · '}
+          <Text style={{ color: tone.fg, fontWeight: '700' }}>
+            {worstness}
+            {ordinal(worstness)}
+          </Text>
+        </Text>
       </View>
 
-      <View style={{ alignItems: 'flex-end', gap: 4 }}>
-        <Text style={{ color: theme.text, fontSize: 17, fontWeight: '800' }}>
-          {card.score.toFixed(2)}
+      <View style={{ alignItems: 'flex-end' }}>
+        <Text style={{ color: theme.text, fontSize: 22, fontWeight: '800' }}>
+          {scoreOutOf100(card.score)}
         </Text>
-        <View
-          style={{
-            backgroundColor: tone.bg,
-            borderRadius: 5,
-            paddingHorizontal: 6,
-            paddingVertical: 2,
-          }}
-        >
-          <Text style={{ color: tone.fg, fontSize: 11, fontWeight: '700' }}>
-            {worstness}
-            {ordinal(worstness)} D
-          </Text>
-        </View>
+        <Text style={{ color: theme.faint, fontSize: 10 }}>/ 100</Text>
       </View>
 
       <Text style={{ color: theme.faint, fontSize: 18 }}>›</Text>
@@ -100,8 +100,14 @@ export function PropRow({ card }: { card: Recommendation }) {
   );
 }
 
+/** Every per-game figure reads to one decimal, so a column of them lines up. */
 export function trim(value: number): string {
-  return Number.isInteger(value) ? String(value) : value.toFixed(1);
+  return value.toFixed(1);
+}
+
+/** The score is stored 0-1 and shown out of 100. */
+export function scoreOutOf100(score: number): number {
+  return Math.round(score * 100);
 }
 
 export function ordinal(n: number): string {
