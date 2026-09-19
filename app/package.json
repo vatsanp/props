@@ -34,7 +34,8 @@
     "typecheck": "tsc --noEmit",
     "test": "tsx src/domain/__tests__/mismatch.test.ts",
     "test:payloads": "tsx src/api/__tests__/payloads.test.ts",
-    "test:detail": "tsx src/api/__tests__/propdetail.test.ts"
+    "test:detail": "tsx src/api/__tests__/propdetail.test.ts",
+    "test:format": "tsx src/__tests__/format.test.ts"
   },
   "private": true
 }

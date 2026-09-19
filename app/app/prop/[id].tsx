@@ -4,7 +4,7 @@ import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import { useDvp, useProps, useSchedule, useUsage } from '../../src/api/queries';
 import type { Recommendation, UsagePlayer } from '../../src/api/schemas';
 import { Card, Chip, Empty, Loading, SectionTitle } from '../../src/components/common';
-import { ordinal, scoreOutOf100, trim } from '../../src/components/PropRow';
+import { ordinal, scoreOutOf100, trim } from '../../src/format';
 import { MARKETS } from '../../src/domain/markets';
 import { team as lookupTeam } from '../../src/domain/teams';
 import { rankTone, useTheme } from '../../src/theme';
@@ -174,8 +174,7 @@ function TheMatchup({ card }: { card: Recommendation }) {
           })
         )}
         <Text style={{ color: theme.faint, fontSize: 11, marginTop: 8, lineHeight: 16 }}>
-          Per game allowed, and where that ranks among 32 defenses. 32nd means no
-          defense in the league gives up more.
+          Per game allowed, and where that ranks among 32 defenses.
         </Text>
       </Card>
 
@@ -257,11 +256,6 @@ function HisUsage({ card }: { card: Recommendation }) {
               />
               <Figure label="Games" value={String(entry.games)} />
             </View>
-            <Text style={{ color: theme.faint, fontSize: 11, marginTop: 10, lineHeight: 16 }}>
-              Per game this season. Usage is never blended with last season — a player
-              may have changed teams or lost his job, and last year's share would point
-              at the wrong man.
-            </Text>
           </>
         )}
       </Card>

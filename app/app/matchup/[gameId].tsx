@@ -10,7 +10,7 @@ import {
   useStats,
 } from '../../src/api/queries';
 import { Card, Chip, Empty, Loading, SectionTitle } from '../../src/components/common';
-import { trim as format } from '../../src/components/PropRow';
+import { trim as format } from '../../src/format';
 import { PropRow } from '../../src/components/PropRow';
 import { findEdges, summarize, type Edge } from '../../src/domain/mismatch';
 import { STATS } from '../../src/domain/stats';

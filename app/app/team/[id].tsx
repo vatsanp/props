@@ -4,7 +4,7 @@ import { Pressable } from 'react-native';
 
 import { useProps, useRecords, useSchedule, useStats } from '../../src/api/queries';
 import { Card, Chip, Empty, Loading, SectionTitle } from '../../src/components/common';
-import { trim as format } from '../../src/components/PropRow';
+import { trim as format } from '../../src/format';
 import { PropRow } from '../../src/components/PropRow';
 import { STAT_ORDER, STATS } from '../../src/domain/stats';
 import { team as lookupTeam } from '../../src/domain/teams';

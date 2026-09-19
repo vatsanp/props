@@ -2,6 +2,7 @@ import { Pressable, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 
 import type { Recommendation } from '../api/schemas';
+import { ordinal, scoreOutOf100, shortName, trim } from '../format';
 import { team as lookupTeam } from '../domain/teams';
 import { rankTone, useTheme } from '../theme';
 
@@ -46,23 +47,18 @@ export function PropRow({ card }: { card: Recommendation }) {
       />
 
       <View style={{ flex: 1 }}>
-        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6 }}>
+        <View style={{ flexDirection: 'row', alignItems: 'baseline', gap: 6 }}>
           <Text
-            style={{ color: theme.text, fontSize: 16, fontWeight: '700' }}
+            style={{ color: theme.text, fontSize: 16, fontWeight: '700', flexShrink: 1 }}
             numberOfLines={1}
           >
-            {player.name}
+            {shortName(player.name)}
           </Text>
-          {player.status !== 'active' ? (
-            <Text style={{ color: theme.warn, fontSize: 11, fontWeight: '700' }}>
-              {player.status.toUpperCase()}
-            </Text>
-          ) : null}
+          {/* Never shrinks: a name without its matchup says very little. */}
+          <Text style={{ color: theme.muted, fontSize: 11, flexShrink: 0 }} numberOfLines={1}>
+            {player.team} {player.position} · vs {defense.team}
+          </Text>
         </View>
-
-        <Text style={{ color: theme.muted, fontSize: 12, marginTop: 1 }}>
-          {player.team} {player.position} · vs {defense.team}
-        </Text>
 
         <View
           style={{ flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 6 }}
@@ -73,6 +69,11 @@ export function PropRow({ card }: { card: Recommendation }) {
           <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '700' }}>
             {trim(player.per_game)}
           </Text>
+          {player.status !== 'active' ? (
+            <Text style={{ color: theme.warn, fontSize: 11, fontWeight: '700' }}>
+              {player.status.toUpperCase()}
+            </Text>
+          ) : null}
         </View>
 
         <Text style={{ color: theme.muted, fontSize: 12, marginTop: 4 }}>
@@ -98,19 +99,4 @@ export function PropRow({ card }: { card: Recommendation }) {
       <Text style={{ color: theme.faint, fontSize: 18 }}>›</Text>
     </Pressable>
   );
-}
-
-/** Every per-game figure reads to one decimal, so a column of them lines up. */
-export function trim(value: number): string {
-  return value.toFixed(1);
-}
-
-/** The score is stored 0-1 and shown out of 100. */
-export function scoreOutOf100(score: number): number {
-  return Math.round(score * 100);
-}
-
-export function ordinal(n: number): string {
-  if (n % 100 >= 10 && n % 100 <= 20) return 'th';
-  return { 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] ?? 'th';
 }

@@ -26,7 +26,7 @@ test:
 	cd pipeline && ../$(PY) -m pytest -q
 
 app-test:
-	cd app && npm run typecheck && npm test && npm run test:payloads && npm run test:detail
+	cd app && npm run typecheck && npm test && npm run test:payloads && npm run test:detail && npm run test:format
 
 check: test app-test
 	$(PY) -m props validate data/v1

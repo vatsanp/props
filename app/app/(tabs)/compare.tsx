@@ -3,7 +3,7 @@ import { Pressable, ScrollView, Text, View } from 'react-native';
 
 import { useStats } from '../../src/api/queries';
 import { Card, Empty, Loading, SectionTitle } from '../../src/components/common';
-import { trim as format } from '../../src/components/PropRow';
+import { trim as format } from '../../src/format';
 import { findEdges, summarize } from '../../src/domain/mismatch';
 import { STATS } from '../../src/domain/stats';
 import { TEAMS, TEAM_IDS, team as lookupTeam } from '../../src/domain/teams';
