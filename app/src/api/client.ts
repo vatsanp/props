@@ -8,7 +8,7 @@ import type { z } from 'zod';
  */
 
 const FALLBACK_BASE =
-  'https://raw.githubusercontent.com/vatsan/NFL_Stats/main/data/v1';
+  'https://raw.githubusercontent.com/vatsan/props/main/data/v1';
 
 export const DATA_BASE: string =
   process.env.EXPO_PUBLIC_DATA_BASE ??
