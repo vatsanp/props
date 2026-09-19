@@ -13,6 +13,7 @@ import { Card, Chip, Empty, Loading, SectionTitle } from '../../src/components/c
 import { PropCard, format } from '../../src/components/PropCard';
 import { findEdges, summarize, type Edge } from '../../src/domain/mismatch';
 import { STATS } from '../../src/domain/stats';
+import { useSettings } from '../../src/settings';
 import { team as lookupTeam } from '../../src/domain/teams';
 import { rankTone, useTheme } from '../../src/theme';
 
@@ -158,9 +159,10 @@ function EdgesTab({
   stats: ReturnType<typeof useStats>['data'];
 }) {
   const theme = useTheme();
+  const { settings } = useSettings();
   if (!stats) return <Loading what="team stats" />;
 
-  const edges = findEdges(stats, away, home);
+  const edges = findEdges(stats, away, home, settings.elite, settings.weak);
   const counts = summarize(edges, away, home);
 
   if (!edges.length) {
@@ -181,7 +183,8 @@ function EdgesTab({
           {away} {counts[away]} · {home} {counts[home]}
         </Text>
         <Text style={{ color: theme.muted, fontSize: 12, marginTop: 3 }}>
-          A stat where one side is top-10 and the other bottom-12.
+          A stat where one side is top-{settings.elite} and the other is outside the
+          top {settings.weak}.
         </Text>
       </Card>
       {sections.map(({ team, edges: teamEdges }) =>

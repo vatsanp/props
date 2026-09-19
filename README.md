@@ -33,7 +33,7 @@ reads it and caches it for offline use.
 | `pipeline/props/` | the pipeline: scraping, transforms, the recommender, the CLI |
 | `pipeline/tests/` | 1188 tests, including golden parity against the original script |
 | `data/v1/` | generated payloads, committed and served to the app |
-| `app/` | the Expo app |
+| `app/` | the Expo app: Props, This Week, Compare, Teams, plus matchup and team screens |
 | `archive/csv/` | the original CSV archives, 2024-2026 |
 
 ## Using it from the terminal

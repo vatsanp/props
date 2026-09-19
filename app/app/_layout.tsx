@@ -7,6 +7,7 @@ import { StatusBar } from 'expo-status-bar';
 import { useColorScheme } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import { SettingsProvider } from '../src/settings';
 import { useTheme } from '../src/theme';
 
 /**
@@ -41,21 +42,24 @@ export default function RootLayout() {
       client={queryClient}
       persistOptions={{ persister, maxAge: 7 * 24 * 60 * 60 * 1000 }}
     >
-      <SafeAreaProvider>
-        <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
-        <Stack
-          screenOptions={{
-            headerStyle: { backgroundColor: theme.card },
-            headerTintColor: theme.text,
-            headerTitleStyle: { fontWeight: '700' },
-            contentStyle: { backgroundColor: theme.bg },
-          }}
-        >
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="matchup/[gameId]" options={{ title: 'Matchup' }} />
-          <Stack.Screen name="team/[id]" options={{ title: 'Team' }} />
-        </Stack>
-      </SafeAreaProvider>
+      <SettingsProvider>
+        <SafeAreaProvider>
+          <StatusBar style={scheme === 'dark' ? 'light' : 'dark'} />
+          <Stack
+            screenOptions={{
+              headerStyle: { backgroundColor: theme.card },
+              headerTintColor: theme.text,
+              headerTitleStyle: { fontWeight: '700' },
+              contentStyle: { backgroundColor: theme.bg },
+            }}
+          >
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="matchup/[gameId]" options={{ title: 'Matchup' }} />
+            <Stack.Screen name="team/[id]" options={{ title: 'Team' }} />
+            <Stack.Screen name="settings" options={{ title: 'Settings' }} />
+          </Stack>
+        </SafeAreaProvider>
+      </SettingsProvider>
     </PersistQueryClientProvider>
   );
 }

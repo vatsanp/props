@@ -1,5 +1,5 @@
-import { Tabs } from 'expo-router';
-import { Text, type ColorValue } from 'react-native';
+import { Link, Tabs } from 'expo-router';
+import { Pressable, Text, type ColorValue } from 'react-native';
 
 import { useTheme } from '../../src/theme';
 
@@ -21,6 +21,13 @@ export default function TabsLayout() {
         tabBarStyle: { backgroundColor: theme.card, borderTopColor: theme.border },
         tabBarActiveTintColor: theme.accent,
         tabBarInactiveTintColor: theme.faint,
+        headerRight: () => (
+          <Link href="/settings" asChild>
+            <Pressable hitSlop={12} style={{ paddingHorizontal: 16 }}>
+              <Text style={{ color: theme.accent, fontSize: 18 }}>⚙</Text>
+            </Pressable>
+          </Link>
+        ),
         sceneStyle: { backgroundColor: theme.bg },
       }}
     >
@@ -36,6 +43,13 @@ export default function TabsLayout() {
         options={{
           title: 'This Week',
           tabBarIcon: ({ color }) => <Glyph label="▤" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="compare"
+        options={{
+          title: 'Compare',
+          tabBarIcon: ({ color }) => <Glyph label="⇄" color={color} />,
         }}
       />
       <Tabs.Screen
