@@ -15,7 +15,8 @@
       "Bash(../.venv/bin/python -m pytest tests/ -q)",
       "Bash(../.venv/bin/python -m pytest tests/test_teamrankings.py -q)",
       "Bash(mkdir -p pipeline/props)",
-      "Bash(PROPS_OUT=data/v1 .venv/bin/python -m props.cli scrape --out data/v1/stats.json)"
+      "Bash(PROPS_OUT=data/v1 .venv/bin/python -m props.cli scrape --out data/v1/stats.json)",
+      "Bash(npx tsx *)"
     ]
   }
 }

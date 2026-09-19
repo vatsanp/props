@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  schedule:
+    # Weekly canary: runs the real scrape against the live site so upstream
+    # markup changes surface here rather than in a failed data commit.
+    - cron: "0 15 * * 1"
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e "./pipeline[dev]"
+      - name: Pipeline tests
+        working-directory: pipeline
+        run: python -m pytest -q
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - name: Install app
+        working-directory: app
+        run: npm ci --legacy-peer-deps
+      - name: Typecheck
+        working-directory: app
+        run: npm run typecheck
+      - name: The rule must match the Python golden file
+        working-directory: app
+        run: npm test
+      - name: Published payloads must match the app schemas
+        working-directory: app
+        run: npm run test:payloads
+
+      # The domain constants are generated; a diff here means someone edited
+      # the TypeScript instead of the Python.
+      - name: Generated files are up to date
+        run: |
+          python -m props codegen --ts app/src/domain
+          git diff --exit-code app/src/domain
+
+  contract:
+    # Only on the weekly schedule: this one talks to the real internet.
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ./pipeline
+      - name: Live scrape still parses
+        run: python -m props build --out /tmp/contract --cache /tmp/cache
+      - name: Live payloads still validate
+        run: python -m props validate /tmp/contract

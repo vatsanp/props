@@ -72,6 +72,9 @@ def main(argv: Optional[List[str]] = None) -> int:
                             help="exit 0 in season, 1 otherwise")
     season_cmd.add_argument("--cache", default=".cache")
 
+    codegen_cmd = sub.add_parser("codegen", help="emit the app's domain constants")
+    codegen_cmd.add_argument("--ts", default="app/src/domain")
+
     teams_cmd = sub.add_parser("teams", help="list canonical teams")
     teams_cmd.add_argument("query", nargs="?", help="resolve one name")
 
@@ -93,6 +96,7 @@ def _dispatch(args) -> int:
         "h2h": _h2h,
         "picks": _picks,
         "season": _season,
+        "codegen": _codegen,
         "teams": _teams,
     }
     return handlers[args.command](args)
@@ -206,7 +210,9 @@ def _h2h(args) -> int:
     payload = _read(args.out, "h2h.json")
     team1 = registry.resolve(args.team1)
     team2 = registry.resolve(args.team2)
-    print(h2h_report(payload, team1, team2))
+    detail_path = pathlib.Path(args.out) / "h2h" / f"{team1}.json"
+    detail = json.loads(detail_path.read_text()) if detail_path.exists() else None
+    print(h2h_report(payload, team1, team2, detail))
     return 0
 
 
@@ -239,6 +245,15 @@ def _season(args) -> int:
     if args.is_in_season:
         return 0 if state.in_season else 1
     print(f"{state.label} (next kickoff {state.next_kickoff or 'unknown'})")
+    return 0
+
+
+def _codegen(args) -> int:
+    from .codegen import write
+
+    written = write(args.ts)
+    changed = [name for name, did in written.items() if did]
+    print(f"{args.ts}: {', '.join(changed) if changed else 'already up to date'}")
     return 0
 
 

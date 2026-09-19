@@ -1,0 +1,9 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    // The parity test runs under Node (`npm test`), not in the app bundle, so
+    // the Node globals have to be visible to typecheck the whole tree at once.
+    "types": ["node"]
+  }
+}
