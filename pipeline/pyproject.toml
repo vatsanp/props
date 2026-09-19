@@ -24,6 +24,3 @@ include = ["props*"]
 
 [tool.setuptools.package-data]
 props = ["data/*.json"]
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
