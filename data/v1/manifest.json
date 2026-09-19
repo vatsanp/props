@@ -1,0 +1,54 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-19T17:59:07Z",
+ "season": 2026,
+ "current_week": 2,
+ "season_type": "REG",
+ "in_season": true,
+ "next_kickoff": "2026-09-20",
+ "files": {
+  "dvp.json": {
+   "hash": "87485e4e2e52",
+   "bytes": 93420,
+   "changed": false
+  },
+  "h2h.json": {
+   "hash": "2d4b4d69ab01",
+   "bytes": 78162,
+   "changed": true
+  },
+  "props.json": {
+   "hash": "08f22de4173c",
+   "bytes": 118283,
+   "changed": false
+  },
+  "records.json": {
+   "hash": "a8f3a60712ce",
+   "bytes": 6425,
+   "changed": false
+  },
+  "schedule.json": {
+   "hash": "0d3476df43b7",
+   "bytes": 96415,
+   "changed": true
+  },
+  "stats.json": {
+   "hash": "b80bc9ad53e7",
+   "bytes": 148987,
+   "changed": false
+  },
+  "usage.json": {
+   "hash": "d452e709ddb2",
+   "bytes": 174381,
+   "changed": false
+  }
+ },
+ "sources": {
+  "nflverse_games": {
+   "ok": true,
+   "fetched_at": "2026-09-19T17:59:06Z",
+   "games": 7548,
+   "season": 2026
+  }
+ }
+}

@@ -1,0 +1,6456 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-19T17:59:06Z",
+ "since": 1999,
+ "include_relocations": true,
+ "pairs": {
+  "ATL_MIN": {
+   "teams": [
+    "ATL",
+    "MIN"
+   ],
+   "games": 15,
+   "wins": {
+    "ATL": 6,
+    "MIN": 9
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "CHI_KC": {
+   "teams": [
+    "CHI",
+    "KC"
+   ],
+   "games": 7,
+   "wins": {
+    "CHI": 3,
+    "KC": 4
+   },
+   "ties": 0,
+   "streak": "KC W2"
+  },
+  "CLE_PIT": {
+   "teams": [
+    "CLE",
+    "PIT"
+   ],
+   "games": 56,
+   "wins": {
+    "CLE": 13,
+    "PIT": 42
+   },
+   "ties": 1,
+   "streak": "CLE W1"
+  },
+  "GB_LV": {
+   "teams": [
+    "GB",
+    "LV"
+   ],
+   "games": 7,
+   "wins": {
+    "GB": 6,
+    "LV": 1
+   },
+   "ties": 0,
+   "streak": "LV W1"
+  },
+  "BUF_IND": {
+   "teams": [
+    "BUF",
+    "IND"
+   ],
+   "games": 16,
+   "wins": {
+    "BUF": 6,
+    "IND": 10
+   },
+   "ties": 0,
+   "streak": "BUF W1"
+  },
+  "JAX_SF": {
+   "teams": [
+    "JAX",
+    "SF"
+   ],
+   "games": 8,
+   "wins": {
+    "JAX": 3,
+    "SF": 5
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "CAR_NO": {
+   "teams": [
+    "CAR",
+    "NO"
+   ],
+   "games": 55,
+   "wins": {
+    "CAR": 24,
+    "NO": 31
+   },
+   "ties": 0,
+   "streak": "NO W2"
+  },
+  "NE_NYJ": {
+   "teams": [
+    "NE",
+    "NYJ"
+   ],
+   "games": 56,
+   "wins": {
+    "NE": 42,
+    "NYJ": 14
+   },
+   "ties": 0,
+   "streak": "NE W3"
+  },
+  "ARI_PHI": {
+   "teams": [
+    "ARI",
+    "PHI"
+   ],
+   "games": 19,
+   "wins": {
+    "ARI": 11,
+    "PHI": 8
+   },
+   "ties": 0,
+   "streak": "ARI W1"
+  },
+  "DET_SEA": {
+   "teams": [
+    "DET",
+    "SEA"
+   ],
+   "games": 12,
+   "wins": {
+    "DET": 3,
+    "SEA": 9
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "BAL_LAR": {
+   "teams": [
+    "BAL",
+    "LAR"
+   ],
+   "games": 9,
+   "wins": {
+    "BAL": 5,
+    "LAR": 4
+   },
+   "ties": 0,
+   "streak": "LAR W1"
+  },
+  "NYG_TB": {
+   "teams": [
+    "NYG",
+    "TB"
+   ],
+   "games": 13,
+   "wins": {
+    "NYG": 8,
+    "TB": 5
+   },
+   "ties": 0,
+   "streak": "TB W3"
+  },
+  "CIN_TEN": {
+   "teams": [
+    "CIN",
+    "TEN"
+   ],
+   "games": 19,
+   "wins": {
+    "CIN": 9,
+    "TEN": 10
+   },
+   "ties": 0,
+   "streak": "CIN W1"
+  },
+  "DAL_WAS": {
+   "teams": [
+    "DAL",
+    "WAS"
+   ],
+   "games": 54,
+   "wins": {
+    "DAL": 38,
+    "WAS": 16
+   },
+   "ties": 0,
+   "streak": "DAL W2"
+  },
+  "DEN_MIA": {
+   "teams": [
+    "DEN",
+    "MIA"
+   ],
+   "games": 11,
+   "wins": {
+    "DEN": 4,
+    "MIA": 7
+   },
+   "ties": 0,
+   "streak": "MIA W1"
+  },
+  "BAL_PIT": {
+   "teams": [
+    "BAL",
+    "PIT"
+   ],
+   "games": 59,
+   "wins": {
+    "BAL": 26,
+    "PIT": 33
+   },
+   "ties": 0,
+   "streak": "PIT W2"
+  },
+  "BUF_NYJ": {
+   "teams": [
+    "BUF",
+    "NYJ"
+   ],
+   "games": 54,
+   "wins": {
+    "BUF": 29,
+    "NYJ": 25
+   },
+   "ties": 0,
+   "streak": "BUF W5"
+  },
+  "CAR_JAX": {
+   "teams": [
+    "CAR",
+    "JAX"
+   ],
+   "games": 8,
+   "wins": {
+    "CAR": 4,
+    "JAX": 4
+   },
+   "ties": 0,
+   "streak": "JAX W2"
+  },
+  "CHI_SEA": {
+   "teams": [
+    "CHI",
+    "SEA"
+   ],
+   "games": 14,
+   "wins": {
+    "CHI": 6,
+    "SEA": 8
+   },
+   "ties": 0,
+   "streak": "SEA W1"
+  },
+  "CIN_LAC": {
+   "teams": [
+    "CIN",
+    "LAC"
+   ],
+   "games": 15,
+   "wins": {
+    "CIN": 5,
+    "LAC": 10
+   },
+   "ties": 0,
+   "streak": "LAC W4"
+  },
+  "DET_GB": {
+   "teams": [
+    "DET",
+    "GB"
+   ],
+   "games": 54,
+   "wins": {
+    "DET": 18,
+    "GB": 36
+   },
+   "ties": 0,
+   "streak": "GB W2"
+  },
+  "DEN_KC": {
+   "teams": [
+    "DEN",
+    "KC"
+   ],
+   "games": 55,
+   "wins": {
+    "DEN": 24,
+    "KC": 31
+   },
+   "ties": 0,
+   "streak": "KC W1"
+  },
+  "ARI_MIA": {
+   "teams": [
+    "ARI",
+    "MIA"
+   ],
+   "games": 7,
+   "wins": {
+    "ARI": 4,
+    "MIA": 3
+   },
+   "ties": 0,
+   "streak": "ARI W1"
+  },
+  "LV_MIN": {
+   "teams": [
+    "LV",
+    "MIN"
+   ],
+   "games": 7,
+   "wins": {
+    "LV": 3,
+    "MIN": 4
+   },
+   "ties": 0,
+   "streak": "MIN W3"
+  },
+  "IND_NE": {
+   "teams": [
+    "IND",
+    "NE"
+   ],
+   "games": 28,
+   "wins": {
+    "IND": 10,
+    "NE": 18
+   },
+   "ties": 0,
+   "streak": "IND W2"
+  },
+  "NYG_WAS": {
+   "teams": [
+    "NYG",
+    "WAS"
+   ],
+   "games": 54,
+   "wins": {
+    "NYG": 32,
+    "WAS": 21
+   },
+   "ties": 1,
+   "streak": "WAS W4"
+  },
+  "PHI_TB": {
+   "teams": [
+    "PHI",
+    "TB"
+   ],
+   "games": 19,
+   "wins": {
+    "PHI": 9,
+    "TB": 10
+   },
+   "ties": 0,
+   "streak": "PHI W1"
+  },
+  "NO_SF": {
+   "teams": [
+    "NO",
+    "SF"
+   ],
+   "games": 21,
+   "wins": {
+    "NO": 12,
+    "SF": 9
+   },
+   "ties": 0,
+   "streak": "SF W2"
+  },
+  "CLE_TEN": {
+   "teams": [
+    "CLE",
+    "TEN"
+   ],
+   "games": 18,
+   "wins": {
+    "CLE": 7,
+    "TEN": 11
+   },
+   "ties": 0,
+   "streak": "TEN W1"
+  },
+  "ATL_DAL": {
+   "teams": [
+    "ATL",
+    "DAL"
+   ],
+   "games": 12,
+   "wins": {
+    "ATL": 6,
+    "DAL": 6
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "BAL_CLE": {
+   "teams": [
+    "BAL",
+    "CLE"
+   ],
+   "games": 54,
+   "wins": {
+    "BAL": 39,
+    "CLE": 15
+   },
+   "ties": 0,
+   "streak": "BAL W3"
+  },
+  "BUF_PHI": {
+   "teams": [
+    "BUF",
+    "PHI"
+   ],
+   "games": 8,
+   "wins": {
+    "BUF": 2,
+    "PHI": 6
+   },
+   "ties": 0,
+   "streak": "PHI W4"
+  },
+  "CAR_CIN": {
+   "teams": [
+    "CAR",
+    "CIN"
+   ],
+   "games": 8,
+   "wins": {
+    "CAR": 3,
+    "CIN": 4
+   },
+   "ties": 1,
+   "streak": "CIN W2"
+  },
+  "GB_MIN": {
+   "teams": [
+    "GB",
+    "MIN"
+   ],
+   "games": 57,
+   "wins": {
+    "GB": 31,
+    "MIN": 24
+   },
+   "ties": 2,
+   "streak": "MIN W2"
+  },
+  "JAX_TEN": {
+   "teams": [
+    "JAX",
+    "TEN"
+   ],
+   "games": 55,
+   "wins": {
+    "JAX": 23,
+    "TEN": 32
+   },
+   "ties": 0,
+   "streak": "JAX W4"
+  },
+  "DET_KC": {
+   "teams": [
+    "DET",
+    "KC"
+   ],
+   "games": 8,
+   "wins": {
+    "DET": 3,
+    "KC": 5
+   },
+   "ties": 0,
+   "streak": "KC W1"
+  },
+  "NE_NYG": {
+   "teams": [
+    "NE",
+    "NYG"
+   ],
+   "games": 10,
+   "wins": {
+    "NE": 6,
+    "NYG": 4
+   },
+   "ties": 0,
+   "streak": "NE W1"
+  },
+  "NYJ_WAS": {
+   "teams": [
+    "NYJ",
+    "WAS"
+   ],
+   "games": 7,
+   "wins": {
+    "NYJ": 4,
+    "WAS": 3
+   },
+   "ties": 0,
+   "streak": "NYJ W4"
+  },
+  "CHI_LV": {
+   "teams": [
+    "CHI",
+    "LV"
+   ],
+   "games": 9,
+   "wins": {
+    "CHI": 6,
+    "LV": 3
+   },
+   "ties": 0,
+   "streak": "CHI W3"
+  },
+  "PIT_SEA": {
+   "teams": [
+    "PIT",
+    "SEA"
+   ],
+   "games": 10,
+   "wins": {
+    "PIT": 5,
+    "SEA": 5
+   },
+   "ties": 0,
+   "streak": "SEA W1"
+  },
+  "IND_LAC": {
+   "teams": [
+    "IND",
+    "LAC"
+   ],
+   "games": 13,
+   "wins": {
+    "IND": 5,
+    "LAC": 8
+   },
+   "ties": 0,
+   "streak": "IND W1"
+  },
+  "ATL_LAR": {
+   "teams": [
+    "ATL",
+    "LAR"
+   ],
+   "games": 18,
+   "wins": {
+    "ATL": 8,
+    "LAR": 10
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "DEN_TB": {
+   "teams": [
+    "DEN",
+    "TB"
+   ],
+   "games": 7,
+   "wins": {
+    "DEN": 5,
+    "TB": 2
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "ARI_SF": {
+   "teams": [
+    "ARI",
+    "SF"
+   ],
+   "games": 50,
+   "wins": {
+    "ARI": 22,
+    "SF": 28
+   },
+   "ties": 0,
+   "streak": "SF W2"
+  },
+  "ATL_BAL": {
+   "teams": [
+    "ATL",
+    "BAL"
+   ],
+   "games": 7,
+   "wins": {
+    "ATL": 2,
+    "BAL": 5
+   },
+   "ties": 0,
+   "streak": "BAL W3"
+  },
+  "CHI_NO": {
+   "teams": [
+    "CHI",
+    "NO"
+   ],
+   "games": 17,
+   "wins": {
+    "CHI": 6,
+    "NO": 11
+   },
+   "ties": 0,
+   "streak": "CHI W1"
+  },
+  "CIN_LAR": {
+   "teams": [
+    "CIN",
+    "LAR"
+   ],
+   "games": 8,
+   "wins": {
+    "CIN": 4,
+    "LAR": 4
+   },
+   "ties": 0,
+   "streak": "CIN W1"
+  },
+  "CLE_NE": {
+   "teams": [
+    "CLE",
+    "NE"
+   ],
+   "games": 13,
+   "wins": {
+    "CLE": 2,
+    "NE": 11
+   },
+   "ties": 0,
+   "streak": "NE W6"
+  },
+  "ARI_DAL": {
+   "teams": [
+    "ARI",
+    "DAL"
+   ],
+   "games": 19,
+   "wins": {
+    "ARI": 12,
+    "DAL": 7
+   },
+   "ties": 0,
+   "streak": "ARI W4"
+  },
+  "DEN_NYJ": {
+   "teams": [
+    "DEN",
+    "NYJ"
+   ],
+   "games": 16,
+   "wins": {
+    "DEN": 10,
+    "NYJ": 6
+   },
+   "ties": 0,
+   "streak": "DEN W2"
+  },
+  "MIN_TB": {
+   "teams": [
+    "MIN",
+    "TB"
+   ],
+   "games": 15,
+   "wins": {
+    "MIN": 5,
+    "TB": 10
+   },
+   "ties": 0,
+   "streak": "TB W2"
+  },
+  "NYG_PHI": {
+   "teams": [
+    "NYG",
+    "PHI"
+   ],
+   "games": 58,
+   "wins": {
+    "NYG": 20,
+    "PHI": 38
+   },
+   "ties": 0,
+   "streak": "PHI W1"
+  },
+  "JAX_PIT": {
+   "teams": [
+    "JAX",
+    "PIT"
+   ],
+   "games": 20,
+   "wins": {
+    "JAX": 11,
+    "PIT": 9
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "KC_LAC": {
+   "teams": [
+    "KC",
+    "LAC"
+   ],
+   "games": 54,
+   "wins": {
+    "KC": 31,
+    "LAC": 23
+   },
+   "ties": 0,
+   "streak": "LAC W2"
+  },
+  "LV_SEA": {
+   "teams": [
+    "LV",
+    "SEA"
+   ],
+   "games": 12,
+   "wins": {
+    "LV": 6,
+    "SEA": 6
+   },
+   "ties": 0,
+   "streak": "LV W1"
+  },
+  "SF_TEN": {
+   "teams": [
+    "SF",
+    "TEN"
+   ],
+   "games": 7,
+   "wins": {
+    "SF": 4,
+    "TEN": 3
+   },
+   "ties": 0,
+   "streak": "SF W1"
+  },
+  "CAR_WAS": {
+   "teams": [
+    "CAR",
+    "WAS"
+   ],
+   "games": 15,
+   "wins": {
+    "CAR": 7,
+    "WAS": 8
+   },
+   "ties": 0,
+   "streak": "WAS W2"
+  },
+  "BUF_MIA": {
+   "teams": [
+    "BUF",
+    "MIA"
+   ],
+   "games": 55,
+   "wins": {
+    "BUF": 35,
+    "MIA": 20
+   },
+   "ties": 0,
+   "streak": "MIA W1"
+  },
+  "ARI_NYG": {
+   "teams": [
+    "ARI",
+    "NYG"
+   ],
+   "games": 17,
+   "wins": {
+    "ARI": 9,
+    "NYG": 8
+   },
+   "ties": 0,
+   "streak": "NYG W1"
+  },
+  "BUF_PIT": {
+   "teams": [
+    "BUF",
+    "PIT"
+   ],
+   "games": 13,
+   "wins": {
+    "BUF": 6,
+    "PIT": 7
+   },
+   "ties": 0,
+   "streak": "BUF W3"
+  },
+  "CIN_CLE": {
+   "teams": [
+    "CIN",
+    "CLE"
+   ],
+   "games": 54,
+   "wins": {
+    "CIN": 32,
+    "CLE": 22
+   },
+   "ties": 0,
+   "streak": "CLE W1"
+  },
+  "DET_LAC": {
+   "teams": [
+    "DET",
+    "LAC"
+   ],
+   "games": 7,
+   "wins": {
+    "DET": 3,
+    "LAC": 4
+   },
+   "ties": 0,
+   "streak": "DET W2"
+  },
+  "GB_TB": {
+   "teams": [
+    "GB",
+    "TB"
+   ],
+   "games": 18,
+   "wins": {
+    "GB": 8,
+    "TB": 10
+   },
+   "ties": 0,
+   "streak": "TB W1"
+  },
+  "IND_MIA": {
+   "teams": [
+    "IND",
+    "MIA"
+   ],
+   "games": 19,
+   "wins": {
+    "IND": 11,
+    "MIA": 8
+   },
+   "ties": 0,
+   "streak": "IND W3"
+  },
+  "KC_NE": {
+   "teams": [
+    "KC",
+    "NE"
+   ],
+   "games": 15,
+   "wins": {
+    "KC": 7,
+    "NE": 8
+   },
+   "ties": 0,
+   "streak": "KC W3"
+  },
+  "CHI_MIN": {
+   "teams": [
+    "CHI",
+    "MIN"
+   ],
+   "games": 54,
+   "wins": {
+    "CHI": 26,
+    "MIN": 28
+   },
+   "ties": 0,
+   "streak": "CHI W1"
+  },
+  "ATL_NO": {
+   "teams": [
+    "ATL",
+    "NO"
+   ],
+   "games": 54,
+   "wins": {
+    "ATL": 22,
+    "NO": 32
+   },
+   "ties": 0,
+   "streak": "ATL W2"
+  },
+  "DEN_LV": {
+   "teams": [
+    "DEN",
+    "LV"
+   ],
+   "games": 54,
+   "wins": {
+    "DEN": 31,
+    "LV": 23
+   },
+   "ties": 0,
+   "streak": "DEN W4"
+  },
+  "DAL_PHI": {
+   "teams": [
+    "DAL",
+    "PHI"
+   ],
+   "games": 55,
+   "wins": {
+    "DAL": 26,
+    "PHI": 29
+   },
+   "ties": 0,
+   "streak": "DAL W1"
+  },
+  "LAR_SF": {
+   "teams": [
+    "LAR",
+    "SF"
+   ],
+   "games": 56,
+   "wins": {
+    "LAR": 24,
+    "SF": 31
+   },
+   "ties": 1,
+   "streak": "SF W1"
+  },
+  "BAL_TEN": {
+   "teams": [
+    "BAL",
+    "TEN"
+   ],
+   "games": 21,
+   "wins": {
+    "BAL": 12,
+    "TEN": 9
+   },
+   "ties": 0,
+   "streak": "BAL W2"
+  },
+  "JAX_NYJ": {
+   "teams": [
+    "JAX",
+    "NYJ"
+   ],
+   "games": 16,
+   "wins": {
+    "JAX": 9,
+    "NYJ": 7
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "ARI_WAS": {
+   "teams": [
+    "ARI",
+    "WAS"
+   ],
+   "games": 18,
+   "wins": {
+    "ARI": 4,
+    "WAS": 14
+   },
+   "ties": 0,
+   "streak": "WAS W2"
+  },
+  "BUF_LV": {
+   "teams": [
+    "BUF",
+    "LV"
+   ],
+   "games": 11,
+   "wins": {
+    "BUF": 5,
+    "LV": 6
+   },
+   "ties": 0,
+   "streak": "BUF W3"
+  },
+  "CHI_PHI": {
+   "teams": [
+    "CHI",
+    "PHI"
+   ],
+   "games": 17,
+   "wins": {
+    "CHI": 5,
+    "PHI": 12
+   },
+   "ties": 0,
+   "streak": "CHI W1"
+  },
+  "CIN_PIT": {
+   "teams": [
+    "CIN",
+    "PIT"
+   ],
+   "games": 56,
+   "wins": {
+    "CIN": 16,
+    "PIT": 40
+   },
+   "ties": 0,
+   "streak": "PIT W1"
+  },
+  "DEN_GB": {
+   "teams": [
+    "DEN",
+    "GB"
+   ],
+   "games": 8,
+   "wins": {
+    "DEN": 4,
+    "GB": 4
+   },
+   "ties": 0,
+   "streak": "DEN W2"
+  },
+  "DET_MIN": {
+   "teams": [
+    "DET",
+    "MIN"
+   ],
+   "games": 54,
+   "wins": {
+    "DET": 18,
+    "MIN": 36
+   },
+   "ties": 0,
+   "streak": "MIN W2"
+  },
+  "CLE_JAX": {
+   "teams": [
+    "CLE",
+    "JAX"
+   ],
+   "games": 19,
+   "wins": {
+    "CLE": 8,
+    "JAX": 11
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "MIA_NE": {
+   "teams": [
+    "MIA",
+    "NE"
+   ],
+   "games": 54,
+   "wins": {
+    "MIA": 25,
+    "NE": 29
+   },
+   "ties": 0,
+   "streak": "NE W2"
+  },
+  "NO_TEN": {
+   "teams": [
+    "NO",
+    "TEN"
+   ],
+   "games": 9,
+   "wins": {
+    "NO": 4,
+    "TEN": 5
+   },
+   "ties": 0,
+   "streak": "NO W2"
+  },
+  "IND_NYJ": {
+   "teams": [
+    "IND",
+    "NYJ"
+   ],
+   "games": 19,
+   "wins": {
+    "IND": 11,
+    "NYJ": 8
+   },
+   "ties": 0,
+   "streak": "IND W3"
+  },
+  "LAC_SEA": {
+   "teams": [
+    "LAC",
+    "SEA"
+   ],
+   "games": 12,
+   "wins": {
+    "LAC": 5,
+    "SEA": 7
+   },
+   "ties": 0,
+   "streak": "SEA W1"
+  },
+  "CAR_SF": {
+   "teams": [
+    "CAR",
+    "SF"
+   ],
+   "games": 16,
+   "wins": {
+    "CAR": 10,
+    "SF": 6
+   },
+   "ties": 0,
+   "streak": "SF W3"
+  },
+  "DAL_NYG": {
+   "teams": [
+    "DAL",
+    "NYG"
+   ],
+   "games": 56,
+   "wins": {
+    "DAL": 32,
+    "NYG": 24
+   },
+   "ties": 0,
+   "streak": "NYG W2"
+  },
+  "BAL_KC": {
+   "teams": [
+    "BAL",
+    "KC"
+   ],
+   "games": 15,
+   "wins": {
+    "BAL": 5,
+    "KC": 10
+   },
+   "ties": 0,
+   "streak": "KC W3"
+  },
+  "CAR_DET": {
+   "teams": [
+    "CAR",
+    "DET"
+   ],
+   "games": 12,
+   "wins": {
+    "CAR": 8,
+    "DET": 4
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "CIN_IND": {
+   "teams": [
+    "CIN",
+    "IND"
+   ],
+   "games": 14,
+   "wins": {
+    "CIN": 5,
+    "IND": 9
+   },
+   "ties": 0,
+   "streak": "CIN W1"
+  },
+  "MIA_PHI": {
+   "teams": [
+    "MIA",
+    "PHI"
+   ],
+   "games": 7,
+   "wins": {
+    "MIA": 3,
+    "PHI": 4
+   },
+   "ties": 0,
+   "streak": "PHI W1"
+  },
+  "MIN_SF": {
+   "teams": [
+    "MIN",
+    "SF"
+   ],
+   "games": 12,
+   "wins": {
+    "MIN": 8,
+    "SF": 4
+   },
+   "ties": 0,
+   "streak": "MIN W2"
+  },
+  "DEN_NE": {
+   "teams": [
+    "DEN",
+    "NE"
+   ],
+   "games": 23,
+   "wins": {
+    "DEN": 10,
+    "NE": 13
+   },
+   "ties": 0,
+   "streak": "NE W2"
+  },
+  "NO_NYG": {
+   "teams": [
+    "NO",
+    "NYG"
+   ],
+   "games": 15,
+   "wins": {
+    "NO": 9,
+    "NYG": 6
+   },
+   "ties": 0,
+   "streak": "NO W3"
+  },
+  "LV_NYJ": {
+   "teams": [
+    "LV",
+    "NYJ"
+   ],
+   "games": 19,
+   "wins": {
+    "LV": 11,
+    "NYJ": 8
+   },
+   "ties": 0,
+   "streak": "LV W2"
+  },
+  "GB_LAC": {
+   "teams": [
+    "GB",
+    "LAC"
+   ],
+   "games": 7,
+   "wins": {
+    "GB": 6,
+    "LAC": 1
+   },
+   "ties": 0,
+   "streak": "GB W1"
+  },
+  "BUF_SEA": {
+   "teams": [
+    "BUF",
+    "SEA"
+   ],
+   "games": 9,
+   "wins": {
+    "BUF": 5,
+    "SEA": 4
+   },
+   "ties": 0,
+   "streak": "BUF W2"
+  },
+  "CLE_LAR": {
+   "teams": [
+    "CLE",
+    "LAR"
+   ],
+   "games": 7,
+   "wins": {
+    "CLE": 1,
+    "LAR": 6
+   },
+   "ties": 0,
+   "streak": "LAR W4"
+  },
+  "CHI_TB": {
+   "teams": [
+    "CHI",
+    "TB"
+   ],
+   "games": 20,
+   "wins": {
+    "CHI": 10,
+    "TB": 10
+   },
+   "ties": 0,
+   "streak": "TB W2"
+  },
+  "ATL_PIT": {
+   "teams": [
+    "ATL",
+    "PIT"
+   ],
+   "games": 9,
+   "wins": {
+    "ATL": 1,
+    "PIT": 7
+   },
+   "ties": 1,
+   "streak": "PIT W6"
+  },
+  "ARI_NE": {
+   "teams": [
+    "ARI",
+    "NE"
+   ],
+   "games": 8,
+   "wins": {
+    "ARI": 2,
+    "NE": 6
+   },
+   "ties": 0,
+   "streak": "ARI W1"
+  },
+  "ATL_CAR": {
+   "teams": [
+    "ATL",
+    "CAR"
+   ],
+   "games": 54,
+   "wins": {
+    "ATL": 33,
+    "CAR": 21
+   },
+   "ties": 0,
+   "streak": "CAR W3"
+  },
+  "BAL_BUF": {
+   "teams": [
+    "BAL",
+    "BUF"
+   ],
+   "games": 14,
+   "wins": {
+    "BAL": 7,
+    "BUF": 7
+   },
+   "ties": 0,
+   "streak": "BUF W2"
+  },
+  "CIN_JAX": {
+   "teams": [
+    "CIN",
+    "JAX"
+   ],
+   "games": 18,
+   "wins": {
+    "CIN": 9,
+    "JAX": 9
+   },
+   "ties": 0,
+   "streak": "CIN W4"
+  },
+  "DEN_MIN": {
+   "teams": [
+    "DEN",
+    "MIN"
+   ],
+   "games": 7,
+   "wins": {
+    "DEN": 4,
+    "MIN": 3
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "DET_TB": {
+   "teams": [
+    "DET",
+    "TB"
+   ],
+   "games": 21,
+   "wins": {
+    "DET": 10,
+    "TB": 11
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "DAL_IND": {
+   "teams": [
+    "DAL",
+    "IND"
+   ],
+   "games": 7,
+   "wins": {
+    "DAL": 4,
+    "IND": 3
+   },
+   "ties": 0,
+   "streak": "DAL W1"
+  },
+  "CLE_NO": {
+   "teams": [
+    "CLE",
+    "NO"
+   ],
+   "games": 8,
+   "wins": {
+    "CLE": 4,
+    "NO": 4
+   },
+   "ties": 0,
+   "streak": "NO W3"
+  },
+  "LV_MIA": {
+   "teams": [
+    "LV",
+    "MIA"
+   ],
+   "games": 18,
+   "wins": {
+    "LV": 5,
+    "MIA": 13
+   },
+   "ties": 0,
+   "streak": "LV W1"
+  },
+  "LAR_TEN": {
+   "teams": [
+    "LAR",
+    "TEN"
+   ],
+   "games": 8,
+   "wins": {
+    "LAR": 4,
+    "TEN": 4
+   },
+   "ties": 0,
+   "streak": "LAR W1"
+  },
+  "CHI_WAS": {
+   "teams": [
+    "CHI",
+    "WAS"
+   ],
+   "games": 15,
+   "wins": {
+    "CHI": 5,
+    "WAS": 10
+   },
+   "ties": 0,
+   "streak": "CHI W1"
+  },
+  "GB_SEA": {
+   "teams": [
+    "GB",
+    "SEA"
+   ],
+   "games": 18,
+   "wins": {
+    "GB": 12,
+    "SEA": 6
+   },
+   "ties": 0,
+   "streak": "GB W3"
+  },
+  "ATL_JAX": {
+   "teams": [
+    "ATL",
+    "JAX"
+   ],
+   "games": 8,
+   "wins": {
+    "ATL": 5,
+    "JAX": 3
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "CAR_PHI": {
+   "teams": [
+    "CAR",
+    "PHI"
+   ],
+   "games": 13,
+   "wins": {
+    "CAR": 5,
+    "PHI": 8
+   },
+   "ties": 0,
+   "streak": "PHI W2"
+  },
+  "DET_LAR": {
+   "teams": [
+    "DET",
+    "LAR"
+   ],
+   "games": 14,
+   "wins": {
+    "DET": 7,
+    "LAR": 7
+   },
+   "ties": 0,
+   "streak": "LAR W1"
+  },
+  "CHI_GB": {
+   "teams": [
+    "CHI",
+    "GB"
+   ],
+   "games": 56,
+   "wins": {
+    "CHI": 16,
+    "GB": 40
+   },
+   "ties": 0,
+   "streak": "CHI W2"
+  },
+  "IND_KC": {
+   "teams": [
+    "IND",
+    "KC"
+   ],
+   "games": 17,
+   "wins": {
+    "IND": 12,
+    "KC": 5
+   },
+   "ties": 0,
+   "streak": "KC W1"
+  },
+  "MIA_TEN": {
+   "teams": [
+    "MIA",
+    "TEN"
+   ],
+   "games": 16,
+   "wins": {
+    "MIA": 8,
+    "TEN": 8
+   },
+   "ties": 0,
+   "streak": "TEN W3"
+  },
+  "NO_TB": {
+   "teams": [
+    "NO",
+    "TB"
+   ],
+   "games": 51,
+   "wins": {
+    "NO": 28,
+    "TB": 23
+   },
+   "ties": 0,
+   "streak": "NO W1"
+  },
+  "ARI_NYJ": {
+   "teams": [
+    "ARI",
+    "NYJ"
+   ],
+   "games": 7,
+   "wins": {
+    "ARI": 3,
+    "NYJ": 4
+   },
+   "ties": 0,
+   "streak": "ARI W3"
+  },
+  "DEN_LAC": {
+   "teams": [
+    "DEN",
+    "LAC"
+   ],
+   "games": 55,
+   "wins": {
+    "DEN": 32,
+    "LAC": 23
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "CIN_SEA": {
+   "teams": [
+    "CIN",
+    "SEA"
+   ],
+   "games": 7,
+   "wins": {
+    "CIN": 4,
+    "SEA": 3
+   },
+   "ties": 0,
+   "streak": "CIN W1"
+  },
+  "PIT_SF": {
+   "teams": [
+    "PIT",
+    "SF"
+   ],
+   "games": 7,
+   "wins": {
+    "PIT": 3,
+    "SF": 4
+   },
+   "ties": 0,
+   "streak": "SF W2"
+  },
+  "BUF_WAS": {
+   "teams": [
+    "BUF",
+    "WAS"
+   ],
+   "games": 8,
+   "wins": {
+    "BUF": 7,
+    "WAS": 1
+   },
+   "ties": 0,
+   "streak": "BUF W3"
+  },
+  "DAL_MIN": {
+   "teams": [
+    "DAL",
+    "MIN"
+   ],
+   "games": 14,
+   "wins": {
+    "DAL": 6,
+    "MIN": 8
+   },
+   "ties": 0,
+   "streak": "MIN W1"
+  },
+  "ARI_DET": {
+   "teams": [
+    "ARI",
+    "DET"
+   ],
+   "games": 19,
+   "wins": {
+    "ARI": 10,
+    "DET": 8
+   },
+   "ties": 1,
+   "streak": "DET W3"
+  },
+  "DAL_GB": {
+   "teams": [
+    "DAL",
+    "GB"
+   ],
+   "games": 16,
+   "wins": {
+    "DAL": 4,
+    "GB": 11
+   },
+   "ties": 1,
+   "streak": "T1"
+  },
+  "BAL_JAX": {
+   "teams": [
+    "BAL",
+    "JAX"
+   ],
+   "games": 18,
+   "wins": {
+    "BAL": 11,
+    "JAX": 7
+   },
+   "ties": 0,
+   "streak": "BAL W1"
+  },
+  "IND_NYG": {
+   "teams": [
+    "IND",
+    "NYG"
+   ],
+   "games": 8,
+   "wins": {
+    "IND": 5,
+    "NYG": 3
+   },
+   "ties": 0,
+   "streak": "NYG W2"
+  },
+  "LAC_LV": {
+   "teams": [
+    "LAC",
+    "LV"
+   ],
+   "games": 54,
+   "wins": {
+    "LAC": 33,
+    "LV": 21
+   },
+   "ties": 0,
+   "streak": "LAC W4"
+  },
+  "PHI_WAS": {
+   "teams": [
+    "PHI",
+    "WAS"
+   ],
+   "games": 56,
+   "wins": {
+    "PHI": 35,
+    "WAS": 21
+   },
+   "ties": 0,
+   "streak": "PHI W1"
+  },
+  "DEN_SEA": {
+   "teams": [
+    "DEN",
+    "SEA"
+   ],
+   "games": 14,
+   "wins": {
+    "DEN": 7,
+    "SEA": 7
+   },
+   "ties": 0,
+   "streak": "SEA W2"
+  },
+  "CAR_LAR": {
+   "teams": [
+    "CAR",
+    "LAR"
+   ],
+   "games": 17,
+   "wins": {
+    "CAR": 9,
+    "LAR": 8
+   },
+   "ties": 0,
+   "streak": "LAR W1"
+  },
+  "KC_TB": {
+   "teams": [
+    "KC",
+    "TB"
+   ],
+   "games": 9,
+   "wins": {
+    "KC": 3,
+    "TB": 6
+   },
+   "ties": 0,
+   "streak": "KC W2"
+  },
+  "BAL_CIN": {
+   "teams": [
+    "BAL",
+    "CIN"
+   ],
+   "games": 55,
+   "wins": {
+    "BAL": 30,
+    "CIN": 25
+   },
+   "ties": 0,
+   "streak": "BAL W1"
+  },
+  "CAR_CLE": {
+   "teams": [
+    "CAR",
+    "CLE"
+   ],
+   "games": 7,
+   "wins": {
+    "CAR": 4,
+    "CLE": 3
+   },
+   "ties": 0,
+   "streak": "CLE W2"
+  },
+  "JAX_NO": {
+   "teams": [
+    "JAX",
+    "NO"
+   ],
+   "games": 7,
+   "wins": {
+    "JAX": 3,
+    "NO": 4
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "KC_SEA": {
+   "teams": [
+    "KC",
+    "SEA"
+   ],
+   "games": 12,
+   "wins": {
+    "KC": 7,
+    "SEA": 5
+   },
+   "ties": 0,
+   "streak": "KC W1"
+  },
+  "IND_PHI": {
+   "teams": [
+    "IND",
+    "PHI"
+   ],
+   "games": 7,
+   "wins": {
+    "IND": 3,
+    "PHI": 4
+   },
+   "ties": 0,
+   "streak": "PHI W4"
+  },
+  "CHI_LAC": {
+   "teams": [
+    "CHI",
+    "LAC"
+   ],
+   "games": 7,
+   "wins": {
+    "CHI": 4,
+    "LAC": 3
+   },
+   "ties": 0,
+   "streak": "LAC W2"
+  },
+  "ATL_TB": {
+   "teams": [
+    "ATL",
+    "TB"
+   ],
+   "games": 50,
+   "wins": {
+    "ATL": 25,
+    "TB": 25
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "PIT_TEN": {
+   "teams": [
+    "PIT",
+    "TEN"
+   ],
+   "games": 21,
+   "wins": {
+    "PIT": 11,
+    "TEN": 10
+   },
+   "ties": 0,
+   "streak": "PIT W5"
+  },
+  "DAL_MIA": {
+   "teams": [
+    "DAL",
+    "MIA"
+   ],
+   "games": 7,
+   "wins": {
+    "DAL": 5,
+    "MIA": 2
+   },
+   "ties": 0,
+   "streak": "MIA W1"
+  },
+  "CHI_DET": {
+   "teams": [
+    "CHI",
+    "DET"
+   ],
+   "games": 54,
+   "wins": {
+    "CHI": 28,
+    "DET": 26
+   },
+   "ties": 0,
+   "streak": "DET W4"
+  },
+  "BUF_NE": {
+   "teams": [
+    "BUF",
+    "NE"
+   ],
+   "games": 55,
+   "wins": {
+    "BUF": 16,
+    "NE": 39
+   },
+   "ties": 0,
+   "streak": "BUF W1"
+  },
+  "LAC_MIN": {
+   "teams": [
+    "LAC",
+    "MIN"
+   ],
+   "games": 9,
+   "wins": {
+    "LAC": 4,
+    "MIN": 5
+   },
+   "ties": 0,
+   "streak": "LAC W2"
+  },
+  "KC_LV": {
+   "teams": [
+    "KC",
+    "LV"
+   ],
+   "games": 54,
+   "wins": {
+    "KC": 35,
+    "LV": 19
+   },
+   "ties": 0,
+   "streak": "LV W1"
+  },
+  "SEA_TB": {
+   "teams": [
+    "SEA",
+    "TB"
+   ],
+   "games": 12,
+   "wins": {
+    "SEA": 5,
+    "TB": 7
+   },
+   "ties": 0,
+   "streak": "TB W2"
+  },
+  "LAR_NO": {
+   "teams": [
+    "LAR",
+    "NO"
+   ],
+   "games": 23,
+   "wins": {
+    "LAR": 14,
+    "NO": 9
+   },
+   "ties": 0,
+   "streak": "LAR W3"
+  },
+  "GB_SF": {
+   "teams": [
+    "GB",
+    "SF"
+   ],
+   "games": 21,
+   "wins": {
+    "GB": 13,
+    "SF": 8
+   },
+   "ties": 0,
+   "streak": "GB W1"
+  },
+  "CIN_SF": {
+   "teams": [
+    "CIN",
+    "SF"
+   ],
+   "games": 8,
+   "wins": {
+    "CIN": 4,
+    "SF": 4
+   },
+   "ties": 0,
+   "streak": "CIN W1"
+  },
+  "DET_WAS": {
+   "teams": [
+    "DET",
+    "WAS"
+   ],
+   "games": 15,
+   "wins": {
+    "DET": 9,
+    "WAS": 6
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "DAL_NE": {
+   "teams": [
+    "DAL",
+    "NE"
+   ],
+   "games": 8,
+   "wins": {
+    "DAL": 2,
+    "NE": 6
+   },
+   "ties": 0,
+   "streak": "DAL W2"
+  },
+  "NYG_NYJ": {
+   "teams": [
+    "NYG",
+    "NYJ"
+   ],
+   "games": 7,
+   "wins": {
+    "NYG": 4,
+    "NYJ": 3
+   },
+   "ties": 0,
+   "streak": "NYJ W3"
+  },
+  "CLE_LAC": {
+   "teams": [
+    "CLE",
+    "LAC"
+   ],
+   "games": 14,
+   "wins": {
+    "CLE": 3,
+    "LAC": 11
+   },
+   "ties": 0,
+   "streak": "LAC W5"
+  },
+  "LV_TEN": {
+   "teams": [
+    "LV",
+    "TEN"
+   ],
+   "games": 16,
+   "wins": {
+    "LV": 8,
+    "TEN": 8
+   },
+   "ties": 0,
+   "streak": "LV W1"
+  },
+  "BUF_NYG": {
+   "teams": [
+    "BUF",
+    "NYG"
+   ],
+   "games": 7,
+   "wins": {
+    "BUF": 3,
+    "NYG": 4
+   },
+   "ties": 0,
+   "streak": "BUF W2"
+  },
+  "CAR_GB": {
+   "teams": [
+    "CAR",
+    "GB"
+   ],
+   "games": 16,
+   "wins": {
+    "CAR": 7,
+    "GB": 9
+   },
+   "ties": 0,
+   "streak": "CAR W1"
+  },
+  "KC_MIN": {
+   "teams": [
+    "KC",
+    "MIN"
+   ],
+   "games": 7,
+   "wins": {
+    "KC": 5,
+    "MIN": 2
+   },
+   "ties": 0,
+   "streak": "KC W2"
+  },
+  "MIA_NYJ": {
+   "teams": [
+    "MIA",
+    "NYJ"
+   ],
+   "games": 54,
+   "wins": {
+    "MIA": 28,
+    "NYJ": 26
+   },
+   "ties": 0,
+   "streak": "MIA W2"
+  },
+  "ATL_SF": {
+   "teams": [
+    "ATL",
+    "SF"
+   ],
+   "games": 18,
+   "wins": {
+    "ATL": 9,
+    "SF": 9
+   },
+   "ties": 0,
+   "streak": "SF W1"
+  },
+  "DEN_JAX": {
+   "teams": [
+    "DEN",
+    "JAX"
+   ],
+   "games": 12,
+   "wins": {
+    "DEN": 5,
+    "JAX": 7
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "KC_PIT": {
+   "teams": [
+    "KC",
+    "PIT"
+   ],
+   "games": 16,
+   "wins": {
+    "KC": 8,
+    "PIT": 8
+   },
+   "ties": 0,
+   "streak": "KC W4"
+  },
+  "ARI_BUF": {
+   "teams": [
+    "ARI",
+    "BUF"
+   ],
+   "games": 7,
+   "wins": {
+    "ARI": 2,
+    "BUF": 5
+   },
+   "ties": 0,
+   "streak": "BUF W1"
+  },
+  "BAL_NO": {
+   "teams": [
+    "BAL",
+    "NO"
+   ],
+   "games": 7,
+   "wins": {
+    "BAL": 5,
+    "NO": 2
+   },
+   "ties": 0,
+   "streak": "BAL W1"
+  },
+  "DAL_NYJ": {
+   "teams": [
+    "DAL",
+    "NYJ"
+   ],
+   "games": 8,
+   "wins": {
+    "DAL": 4,
+    "NYJ": 4
+   },
+   "ties": 0,
+   "streak": "DAL W2"
+  },
+  "IND_WAS": {
+   "teams": [
+    "IND",
+    "WAS"
+   ],
+   "games": 7,
+   "wins": {
+    "IND": 5,
+    "WAS": 2
+   },
+   "ties": 0,
+   "streak": "WAS W1"
+  },
+  "LAC_MIA": {
+   "teams": [
+    "LAC",
+    "MIA"
+   ],
+   "games": 18,
+   "wins": {
+    "LAC": 6,
+    "MIA": 12
+   },
+   "ties": 0,
+   "streak": "LAC W1"
+  },
+  "LV_TB": {
+   "teams": [
+    "LV",
+    "TB"
+   ],
+   "games": 8,
+   "wins": {
+    "LV": 4,
+    "TB": 4
+   },
+   "ties": 0,
+   "streak": "TB W2"
+  },
+  "NE_PHI": {
+   "teams": [
+    "NE",
+    "PHI"
+   ],
+   "games": 9,
+   "wins": {
+    "NE": 5,
+    "PHI": 4
+   },
+   "ties": 0,
+   "streak": "PHI W1"
+  },
+  "LAR_NYG": {
+   "teams": [
+    "LAR",
+    "NYG"
+   ],
+   "games": 14,
+   "wins": {
+    "LAR": 7,
+    "NYG": 7
+   },
+   "ties": 0,
+   "streak": "LAR W4"
+  },
+  "ATL_TEN": {
+   "teams": [
+    "ATL",
+    "TEN"
+   ],
+   "games": 7,
+   "wins": {
+    "ATL": 2,
+    "TEN": 5
+   },
+   "ties": 0,
+   "streak": "TEN W2"
+  },
+  "DAL_NO": {
+   "teams": [
+    "DAL",
+    "NO"
+   ],
+   "games": 14,
+   "wins": {
+    "DAL": 4,
+    "NO": 10
+   },
+   "ties": 0,
+   "streak": "NO W1"
+  },
+  "DEN_DET": {
+   "teams": [
+    "DEN",
+    "DET"
+   ],
+   "games": 8,
+   "wins": {
+    "DEN": 5,
+    "DET": 3
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "ARI_ATL": {
+   "teams": [
+    "ARI",
+    "ATL"
+   ],
+   "games": 16,
+   "wins": {
+    "ARI": 5,
+    "ATL": 11
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "CLE_IND": {
+   "teams": [
+    "CLE",
+    "IND"
+   ],
+   "games": 11,
+   "wins": {
+    "CLE": 3,
+    "IND": 8
+   },
+   "ties": 0,
+   "streak": "CLE W2"
+  },
+  "MIN_NYG": {
+   "teams": [
+    "MIN",
+    "NYG"
+   ],
+   "games": 19,
+   "wins": {
+    "MIN": 12,
+    "NYG": 7
+   },
+   "ties": 0,
+   "streak": "MIN W2"
+  },
+  "CAR_PIT": {
+   "teams": [
+    "CAR",
+    "PIT"
+   ],
+   "games": 7,
+   "wins": {
+    "CAR": 0,
+    "PIT": 7
+   },
+   "ties": 0,
+   "streak": "PIT W7"
+  },
+  "SF_WAS": {
+   "teams": [
+    "SF",
+    "WAS"
+   ],
+   "games": 13,
+   "wins": {
+    "SF": 8,
+    "WAS": 5
+   },
+   "ties": 0,
+   "streak": "SF W2"
+  },
+  "CHI_LAR": {
+   "teams": [
+    "CHI",
+    "LAR"
+   ],
+   "games": 15,
+   "wins": {
+    "CHI": 7,
+    "LAR": 8
+   },
+   "ties": 0,
+   "streak": "LAR W1"
+  },
+  "ARI_GB": {
+   "teams": [
+    "ARI",
+    "GB"
+   ],
+   "games": 13,
+   "wins": {
+    "ARI": 5,
+    "GB": 8
+   },
+   "ties": 0,
+   "streak": "GB W3"
+  },
+  "BAL_NE": {
+   "teams": [
+    "BAL",
+    "NE"
+   ],
+   "games": 16,
+   "wins": {
+    "BAL": 5,
+    "NE": 11
+   },
+   "ties": 0,
+   "streak": "NE W1"
+  },
+  "NYJ_SEA": {
+   "teams": [
+    "NYJ",
+    "SEA"
+   ],
+   "games": 8,
+   "wins": {
+    "NYJ": 2,
+    "SEA": 6
+   },
+   "ties": 0,
+   "streak": "SEA W6"
+  },
+  "LAR_PHI": {
+   "teams": [
+    "LAR",
+    "PHI"
+   ],
+   "games": 16,
+   "wins": {
+    "LAR": 4,
+    "PHI": 12
+   },
+   "ties": 0,
+   "streak": "PHI W4"
+  },
+  "MIA_WAS": {
+   "teams": [
+    "MIA",
+    "WAS"
+   ],
+   "games": 8,
+   "wins": {
+    "MIA": 5,
+    "WAS": 3
+   },
+   "ties": 0,
+   "streak": "MIA W2"
+  },
+  "BUF_TEN": {
+   "teams": [
+    "BUF",
+    "TEN"
+   ],
+   "games": 14,
+   "wins": {
+    "BUF": 6,
+    "TEN": 8
+   },
+   "ties": 0,
+   "streak": "BUF W2"
+  },
+  "MIA_SEA": {
+   "teams": [
+    "MIA",
+    "SEA"
+   ],
+   "games": 9,
+   "wins": {
+    "MIA": 5,
+    "SEA": 4
+   },
+   "ties": 0,
+   "streak": "SEA W3"
+  },
+  "JAX_MIA": {
+   "teams": [
+    "JAX",
+    "MIA"
+   ],
+   "games": 11,
+   "wins": {
+    "JAX": 5,
+    "MIA": 6
+   },
+   "ties": 0,
+   "streak": "MIA W1"
+  },
+  "TB_WAS": {
+   "teams": [
+    "TB",
+    "WAS"
+   ],
+   "games": 18,
+   "wins": {
+    "TB": 9,
+    "WAS": 9
+   },
+   "ties": 0,
+   "streak": "WAS W1"
+  },
+  "IND_TEN": {
+   "teams": [
+    "IND",
+    "TEN"
+   ],
+   "games": 49,
+   "wins": {
+    "IND": 34,
+    "TEN": 15
+   },
+   "ties": 0,
+   "streak": "IND W6"
+  },
+  "LAR_MIN": {
+   "teams": [
+    "LAR",
+    "MIN"
+   ],
+   "games": 14,
+   "wins": {
+    "LAR": 8,
+    "MIN": 6
+   },
+   "ties": 0,
+   "streak": "LAR W4"
+  },
+  "LAR_TB": {
+   "teams": [
+    "LAR",
+    "TB"
+   ],
+   "games": 18,
+   "wins": {
+    "LAR": 11,
+    "TB": 7
+   },
+   "ties": 0,
+   "streak": "LAR W1"
+  },
+  "NE_TB": {
+   "teams": [
+    "NE",
+    "TB"
+   ],
+   "games": 7,
+   "wins": {
+    "NE": 5,
+    "TB": 2
+   },
+   "ties": 0,
+   "streak": "NE W1"
+  },
+  "DET_NO": {
+   "teams": [
+    "DET",
+    "NO"
+   ],
+   "games": 14,
+   "wins": {
+    "DET": 8,
+    "NO": 6
+   },
+   "ties": 0,
+   "streak": "DET W2"
+  },
+  "GB_NYJ": {
+   "teams": [
+    "GB",
+    "NYJ"
+   ],
+   "games": 7,
+   "wins": {
+    "GB": 3,
+    "NYJ": 4
+   },
+   "ties": 0,
+   "streak": "NYJ W1"
+  },
+  "DEN_LAR": {
+   "teams": [
+    "DEN",
+    "LAR"
+   ],
+   "games": 7,
+   "wins": {
+    "DEN": 1,
+    "LAR": 6
+   },
+   "ties": 0,
+   "streak": "LAR W5"
+  },
+  "IND_LV": {
+   "teams": [
+    "IND",
+    "LV"
+   ],
+   "games": 14,
+   "wins": {
+    "IND": 9,
+    "LV": 5
+   },
+   "ties": 0,
+   "streak": "IND W3"
+  },
+  "BUF_GB": {
+   "teams": [
+    "BUF",
+    "GB"
+   ],
+   "games": 7,
+   "wins": {
+    "BUF": 4,
+    "GB": 3
+   },
+   "ties": 0,
+   "streak": "BUF W1"
+  },
+  "MIA_MIN": {
+   "teams": [
+    "MIA",
+    "MIN"
+   ],
+   "games": 7,
+   "wins": {
+    "MIA": 3,
+    "MIN": 4
+   },
+   "ties": 0,
+   "streak": "MIN W2"
+  },
+  "KC_TEN": {
+   "teams": [
+    "KC",
+    "TEN"
+   ],
+   "games": 14,
+   "wins": {
+    "KC": 5,
+    "TEN": 9
+   },
+   "ties": 0,
+   "streak": "TEN W1"
+  },
+  "ATL_DEN": {
+   "teams": [
+    "ATL",
+    "DEN"
+   ],
+   "games": 7,
+   "wins": {
+    "ATL": 4,
+    "DEN": 3
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "LAC_NO": {
+   "teams": [
+    "LAC",
+    "NO"
+   ],
+   "games": 7,
+   "wins": {
+    "LAC": 2,
+    "NO": 5
+   },
+   "ties": 0,
+   "streak": "LAC W1"
+  },
+  "LAR_SEA": {
+   "teams": [
+    "LAR",
+    "SEA"
+   ],
+   "games": 52,
+   "wins": {
+    "LAR": 24,
+    "SEA": 28
+   },
+   "ties": 0,
+   "streak": "SEA W2"
+  },
+  "GB_PHI": {
+   "teams": [
+    "GB",
+    "PHI"
+   ],
+   "games": 18,
+   "wins": {
+    "GB": 7,
+    "PHI": 11
+   },
+   "ties": 0,
+   "streak": "PHI W4"
+  },
+  "CHI_NYG": {
+   "teams": [
+    "CHI",
+    "NYG"
+   ],
+   "games": 13,
+   "wins": {
+    "CHI": 7,
+    "NYG": 6
+   },
+   "ties": 0,
+   "streak": "CHI W1"
+  },
+  "MIN_NE": {
+   "teams": [
+    "MIN",
+    "NE"
+   ],
+   "games": 7,
+   "wins": {
+    "MIN": 2,
+    "NE": 5
+   },
+   "ties": 0,
+   "streak": "MIN W1"
+  },
+  "NO_SEA": {
+   "teams": [
+    "NO",
+    "SEA"
+   ],
+   "games": 13,
+   "wins": {
+    "NO": 6,
+    "SEA": 7
+   },
+   "ties": 0,
+   "streak": "SEA W1"
+  },
+  "BAL_MIA": {
+   "teams": [
+    "BAL",
+    "MIA"
+   ],
+   "games": 19,
+   "wins": {
+    "BAL": 12,
+    "MIA": 7
+   },
+   "ties": 0,
+   "streak": "BAL W2"
+  },
+  "DAL_SF": {
+   "teams": [
+    "DAL",
+    "SF"
+   ],
+   "games": 14,
+   "wins": {
+    "DAL": 7,
+    "SF": 7
+   },
+   "ties": 0,
+   "streak": "SF W4"
+  },
+  "NO_PHI": {
+   "teams": [
+    "NO",
+    "PHI"
+   ],
+   "games": 15,
+   "wins": {
+    "NO": 8,
+    "PHI": 7
+   },
+   "ties": 0,
+   "streak": "PHI W1"
+  },
+  "CLE_LV": {
+   "teams": [
+    "CLE",
+    "LV"
+   ],
+   "games": 15,
+   "wins": {
+    "CLE": 7,
+    "LV": 8
+   },
+   "ties": 0,
+   "streak": "CLE W1"
+  },
+  "NYJ_TB": {
+   "teams": [
+    "NYJ",
+    "TB"
+   ],
+   "games": 7,
+   "wins": {
+    "NYJ": 4,
+    "TB": 3
+   },
+   "ties": 0,
+   "streak": "TB W3"
+  },
+  "IND_JAX": {
+   "teams": [
+    "IND",
+    "JAX"
+   ],
+   "games": 49,
+   "wins": {
+    "IND": 27,
+    "JAX": 22
+   },
+   "ties": 0,
+   "streak": "JAX W2"
+  },
+  "CAR_DAL": {
+   "teams": [
+    "CAR",
+    "DAL"
+   ],
+   "games": 15,
+   "wins": {
+    "CAR": 4,
+    "DAL": 11
+   },
+   "ties": 0,
+   "streak": "CAR W1"
+  },
+  "LAC_LAR": {
+   "teams": [
+    "LAC",
+    "LAR"
+   ],
+   "games": 7,
+   "wins": {
+    "LAC": 3,
+    "LAR": 4
+   },
+   "ties": 0,
+   "streak": "LAC W1"
+  },
+  "NYG_TEN": {
+   "teams": [
+    "NYG",
+    "TEN"
+   ],
+   "games": 7,
+   "wins": {
+    "NYG": 2,
+    "TEN": 5
+   },
+   "ties": 0,
+   "streak": "NYG W1"
+  },
+  "CIN_MIA": {
+   "teams": [
+    "CIN",
+    "MIA"
+   ],
+   "games": 12,
+   "wins": {
+    "CIN": 6,
+    "MIA": 6
+   },
+   "ties": 0,
+   "streak": "CIN W2"
+  },
+  "ATL_PHI": {
+   "teams": [
+    "ATL",
+    "PHI"
+   ],
+   "games": 18,
+   "wins": {
+    "ATL": 6,
+    "PHI": 12
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "NYJ_PIT": {
+   "teams": [
+    "NYJ",
+    "PIT"
+   ],
+   "games": 16,
+   "wins": {
+    "NYJ": 6,
+    "PIT": 10
+   },
+   "ties": 0,
+   "streak": "PIT W2"
+  },
+  "ARI_CLE": {
+   "teams": [
+    "ARI",
+    "CLE"
+   ],
+   "games": 8,
+   "wins": {
+    "ARI": 6,
+    "CLE": 2
+   },
+   "ties": 0,
+   "streak": "CLE W1"
+  },
+  "ATL_NYG": {
+   "teams": [
+    "ATL",
+    "NYG"
+   ],
+   "games": 14,
+   "wins": {
+    "ATL": 8,
+    "NYG": 6
+   },
+   "ties": 0,
+   "streak": "ATL W4"
+  },
+  "CAR_SEA": {
+   "teams": [
+    "CAR",
+    "SEA"
+   ],
+   "games": 17,
+   "wins": {
+    "CAR": 5,
+    "SEA": 12
+   },
+   "ties": 0,
+   "streak": "SEA W2"
+  },
+  "LV_SF": {
+   "teams": [
+    "LV",
+    "SF"
+   ],
+   "games": 7,
+   "wins": {
+    "LV": 2,
+    "SF": 5
+   },
+   "ties": 0,
+   "streak": "SF W2"
+  },
+  "BUF_LAC": {
+   "teams": [
+    "BUF",
+    "LAC"
+   ],
+   "games": 12,
+   "wins": {
+    "BUF": 5,
+    "LAC": 7
+   },
+   "ties": 0,
+   "streak": "BUF W2"
+  },
+  "BAL_WAS": {
+   "teams": [
+    "BAL",
+    "WAS"
+   ],
+   "games": 7,
+   "wins": {
+    "BAL": 4,
+    "WAS": 3
+   },
+   "ties": 0,
+   "streak": "BAL W2"
+  },
+  "CLE_DEN": {
+   "teams": [
+    "CLE",
+    "DEN"
+   ],
+   "games": 12,
+   "wins": {
+    "CLE": 2,
+    "DEN": 10
+   },
+   "ties": 0,
+   "streak": "DEN W2"
+  },
+  "IND_SEA": {
+   "teams": [
+    "IND",
+    "SEA"
+   ],
+   "games": 7,
+   "wins": {
+    "IND": 3,
+    "SEA": 4
+   },
+   "ties": 0,
+   "streak": "SEA W3"
+  },
+  "CIN_DEN": {
+   "teams": [
+    "CIN",
+    "DEN"
+   ],
+   "games": 15,
+   "wins": {
+    "CIN": 6,
+    "DEN": 9
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "KC_LAR": {
+   "teams": [
+    "KC",
+    "LAR"
+   ],
+   "games": 7,
+   "wins": {
+    "KC": 6,
+    "LAR": 1
+   },
+   "ties": 0,
+   "streak": "KC W1"
+  },
+  "BUF_MIN": {
+   "teams": [
+    "BUF",
+    "MIN"
+   ],
+   "games": 7,
+   "wins": {
+    "BUF": 4,
+    "MIN": 3
+   },
+   "ties": 0,
+   "streak": "MIN W1"
+  },
+  "JAX_WAS": {
+   "teams": [
+    "JAX",
+    "WAS"
+   ],
+   "games": 7,
+   "wins": {
+    "JAX": 1,
+    "WAS": 6
+   },
+   "ties": 0,
+   "streak": "WAS W5"
+  },
+  "DET_IND": {
+   "teams": [
+    "DET",
+    "IND"
+   ],
+   "games": 7,
+   "wins": {
+    "DET": 2,
+    "IND": 5
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "GB_MIA": {
+   "teams": [
+    "GB",
+    "MIA"
+   ],
+   "games": 8,
+   "wins": {
+    "GB": 6,
+    "MIA": 2
+   },
+   "ties": 0,
+   "streak": "GB W4"
+  },
+  "ARI_NO": {
+   "teams": [
+    "ARI",
+    "NO"
+   ],
+   "games": 11,
+   "wins": {
+    "ARI": 5,
+    "NO": 6
+   },
+   "ties": 0,
+   "streak": "ARI W2"
+  },
+  "DAL_JAX": {
+   "teams": [
+    "DAL",
+    "JAX"
+   ],
+   "games": 7,
+   "wins": {
+    "DAL": 3,
+    "JAX": 4
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "TEN_WAS": {
+   "teams": [
+    "TEN",
+    "WAS"
+   ],
+   "games": 8,
+   "wins": {
+    "TEN": 4,
+    "WAS": 4
+   },
+   "ties": 0,
+   "streak": "WAS W1"
+  },
+  "CHI_IND": {
+   "teams": [
+    "CHI",
+    "IND"
+   ],
+   "games": 8,
+   "wins": {
+    "CHI": 3,
+    "IND": 5
+   },
+   "ties": 0,
+   "streak": "IND W3"
+  },
+  "CLE_NYG": {
+   "teams": [
+    "CLE",
+    "NYG"
+   ],
+   "games": 7,
+   "wins": {
+    "CLE": 2,
+    "NYG": 5
+   },
+   "ties": 0,
+   "streak": "NYG W1"
+  },
+  "DET_MIA": {
+   "teams": [
+    "DET",
+    "MIA"
+   ],
+   "games": 7,
+   "wins": {
+    "DET": 3,
+    "MIA": 4
+   },
+   "ties": 0,
+   "streak": "MIA W1"
+  },
+  "BUF_CHI": {
+   "teams": [
+    "BUF",
+    "CHI"
+   ],
+   "games": 7,
+   "wins": {
+    "BUF": 4,
+    "CHI": 3
+   },
+   "ties": 0,
+   "streak": "BUF W1"
+  },
+  "CIN_DAL": {
+   "teams": [
+    "CIN",
+    "DAL"
+   ],
+   "games": 8,
+   "wins": {
+    "CIN": 2,
+    "DAL": 6
+   },
+   "ties": 0,
+   "streak": "CIN W1"
+  },
+  "ATL_DET": {
+   "teams": [
+    "ATL",
+    "DET"
+   ],
+   "games": 13,
+   "wins": {
+    "ATL": 7,
+    "DET": 6
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "JAX_SEA": {
+   "teams": [
+    "JAX",
+    "SEA"
+   ],
+   "games": 8,
+   "wins": {
+    "JAX": 2,
+    "SEA": 6
+   },
+   "ties": 0,
+   "streak": "SEA W2"
+  },
+  "ARI_MIN": {
+   "teams": [
+    "ARI",
+    "MIN"
+   ],
+   "games": 14,
+   "wins": {
+    "ARI": 4,
+    "MIN": 10
+   },
+   "ties": 0,
+   "streak": "MIN W2"
+  },
+  "PHI_PIT": {
+   "teams": [
+    "PHI",
+    "PIT"
+   ],
+   "games": 8,
+   "wins": {
+    "PHI": 5,
+    "PIT": 3
+   },
+   "ties": 0,
+   "streak": "PHI W2"
+  },
+  "KC_SF": {
+   "teams": [
+    "KC",
+    "SF"
+   ],
+   "games": 10,
+   "wins": {
+    "KC": 7,
+    "SF": 3
+   },
+   "ties": 0,
+   "streak": "KC W5"
+  },
+  "GB_IND": {
+   "teams": [
+    "GB",
+    "IND"
+   ],
+   "games": 7,
+   "wins": {
+    "GB": 3,
+    "IND": 4
+   },
+   "ties": 0,
+   "streak": "GB W1"
+  },
+  "BUF_KC": {
+   "teams": [
+    "BUF",
+    "KC"
+   ],
+   "games": 23,
+   "wins": {
+    "BUF": 12,
+    "KC": 11
+   },
+   "ties": 0,
+   "streak": "BUF W1"
+  },
+  "CAR_MIN": {
+   "teams": [
+    "CAR",
+    "MIN"
+   ],
+   "games": 15,
+   "wins": {
+    "CAR": 6,
+    "MIN": 9
+   },
+   "ties": 0,
+   "streak": "MIN W3"
+  },
+  "CIN_NE": {
+   "teams": [
+    "CIN",
+    "NE"
+   ],
+   "games": 13,
+   "wins": {
+    "CIN": 3,
+    "NE": 10
+   },
+   "ties": 0,
+   "streak": "NE W2"
+  },
+  "LV_NO": {
+   "teams": [
+    "LV",
+    "NO"
+   ],
+   "games": 8,
+   "wins": {
+    "LV": 4,
+    "NO": 4
+   },
+   "ties": 0,
+   "streak": "LV W1"
+  },
+  "DET_NYG": {
+   "teams": [
+    "DET",
+    "NYG"
+   ],
+   "games": 11,
+   "wins": {
+    "DET": 7,
+    "NYG": 4
+   },
+   "ties": 0,
+   "streak": "DET W4"
+  },
+  "BAL_DAL": {
+   "teams": [
+    "BAL",
+    "DAL"
+   ],
+   "games": 7,
+   "wins": {
+    "BAL": 6,
+    "DAL": 1
+   },
+   "ties": 0,
+   "streak": "BAL W2"
+  },
+  "LAR_WAS": {
+   "teams": [
+    "LAR",
+    "WAS"
+   ],
+   "games": 14,
+   "wins": {
+    "LAR": 7,
+    "WAS": 7
+   },
+   "ties": 0,
+   "streak": "LAR W2"
+  },
+  "DET_NE": {
+   "teams": [
+    "DET",
+    "NE"
+   ],
+   "games": 7,
+   "wins": {
+    "DET": 2,
+    "NE": 5
+   },
+   "ties": 0,
+   "streak": "NE W1"
+  },
+  "CHI_NYJ": {
+   "teams": [
+    "CHI",
+    "NYJ"
+   ],
+   "games": 7,
+   "wins": {
+    "CHI": 5,
+    "NYJ": 2
+   },
+   "ties": 0,
+   "streak": "NYJ W1"
+  },
+  "BUF_TB": {
+   "teams": [
+    "BUF",
+    "TB"
+   ],
+   "games": 8,
+   "wins": {
+    "BUF": 4,
+    "TB": 4
+   },
+   "ties": 0,
+   "streak": "BUF W2"
+  },
+  "ATL_LV": {
+   "teams": [
+    "ATL",
+    "LV"
+   ],
+   "games": 7,
+   "wins": {
+    "ATL": 6,
+    "LV": 1
+   },
+   "ties": 0,
+   "streak": "ATL W6"
+  },
+  "ATL_SEA": {
+   "teams": [
+    "ATL",
+    "SEA"
+   ],
+   "games": 17,
+   "wins": {
+    "ATL": 7,
+    "SEA": 10
+   },
+   "ties": 0,
+   "streak": "SEA W2"
+  },
+  "ARI_CIN": {
+   "teams": [
+    "ARI",
+    "CIN"
+   ],
+   "games": 8,
+   "wins": {
+    "ARI": 4,
+    "CIN": 4
+   },
+   "ties": 0,
+   "streak": "CIN W2"
+  },
+  "DEN_NO": {
+   "teams": [
+    "DEN",
+    "NO"
+   ],
+   "games": 7,
+   "wins": {
+    "DEN": 6,
+    "NO": 1
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "PHI_TEN": {
+   "teams": [
+    "PHI",
+    "TEN"
+   ],
+   "games": 7,
+   "wins": {
+    "PHI": 2,
+    "TEN": 5
+   },
+   "ties": 0,
+   "streak": "PHI W1"
+  },
+  "LV_PIT": {
+   "teams": [
+    "LV",
+    "PIT"
+   ],
+   "games": 15,
+   "wins": {
+    "LV": 7,
+    "PIT": 8
+   },
+   "ties": 0,
+   "streak": "PIT W3"
+  },
+  "DAL_TB": {
+   "teams": [
+    "DAL",
+    "TB"
+   ],
+   "games": 15,
+   "wins": {
+    "DAL": 9,
+    "TB": 6
+   },
+   "ties": 0,
+   "streak": "DAL W2"
+  },
+  "LAC_SF": {
+   "teams": [
+    "LAC",
+    "SF"
+   ],
+   "games": 7,
+   "wins": {
+    "LAC": 5,
+    "SF": 2
+   },
+   "ties": 0,
+   "streak": "SF W1"
+  },
+  "BAL_LAC": {
+   "teams": [
+    "BAL",
+    "LAC"
+   ],
+   "games": 14,
+   "wins": {
+    "BAL": 10,
+    "LAC": 4
+   },
+   "ties": 0,
+   "streak": "BAL W3"
+  },
+  "CHI_NE": {
+   "teams": [
+    "CHI",
+    "NE"
+   ],
+   "games": 8,
+   "wins": {
+    "CHI": 2,
+    "NE": 6
+   },
+   "ties": 0,
+   "streak": "NE W1"
+  },
+  "CLE_PHI": {
+   "teams": [
+    "CLE",
+    "PHI"
+   ],
+   "games": 7,
+   "wins": {
+    "CLE": 1,
+    "PHI": 6
+   },
+   "ties": 0,
+   "streak": "PHI W1"
+  },
+  "ARI_JAX": {
+   "teams": [
+    "ARI",
+    "JAX"
+   ],
+   "games": 7,
+   "wins": {
+    "ARI": 4,
+    "JAX": 3
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "CAR_KC": {
+   "teams": [
+    "CAR",
+    "KC"
+   ],
+   "games": 7,
+   "wins": {
+    "CAR": 2,
+    "KC": 5
+   },
+   "ties": 0,
+   "streak": "KC W4"
+  },
+  "MIA_TB": {
+   "teams": [
+    "MIA",
+    "TB"
+   ],
+   "games": 7,
+   "wins": {
+    "MIA": 2,
+    "TB": 5
+   },
+   "ties": 0,
+   "streak": "MIA W1"
+  },
+  "NYG_PIT": {
+   "teams": [
+    "NYG",
+    "PIT"
+   ],
+   "games": 7,
+   "wins": {
+    "NYG": 2,
+    "PIT": 5
+   },
+   "ties": 0,
+   "streak": "PIT W4"
+  },
+  "PIT_WAS": {
+   "teams": [
+    "PIT",
+    "WAS"
+   ],
+   "games": 7,
+   "wins": {
+    "PIT": 6,
+    "WAS": 1
+   },
+   "ties": 0,
+   "streak": "PIT W1"
+  },
+  "CAR_LAC": {
+   "teams": [
+    "CAR",
+    "LAC"
+   ],
+   "games": 7,
+   "wins": {
+    "CAR": 5,
+    "LAC": 2
+   },
+   "ties": 0,
+   "streak": "LAC W1"
+  },
+  "DET_NYJ": {
+   "teams": [
+    "DET",
+    "NYJ"
+   ],
+   "games": 7,
+   "wins": {
+    "DET": 3,
+    "NYJ": 4
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "CHI_SF": {
+   "teams": [
+    "CHI",
+    "SF"
+   ],
+   "games": 17,
+   "wins": {
+    "CHI": 8,
+    "SF": 9
+   },
+   "ties": 0,
+   "streak": "SF W2"
+  },
+  "ARI_BAL": {
+   "teams": [
+    "ARI",
+    "BAL"
+   ],
+   "games": 7,
+   "wins": {
+    "ARI": 1,
+    "BAL": 6
+   },
+   "ties": 0,
+   "streak": "BAL W2"
+  },
+  "JAX_NYG": {
+   "teams": [
+    "JAX",
+    "NYG"
+   ],
+   "games": 7,
+   "wins": {
+    "JAX": 3,
+    "NYG": 4
+   },
+   "ties": 0,
+   "streak": "NYG W1"
+  },
+  "DEN_SF": {
+   "teams": [
+    "DEN",
+    "SF"
+   ],
+   "games": 7,
+   "wins": {
+    "DEN": 4,
+    "SF": 3
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "ATL_KC": {
+   "teams": [
+    "ATL",
+    "KC"
+   ],
+   "games": 7,
+   "wins": {
+    "ATL": 3,
+    "KC": 4
+   },
+   "ties": 0,
+   "streak": "KC W3"
+  },
+  "BAL_NYJ": {
+   "teams": [
+    "BAL",
+    "NYJ"
+   ],
+   "games": 11,
+   "wins": {
+    "BAL": 10,
+    "NYJ": 1
+   },
+   "ties": 0,
+   "streak": "BAL W3"
+  },
+  "CIN_PHI": {
+   "teams": [
+    "CIN",
+    "PHI"
+   ],
+   "games": 7,
+   "wins": {
+    "CIN": 3,
+    "PHI": 2
+   },
+   "ties": 2,
+   "streak": "PHI W1"
+  },
+  "LAC_PIT": {
+   "teams": [
+    "LAC",
+    "PIT"
+   ],
+   "games": 14,
+   "wins": {
+    "LAC": 5,
+    "PIT": 9
+   },
+   "ties": 0,
+   "streak": "LAC W1"
+  },
+  "IND_MIN": {
+   "teams": [
+    "IND",
+    "MIN"
+   ],
+   "games": 8,
+   "wins": {
+    "IND": 6,
+    "MIN": 2
+   },
+   "ties": 0,
+   "streak": "MIN W2"
+  },
+  "CAR_LV": {
+   "teams": [
+    "CAR",
+    "LV"
+   ],
+   "games": 7,
+   "wins": {
+    "CAR": 3,
+    "LV": 4
+   },
+   "ties": 0,
+   "streak": "CAR W1"
+  },
+  "DAL_TEN": {
+   "teams": [
+    "DAL",
+    "TEN"
+   ],
+   "games": 7,
+   "wins": {
+    "DAL": 4,
+    "TEN": 3
+   },
+   "ties": 0,
+   "streak": "DAL W1"
+  },
+  "BAL_DEN": {
+   "teams": [
+    "BAL",
+    "DEN"
+   ],
+   "games": 16,
+   "wins": {
+    "BAL": 11,
+    "DEN": 5
+   },
+   "ties": 0,
+   "streak": "BAL W4"
+  },
+  "MIN_NO": {
+   "teams": [
+    "MIN",
+    "NO"
+   ],
+   "games": 17,
+   "wins": {
+    "MIN": 10,
+    "NO": 7
+   },
+   "ties": 0,
+   "streak": "MIN W2"
+  },
+  "BAL_LV": {
+   "teams": [
+    "BAL",
+    "LV"
+   ],
+   "games": 12,
+   "wins": {
+    "BAL": 7,
+    "LV": 5
+   },
+   "ties": 0,
+   "streak": "LV W2"
+  },
+  "BAL_NYG": {
+   "teams": [
+    "BAL",
+    "NYG"
+   ],
+   "games": 8,
+   "wins": {
+    "BAL": 5,
+    "NYG": 3
+   },
+   "ties": 0,
+   "streak": "BAL W1"
+  },
+  "BAL_CHI": {
+   "teams": [
+    "BAL",
+    "CHI"
+   ],
+   "games": 7,
+   "wins": {
+    "BAL": 4,
+    "CHI": 3
+   },
+   "ties": 0,
+   "streak": "BAL W2"
+  },
+  "BUF_NO": {
+   "teams": [
+    "BUF",
+    "NO"
+   ],
+   "games": 7,
+   "wins": {
+    "BUF": 2,
+    "NO": 5
+   },
+   "ties": 0,
+   "streak": "BUF W2"
+  },
+  "CLE_SEA": {
+   "teams": [
+    "CLE",
+    "SEA"
+   ],
+   "games": 7,
+   "wins": {
+    "CLE": 2,
+    "SEA": 5
+   },
+   "ties": 0,
+   "streak": "SEA W3"
+  },
+  "LAC_WAS": {
+   "teams": [
+    "LAC",
+    "WAS"
+   ],
+   "games": 7,
+   "wins": {
+    "LAC": 5,
+    "WAS": 2
+   },
+   "ties": 0,
+   "streak": "WAS W1"
+  },
+  "DEN_NYG": {
+   "teams": [
+    "DEN",
+    "NYG"
+   ],
+   "games": 7,
+   "wins": {
+    "DEN": 5,
+    "NYG": 2
+   },
+   "ties": 0,
+   "streak": "DEN W2"
+  },
+  "CLE_DET": {
+   "teams": [
+    "CLE",
+    "DET"
+   ],
+   "games": 7,
+   "wins": {
+    "CLE": 2,
+    "DET": 5
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "DAL_LAC": {
+   "teams": [
+    "DAL",
+    "LAC"
+   ],
+   "games": 8,
+   "wins": {
+    "DAL": 3,
+    "LAC": 5
+   },
+   "ties": 0,
+   "streak": "LAC W1"
+  },
+  "KC_NYG": {
+   "teams": [
+    "KC",
+    "NYG"
+   ],
+   "games": 7,
+   "wins": {
+    "KC": 3,
+    "NYG": 4
+   },
+   "ties": 0,
+   "streak": "KC W2"
+  },
+  "PHI_SEA": {
+   "teams": [
+    "PHI",
+    "SEA"
+   ],
+   "games": 13,
+   "wins": {
+    "PHI": 3,
+    "SEA": 10
+   },
+   "ties": 0,
+   "streak": "SEA W8"
+  },
+  "ARI_DEN": {
+   "teams": [
+    "ARI",
+    "DEN"
+   ],
+   "games": 7,
+   "wins": {
+    "ARI": 1,
+    "DEN": 6
+   },
+   "ties": 0,
+   "streak": "DEN W3"
+  },
+  "GB_WAS": {
+   "teams": [
+    "GB",
+    "WAS"
+   ],
+   "games": 13,
+   "wins": {
+    "GB": 9,
+    "WAS": 4
+   },
+   "ties": 0,
+   "streak": "GB W1"
+  },
+  "LAR_MIA": {
+   "teams": [
+    "LAR",
+    "MIA"
+   ],
+   "games": 7,
+   "wins": {
+    "LAR": 1,
+    "MIA": 6
+   },
+   "ties": 0,
+   "streak": "MIA W6"
+  },
+  "KC_WAS": {
+   "teams": [
+    "KC",
+    "WAS"
+   ],
+   "games": 7,
+   "wins": {
+    "KC": 7,
+    "WAS": 0
+   },
+   "ties": 0,
+   "streak": "KC W7"
+  },
+  "NYJ_SF": {
+   "teams": [
+    "NYJ",
+    "SF"
+   ],
+   "games": 7,
+   "wins": {
+    "NYJ": 2,
+    "SF": 5
+   },
+   "ties": 0,
+   "streak": "SF W2"
+  },
+  "ATL_CHI": {
+   "teams": [
+    "ATL",
+    "CHI"
+   ],
+   "games": 11,
+   "wins": {
+    "ATL": 4,
+    "CHI": 7
+   },
+   "ties": 0,
+   "streak": "CHI W1"
+  },
+  "DAL_LV": {
+   "teams": [
+    "DAL",
+    "LV"
+   ],
+   "games": 7,
+   "wins": {
+    "DAL": 4,
+    "LV": 3
+   },
+   "ties": 0,
+   "streak": "DAL W1"
+  },
+  "ARI_CHI": {
+   "teams": [
+    "ARI",
+    "CHI"
+   ],
+   "games": 10,
+   "wins": {
+    "ARI": 4,
+    "CHI": 6
+   },
+   "ties": 0,
+   "streak": "ARI W1"
+  },
+  "BAL_GB": {
+   "teams": [
+    "BAL",
+    "GB"
+   ],
+   "games": 7,
+   "wins": {
+    "BAL": 3,
+    "GB": 4
+   },
+   "ties": 0,
+   "streak": "BAL W1"
+  },
+  "LAC_NE": {
+   "teams": [
+    "LAC",
+    "NE"
+   ],
+   "games": 17,
+   "wins": {
+    "LAC": 5,
+    "NE": 12
+   },
+   "ties": 0,
+   "streak": "NE W1"
+  },
+  "TB_TEN": {
+   "teams": [
+    "TB",
+    "TEN"
+   ],
+   "games": 7,
+   "wins": {
+    "TB": 2,
+    "TEN": 5
+   },
+   "ties": 0,
+   "streak": "TB W1"
+  },
+  "BUF_JAX": {
+   "teams": [
+    "BUF",
+    "JAX"
+   ],
+   "games": 18,
+   "wins": {
+    "BUF": 10,
+    "JAX": 8
+   },
+   "ties": 0,
+   "streak": "BUF W2"
+  },
+  "CHI_CIN": {
+   "teams": [
+    "CHI",
+    "CIN"
+   ],
+   "games": 7,
+   "wins": {
+    "CHI": 5,
+    "CIN": 2
+   },
+   "ties": 0,
+   "streak": "CHI W4"
+  },
+  "DET_TEN": {
+   "teams": [
+    "DET",
+    "TEN"
+   ],
+   "games": 7,
+   "wins": {
+    "DET": 1,
+    "TEN": 6
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "LAR_NYJ": {
+   "teams": [
+    "LAR",
+    "NYJ"
+   ],
+   "games": 7,
+   "wins": {
+    "LAR": 4,
+    "NYJ": 3
+   },
+   "ties": 0,
+   "streak": "LAR W1"
+  },
+  "PIT_TB": {
+   "teams": [
+    "PIT",
+    "TB"
+   ],
+   "games": 7,
+   "wins": {
+    "PIT": 6,
+    "TB": 1
+   },
+   "ties": 0,
+   "streak": "PIT W2"
+  },
+  "ARI_KC": {
+   "teams": [
+    "ARI",
+    "KC"
+   ],
+   "games": 7,
+   "wins": {
+    "ARI": 2,
+    "KC": 5
+   },
+   "ties": 0,
+   "streak": "KC W2"
+  },
+  "CAR_NYJ": {
+   "teams": [
+    "CAR",
+    "NYJ"
+   ],
+   "games": 7,
+   "wins": {
+    "CAR": 5,
+    "NYJ": 2
+   },
+   "ties": 0,
+   "streak": "CAR W4"
+  },
+  "CIN_DET": {
+   "teams": [
+    "CIN",
+    "DET"
+   ],
+   "games": 7,
+   "wins": {
+    "CIN": 6,
+    "DET": 1
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "LV_PHI": {
+   "teams": [
+    "LV",
+    "PHI"
+   ],
+   "games": 7,
+   "wins": {
+    "LV": 3,
+    "PHI": 4
+   },
+   "ties": 0,
+   "streak": "PHI W1"
+  },
+  "ATL_NE": {
+   "teams": [
+    "ATL",
+    "NE"
+   ],
+   "games": 8,
+   "wins": {
+    "ATL": 0,
+    "NE": 8
+   },
+   "ties": 0,
+   "streak": "NE W8"
+  },
+  "CAR_MIA": {
+   "teams": [
+    "CAR",
+    "MIA"
+   ],
+   "games": 8,
+   "wins": {
+    "CAR": 3,
+    "MIA": 5
+   },
+   "ties": 0,
+   "streak": "CAR W1"
+  },
+  "DET_SF": {
+   "teams": [
+    "DET",
+    "SF"
+   ],
+   "games": 12,
+   "wins": {
+    "DET": 2,
+    "SF": 10
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "CHI_CLE": {
+   "teams": [
+    "CHI",
+    "CLE"
+   ],
+   "games": 8,
+   "wins": {
+    "CHI": 5,
+    "CLE": 3
+   },
+   "ties": 0,
+   "streak": "CHI W1"
+  },
+  "SEA_WAS": {
+   "teams": [
+    "SEA",
+    "WAS"
+   ],
+   "games": 15,
+   "wins": {
+    "SEA": 7,
+    "WAS": 8
+   },
+   "ties": 0,
+   "streak": "SEA W2"
+  },
+  "NO_NYJ": {
+   "teams": [
+    "NO",
+    "NYJ"
+   ],
+   "games": 7,
+   "wins": {
+    "NO": 5,
+    "NYJ": 2
+   },
+   "ties": 0,
+   "streak": "NO W3"
+  },
+  "KC_NYJ": {
+   "teams": [
+    "KC",
+    "NYJ"
+   ],
+   "games": 11,
+   "wins": {
+    "KC": 6,
+    "NYJ": 5
+   },
+   "ties": 0,
+   "streak": "KC W2"
+  },
+  "MIN_PHI": {
+   "teams": [
+    "MIN",
+    "PHI"
+   ],
+   "games": 14,
+   "wins": {
+    "MIN": 4,
+    "PHI": 10
+   },
+   "ties": 0,
+   "streak": "PHI W3"
+  },
+  "ATL_GB": {
+   "teams": [
+    "ATL",
+    "GB"
+   ],
+   "games": 16,
+   "wins": {
+    "ATL": 8,
+    "GB": 8
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "IND_NO": {
+   "teams": [
+    "IND",
+    "NO"
+   ],
+   "games": 8,
+   "wins": {
+    "IND": 2,
+    "NO": 6
+   },
+   "ties": 0,
+   "streak": "NO W5"
+  },
+  "DEN_WAS": {
+   "teams": [
+    "DEN",
+    "WAS"
+   ],
+   "games": 8,
+   "wins": {
+    "DEN": 4,
+    "WAS": 4
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "LAR_NE": {
+   "teams": [
+    "LAR",
+    "NE"
+   ],
+   "games": 9,
+   "wins": {
+    "LAR": 3,
+    "NE": 6
+   },
+   "ties": 0,
+   "streak": "LAR W2"
+  },
+  "DAL_DEN": {
+   "teams": [
+    "DAL",
+    "DEN"
+   ],
+   "games": 7,
+   "wins": {
+    "DAL": 0,
+    "DEN": 7
+   },
+   "ties": 0,
+   "streak": "DEN W7"
+  },
+  "IND_SF": {
+   "teams": [
+    "IND",
+    "SF"
+   ],
+   "games": 7,
+   "wins": {
+    "IND": 5,
+    "SF": 2
+   },
+   "ties": 0,
+   "streak": "SF W1"
+  },
+  "NE_NO": {
+   "teams": [
+    "NE",
+    "NO"
+   ],
+   "games": 8,
+   "wins": {
+    "NE": 5,
+    "NO": 3
+   },
+   "ties": 0,
+   "streak": "NE W1"
+  },
+  "ARI_LAC": {
+   "teams": [
+    "ARI",
+    "LAC"
+   ],
+   "games": 9,
+   "wins": {
+    "ARI": 4,
+    "LAC": 5
+   },
+   "ties": 0,
+   "streak": "ARI W2"
+  },
+  "LV_NYG": {
+   "teams": [
+    "LV",
+    "NYG"
+   ],
+   "games": 8,
+   "wins": {
+    "LV": 3,
+    "NYG": 5
+   },
+   "ties": 0,
+   "streak": "NYG W1"
+  },
+  "KC_PHI": {
+   "teams": [
+    "KC",
+    "PHI"
+   ],
+   "games": 10,
+   "wins": {
+    "KC": 4,
+    "PHI": 6
+   },
+   "ties": 0,
+   "streak": "PHI W3"
+  },
+  "BAL_IND": {
+   "teams": [
+    "BAL",
+    "IND"
+   ],
+   "games": 17,
+   "wins": {
+    "BAL": 7,
+    "IND": 10
+   },
+   "ties": 0,
+   "streak": "BAL W1"
+  },
+  "CIN_TB": {
+   "teams": [
+    "CIN",
+    "TB"
+   ],
+   "games": 8,
+   "wins": {
+    "CIN": 4,
+    "TB": 4
+   },
+   "ties": 0,
+   "streak": "CIN W4"
+  },
+  "MIN_PIT": {
+   "teams": [
+    "MIN",
+    "PIT"
+   ],
+   "games": 7,
+   "wins": {
+    "MIN": 2,
+    "PIT": 5
+   },
+   "ties": 0,
+   "streak": "PIT W1"
+  },
+  "ARI_LV": {
+   "teams": [
+    "ARI",
+    "LV"
+   ],
+   "games": 7,
+   "wins": {
+    "ARI": 4,
+    "LV": 3
+   },
+   "ties": 0,
+   "streak": "ARI W1"
+  },
+  "BUF_SF": {
+   "teams": [
+    "BUF",
+    "SF"
+   ],
+   "games": 7,
+   "wins": {
+    "BUF": 4,
+    "SF": 3
+   },
+   "ties": 0,
+   "streak": "BUF W3"
+  },
+  "GB_JAX": {
+   "teams": [
+    "GB",
+    "JAX"
+   ],
+   "games": 7,
+   "wins": {
+    "GB": 5,
+    "JAX": 2
+   },
+   "ties": 0,
+   "streak": "GB W4"
+  },
+  "BUF_CAR": {
+   "teams": [
+    "BUF",
+    "CAR"
+   ],
+   "games": 7,
+   "wins": {
+    "BUF": 5,
+    "CAR": 2
+   },
+   "ties": 0,
+   "streak": "BUF W2"
+  },
+  "MIN_TEN": {
+   "teams": [
+    "MIN",
+    "TEN"
+   ],
+   "games": 7,
+   "wins": {
+    "MIN": 5,
+    "TEN": 2
+   },
+   "ties": 0,
+   "streak": "MIN W1"
+  },
+  "LAC_PHI": {
+   "teams": [
+    "LAC",
+    "PHI"
+   ],
+   "games": 7,
+   "wins": {
+    "LAC": 4,
+    "PHI": 3
+   },
+   "ties": 0,
+   "streak": "LAC W2"
+  },
+  "ATL_IND": {
+   "teams": [
+    "ATL",
+    "IND"
+   ],
+   "games": 8,
+   "wins": {
+    "ATL": 2,
+    "IND": 6
+   },
+   "ties": 0,
+   "streak": "IND W1"
+  },
+  "CIN_NYJ": {
+   "teams": [
+    "CIN",
+    "NYJ"
+   ],
+   "games": 13,
+   "wins": {
+    "CIN": 5,
+    "NYJ": 8
+   },
+   "ties": 0,
+   "streak": "NYJ W1"
+  },
+  "MIA_SF": {
+   "teams": [
+    "MIA",
+    "SF"
+   ],
+   "games": 8,
+   "wins": {
+    "MIA": 5,
+    "SF": 3
+   },
+   "ties": 0,
+   "streak": "MIA W1"
+  },
+  "DAL_SEA": {
+   "teams": [
+    "DAL",
+    "SEA"
+   ],
+   "games": 16,
+   "wins": {
+    "DAL": 7,
+    "SEA": 9
+   },
+   "ties": 0,
+   "streak": "DAL W1"
+  },
+  "GB_TEN": {
+   "teams": [
+    "GB",
+    "TEN"
+   ],
+   "games": 8,
+   "wins": {
+    "GB": 3,
+    "TEN": 5
+   },
+   "ties": 0,
+   "streak": "GB W1"
+  },
+  "PHI_SF": {
+   "teams": [
+    "PHI",
+    "SF"
+   ],
+   "games": 16,
+   "wins": {
+    "PHI": 9,
+    "SF": 7
+   },
+   "ties": 0,
+   "streak": "SF W2"
+  },
+  "ATL_BUF": {
+   "teams": [
+    "ATL",
+    "BUF"
+   ],
+   "games": 7,
+   "wins": {
+    "ATL": 5,
+    "BUF": 2
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "JAX_MIN": {
+   "teams": [
+    "JAX",
+    "MIN"
+   ],
+   "games": 7,
+   "wins": {
+    "JAX": 1,
+    "MIN": 6
+   },
+   "ties": 0,
+   "streak": "MIN W6"
+  },
+  "NYG_SEA": {
+   "teams": [
+    "NYG",
+    "SEA"
+   ],
+   "games": 14,
+   "wins": {
+    "NYG": 6,
+    "SEA": 8
+   },
+   "ties": 0,
+   "streak": "NYG W1"
+  },
+  "DET_PIT": {
+   "teams": [
+    "DET",
+    "PIT"
+   ],
+   "games": 7,
+   "wins": {
+    "DET": 0,
+    "PIT": 6
+   },
+   "ties": 1,
+   "streak": "PIT W1"
+  },
+  "CLE_GB": {
+   "teams": [
+    "CLE",
+    "GB"
+   ],
+   "games": 7,
+   "wins": {
+    "CLE": 2,
+    "GB": 5
+   },
+   "ties": 0,
+   "streak": "CLE W1"
+  },
+  "BAL_TB": {
+   "teams": [
+    "BAL",
+    "TB"
+   ],
+   "games": 8,
+   "wins": {
+    "BAL": 6,
+    "TB": 2
+   },
+   "ties": 0,
+   "streak": "BAL W6"
+  },
+  "ARI_CAR": {
+   "teams": [
+    "ARI",
+    "CAR"
+   ],
+   "games": 21,
+   "wins": {
+    "ARI": 7,
+    "CAR": 14
+   },
+   "ties": 0,
+   "streak": "ARI W1"
+  },
+  "JAX_KC": {
+   "teams": [
+    "JAX",
+    "KC"
+   ],
+   "games": 15,
+   "wins": {
+    "JAX": 5,
+    "KC": 10
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "ATL_MIA": {
+   "teams": [
+    "ATL",
+    "MIA"
+   ],
+   "games": 7,
+   "wins": {
+    "ATL": 3,
+    "MIA": 4
+   },
+   "ties": 0,
+   "streak": "MIA W1"
+  },
+  "IND_LAR": {
+   "teams": [
+    "IND",
+    "LAR"
+   ],
+   "games": 8,
+   "wins": {
+    "IND": 2,
+    "LAR": 6
+   },
+   "ties": 0,
+   "streak": "LAR W5"
+  },
+  "NO_WAS": {
+   "teams": [
+    "NO",
+    "WAS"
+   ],
+   "games": 12,
+   "wins": {
+    "NO": 6,
+    "WAS": 6
+   },
+   "ties": 0,
+   "streak": "WAS W1"
+  },
+  "DEN_IND": {
+   "teams": [
+    "DEN",
+    "IND"
+   ],
+   "games": 20,
+   "wins": {
+    "DEN": 6,
+    "IND": 14
+   },
+   "ties": 0,
+   "streak": "IND W1"
+  },
+  "CAR_NE": {
+   "teams": [
+    "CAR",
+    "NE"
+   ],
+   "games": 8,
+   "wins": {
+    "CAR": 3,
+    "NE": 5
+   },
+   "ties": 0,
+   "streak": "NE W2"
+  },
+  "CHI_JAX": {
+   "teams": [
+    "CHI",
+    "JAX"
+   ],
+   "games": 7,
+   "wins": {
+    "CHI": 5,
+    "JAX": 2
+   },
+   "ties": 0,
+   "streak": "CHI W2"
+  },
+  "DAL_DET": {
+   "teams": [
+    "DAL",
+    "DET"
+   ],
+   "games": 18,
+   "wins": {
+    "DAL": 11,
+    "DET": 7
+   },
+   "ties": 0,
+   "streak": "DET W2"
+  },
+  "GB_NYG": {
+   "teams": [
+    "GB",
+    "NYG"
+   ],
+   "games": 15,
+   "wins": {
+    "GB": 8,
+    "NYG": 7
+   },
+   "ties": 0,
+   "streak": "GB W1"
+  },
+  "BAL_MIN": {
+   "teams": [
+    "BAL",
+    "MIN"
+   ],
+   "games": 7,
+   "wins": {
+    "BAL": 5,
+    "MIN": 2
+   },
+   "ties": 0,
+   "streak": "BAL W2"
+  },
+  "LV_NE": {
+   "teams": [
+    "LV",
+    "NE"
+   ],
+   "games": 11,
+   "wins": {
+    "LV": 4,
+    "NE": 7
+   },
+   "ties": 0,
+   "streak": "LV W3"
+  },
+  "GB_LAR": {
+   "teams": [
+    "GB",
+    "LAR"
+   ],
+   "games": 15,
+   "wins": {
+    "GB": 11,
+    "LAR": 4
+   },
+   "ties": 0,
+   "streak": "GB W5"
+  },
+  "NE_PIT": {
+   "teams": [
+    "NE",
+    "PIT"
+   ],
+   "games": 19,
+   "wins": {
+    "NE": 14,
+    "PIT": 5
+   },
+   "ties": 0,
+   "streak": "PIT W1"
+  },
+  "NYG_SF": {
+   "teams": [
+    "NYG",
+    "SF"
+   ],
+   "games": 15,
+   "wins": {
+    "NYG": 7,
+    "SF": 8
+   },
+   "ties": 0,
+   "streak": "SF W3"
+  },
+  "BAL_CAR": {
+   "teams": [
+    "BAL",
+    "CAR"
+   ],
+   "games": 6,
+   "wins": {
+    "BAL": 3,
+    "CAR": 3
+   },
+   "ties": 0,
+   "streak": "BAL W1"
+  },
+  "CLE_KC": {
+   "teams": [
+    "CLE",
+    "KC"
+   ],
+   "games": 12,
+   "wins": {
+    "CLE": 3,
+    "KC": 9
+   },
+   "ties": 0,
+   "streak": "KC W6"
+  },
+  "DAL_HOU": {
+   "teams": [
+    "DAL",
+    "HOU"
+   ],
+   "games": 7,
+   "wins": {
+    "DAL": 4,
+    "HOU": 3
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  },
+  "GB_NO": {
+   "teams": [
+    "GB",
+    "NO"
+   ],
+   "games": 12,
+   "wins": {
+    "GB": 6,
+    "NO": 6
+   },
+   "ties": 0,
+   "streak": "GB W2"
+  },
+  "ARI_SEA": {
+   "teams": [
+    "ARI",
+    "SEA"
+   ],
+   "games": 48,
+   "wins": {
+    "ARI": 17,
+    "SEA": 30
+   },
+   "ties": 1,
+   "streak": "SEA W9"
+  },
+  "HOU_LAC": {
+   "teams": [
+    "HOU",
+    "LAC"
+   ],
+   "games": 11,
+   "wins": {
+    "HOU": 5,
+    "LAC": 6
+   },
+   "ties": 0,
+   "streak": "HOU W2"
+  },
+  "HOU_IND": {
+   "teams": [
+    "HOU",
+    "IND"
+   ],
+   "games": 49,
+   "wins": {
+    "HOU": 15,
+    "IND": 33
+   },
+   "ties": 1,
+   "streak": "HOU W5"
+  },
+  "BUF_DEN": {
+   "teams": [
+    "BUF",
+    "DEN"
+   ],
+   "games": 12,
+   "wins": {
+    "BUF": 6,
+    "DEN": 6
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "ATL_CIN": {
+   "teams": [
+    "ATL",
+    "CIN"
+   ],
+   "games": 6,
+   "wins": {
+    "ATL": 3,
+    "CIN": 3
+   },
+   "ties": 0,
+   "streak": "CIN W3"
+  },
+  "KC_MIA": {
+   "teams": [
+    "KC",
+    "MIA"
+   ],
+   "games": 10,
+   "wins": {
+    "KC": 7,
+    "MIA": 3
+   },
+   "ties": 0,
+   "streak": "KC W5"
+  },
+  "HOU_PHI": {
+   "teams": [
+    "HOU",
+    "PHI"
+   ],
+   "games": 6,
+   "wins": {
+    "HOU": 0,
+    "PHI": 6
+   },
+   "ties": 0,
+   "streak": "PHI W6"
+  },
+  "DAL_LAR": {
+   "teams": [
+    "DAL",
+    "LAR"
+   ],
+   "games": 13,
+   "wins": {
+    "DAL": 8,
+    "LAR": 5
+   },
+   "ties": 0,
+   "streak": "DAL W2"
+  },
+  "MIN_SEA": {
+   "teams": [
+    "MIN",
+    "SEA"
+   ],
+   "games": 15,
+   "wins": {
+    "MIN": 5,
+    "SEA": 10
+   },
+   "ties": 0,
+   "streak": "SEA W1"
+  },
+  "NO_PIT": {
+   "teams": [
+    "NO",
+    "PIT"
+   ],
+   "games": 6,
+   "wins": {
+    "NO": 4,
+    "PIT": 2
+   },
+   "ties": 0,
+   "streak": "PIT W1"
+  },
+  "JAX_PHI": {
+   "teams": [
+    "JAX",
+    "PHI"
+   ],
+   "games": 7,
+   "wins": {
+    "JAX": 2,
+    "PHI": 5
+   },
+   "ties": 0,
+   "streak": "PHI W5"
+  },
+  "BUF_HOU": {
+   "teams": [
+    "BUF",
+    "HOU"
+   ],
+   "games": 14,
+   "wins": {
+    "BUF": 6,
+    "HOU": 8
+   },
+   "ties": 0,
+   "streak": "BUF W1"
+  },
+  "GB_NE": {
+   "teams": [
+    "GB",
+    "NE"
+   ],
+   "games": 6,
+   "wins": {
+    "GB": 3,
+    "NE": 3
+   },
+   "ties": 0,
+   "streak": "GB W1"
+  },
+  "CLE_TB": {
+   "teams": [
+    "CLE",
+    "TB"
+   ],
+   "games": 6,
+   "wins": {
+    "CLE": 2,
+    "TB": 4
+   },
+   "ties": 0,
+   "streak": "CLE W1"
+  },
+  "LAR_LV": {
+   "teams": [
+    "LAR",
+    "LV"
+   ],
+   "games": 7,
+   "wins": {
+    "LAR": 6,
+    "LV": 1
+   },
+   "ties": 0,
+   "streak": "LAR W4"
+  },
+  "SEA_SF": {
+   "teams": [
+    "SEA",
+    "SF"
+   ],
+   "games": 51,
+   "wins": {
+    "SEA": 31,
+    "SF": 20
+   },
+   "ties": 0,
+   "streak": "SEA W2"
+  },
+  "MIN_NYJ": {
+   "teams": [
+    "MIN",
+    "NYJ"
+   ],
+   "games": 7,
+   "wins": {
+    "MIN": 4,
+    "NYJ": 3
+   },
+   "ties": 0,
+   "streak": "MIN W4"
+  },
+  "CLE_HOU": {
+   "teams": [
+    "CLE",
+    "HOU"
+   ],
+   "games": 15,
+   "wins": {
+    "CLE": 7,
+    "HOU": 8
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  },
+  "IND_PIT": {
+   "teams": [
+    "IND",
+    "PIT"
+   ],
+   "games": 15,
+   "wins": {
+    "IND": 4,
+    "PIT": 11
+   },
+   "ties": 0,
+   "streak": "PIT W1"
+  },
+  "BUF_DET": {
+   "teams": [
+    "BUF",
+    "DET"
+   ],
+   "games": 8,
+   "wins": {
+    "BUF": 7,
+    "DET": 1
+   },
+   "ties": 0,
+   "streak": "BUF W6"
+  },
+  "CAR_TB": {
+   "teams": [
+    "CAR",
+    "TB"
+   ],
+   "games": 48,
+   "wins": {
+    "CAR": 25,
+    "TB": 23
+   },
+   "ties": 0,
+   "streak": "TB W1"
+  },
+  "CLE_NYJ": {
+   "teams": [
+    "CLE",
+    "NYJ"
+   ],
+   "games": 15,
+   "wins": {
+    "CLE": 6,
+    "NYJ": 9
+   },
+   "ties": 0,
+   "streak": "NYJ W1"
+  },
+  "HOU_JAX": {
+   "teams": [
+    "HOU",
+    "JAX"
+   ],
+   "games": 48,
+   "wins": {
+    "HOU": 32,
+    "JAX": 16
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  },
+  "CIN_HOU": {
+   "teams": [
+    "CIN",
+    "HOU"
+   ],
+   "games": 14,
+   "wins": {
+    "CIN": 5,
+    "HOU": 9
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  },
+  "LAC_NYJ": {
+   "teams": [
+    "LAC",
+    "NYJ"
+   ],
+   "games": 12,
+   "wins": {
+    "LAC": 7,
+    "NYJ": 5
+   },
+   "ties": 0,
+   "streak": "LAC W5"
+  },
+  "ARI_LAR": {
+   "teams": [
+    "ARI",
+    "LAR"
+   ],
+   "games": 49,
+   "wins": {
+    "ARI": 20,
+    "LAR": 29
+   },
+   "ties": 0,
+   "streak": "LAR W3"
+  },
+  "HOU_TEN": {
+   "teams": [
+    "HOU",
+    "TEN"
+   ],
+   "games": 48,
+   "wins": {
+    "HOU": 24,
+    "TEN": 24
+   },
+   "ties": 0,
+   "streak": "HOU W3"
+  },
+  "HOU_NYG": {
+   "teams": [
+    "HOU",
+    "NYG"
+   ],
+   "games": 6,
+   "wins": {
+    "HOU": 1,
+    "NYG": 5
+   },
+   "ties": 0,
+   "streak": "NYG W5"
+  },
+  "HOU_PIT": {
+   "teams": [
+    "HOU",
+    "PIT"
+   ],
+   "games": 9,
+   "wins": {
+    "HOU": 4,
+    "PIT": 5
+   },
+   "ties": 0,
+   "streak": "HOU W2"
+  },
+  "CHI_MIA": {
+   "teams": [
+    "CHI",
+    "MIA"
+   ],
+   "games": 6,
+   "wins": {
+    "CHI": 1,
+    "MIA": 5
+   },
+   "ties": 0,
+   "streak": "MIA W3"
+  },
+  "BAL_HOU": {
+   "teams": [
+    "BAL",
+    "HOU"
+   ],
+   "games": 16,
+   "wins": {
+    "BAL": 13,
+    "HOU": 3
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  },
+  "NE_TEN": {
+   "teams": [
+    "NE",
+    "TEN"
+   ],
+   "games": 13,
+   "wins": {
+    "NE": 9,
+    "TEN": 4
+   },
+   "ties": 0,
+   "streak": "NE W1"
+  },
+  "CAR_CHI": {
+   "teams": [
+    "CAR",
+    "CHI"
+   ],
+   "games": 13,
+   "wins": {
+    "CAR": 4,
+    "CHI": 9
+   },
+   "ties": 0,
+   "streak": "CHI W5"
+  },
+  "CIN_NO": {
+   "teams": [
+    "CIN",
+    "NO"
+   ],
+   "games": 6,
+   "wins": {
+    "CIN": 4,
+    "NO": 2
+   },
+   "ties": 0,
+   "streak": "CIN W1"
+  },
+  "HOU_WAS": {
+   "teams": [
+    "HOU",
+    "WAS"
+   ],
+   "games": 6,
+   "wins": {
+    "HOU": 3,
+    "WAS": 3
+   },
+   "ties": 0,
+   "streak": "WAS W1"
+  },
+  "BUF_CIN": {
+   "teams": [
+    "BUF",
+    "CIN"
+   ],
+   "games": 15,
+   "wins": {
+    "BUF": 9,
+    "CIN": 6
+   },
+   "ties": 0,
+   "streak": "BUF W1"
+  },
+  "ATL_CLE": {
+   "teams": [
+    "ATL",
+    "CLE"
+   ],
+   "games": 6,
+   "wins": {
+    "ATL": 2,
+    "CLE": 4
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "SF_TB": {
+   "teams": [
+    "SF",
+    "TB"
+   ],
+   "games": 15,
+   "wins": {
+    "SF": 9,
+    "TB": 6
+   },
+   "ties": 0,
+   "streak": "TB W1"
+  },
+  "HOU_MIA": {
+   "teams": [
+    "HOU",
+    "MIA"
+   ],
+   "games": 12,
+   "wins": {
+    "HOU": 9,
+    "MIA": 3
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  },
+  "ATL_WAS": {
+   "teams": [
+    "ATL",
+    "WAS"
+   ],
+   "games": 12,
+   "wins": {
+    "ATL": 7,
+    "WAS": 5
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "HOU_NO": {
+   "teams": [
+    "HOU",
+    "NO"
+   ],
+   "games": 6,
+   "wins": {
+    "HOU": 3,
+    "NO": 3
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  },
+  "CIN_LV": {
+   "teams": [
+    "CIN",
+    "LV"
+   ],
+   "games": 10,
+   "wins": {
+    "CIN": 7,
+    "LV": 3
+   },
+   "ties": 0,
+   "streak": "CIN W3"
+  },
+  "HOU_KC": {
+   "teams": [
+    "HOU",
+    "KC"
+   ],
+   "games": 17,
+   "wins": {
+    "HOU": 6,
+    "KC": 11
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  },
+  "CLE_SF": {
+   "teams": [
+    "CLE",
+    "SF"
+   ],
+   "games": 7,
+   "wins": {
+    "CLE": 4,
+    "SF": 3
+   },
+   "ties": 0,
+   "streak": "SF W1"
+  },
+  "NE_WAS": {
+   "teams": [
+    "NE",
+    "WAS"
+   ],
+   "games": 6,
+   "wins": {
+    "NE": 4,
+    "WAS": 2
+   },
+   "ties": 0,
+   "streak": "WAS W1"
+  },
+  "MIA_NYG": {
+   "teams": [
+    "MIA",
+    "NYG"
+   ],
+   "games": 7,
+   "wins": {
+    "MIA": 3,
+    "NYG": 4
+   },
+   "ties": 0,
+   "streak": "MIA W2"
+  },
+  "JAX_LAC": {
+   "teams": [
+    "JAX",
+    "LAC"
+   ],
+   "games": 15,
+   "wins": {
+    "JAX": 6,
+    "LAC": 9
+   },
+   "ties": 0,
+   "streak": "JAX W3"
+  },
+  "IND_TB": {
+   "teams": [
+    "IND",
+    "TB"
+   ],
+   "games": 7,
+   "wins": {
+    "IND": 4,
+    "TB": 3
+   },
+   "ties": 0,
+   "streak": "IND W1"
+  },
+  "GB_KC": {
+   "teams": [
+    "GB",
+    "KC"
+   ],
+   "games": 7,
+   "wins": {
+    "GB": 4,
+    "KC": 3
+   },
+   "ties": 0,
+   "streak": "GB W1"
+  },
+  "CAR_IND": {
+   "teams": [
+    "CAR",
+    "IND"
+   ],
+   "games": 6,
+   "wins": {
+    "CAR": 3,
+    "IND": 3
+   },
+   "ties": 0,
+   "streak": "IND W2"
+  },
+  "DEN_PIT": {
+   "teams": [
+    "DEN",
+    "PIT"
+   ],
+   "games": 13,
+   "wins": {
+    "DEN": 7,
+    "PIT": 6
+   },
+   "ties": 0,
+   "streak": "PIT W3"
+  },
+  "CAR_TEN": {
+   "teams": [
+    "CAR",
+    "TEN"
+   ],
+   "games": 6,
+   "wins": {
+    "CAR": 2,
+    "TEN": 4
+   },
+   "ties": 0,
+   "streak": "TEN W1"
+  },
+  "HOU_NYJ": {
+   "teams": [
+    "HOU",
+    "NYJ"
+   ],
+   "games": 11,
+   "wins": {
+    "HOU": 3,
+    "NYJ": 8
+   },
+   "ties": 0,
+   "streak": "NYJ W3"
+  },
+  "LAR_PIT": {
+   "teams": [
+    "LAR",
+    "PIT"
+   ],
+   "games": 6,
+   "wins": {
+    "LAR": 1,
+    "PIT": 5
+   },
+   "ties": 0,
+   "streak": "PIT W5"
+  },
+  "NYJ_PHI": {
+   "teams": [
+    "NYJ",
+    "PHI"
+   ],
+   "games": 7,
+   "wins": {
+    "NYJ": 1,
+    "PHI": 6
+   },
+   "ties": 0,
+   "streak": "NYJ W1"
+  },
+  "DET_LV": {
+   "teams": [
+    "DET",
+    "LV"
+   ],
+   "games": 6,
+   "wins": {
+    "DET": 5,
+    "LV": 1
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "CAR_HOU": {
+   "teams": [
+    "CAR",
+    "HOU"
+   ],
+   "games": 7,
+   "wins": {
+    "CAR": 5,
+    "HOU": 2
+   },
+   "ties": 0,
+   "streak": "CAR W5"
+  },
+  "ARI_PIT": {
+   "teams": [
+    "ARI",
+    "PIT"
+   ],
+   "games": 7,
+   "wins": {
+    "ARI": 2,
+    "PIT": 5
+   },
+   "ties": 0,
+   "streak": "ARI W1"
+  },
+  "BUF_DAL": {
+   "teams": [
+    "BUF",
+    "DAL"
+   ],
+   "games": 6,
+   "wins": {
+    "BUF": 3,
+    "DAL": 3
+   },
+   "ties": 0,
+   "streak": "BUF W3"
+  },
+  "CIN_KC": {
+   "teams": [
+    "CIN",
+    "KC"
+   ],
+   "games": 15,
+   "wins": {
+    "CIN": 9,
+    "KC": 6
+   },
+   "ties": 0,
+   "streak": "KC W3"
+  },
+  "BAL_SEA": {
+   "teams": [
+    "BAL",
+    "SEA"
+   ],
+   "games": 6,
+   "wins": {
+    "BAL": 3,
+    "SEA": 3
+   },
+   "ties": 0,
+   "streak": "BAL W2"
+  },
+  "HOU_NE": {
+   "teams": [
+    "HOU",
+    "NE"
+   ],
+   "games": 16,
+   "wins": {
+    "HOU": 4,
+    "NE": 12
+   },
+   "ties": 0,
+   "streak": "NE W1"
+  },
+  "CHI_DEN": {
+   "teams": [
+    "CHI",
+    "DEN"
+   ],
+   "games": 6,
+   "wins": {
+    "CHI": 3,
+    "DEN": 3
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "BAL_SF": {
+   "teams": [
+    "BAL",
+    "SF"
+   ],
+   "games": 7,
+   "wins": {
+    "BAL": 6,
+    "SF": 1
+   },
+   "ties": 0,
+   "streak": "BAL W2"
+  },
+  "ATL_HOU": {
+   "teams": [
+    "ATL",
+    "HOU"
+   ],
+   "games": 6,
+   "wins": {
+    "ATL": 3,
+    "HOU": 3
+   },
+   "ties": 0,
+   "streak": "ATL W1"
+  },
+  "JAX_TB": {
+   "teams": [
+    "JAX",
+    "TB"
+   ],
+   "games": 6,
+   "wins": {
+    "JAX": 3,
+    "TB": 3
+   },
+   "ties": 0,
+   "streak": "TB W3"
+  },
+  "NYJ_TEN": {
+   "teams": [
+    "NYJ",
+    "TEN"
+   ],
+   "games": 13,
+   "wins": {
+    "NYJ": 9,
+    "TEN": 4
+   },
+   "ties": 0,
+   "streak": "NYJ W3"
+  },
+  "JAX_NE": {
+   "teams": [
+    "JAX",
+    "NE"
+   ],
+   "games": 11,
+   "wins": {
+    "JAX": 2,
+    "NE": 9
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "HOU_TB": {
+   "teams": [
+    "HOU",
+    "TB"
+   ],
+   "games": 7,
+   "wins": {
+    "HOU": 5,
+    "TB": 2
+   },
+   "ties": 0,
+   "streak": "TB W1"
+  },
+  "CAR_NYG": {
+   "teams": [
+    "CAR",
+    "NYG"
+   ],
+   "games": 13,
+   "wins": {
+    "CAR": 7,
+    "NYG": 6
+   },
+   "ties": 0,
+   "streak": "CAR W1"
+  },
+  "DET_HOU": {
+   "teams": [
+    "DET",
+    "HOU"
+   ],
+   "games": 6,
+   "wins": {
+    "DET": 2,
+    "HOU": 4
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "CLE_DAL": {
+   "teams": [
+    "CLE",
+    "DAL"
+   ],
+   "games": 6,
+   "wins": {
+    "CLE": 1,
+    "DAL": 5
+   },
+   "ties": 0,
+   "streak": "DAL W1"
+  },
+  "DET_PHI": {
+   "teams": [
+    "DET",
+    "PHI"
+   ],
+   "games": 11,
+   "wins": {
+    "DET": 4,
+    "PHI": 7
+   },
+   "ties": 0,
+   "streak": "PHI W3"
+  },
+  "MIA_PIT": {
+   "teams": [
+    "MIA",
+    "PIT"
+   ],
+   "games": 11,
+   "wins": {
+    "MIA": 3,
+    "PIT": 8
+   },
+   "ties": 0,
+   "streak": "PIT W1"
+  },
+  "CLE_WAS": {
+   "teams": [
+    "CLE",
+    "WAS"
+   ],
+   "games": 7,
+   "wins": {
+    "CLE": 3,
+    "WAS": 4
+   },
+   "ties": 0,
+   "streak": "WAS W1"
+  },
+  "HOU_LV": {
+   "teams": [
+    "HOU",
+    "LV"
+   ],
+   "games": 14,
+   "wins": {
+    "HOU": 9,
+    "LV": 5
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  },
+  "LAC_TEN": {
+   "teams": [
+    "LAC",
+    "TEN"
+   ],
+   "games": 15,
+   "wins": {
+    "LAC": 12,
+    "TEN": 3
+   },
+   "ties": 0,
+   "streak": "LAC W2"
+  },
+  "HOU_MIN": {
+   "teams": [
+    "HOU",
+    "MIN"
+   ],
+   "games": 6,
+   "wins": {
+    "HOU": 0,
+    "MIN": 6
+   },
+   "ties": 0,
+   "streak": "MIN W6"
+  },
+  "CAR_DEN": {
+   "teams": [
+    "CAR",
+    "DEN"
+   ],
+   "games": 8,
+   "wins": {
+    "CAR": 2,
+    "DEN": 6
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "ATL_LAC": {
+   "teams": [
+    "ATL",
+    "LAC"
+   ],
+   "games": 7,
+   "wins": {
+    "ATL": 3,
+    "LAC": 4
+   },
+   "ties": 0,
+   "streak": "LAC W4"
+  },
+  "NE_SEA": {
+   "teams": [
+    "NE",
+    "SEA"
+   ],
+   "games": 9,
+   "wins": {
+    "NE": 3,
+    "SEA": 6
+   },
+   "ties": 0,
+   "streak": "SEA W5"
+  },
+  "DAL_PIT": {
+   "teams": [
+    "DAL",
+    "PIT"
+   ],
+   "games": 6,
+   "wins": {
+    "DAL": 3,
+    "PIT": 3
+   },
+   "ties": 0,
+   "streak": "DAL W1"
+  },
+  "BAL_PHI": {
+   "teams": [
+    "BAL",
+    "PHI"
+   ],
+   "games": 6,
+   "wins": {
+    "BAL": 3,
+    "PHI": 3
+   },
+   "ties": 0,
+   "streak": "PHI W1"
+  },
+  "DEN_HOU": {
+   "teams": [
+    "DEN",
+    "HOU"
+   ],
+   "games": 11,
+   "wins": {
+    "DEN": 7,
+    "HOU": 4
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "DET_JAX": {
+   "teams": [
+    "DET",
+    "JAX"
+   ],
+   "games": 7,
+   "wins": {
+    "DET": 5,
+    "JAX": 2
+   },
+   "ties": 0,
+   "streak": "DET W5"
+  },
+  "KC_NO": {
+   "teams": [
+    "KC",
+    "NO"
+   ],
+   "games": 6,
+   "wins": {
+    "KC": 4,
+    "NO": 2
+   },
+   "ties": 0,
+   "streak": "KC W4"
+  },
+  "CHI_TEN": {
+   "teams": [
+    "CHI",
+    "TEN"
+   ],
+   "games": 6,
+   "wins": {
+    "CHI": 3,
+    "TEN": 3
+   },
+   "ties": 0,
+   "streak": "CHI W1"
+  },
+  "CIN_WAS": {
+   "teams": [
+    "CIN",
+    "WAS"
+   ],
+   "games": 6,
+   "wins": {
+    "CIN": 3,
+    "WAS": 2
+   },
+   "ties": 1,
+   "streak": "WAS W2"
+  },
+  "BUF_LAR": {
+   "teams": [
+    "BUF",
+    "LAR"
+   ],
+   "games": 7,
+   "wins": {
+    "BUF": 5,
+    "LAR": 2
+   },
+   "ties": 0,
+   "streak": "LAR W1"
+  },
+  "GB_HOU": {
+   "teams": [
+    "GB",
+    "HOU"
+   ],
+   "games": 6,
+   "wins": {
+    "GB": 5,
+    "HOU": 1
+   },
+   "ties": 0,
+   "streak": "GB W4"
+  },
+  "CHI_DAL": {
+   "teams": [
+    "CHI",
+    "DAL"
+   ],
+   "games": 10,
+   "wins": {
+    "CHI": 5,
+    "DAL": 5
+   },
+   "ties": 0,
+   "streak": "CHI W1"
+  },
+  "BUF_CLE": {
+   "teams": [
+    "BUF",
+    "CLE"
+   ],
+   "games": 12,
+   "wins": {
+    "BUF": 7,
+    "CLE": 5
+   },
+   "ties": 0,
+   "streak": "BUF W2"
+  },
+  "LAC_TB": {
+   "teams": [
+    "LAC",
+    "TB"
+   ],
+   "games": 6,
+   "wins": {
+    "LAC": 2,
+    "TB": 4
+   },
+   "ties": 0,
+   "streak": "TB W4"
+  },
+  "CHI_HOU": {
+   "teams": [
+    "CHI",
+    "HOU"
+   ],
+   "games": 7,
+   "wins": {
+    "CHI": 2,
+    "HOU": 5
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  },
+  "DEN_TEN": {
+   "teams": [
+    "DEN",
+    "TEN"
+   ],
+   "games": 10,
+   "wins": {
+    "DEN": 6,
+    "TEN": 4
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "CIN_NYG": {
+   "teams": [
+    "CIN",
+    "NYG"
+   ],
+   "games": 6,
+   "wins": {
+    "CIN": 3,
+    "NYG": 3
+   },
+   "ties": 0,
+   "streak": "CIN W1"
+  },
+  "CLE_MIA": {
+   "teams": [
+    "CLE",
+    "MIA"
+   ],
+   "games": 11,
+   "wins": {
+    "CLE": 6,
+    "MIA": 5
+   },
+   "ties": 0,
+   "streak": "CLE W1"
+  },
+  "NE_SF": {
+   "teams": [
+    "NE",
+    "SF"
+   ],
+   "games": 6,
+   "wins": {
+    "NE": 3,
+    "SF": 3
+   },
+   "ties": 0,
+   "streak": "SF W2"
+  },
+  "MIN_WAS": {
+   "teams": [
+    "MIN",
+    "WAS"
+   ],
+   "games": 13,
+   "wins": {
+    "MIN": 9,
+    "WAS": 4
+   },
+   "ties": 0,
+   "streak": "MIN W4"
+  },
+  "ARI_TB": {
+   "teams": [
+    "ARI",
+    "TB"
+   ],
+   "games": 9,
+   "wins": {
+    "ARI": 4,
+    "TB": 5
+   },
+   "ties": 0,
+   "streak": "TB W3"
+  },
+  "JAX_LV": {
+   "teams": [
+    "JAX",
+    "LV"
+   ],
+   "games": 10,
+   "wins": {
+    "JAX": 6,
+    "LV": 4
+   },
+   "ties": 0,
+   "streak": "JAX W1"
+  },
+  "CIN_MIN": {
+   "teams": [
+    "CIN",
+    "MIN"
+   ],
+   "games": 7,
+   "wins": {
+    "CIN": 4,
+    "MIN": 3
+   },
+   "ties": 0,
+   "streak": "MIN W1"
+  },
+  "LAC_NYG": {
+   "teams": [
+    "LAC",
+    "NYG"
+   ],
+   "games": 6,
+   "wins": {
+    "LAC": 5,
+    "NYG": 1
+   },
+   "ties": 0,
+   "streak": "NYG W1"
+  },
+  "BAL_DET": {
+   "teams": [
+    "BAL",
+    "DET"
+   ],
+   "games": 7,
+   "wins": {
+    "BAL": 5,
+    "DET": 2
+   },
+   "ties": 0,
+   "streak": "DET W1"
+  },
+  "HOU_SEA": {
+   "teams": [
+    "HOU",
+    "SEA"
+   ],
+   "games": 6,
+   "wins": {
+    "HOU": 1,
+    "SEA": 5
+   },
+   "ties": 0,
+   "streak": "SEA W4"
+  },
+  "ARI_TEN": {
+   "teams": [
+    "ARI",
+    "TEN"
+   ],
+   "games": 6,
+   "wins": {
+    "ARI": 4,
+    "TEN": 2
+   },
+   "ties": 0,
+   "streak": "TEN W1"
+  },
+  "ATL_NYJ": {
+   "teams": [
+    "ATL",
+    "NYJ"
+   ],
+   "games": 7,
+   "wins": {
+    "ATL": 5,
+    "NYJ": 2
+   },
+   "ties": 0,
+   "streak": "NYJ W1"
+  },
+  "CIN_GB": {
+   "teams": [
+    "CIN",
+    "GB"
+   ],
+   "games": 6,
+   "wins": {
+    "CIN": 3,
+    "GB": 3
+   },
+   "ties": 0,
+   "streak": "GB W3"
+  },
+  "JAX_LAR": {
+   "teams": [
+    "JAX",
+    "LAR"
+   ],
+   "games": 6,
+   "wins": {
+    "JAX": 1,
+    "LAR": 5
+   },
+   "ties": 0,
+   "streak": "LAR W4"
+  },
+  "MIA_NO": {
+   "teams": [
+    "MIA",
+    "NO"
+   ],
+   "games": 6,
+   "wins": {
+    "MIA": 3,
+    "NO": 3
+   },
+   "ties": 0,
+   "streak": "MIA W2"
+  },
+  "DEN_PHI": {
+   "teams": [
+    "DEN",
+    "PHI"
+   ],
+   "games": 6,
+   "wins": {
+    "DEN": 3,
+    "PHI": 3
+   },
+   "ties": 0,
+   "streak": "DEN W1"
+  },
+  "GB_PIT": {
+   "teams": [
+    "GB",
+    "PIT"
+   ],
+   "games": 8,
+   "wins": {
+    "GB": 3,
+    "PIT": 5
+   },
+   "ties": 0,
+   "streak": "GB W1"
+  },
+  "LV_WAS": {
+   "teams": [
+    "LV",
+    "WAS"
+   ],
+   "games": 6,
+   "wins": {
+    "LV": 1,
+    "WAS": 5
+   },
+   "ties": 0,
+   "streak": "WAS W5"
+  },
+  "HOU_LAR": {
+   "teams": [
+    "HOU",
+    "LAR"
+   ],
+   "games": 6,
+   "wins": {
+    "HOU": 1,
+    "LAR": 5
+   },
+   "ties": 0,
+   "streak": "LAR W4"
+  },
+  "CLE_MIN": {
+   "teams": [
+    "CLE",
+    "MIN"
+   ],
+   "games": 6,
+   "wins": {
+    "CLE": 2,
+    "MIN": 4
+   },
+   "ties": 0,
+   "streak": "MIN W1"
+  },
+  "CHI_PIT": {
+   "teams": [
+    "CHI",
+    "PIT"
+   ],
+   "games": 6,
+   "wins": {
+    "CHI": 4,
+    "PIT": 2
+   },
+   "ties": 0,
+   "streak": "CHI W1"
+  },
+  "DAL_KC": {
+   "teams": [
+    "DAL",
+    "KC"
+   ],
+   "games": 6,
+   "wins": {
+    "DAL": 4,
+    "KC": 2
+   },
+   "ties": 0,
+   "streak": "DAL W1"
+  },
+  "ARI_HOU": {
+   "teams": [
+    "ARI",
+    "HOU"
+   ],
+   "games": 7,
+   "wins": {
+    "ARI": 3,
+    "HOU": 4
+   },
+   "ties": 0,
+   "streak": "HOU W2"
+  },
+  "SEA_TEN": {
+   "teams": [
+    "SEA",
+    "TEN"
+   ],
+   "games": 7,
+   "wins": {
+    "SEA": 4,
+    "TEN": 3
+   },
+   "ties": 0,
+   "streak": "SEA W2"
+  },
+  "ARI_IND": {
+   "teams": [
+    "ARI",
+    "IND"
+   ],
+   "games": 6,
+   "wins": {
+    "ARI": 2,
+    "IND": 4
+   },
+   "ties": 0,
+   "streak": "IND W2"
+  },
+  "HOU_SF": {
+   "teams": [
+    "HOU",
+    "SF"
+   ],
+   "games": 6,
+   "wins": {
+    "HOU": 2,
+    "SF": 4
+   },
+   "ties": 0,
+   "streak": "HOU W1"
+  }
+ }
+}

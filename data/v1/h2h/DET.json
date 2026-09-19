@@ -1,0 +1,5030 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-09-19T17:59:06Z",
+ "team": "DET",
+ "since": 1999,
+ "opponents": {
+  "SEA": {
+   "games": 12,
+   "wins": 3,
+   "losses": 9,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 3,
+     "l": 9,
+     "t": 0
+    },
+    "regular": {
+     "w": 3,
+     "l": 8,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 1,
+     "t": 0
+    },
+    "home": {
+     "w": 2,
+     "l": 4,
+     "t": 0
+    },
+    "away": {
+     "w": 1,
+     "l": 5,
+     "t": 0
+    },
+    "last5": {
+     "w": 1,
+     "l": 4,
+     "t": 0
+    },
+    "last10": {
+     "w": 2,
+     "l": 8,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2024-09-30",
+     "season": 2024,
+     "week": 4,
+     "type": "REG",
+     "home": "DET",
+     "away": "SEA",
+     "home_score": 42,
+     "away_score": 29,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2023-09-17",
+     "season": 2023,
+     "week": 2,
+     "type": "REG",
+     "home": "DET",
+     "away": "SEA",
+     "home_score": 31,
+     "away_score": 37,
+     "winner": "SEA",
+     "neutral": false
+    },
+    {
+     "date": "2022-10-02",
+     "season": 2022,
+     "week": 4,
+     "type": "REG",
+     "home": "DET",
+     "away": "SEA",
+     "home_score": 45,
+     "away_score": 48,
+     "winner": "SEA",
+     "neutral": false
+    },
+    {
+     "date": "2022-01-02",
+     "season": 2021,
+     "week": 17,
+     "type": "REG",
+     "home": "SEA",
+     "away": "DET",
+     "home_score": 51,
+     "away_score": 29,
+     "winner": "SEA",
+     "neutral": false
+    },
+    {
+     "date": "2018-10-28",
+     "season": 2018,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "SEA",
+     "home_score": 14,
+     "away_score": 28,
+     "winner": "SEA",
+     "neutral": false
+    },
+    {
+     "date": "2017-01-07",
+     "season": 2016,
+     "week": 18,
+     "type": "WC",
+     "home": "SEA",
+     "away": "DET",
+     "home_score": 26,
+     "away_score": 6,
+     "winner": "SEA",
+     "neutral": false
+    },
+    {
+     "date": "2015-10-05",
+     "season": 2015,
+     "week": 4,
+     "type": "REG",
+     "home": "SEA",
+     "away": "DET",
+     "home_score": 13,
+     "away_score": 10,
+     "winner": "SEA",
+     "neutral": false
+    },
+    {
+     "date": "2012-10-28",
+     "season": 2012,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "SEA",
+     "home_score": 28,
+     "away_score": 24,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2009-11-08",
+     "season": 2009,
+     "week": 9,
+     "type": "REG",
+     "home": "SEA",
+     "away": "DET",
+     "home_score": 32,
+     "away_score": 20,
+     "winner": "SEA",
+     "neutral": false
+    },
+    {
+     "date": "2006-09-10",
+     "season": 2006,
+     "week": 1,
+     "type": "REG",
+     "home": "DET",
+     "away": "SEA",
+     "home_score": 6,
+     "away_score": 9,
+     "winner": "SEA",
+     "neutral": false
+    },
+    {
+     "date": "2003-11-16",
+     "season": 2003,
+     "week": 11,
+     "type": "REG",
+     "home": "SEA",
+     "away": "DET",
+     "home_score": 35,
+     "away_score": 14,
+     "winner": "SEA",
+     "neutral": false
+    },
+    {
+     "date": "1999-09-12",
+     "season": 1999,
+     "week": 1,
+     "type": "REG",
+     "home": "SEA",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 28,
+     "winner": "DET",
+     "neutral": false
+    }
+   ]
+  },
+  "GB": {
+   "games": 54,
+   "wins": 18,
+   "losses": 36,
+   "ties": 0,
+   "streak": "GB W2",
+   "splits": {
+    "all": {
+     "w": 18,
+     "l": 36,
+     "t": 0
+    },
+    "regular": {
+     "w": 18,
+     "l": 36,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 12,
+     "l": 15,
+     "t": 0
+    },
+    "away": {
+     "w": 6,
+     "l": 21,
+     "t": 0
+    },
+    "last5": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last10": {
+     "w": 6,
+     "l": 4,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-11-27",
+     "season": 2025,
+     "week": 13,
+     "type": "REG",
+     "home": "DET",
+     "away": "GB",
+     "home_score": 24,
+     "away_score": 31,
+     "winner": "GB",
+     "neutral": false
+    },
+    {
+     "date": "2025-09-07",
+     "season": 2025,
+     "week": 1,
+     "type": "REG",
+     "home": "GB",
+     "away": "DET",
+     "home_score": 27,
+     "away_score": 13,
+     "winner": "GB",
+     "neutral": false
+    },
+    {
+     "date": "2024-12-05",
+     "season": 2024,
+     "week": 14,
+     "type": "REG",
+     "home": "DET",
+     "away": "GB",
+     "home_score": 34,
+     "away_score": 31,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2024-11-03",
+     "season": 2024,
+     "week": 9,
+     "type": "REG",
+     "home": "GB",
+     "away": "DET",
+     "home_score": 14,
+     "away_score": 24,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2023-11-23",
+     "season": 2023,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "GB",
+     "home_score": 22,
+     "away_score": 29,
+     "winner": "GB",
+     "neutral": false
+    },
+    {
+     "date": "2023-09-28",
+     "season": 2023,
+     "week": 4,
+     "type": "REG",
+     "home": "GB",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 34,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2023-01-08",
+     "season": 2022,
+     "week": 18,
+     "type": "REG",
+     "home": "GB",
+     "away": "DET",
+     "home_score": 16,
+     "away_score": 20,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2022-11-06",
+     "season": 2022,
+     "week": 9,
+     "type": "REG",
+     "home": "DET",
+     "away": "GB",
+     "home_score": 15,
+     "away_score": 9,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2022-01-09",
+     "season": 2021,
+     "week": 18,
+     "type": "REG",
+     "home": "DET",
+     "away": "GB",
+     "home_score": 37,
+     "away_score": 30,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2021-09-20",
+     "season": 2021,
+     "week": 2,
+     "type": "REG",
+     "home": "GB",
+     "away": "DET",
+     "home_score": 35,
+     "away_score": 17,
+     "winner": "GB",
+     "neutral": false
+    },
+    {
+     "date": "2020-12-13",
+     "season": 2020,
+     "week": 14,
+     "type": "REG",
+     "home": "DET",
+     "away": "GB",
+     "home_score": 24,
+     "away_score": 31,
+     "winner": "GB",
+     "neutral": false
+    },
+    {
+     "date": "2020-09-20",
+     "season": 2020,
+     "week": 2,
+     "type": "REG",
+     "home": "GB",
+     "away": "DET",
+     "home_score": 42,
+     "away_score": 21,
+     "winner": "GB",
+     "neutral": false
+    }
+   ]
+  },
+  "KC": {
+   "games": 8,
+   "wins": 3,
+   "losses": 5,
+   "ties": 0,
+   "streak": "KC W1",
+   "splits": {
+    "all": {
+     "w": 3,
+     "l": 5,
+     "t": 0
+    },
+    "regular": {
+     "w": 3,
+     "l": 5,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 2,
+     "l": 1,
+     "t": 0
+    },
+    "away": {
+     "w": 1,
+     "l": 3,
+     "t": 0
+    },
+    "last5": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last10": {
+     "w": 3,
+     "l": 5,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-10-12",
+     "season": 2025,
+     "week": 6,
+     "type": "REG",
+     "home": "KC",
+     "away": "DET",
+     "home_score": 30,
+     "away_score": 17,
+     "winner": "KC",
+     "neutral": false
+    },
+    {
+     "date": "2023-09-07",
+     "season": 2023,
+     "week": 1,
+     "type": "REG",
+     "home": "KC",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 21,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2019-09-29",
+     "season": 2019,
+     "week": 4,
+     "type": "REG",
+     "home": "DET",
+     "away": "KC",
+     "home_score": 30,
+     "away_score": 34,
+     "winner": "KC",
+     "neutral": false
+    },
+    {
+     "date": "2015-11-01",
+     "season": 2015,
+     "week": 8,
+     "type": "REG",
+     "home": "KC",
+     "away": "DET",
+     "home_score": 45,
+     "away_score": 10,
+     "winner": "KC",
+     "neutral": true
+    },
+    {
+     "date": "2011-09-18",
+     "season": 2011,
+     "week": 2,
+     "type": "REG",
+     "home": "DET",
+     "away": "KC",
+     "home_score": 48,
+     "away_score": 3,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2007-12-23",
+     "season": 2007,
+     "week": 16,
+     "type": "REG",
+     "home": "DET",
+     "away": "KC",
+     "home_score": 25,
+     "away_score": 20,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2003-12-14",
+     "season": 2003,
+     "week": 15,
+     "type": "REG",
+     "home": "KC",
+     "away": "DET",
+     "home_score": 45,
+     "away_score": 17,
+     "winner": "KC",
+     "neutral": false
+    },
+    {
+     "date": "1999-09-26",
+     "season": 1999,
+     "week": 3,
+     "type": "REG",
+     "home": "KC",
+     "away": "DET",
+     "home_score": 31,
+     "away_score": 21,
+     "winner": "KC",
+     "neutral": false
+    }
+   ]
+  },
+  "LAC": {
+   "games": 7,
+   "wins": 3,
+   "losses": 4,
+   "ties": 0,
+   "streak": "DET W2",
+   "splits": {
+    "all": {
+     "w": 3,
+     "l": 4,
+     "t": 0
+    },
+    "regular": {
+     "w": 3,
+     "l": 4,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 2,
+     "l": 2,
+     "t": 0
+    },
+    "away": {
+     "w": 1,
+     "l": 2,
+     "t": 0
+    },
+    "last5": {
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    "last10": {
+     "w": 3,
+     "l": 4,
+     "t": 0
+    }
+   },
+   "eras": [
+    {
+     "codes": [
+      "DET",
+      "SD"
+     ],
+     "wins": {
+      "SD": 4,
+      "DET": 1
+     },
+     "ties": 0,
+     "games": 5
+    },
+    {
+     "codes": [
+      "DET",
+      "LAC"
+     ],
+     "wins": {
+      "DET": 2
+     },
+     "ties": 0,
+     "games": 2
+    }
+   ],
+   "recent": [
+    {
+     "date": "2023-11-12",
+     "season": 2023,
+     "week": 10,
+     "type": "REG",
+     "home": "LAC",
+     "away": "DET",
+     "home_score": 38,
+     "away_score": 41,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2019-09-15",
+     "season": 2019,
+     "week": 2,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAC",
+     "home_score": 13,
+     "away_score": 10,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2015-09-13",
+     "season": 2015,
+     "week": 1,
+     "type": "REG",
+     "home": "LAC",
+     "away": "DET",
+     "home_score": 33,
+     "away_score": 28,
+     "winner": "LAC",
+     "neutral": false
+    },
+    {
+     "date": "2011-12-24",
+     "season": 2011,
+     "week": 16,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAC",
+     "home_score": 38,
+     "away_score": 10,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2007-12-16",
+     "season": 2007,
+     "week": 15,
+     "type": "REG",
+     "home": "LAC",
+     "away": "DET",
+     "home_score": 51,
+     "away_score": 14,
+     "winner": "LAC",
+     "neutral": false
+    },
+    {
+     "date": "2003-12-07",
+     "season": 2003,
+     "week": 14,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAC",
+     "home_score": 7,
+     "away_score": 14,
+     "winner": "LAC",
+     "neutral": false
+    },
+    {
+     "date": "1999-10-10",
+     "season": 1999,
+     "week": 5,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAC",
+     "home_score": 10,
+     "away_score": 20,
+     "winner": "LAC",
+     "neutral": false
+    }
+   ]
+  },
+  "MIN": {
+   "games": 54,
+   "wins": 18,
+   "losses": 36,
+   "ties": 0,
+   "streak": "MIN W2",
+   "splits": {
+    "all": {
+     "w": 18,
+     "l": 36,
+     "t": 0
+    },
+    "regular": {
+     "w": 18,
+     "l": 36,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 12,
+     "l": 15,
+     "t": 0
+    },
+    "away": {
+     "w": 6,
+     "l": 21,
+     "t": 0
+    },
+    "last5": {
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    "last10": {
+     "w": 6,
+     "l": 4,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-12-25",
+     "season": 2025,
+     "week": 17,
+     "type": "REG",
+     "home": "MIN",
+     "away": "DET",
+     "home_score": 23,
+     "away_score": 10,
+     "winner": "MIN",
+     "neutral": false
+    },
+    {
+     "date": "2025-11-02",
+     "season": 2025,
+     "week": 9,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIN",
+     "home_score": 24,
+     "away_score": 27,
+     "winner": "MIN",
+     "neutral": false
+    },
+    {
+     "date": "2025-01-05",
+     "season": 2024,
+     "week": 18,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIN",
+     "home_score": 31,
+     "away_score": 9,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2024-10-20",
+     "season": 2024,
+     "week": 7,
+     "type": "REG",
+     "home": "MIN",
+     "away": "DET",
+     "home_score": 29,
+     "away_score": 31,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2024-01-07",
+     "season": 2023,
+     "week": 18,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIN",
+     "home_score": 30,
+     "away_score": 20,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2023-12-24",
+     "season": 2023,
+     "week": 16,
+     "type": "REG",
+     "home": "MIN",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 30,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2022-12-11",
+     "season": 2022,
+     "week": 14,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIN",
+     "home_score": 34,
+     "away_score": 23,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2022-09-25",
+     "season": 2022,
+     "week": 3,
+     "type": "REG",
+     "home": "MIN",
+     "away": "DET",
+     "home_score": 28,
+     "away_score": 24,
+     "winner": "MIN",
+     "neutral": false
+    },
+    {
+     "date": "2021-12-05",
+     "season": 2021,
+     "week": 13,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIN",
+     "home_score": 29,
+     "away_score": 27,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2021-10-10",
+     "season": 2021,
+     "week": 5,
+     "type": "REG",
+     "home": "MIN",
+     "away": "DET",
+     "home_score": 19,
+     "away_score": 17,
+     "winner": "MIN",
+     "neutral": false
+    },
+    {
+     "date": "2021-01-03",
+     "season": 2020,
+     "week": 17,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIN",
+     "home_score": 35,
+     "away_score": 37,
+     "winner": "MIN",
+     "neutral": false
+    },
+    {
+     "date": "2020-11-08",
+     "season": 2020,
+     "week": 9,
+     "type": "REG",
+     "home": "MIN",
+     "away": "DET",
+     "home_score": 34,
+     "away_score": 20,
+     "winner": "MIN",
+     "neutral": false
+    }
+   ]
+  },
+  "CAR": {
+   "games": 12,
+   "wins": 4,
+   "losses": 8,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 4,
+     "l": 8,
+     "t": 0
+    },
+    "regular": {
+     "w": 4,
+     "l": 8,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    "away": {
+     "w": 1,
+     "l": 6,
+     "t": 0
+    },
+    "last5": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last10": {
+     "w": 3,
+     "l": 7,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2023-10-08",
+     "season": 2023,
+     "week": 5,
+     "type": "REG",
+     "home": "DET",
+     "away": "CAR",
+     "home_score": 42,
+     "away_score": 24,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2022-12-24",
+     "season": 2022,
+     "week": 16,
+     "type": "REG",
+     "home": "CAR",
+     "away": "DET",
+     "home_score": 37,
+     "away_score": 23,
+     "winner": "CAR",
+     "neutral": false
+    },
+    {
+     "date": "2020-11-22",
+     "season": 2020,
+     "week": 11,
+     "type": "REG",
+     "home": "CAR",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 0,
+     "winner": "CAR",
+     "neutral": false
+    },
+    {
+     "date": "2018-11-18",
+     "season": 2018,
+     "week": 11,
+     "type": "REG",
+     "home": "DET",
+     "away": "CAR",
+     "home_score": 20,
+     "away_score": 19,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2017-10-08",
+     "season": 2017,
+     "week": 5,
+     "type": "REG",
+     "home": "DET",
+     "away": "CAR",
+     "home_score": 24,
+     "away_score": 27,
+     "winner": "CAR",
+     "neutral": false
+    },
+    {
+     "date": "2014-09-14",
+     "season": 2014,
+     "week": 2,
+     "type": "REG",
+     "home": "CAR",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 7,
+     "winner": "CAR",
+     "neutral": false
+    },
+    {
+     "date": "2011-11-20",
+     "season": 2011,
+     "week": 11,
+     "type": "REG",
+     "home": "DET",
+     "away": "CAR",
+     "home_score": 49,
+     "away_score": 35,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2008-11-16",
+     "season": 2008,
+     "week": 11,
+     "type": "REG",
+     "home": "CAR",
+     "away": "DET",
+     "home_score": 31,
+     "away_score": 22,
+     "winner": "CAR",
+     "neutral": false
+    },
+    {
+     "date": "2005-10-16",
+     "season": 2005,
+     "week": 6,
+     "type": "REG",
+     "home": "DET",
+     "away": "CAR",
+     "home_score": 20,
+     "away_score": 21,
+     "winner": "CAR",
+     "neutral": false
+    },
+    {
+     "date": "2003-12-21",
+     "season": 2003,
+     "week": 16,
+     "type": "REG",
+     "home": "CAR",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 14,
+     "winner": "CAR",
+     "neutral": false
+    },
+    {
+     "date": "2002-09-15",
+     "season": 2002,
+     "week": 2,
+     "type": "REG",
+     "home": "CAR",
+     "away": "DET",
+     "home_score": 31,
+     "away_score": 7,
+     "winner": "CAR",
+     "neutral": false
+    },
+    {
+     "date": "1999-10-24",
+     "season": 1999,
+     "week": 7,
+     "type": "REG",
+     "home": "CAR",
+     "away": "DET",
+     "home_score": 9,
+     "away_score": 24,
+     "winner": "DET",
+     "neutral": false
+    }
+   ]
+  },
+  "TB": {
+   "games": 21,
+   "wins": 10,
+   "losses": 11,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 10,
+     "l": 11,
+     "t": 0
+    },
+    "regular": {
+     "w": 9,
+     "l": 11,
+     "t": 0
+    },
+    "postseason": {
+     "w": 1,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 5,
+     "l": 8,
+     "t": 0
+    },
+    "away": {
+     "w": 5,
+     "l": 3,
+     "t": 0
+    },
+    "last5": {
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    "last10": {
+     "w": 6,
+     "l": 4,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-10-20",
+     "season": 2025,
+     "week": 7,
+     "type": "REG",
+     "home": "DET",
+     "away": "TB",
+     "home_score": 24,
+     "away_score": 9,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2024-09-15",
+     "season": 2024,
+     "week": 2,
+     "type": "REG",
+     "home": "DET",
+     "away": "TB",
+     "home_score": 16,
+     "away_score": 20,
+     "winner": "TB",
+     "neutral": false
+    },
+    {
+     "date": "2024-01-21",
+     "season": 2023,
+     "week": 20,
+     "type": "DIV",
+     "home": "DET",
+     "away": "TB",
+     "home_score": 31,
+     "away_score": 23,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2023-10-15",
+     "season": 2023,
+     "week": 6,
+     "type": "REG",
+     "home": "TB",
+     "away": "DET",
+     "home_score": 6,
+     "away_score": 20,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2020-12-26",
+     "season": 2020,
+     "week": 16,
+     "type": "REG",
+     "home": "DET",
+     "away": "TB",
+     "home_score": 7,
+     "away_score": 47,
+     "winner": "TB",
+     "neutral": false
+    },
+    {
+     "date": "2019-12-15",
+     "season": 2019,
+     "week": 15,
+     "type": "REG",
+     "home": "DET",
+     "away": "TB",
+     "home_score": 17,
+     "away_score": 38,
+     "winner": "TB",
+     "neutral": false
+    },
+    {
+     "date": "2017-12-10",
+     "season": 2017,
+     "week": 14,
+     "type": "REG",
+     "home": "TB",
+     "away": "DET",
+     "home_score": 21,
+     "away_score": 24,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2014-12-07",
+     "season": 2014,
+     "week": 14,
+     "type": "REG",
+     "home": "DET",
+     "away": "TB",
+     "home_score": 34,
+     "away_score": 17,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2013-11-24",
+     "season": 2013,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "TB",
+     "home_score": 21,
+     "away_score": 24,
+     "winner": "TB",
+     "neutral": false
+    },
+    {
+     "date": "2011-09-11",
+     "season": 2011,
+     "week": 1,
+     "type": "REG",
+     "home": "TB",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 27,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2010-12-19",
+     "season": 2010,
+     "week": 15,
+     "type": "REG",
+     "home": "TB",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 23,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2008-11-23",
+     "season": 2008,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "TB",
+     "home_score": 20,
+     "away_score": 38,
+     "winner": "TB",
+     "neutral": false
+    }
+   ]
+  },
+  "LAR": {
+   "games": 14,
+   "wins": 7,
+   "losses": 7,
+   "ties": 0,
+   "streak": "LAR W1",
+   "splits": {
+    "all": {
+     "w": 7,
+     "l": 7,
+     "t": 0
+    },
+    "regular": {
+     "w": 6,
+     "l": 7,
+     "t": 0
+    },
+    "postseason": {
+     "w": 1,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 7,
+     "l": 3,
+     "t": 0
+    },
+    "away": {
+     "w": 0,
+     "l": 4,
+     "t": 0
+    },
+    "last5": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last10": {
+     "w": 5,
+     "l": 5,
+     "t": 0
+    }
+   },
+   "eras": [
+    {
+     "codes": [
+      "DET",
+      "STL"
+     ],
+     "wins": {
+      "DET": 4,
+      "STL": 4
+     },
+     "ties": 0,
+     "games": 8
+    },
+    {
+     "codes": [
+      "DET",
+      "LA"
+     ],
+     "wins": {
+      "DET": 3,
+      "LA": 3
+     },
+     "ties": 0,
+     "games": 6
+    }
+   ],
+   "recent": [
+    {
+     "date": "2025-12-14",
+     "season": 2025,
+     "week": 15,
+     "type": "REG",
+     "home": "LAR",
+     "away": "DET",
+     "home_score": 41,
+     "away_score": 34,
+     "winner": "LAR",
+     "neutral": false
+    },
+    {
+     "date": "2024-09-08",
+     "season": 2024,
+     "week": 1,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAR",
+     "home_score": 26,
+     "away_score": 20,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2024-01-14",
+     "season": 2023,
+     "week": 19,
+     "type": "WC",
+     "home": "DET",
+     "away": "LAR",
+     "home_score": 24,
+     "away_score": 23,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2021-10-24",
+     "season": 2021,
+     "week": 7,
+     "type": "REG",
+     "home": "LAR",
+     "away": "DET",
+     "home_score": 28,
+     "away_score": 19,
+     "winner": "LAR",
+     "neutral": false
+    },
+    {
+     "date": "2018-12-02",
+     "season": 2018,
+     "week": 13,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAR",
+     "home_score": 16,
+     "away_score": 30,
+     "winner": "LAR",
+     "neutral": false
+    },
+    {
+     "date": "2016-10-16",
+     "season": 2016,
+     "week": 6,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAR",
+     "home_score": 31,
+     "away_score": 28,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2015-12-13",
+     "season": 2015,
+     "week": 14,
+     "type": "REG",
+     "home": "LAR",
+     "away": "DET",
+     "home_score": 21,
+     "away_score": 14,
+     "winner": "LAR",
+     "neutral": false
+    },
+    {
+     "date": "2012-09-09",
+     "season": 2012,
+     "week": 1,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAR",
+     "home_score": 27,
+     "away_score": 23,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2010-10-10",
+     "season": 2010,
+     "week": 5,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAR",
+     "home_score": 44,
+     "away_score": 6,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2009-11-01",
+     "season": 2009,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAR",
+     "home_score": 10,
+     "away_score": 17,
+     "winner": "LAR",
+     "neutral": false
+    },
+    {
+     "date": "2006-10-01",
+     "season": 2006,
+     "week": 4,
+     "type": "REG",
+     "home": "LAR",
+     "away": "DET",
+     "home_score": 41,
+     "away_score": 34,
+     "winner": "LAR",
+     "neutral": false
+    },
+    {
+     "date": "2003-12-28",
+     "season": 2003,
+     "week": 17,
+     "type": "REG",
+     "home": "DET",
+     "away": "LAR",
+     "home_score": 30,
+     "away_score": 20,
+     "winner": "DET",
+     "neutral": false
+    }
+   ]
+  },
+  "ARI": {
+   "games": 19,
+   "wins": 8,
+   "losses": 10,
+   "ties": 1,
+   "streak": "DET W3",
+   "splits": {
+    "all": {
+     "w": 8,
+     "l": 10,
+     "t": 1
+    },
+    "regular": {
+     "w": 8,
+     "l": 10,
+     "t": 1
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 5,
+     "l": 2,
+     "t": 0
+    },
+    "away": {
+     "w": 3,
+     "l": 8,
+     "t": 1
+    },
+    "last5": {
+     "w": 4,
+     "l": 0,
+     "t": 1
+    },
+    "last10": {
+     "w": 5,
+     "l": 4,
+     "t": 1
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2024-09-22",
+     "season": 2024,
+     "week": 3,
+     "type": "REG",
+     "home": "ARI",
+     "away": "DET",
+     "home_score": 13,
+     "away_score": 20,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2021-12-19",
+     "season": 2021,
+     "week": 15,
+     "type": "REG",
+     "home": "DET",
+     "away": "ARI",
+     "home_score": 30,
+     "away_score": 12,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2020-09-27",
+     "season": 2020,
+     "week": 3,
+     "type": "REG",
+     "home": "ARI",
+     "away": "DET",
+     "home_score": 23,
+     "away_score": 26,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2019-09-08",
+     "season": 2019,
+     "week": 1,
+     "type": "REG",
+     "home": "ARI",
+     "away": "DET",
+     "home_score": 27,
+     "away_score": 27,
+     "winner": null,
+     "neutral": false
+    },
+    {
+     "date": "2018-12-09",
+     "season": 2018,
+     "week": 14,
+     "type": "REG",
+     "home": "ARI",
+     "away": "DET",
+     "home_score": 3,
+     "away_score": 17,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2017-09-10",
+     "season": 2017,
+     "week": 1,
+     "type": "REG",
+     "home": "DET",
+     "away": "ARI",
+     "home_score": 35,
+     "away_score": 23,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2015-10-11",
+     "season": 2015,
+     "week": 5,
+     "type": "REG",
+     "home": "DET",
+     "away": "ARI",
+     "home_score": 17,
+     "away_score": 42,
+     "winner": "ARI",
+     "neutral": false
+    },
+    {
+     "date": "2014-11-16",
+     "season": 2014,
+     "week": 11,
+     "type": "REG",
+     "home": "ARI",
+     "away": "DET",
+     "home_score": 14,
+     "away_score": 6,
+     "winner": "ARI",
+     "neutral": false
+    },
+    {
+     "date": "2013-09-15",
+     "season": 2013,
+     "week": 2,
+     "type": "REG",
+     "home": "ARI",
+     "away": "DET",
+     "home_score": 25,
+     "away_score": 21,
+     "winner": "ARI",
+     "neutral": false
+    },
+    {
+     "date": "2012-12-16",
+     "season": 2012,
+     "week": 15,
+     "type": "REG",
+     "home": "ARI",
+     "away": "DET",
+     "home_score": 38,
+     "away_score": 10,
+     "winner": "ARI",
+     "neutral": false
+    },
+    {
+     "date": "2009-12-20",
+     "season": 2009,
+     "week": 15,
+     "type": "REG",
+     "home": "DET",
+     "away": "ARI",
+     "home_score": 24,
+     "away_score": 31,
+     "winner": "ARI",
+     "neutral": false
+    },
+    {
+     "date": "2007-11-11",
+     "season": 2007,
+     "week": 10,
+     "type": "REG",
+     "home": "ARI",
+     "away": "DET",
+     "home_score": 31,
+     "away_score": 21,
+     "winner": "ARI",
+     "neutral": false
+    }
+   ]
+  },
+  "CHI": {
+   "games": 54,
+   "wins": 26,
+   "losses": 28,
+   "ties": 0,
+   "streak": "DET W4",
+   "splits": {
+    "all": {
+     "w": 26,
+     "l": 28,
+     "t": 0
+    },
+    "regular": {
+     "w": 26,
+     "l": 28,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 15,
+     "l": 12,
+     "t": 0
+    },
+    "away": {
+     "w": 11,
+     "l": 16,
+     "t": 0
+    },
+    "last5": {
+     "w": 4,
+     "l": 1,
+     "t": 0
+    },
+    "last10": {
+     "w": 7,
+     "l": 3,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2026-01-04",
+     "season": 2025,
+     "week": 18,
+     "type": "REG",
+     "home": "CHI",
+     "away": "DET",
+     "home_score": 16,
+     "away_score": 19,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2025-09-14",
+     "season": 2025,
+     "week": 2,
+     "type": "REG",
+     "home": "DET",
+     "away": "CHI",
+     "home_score": 52,
+     "away_score": 21,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2024-12-22",
+     "season": 2024,
+     "week": 16,
+     "type": "REG",
+     "home": "CHI",
+     "away": "DET",
+     "home_score": 17,
+     "away_score": 34,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2024-11-28",
+     "season": 2024,
+     "week": 13,
+     "type": "REG",
+     "home": "DET",
+     "away": "CHI",
+     "home_score": 23,
+     "away_score": 20,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2023-12-10",
+     "season": 2023,
+     "week": 14,
+     "type": "REG",
+     "home": "CHI",
+     "away": "DET",
+     "home_score": 28,
+     "away_score": 13,
+     "winner": "CHI",
+     "neutral": false
+    },
+    {
+     "date": "2023-11-19",
+     "season": 2023,
+     "week": 11,
+     "type": "REG",
+     "home": "DET",
+     "away": "CHI",
+     "home_score": 31,
+     "away_score": 26,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2023-01-01",
+     "season": 2022,
+     "week": 17,
+     "type": "REG",
+     "home": "DET",
+     "away": "CHI",
+     "home_score": 41,
+     "away_score": 10,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2022-11-13",
+     "season": 2022,
+     "week": 10,
+     "type": "REG",
+     "home": "CHI",
+     "away": "DET",
+     "home_score": 30,
+     "away_score": 31,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2021-11-25",
+     "season": 2021,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "CHI",
+     "home_score": 14,
+     "away_score": 16,
+     "winner": "CHI",
+     "neutral": false
+    },
+    {
+     "date": "2021-10-03",
+     "season": 2021,
+     "week": 4,
+     "type": "REG",
+     "home": "CHI",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 14,
+     "winner": "CHI",
+     "neutral": false
+    },
+    {
+     "date": "2020-12-06",
+     "season": 2020,
+     "week": 13,
+     "type": "REG",
+     "home": "CHI",
+     "away": "DET",
+     "home_score": 30,
+     "away_score": 34,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2020-09-13",
+     "season": 2020,
+     "week": 1,
+     "type": "REG",
+     "home": "DET",
+     "away": "CHI",
+     "home_score": 23,
+     "away_score": 27,
+     "winner": "CHI",
+     "neutral": false
+    }
+   ]
+  },
+  "WAS": {
+   "games": 15,
+   "wins": 9,
+   "losses": 6,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 9,
+     "l": 6,
+     "t": 0
+    },
+    "regular": {
+     "w": 9,
+     "l": 4,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 2,
+     "t": 0
+    },
+    "home": {
+     "w": 7,
+     "l": 3,
+     "t": 0
+    },
+    "away": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last5": {
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    "last10": {
+     "w": 7,
+     "l": 3,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-11-09",
+     "season": 2025,
+     "week": 10,
+     "type": "REG",
+     "home": "WAS",
+     "away": "DET",
+     "home_score": 22,
+     "away_score": 44,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2025-01-18",
+     "season": 2024,
+     "week": 20,
+     "type": "DIV",
+     "home": "DET",
+     "away": "WAS",
+     "home_score": 31,
+     "away_score": 45,
+     "winner": "WAS",
+     "neutral": false
+    },
+    {
+     "date": "2022-09-18",
+     "season": 2022,
+     "week": 2,
+     "type": "REG",
+     "home": "DET",
+     "away": "WAS",
+     "home_score": 36,
+     "away_score": 27,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2020-11-15",
+     "season": 2020,
+     "week": 10,
+     "type": "REG",
+     "home": "DET",
+     "away": "WAS",
+     "home_score": 30,
+     "away_score": 27,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2019-11-24",
+     "season": 2019,
+     "week": 12,
+     "type": "REG",
+     "home": "WAS",
+     "away": "DET",
+     "home_score": 19,
+     "away_score": 16,
+     "winner": "WAS",
+     "neutral": false
+    },
+    {
+     "date": "2016-10-23",
+     "season": 2016,
+     "week": 7,
+     "type": "REG",
+     "home": "DET",
+     "away": "WAS",
+     "home_score": 20,
+     "away_score": 17,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2013-09-22",
+     "season": 2013,
+     "week": 3,
+     "type": "REG",
+     "home": "WAS",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 27,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2010-10-31",
+     "season": 2010,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "WAS",
+     "home_score": 37,
+     "away_score": 25,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2009-09-27",
+     "season": 2009,
+     "week": 3,
+     "type": "REG",
+     "home": "DET",
+     "away": "WAS",
+     "home_score": 19,
+     "away_score": 14,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2008-10-26",
+     "season": 2008,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "WAS",
+     "home_score": 17,
+     "away_score": 25,
+     "winner": "WAS",
+     "neutral": false
+    },
+    {
+     "date": "2007-10-07",
+     "season": 2007,
+     "week": 5,
+     "type": "REG",
+     "home": "WAS",
+     "away": "DET",
+     "home_score": 34,
+     "away_score": 3,
+     "winner": "WAS",
+     "neutral": false
+    },
+    {
+     "date": "2004-11-07",
+     "season": 2004,
+     "week": 9,
+     "type": "REG",
+     "home": "DET",
+     "away": "WAS",
+     "home_score": 10,
+     "away_score": 17,
+     "winner": "WAS",
+     "neutral": false
+    }
+   ]
+  },
+  "DEN": {
+   "games": 8,
+   "wins": 3,
+   "losses": 5,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 3,
+     "l": 5,
+     "t": 0
+    },
+    "regular": {
+     "w": 3,
+     "l": 5,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 2,
+     "l": 2,
+     "t": 0
+    },
+    "away": {
+     "w": 1,
+     "l": 3,
+     "t": 0
+    },
+    "last5": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last10": {
+     "w": 3,
+     "l": 5,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2023-12-16",
+     "season": 2023,
+     "week": 15,
+     "type": "REG",
+     "home": "DET",
+     "away": "DEN",
+     "home_score": 42,
+     "away_score": 17,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2021-12-12",
+     "season": 2021,
+     "week": 14,
+     "type": "REG",
+     "home": "DEN",
+     "away": "DET",
+     "home_score": 38,
+     "away_score": 10,
+     "winner": "DEN",
+     "neutral": false
+    },
+    {
+     "date": "2019-12-22",
+     "season": 2019,
+     "week": 16,
+     "type": "REG",
+     "home": "DEN",
+     "away": "DET",
+     "home_score": 27,
+     "away_score": 17,
+     "winner": "DEN",
+     "neutral": false
+    },
+    {
+     "date": "2015-09-27",
+     "season": 2015,
+     "week": 3,
+     "type": "REG",
+     "home": "DET",
+     "away": "DEN",
+     "home_score": 12,
+     "away_score": 24,
+     "winner": "DEN",
+     "neutral": false
+    },
+    {
+     "date": "2011-10-30",
+     "season": 2011,
+     "week": 8,
+     "type": "REG",
+     "home": "DEN",
+     "away": "DET",
+     "home_score": 10,
+     "away_score": 45,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2007-11-04",
+     "season": 2007,
+     "week": 9,
+     "type": "REG",
+     "home": "DET",
+     "away": "DEN",
+     "home_score": 44,
+     "away_score": 7,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2003-09-28",
+     "season": 2003,
+     "week": 4,
+     "type": "REG",
+     "home": "DEN",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 16,
+     "winner": "DEN",
+     "neutral": false
+    },
+    {
+     "date": "1999-12-25",
+     "season": 1999,
+     "week": 16,
+     "type": "REG",
+     "home": "DET",
+     "away": "DEN",
+     "home_score": 7,
+     "away_score": 17,
+     "winner": "DEN",
+     "neutral": false
+    }
+   ]
+  },
+  "NO": {
+   "games": 14,
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "streak": "DET W2",
+   "splits": {
+    "all": {
+     "w": 8,
+     "l": 6,
+     "t": 0
+    },
+    "regular": {
+     "w": 8,
+     "l": 5,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 1,
+     "t": 0
+    },
+    "home": {
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    "away": {
+     "w": 5,
+     "l": 4,
+     "t": 0
+    },
+    "last5": {
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    "last10": {
+     "w": 5,
+     "l": 5,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2026-09-13",
+     "season": 2026,
+     "week": 1,
+     "type": "REG",
+     "home": "DET",
+     "away": "NO",
+     "home_score": 31,
+     "away_score": 30,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2023-12-03",
+     "season": 2023,
+     "week": 13,
+     "type": "REG",
+     "home": "NO",
+     "away": "DET",
+     "home_score": 28,
+     "away_score": 33,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2020-10-04",
+     "season": 2020,
+     "week": 4,
+     "type": "REG",
+     "home": "DET",
+     "away": "NO",
+     "home_score": 29,
+     "away_score": 35,
+     "winner": "NO",
+     "neutral": false
+    },
+    {
+     "date": "2017-10-15",
+     "season": 2017,
+     "week": 6,
+     "type": "REG",
+     "home": "NO",
+     "away": "DET",
+     "home_score": 52,
+     "away_score": 38,
+     "winner": "NO",
+     "neutral": false
+    },
+    {
+     "date": "2016-12-04",
+     "season": 2016,
+     "week": 13,
+     "type": "REG",
+     "home": "NO",
+     "away": "DET",
+     "home_score": 13,
+     "away_score": 28,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2015-12-21",
+     "season": 2015,
+     "week": 15,
+     "type": "REG",
+     "home": "NO",
+     "away": "DET",
+     "home_score": 27,
+     "away_score": 35,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2014-10-19",
+     "season": 2014,
+     "week": 7,
+     "type": "REG",
+     "home": "DET",
+     "away": "NO",
+     "home_score": 24,
+     "away_score": 23,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2012-01-07",
+     "season": 2011,
+     "week": 18,
+     "type": "WC",
+     "home": "NO",
+     "away": "DET",
+     "home_score": 45,
+     "away_score": 28,
+     "winner": "NO",
+     "neutral": false
+    },
+    {
+     "date": "2011-12-04",
+     "season": 2011,
+     "week": 13,
+     "type": "REG",
+     "home": "NO",
+     "away": "DET",
+     "home_score": 31,
+     "away_score": 17,
+     "winner": "NO",
+     "neutral": false
+    },
+    {
+     "date": "2009-09-13",
+     "season": 2009,
+     "week": 1,
+     "type": "REG",
+     "home": "NO",
+     "away": "DET",
+     "home_score": 45,
+     "away_score": 27,
+     "winner": "NO",
+     "neutral": false
+    },
+    {
+     "date": "2008-12-21",
+     "season": 2008,
+     "week": 16,
+     "type": "REG",
+     "home": "DET",
+     "away": "NO",
+     "home_score": 7,
+     "away_score": 42,
+     "winner": "NO",
+     "neutral": false
+    },
+    {
+     "date": "2005-12-24",
+     "season": 2005,
+     "week": 16,
+     "type": "REG",
+     "home": "NO",
+     "away": "DET",
+     "home_score": 12,
+     "away_score": 13,
+     "winner": "DET",
+     "neutral": false
+    }
+   ]
+  },
+  "IND": {
+   "games": 7,
+   "wins": 2,
+   "losses": 5,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 2,
+     "l": 5,
+     "t": 0
+    },
+    "regular": {
+     "w": 2,
+     "l": 5,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 0,
+     "l": 3,
+     "t": 0
+    },
+    "away": {
+     "w": 2,
+     "l": 2,
+     "t": 0
+    },
+    "last5": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last10": {
+     "w": 2,
+     "l": 5,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2024-11-24",
+     "season": 2024,
+     "week": 12,
+     "type": "REG",
+     "home": "IND",
+     "away": "DET",
+     "home_score": 6,
+     "away_score": 24,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2020-11-01",
+     "season": 2020,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "IND",
+     "home_score": 21,
+     "away_score": 41,
+     "winner": "IND",
+     "neutral": false
+    },
+    {
+     "date": "2016-09-11",
+     "season": 2016,
+     "week": 1,
+     "type": "REG",
+     "home": "IND",
+     "away": "DET",
+     "home_score": 35,
+     "away_score": 39,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2012-12-02",
+     "season": 2012,
+     "week": 13,
+     "type": "REG",
+     "home": "DET",
+     "away": "IND",
+     "home_score": 33,
+     "away_score": 35,
+     "winner": "IND",
+     "neutral": false
+    },
+    {
+     "date": "2008-12-14",
+     "season": 2008,
+     "week": 15,
+     "type": "REG",
+     "home": "IND",
+     "away": "DET",
+     "home_score": 31,
+     "away_score": 21,
+     "winner": "IND",
+     "neutral": false
+    },
+    {
+     "date": "2004-11-25",
+     "season": 2004,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "IND",
+     "home_score": 9,
+     "away_score": 41,
+     "winner": "IND",
+     "neutral": false
+    },
+    {
+     "date": "2000-10-29",
+     "season": 2000,
+     "week": 9,
+     "type": "REG",
+     "home": "IND",
+     "away": "DET",
+     "home_score": 30,
+     "away_score": 18,
+     "winner": "IND",
+     "neutral": false
+    }
+   ]
+  },
+  "MIA": {
+   "games": 7,
+   "wins": 3,
+   "losses": 4,
+   "ties": 0,
+   "streak": "MIA W1",
+   "splits": {
+    "all": {
+     "w": 3,
+     "l": 4,
+     "t": 0
+    },
+    "regular": {
+     "w": 3,
+     "l": 4,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 1,
+     "l": 3,
+     "t": 0
+    },
+    "away": {
+     "w": 2,
+     "l": 1,
+     "t": 0
+    },
+    "last5": {
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    "last10": {
+     "w": 3,
+     "l": 4,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2022-10-30",
+     "season": 2022,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIA",
+     "home_score": 27,
+     "away_score": 31,
+     "winner": "MIA",
+     "neutral": false
+    },
+    {
+     "date": "2018-10-21",
+     "season": 2018,
+     "week": 7,
+     "type": "REG",
+     "home": "MIA",
+     "away": "DET",
+     "home_score": 21,
+     "away_score": 32,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2014-11-09",
+     "season": 2014,
+     "week": 10,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIA",
+     "home_score": 20,
+     "away_score": 16,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2010-12-26",
+     "season": 2010,
+     "week": 16,
+     "type": "REG",
+     "home": "MIA",
+     "away": "DET",
+     "home_score": 27,
+     "away_score": 34,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2006-11-23",
+     "season": 2006,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIA",
+     "home_score": 10,
+     "away_score": 27,
+     "winner": "MIA",
+     "neutral": false
+    },
+    {
+     "date": "2002-09-08",
+     "season": 2002,
+     "week": 1,
+     "type": "REG",
+     "home": "MIA",
+     "away": "DET",
+     "home_score": 49,
+     "away_score": 21,
+     "winner": "MIA",
+     "neutral": false
+    },
+    {
+     "date": "2000-11-05",
+     "season": 2000,
+     "week": 10,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIA",
+     "home_score": 8,
+     "away_score": 23,
+     "winner": "MIA",
+     "neutral": false
+    }
+   ]
+  },
+  "ATL": {
+   "games": 13,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 6,
+     "l": 7,
+     "t": 0
+    },
+    "regular": {
+     "w": 6,
+     "l": 7,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 3,
+     "l": 4,
+     "t": 0
+    },
+    "away": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last5": {
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    "last10": {
+     "w": 4,
+     "l": 6,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2023-09-24",
+     "season": 2023,
+     "week": 3,
+     "type": "REG",
+     "home": "DET",
+     "away": "ATL",
+     "home_score": 20,
+     "away_score": 6,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2021-12-26",
+     "season": 2021,
+     "week": 16,
+     "type": "REG",
+     "home": "ATL",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 16,
+     "winner": "ATL",
+     "neutral": false
+    },
+    {
+     "date": "2020-10-25",
+     "season": 2020,
+     "week": 7,
+     "type": "REG",
+     "home": "ATL",
+     "away": "DET",
+     "home_score": 22,
+     "away_score": 23,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2017-09-24",
+     "season": 2017,
+     "week": 3,
+     "type": "REG",
+     "home": "DET",
+     "away": "ATL",
+     "home_score": 26,
+     "away_score": 30,
+     "winner": "ATL",
+     "neutral": false
+    },
+    {
+     "date": "2014-10-26",
+     "season": 2014,
+     "week": 8,
+     "type": "REG",
+     "home": "ATL",
+     "away": "DET",
+     "home_score": 21,
+     "away_score": 22,
+     "winner": "DET",
+     "neutral": true
+    },
+    {
+     "date": "2012-12-22",
+     "season": 2012,
+     "week": 16,
+     "type": "REG",
+     "home": "DET",
+     "away": "ATL",
+     "home_score": 18,
+     "away_score": 31,
+     "winner": "ATL",
+     "neutral": false
+    },
+    {
+     "date": "2011-10-23",
+     "season": 2011,
+     "week": 7,
+     "type": "REG",
+     "home": "DET",
+     "away": "ATL",
+     "home_score": 16,
+     "away_score": 23,
+     "winner": "ATL",
+     "neutral": false
+    },
+    {
+     "date": "2008-09-07",
+     "season": 2008,
+     "week": 1,
+     "type": "REG",
+     "home": "ATL",
+     "away": "DET",
+     "home_score": 34,
+     "away_score": 21,
+     "winner": "ATL",
+     "neutral": false
+    },
+    {
+     "date": "2006-11-05",
+     "season": 2006,
+     "week": 9,
+     "type": "REG",
+     "home": "DET",
+     "away": "ATL",
+     "home_score": 30,
+     "away_score": 14,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2005-11-24",
+     "season": 2005,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "ATL",
+     "home_score": 7,
+     "away_score": 27,
+     "winner": "ATL",
+     "neutral": false
+    },
+    {
+     "date": "2004-10-10",
+     "season": 2004,
+     "week": 5,
+     "type": "REG",
+     "home": "ATL",
+     "away": "DET",
+     "home_score": 10,
+     "away_score": 17,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2002-12-22",
+     "season": 2002,
+     "week": 16,
+     "type": "REG",
+     "home": "ATL",
+     "away": "DET",
+     "home_score": 36,
+     "away_score": 15,
+     "winner": "ATL",
+     "neutral": false
+    }
+   ]
+  },
+  "NYG": {
+   "games": 11,
+   "wins": 7,
+   "losses": 4,
+   "ties": 0,
+   "streak": "DET W4",
+   "splits": {
+    "all": {
+     "w": 7,
+     "l": 4,
+     "t": 0
+    },
+    "regular": {
+     "w": 7,
+     "l": 4,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    "away": {
+     "w": 4,
+     "l": 2,
+     "t": 0
+    },
+    "last5": {
+     "w": 4,
+     "l": 1,
+     "t": 0
+    },
+    "last10": {
+     "w": 6,
+     "l": 4,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-11-23",
+     "season": 2025,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "NYG",
+     "home_score": 34,
+     "away_score": 27,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2022-11-20",
+     "season": 2022,
+     "week": 11,
+     "type": "REG",
+     "home": "NYG",
+     "away": "DET",
+     "home_score": 18,
+     "away_score": 31,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2019-10-27",
+     "season": 2019,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "NYG",
+     "home_score": 31,
+     "away_score": 26,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2017-09-18",
+     "season": 2017,
+     "week": 2,
+     "type": "REG",
+     "home": "NYG",
+     "away": "DET",
+     "home_score": 10,
+     "away_score": 24,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2016-12-18",
+     "season": 2016,
+     "week": 15,
+     "type": "REG",
+     "home": "NYG",
+     "away": "DET",
+     "home_score": 17,
+     "away_score": 6,
+     "winner": "NYG",
+     "neutral": false
+    },
+    {
+     "date": "2014-09-08",
+     "season": 2014,
+     "week": 1,
+     "type": "REG",
+     "home": "DET",
+     "away": "NYG",
+     "home_score": 35,
+     "away_score": 14,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2013-12-22",
+     "season": 2013,
+     "week": 16,
+     "type": "REG",
+     "home": "DET",
+     "away": "NYG",
+     "home_score": 20,
+     "away_score": 23,
+     "winner": "NYG",
+     "neutral": false
+    },
+    {
+     "date": "2010-10-17",
+     "season": 2010,
+     "week": 6,
+     "type": "REG",
+     "home": "NYG",
+     "away": "DET",
+     "home_score": 28,
+     "away_score": 20,
+     "winner": "NYG",
+     "neutral": false
+    },
+    {
+     "date": "2007-11-18",
+     "season": 2007,
+     "week": 11,
+     "type": "REG",
+     "home": "DET",
+     "away": "NYG",
+     "home_score": 10,
+     "away_score": 16,
+     "winner": "NYG",
+     "neutral": false
+    },
+    {
+     "date": "2004-10-24",
+     "season": 2004,
+     "week": 7,
+     "type": "REG",
+     "home": "NYG",
+     "away": "DET",
+     "home_score": 13,
+     "away_score": 28,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2000-11-19",
+     "season": 2000,
+     "week": 12,
+     "type": "REG",
+     "home": "NYG",
+     "away": "DET",
+     "home_score": 21,
+     "away_score": 31,
+     "winner": "DET",
+     "neutral": false
+    }
+   ]
+  },
+  "NE": {
+   "games": 7,
+   "wins": 2,
+   "losses": 5,
+   "ties": 0,
+   "streak": "NE W1",
+   "splits": {
+    "all": {
+     "w": 2,
+     "l": 5,
+     "t": 0
+    },
+    "regular": {
+     "w": 2,
+     "l": 5,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 2,
+     "l": 2,
+     "t": 0
+    },
+    "away": {
+     "w": 0,
+     "l": 3,
+     "t": 0
+    },
+    "last5": {
+     "w": 1,
+     "l": 4,
+     "t": 0
+    },
+    "last10": {
+     "w": 2,
+     "l": 5,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2022-10-09",
+     "season": 2022,
+     "week": 5,
+     "type": "REG",
+     "home": "NE",
+     "away": "DET",
+     "home_score": 29,
+     "away_score": 0,
+     "winner": "NE",
+     "neutral": false
+    },
+    {
+     "date": "2018-09-23",
+     "season": 2018,
+     "week": 3,
+     "type": "REG",
+     "home": "DET",
+     "away": "NE",
+     "home_score": 26,
+     "away_score": 10,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2014-11-23",
+     "season": 2014,
+     "week": 12,
+     "type": "REG",
+     "home": "NE",
+     "away": "DET",
+     "home_score": 34,
+     "away_score": 9,
+     "winner": "NE",
+     "neutral": false
+    },
+    {
+     "date": "2010-11-25",
+     "season": 2010,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "NE",
+     "home_score": 24,
+     "away_score": 45,
+     "winner": "NE",
+     "neutral": false
+    },
+    {
+     "date": "2006-12-03",
+     "season": 2006,
+     "week": 13,
+     "type": "REG",
+     "home": "NE",
+     "away": "DET",
+     "home_score": 28,
+     "away_score": 21,
+     "winner": "NE",
+     "neutral": false
+    },
+    {
+     "date": "2002-11-28",
+     "season": 2002,
+     "week": 13,
+     "type": "REG",
+     "home": "DET",
+     "away": "NE",
+     "home_score": 12,
+     "away_score": 20,
+     "winner": "NE",
+     "neutral": false
+    },
+    {
+     "date": "2000-11-23",
+     "season": 2000,
+     "week": 13,
+     "type": "REG",
+     "home": "DET",
+     "away": "NE",
+     "home_score": 34,
+     "away_score": 9,
+     "winner": "DET",
+     "neutral": false
+    }
+   ]
+  },
+  "NYJ": {
+   "games": 7,
+   "wins": 3,
+   "losses": 4,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 3,
+     "l": 4,
+     "t": 0
+    },
+    "regular": {
+     "w": 3,
+     "l": 4,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 0,
+     "l": 3,
+     "t": 0
+    },
+    "away": {
+     "w": 3,
+     "l": 1,
+     "t": 0
+    },
+    "last5": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last10": {
+     "w": 3,
+     "l": 4,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2022-12-18",
+     "season": 2022,
+     "week": 15,
+     "type": "REG",
+     "home": "NYJ",
+     "away": "DET",
+     "home_score": 17,
+     "away_score": 20,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2018-09-10",
+     "season": 2018,
+     "week": 1,
+     "type": "REG",
+     "home": "DET",
+     "away": "NYJ",
+     "home_score": 17,
+     "away_score": 48,
+     "winner": "NYJ",
+     "neutral": false
+    },
+    {
+     "date": "2014-09-28",
+     "season": 2014,
+     "week": 4,
+     "type": "REG",
+     "home": "NYJ",
+     "away": "DET",
+     "home_score": 17,
+     "away_score": 24,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2010-11-07",
+     "season": 2010,
+     "week": 9,
+     "type": "REG",
+     "home": "DET",
+     "away": "NYJ",
+     "home_score": 20,
+     "away_score": 23,
+     "winner": "NYJ",
+     "neutral": false
+    },
+    {
+     "date": "2006-10-22",
+     "season": 2006,
+     "week": 7,
+     "type": "REG",
+     "home": "NYJ",
+     "away": "DET",
+     "home_score": 31,
+     "away_score": 24,
+     "winner": "NYJ",
+     "neutral": false
+    },
+    {
+     "date": "2002-11-17",
+     "season": 2002,
+     "week": 11,
+     "type": "REG",
+     "home": "DET",
+     "away": "NYJ",
+     "home_score": 14,
+     "away_score": 31,
+     "winner": "NYJ",
+     "neutral": false
+    },
+    {
+     "date": "2000-12-17",
+     "season": 2000,
+     "week": 16,
+     "type": "REG",
+     "home": "NYJ",
+     "away": "DET",
+     "home_score": 7,
+     "away_score": 10,
+     "winner": "DET",
+     "neutral": false
+    }
+   ]
+  },
+  "CLE": {
+   "games": 7,
+   "wins": 5,
+   "losses": 2,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 5,
+     "l": 2,
+     "t": 0
+    },
+    "regular": {
+     "w": 5,
+     "l": 2,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 3,
+     "l": 0,
+     "t": 0
+    },
+    "away": {
+     "w": 2,
+     "l": 2,
+     "t": 0
+    },
+    "last5": {
+     "w": 4,
+     "l": 1,
+     "t": 0
+    },
+    "last10": {
+     "w": 5,
+     "l": 2,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-09-28",
+     "season": 2025,
+     "week": 4,
+     "type": "REG",
+     "home": "DET",
+     "away": "CLE",
+     "home_score": 34,
+     "away_score": 10,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2021-11-21",
+     "season": 2021,
+     "week": 11,
+     "type": "REG",
+     "home": "CLE",
+     "away": "DET",
+     "home_score": 13,
+     "away_score": 10,
+     "winner": "CLE",
+     "neutral": false
+    },
+    {
+     "date": "2017-11-12",
+     "season": 2017,
+     "week": 10,
+     "type": "REG",
+     "home": "DET",
+     "away": "CLE",
+     "home_score": 38,
+     "away_score": 24,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2013-10-13",
+     "season": 2013,
+     "week": 6,
+     "type": "REG",
+     "home": "CLE",
+     "away": "DET",
+     "home_score": 17,
+     "away_score": 31,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2009-11-22",
+     "season": 2009,
+     "week": 11,
+     "type": "REG",
+     "home": "DET",
+     "away": "CLE",
+     "home_score": 38,
+     "away_score": 37,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2005-10-23",
+     "season": 2005,
+     "week": 7,
+     "type": "REG",
+     "home": "CLE",
+     "away": "DET",
+     "home_score": 10,
+     "away_score": 13,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2001-09-23",
+     "season": 2001,
+     "week": 2,
+     "type": "REG",
+     "home": "CLE",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 14,
+     "winner": "CLE",
+     "neutral": false
+    }
+   ]
+  },
+  "TEN": {
+   "games": 7,
+   "wins": 1,
+   "losses": 6,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 1,
+     "l": 6,
+     "t": 0
+    },
+    "regular": {
+     "w": 1,
+     "l": 6,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 1,
+     "l": 3,
+     "t": 0
+    },
+    "away": {
+     "w": 0,
+     "l": 3,
+     "t": 0
+    },
+    "last5": {
+     "w": 1,
+     "l": 4,
+     "t": 0
+    },
+    "last10": {
+     "w": 1,
+     "l": 6,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2024-10-27",
+     "season": 2024,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "TEN",
+     "home_score": 52,
+     "away_score": 14,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2020-12-20",
+     "season": 2020,
+     "week": 15,
+     "type": "REG",
+     "home": "TEN",
+     "away": "DET",
+     "home_score": 46,
+     "away_score": 25,
+     "winner": "TEN",
+     "neutral": false
+    },
+    {
+     "date": "2016-09-18",
+     "season": 2016,
+     "week": 2,
+     "type": "REG",
+     "home": "DET",
+     "away": "TEN",
+     "home_score": 15,
+     "away_score": 16,
+     "winner": "TEN",
+     "neutral": false
+    },
+    {
+     "date": "2012-09-23",
+     "season": 2012,
+     "week": 3,
+     "type": "REG",
+     "home": "TEN",
+     "away": "DET",
+     "home_score": 44,
+     "away_score": 41,
+     "winner": "TEN",
+     "neutral": false
+    },
+    {
+     "date": "2008-11-27",
+     "season": 2008,
+     "week": 13,
+     "type": "REG",
+     "home": "DET",
+     "away": "TEN",
+     "home_score": 10,
+     "away_score": 47,
+     "winner": "TEN",
+     "neutral": false
+    },
+    {
+     "date": "2005-01-02",
+     "season": 2004,
+     "week": 17,
+     "type": "REG",
+     "home": "TEN",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 19,
+     "winner": "TEN",
+     "neutral": false
+    },
+    {
+     "date": "2001-10-21",
+     "season": 2001,
+     "week": 6,
+     "type": "REG",
+     "home": "DET",
+     "away": "TEN",
+     "home_score": 24,
+     "away_score": 27,
+     "winner": "TEN",
+     "neutral": false
+    }
+   ]
+  },
+  "CIN": {
+   "games": 7,
+   "wins": 1,
+   "losses": 6,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 1,
+     "l": 6,
+     "t": 0
+    },
+    "regular": {
+     "w": 1,
+     "l": 6,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 0,
+     "l": 4,
+     "t": 0
+    },
+    "away": {
+     "w": 1,
+     "l": 2,
+     "t": 0
+    },
+    "last5": {
+     "w": 1,
+     "l": 4,
+     "t": 0
+    },
+    "last10": {
+     "w": 1,
+     "l": 6,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-10-05",
+     "season": 2025,
+     "week": 5,
+     "type": "REG",
+     "home": "CIN",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 37,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2021-10-17",
+     "season": 2021,
+     "week": 6,
+     "type": "REG",
+     "home": "DET",
+     "away": "CIN",
+     "home_score": 11,
+     "away_score": 34,
+     "winner": "CIN",
+     "neutral": false
+    },
+    {
+     "date": "2017-12-24",
+     "season": 2017,
+     "week": 16,
+     "type": "REG",
+     "home": "CIN",
+     "away": "DET",
+     "home_score": 26,
+     "away_score": 17,
+     "winner": "CIN",
+     "neutral": false
+    },
+    {
+     "date": "2013-10-20",
+     "season": 2013,
+     "week": 7,
+     "type": "REG",
+     "home": "DET",
+     "away": "CIN",
+     "home_score": 24,
+     "away_score": 27,
+     "winner": "CIN",
+     "neutral": false
+    },
+    {
+     "date": "2009-12-06",
+     "season": 2009,
+     "week": 13,
+     "type": "REG",
+     "home": "CIN",
+     "away": "DET",
+     "home_score": 23,
+     "away_score": 13,
+     "winner": "CIN",
+     "neutral": false
+    },
+    {
+     "date": "2005-12-18",
+     "season": 2005,
+     "week": 15,
+     "type": "REG",
+     "home": "DET",
+     "away": "CIN",
+     "home_score": 17,
+     "away_score": 41,
+     "winner": "CIN",
+     "neutral": false
+    },
+    {
+     "date": "2001-10-28",
+     "season": 2001,
+     "week": 7,
+     "type": "REG",
+     "home": "DET",
+     "away": "CIN",
+     "home_score": 27,
+     "away_score": 31,
+     "winner": "CIN",
+     "neutral": false
+    }
+   ]
+  },
+  "SF": {
+   "games": 12,
+   "wins": 2,
+   "losses": 10,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 2,
+     "l": 10,
+     "t": 0
+    },
+    "regular": {
+     "w": 2,
+     "l": 9,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 1,
+     "t": 0
+    },
+    "home": {
+     "w": 1,
+     "l": 3,
+     "t": 0
+    },
+    "away": {
+     "w": 1,
+     "l": 7,
+     "t": 0
+    },
+    "last5": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last10": {
+     "w": 2,
+     "l": 8,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2024-12-30",
+     "season": 2024,
+     "week": 17,
+     "type": "REG",
+     "home": "SF",
+     "away": "DET",
+     "home_score": 34,
+     "away_score": 40,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2024-01-28",
+     "season": 2023,
+     "week": 21,
+     "type": "CON",
+     "home": "SF",
+     "away": "DET",
+     "home_score": 34,
+     "away_score": 31,
+     "winner": "SF",
+     "neutral": false
+    },
+    {
+     "date": "2021-09-12",
+     "season": 2021,
+     "week": 1,
+     "type": "REG",
+     "home": "DET",
+     "away": "SF",
+     "home_score": 33,
+     "away_score": 41,
+     "winner": "SF",
+     "neutral": false
+    },
+    {
+     "date": "2018-09-16",
+     "season": 2018,
+     "week": 2,
+     "type": "REG",
+     "home": "SF",
+     "away": "DET",
+     "home_score": 30,
+     "away_score": 27,
+     "winner": "SF",
+     "neutral": false
+    },
+    {
+     "date": "2015-12-27",
+     "season": 2015,
+     "week": 16,
+     "type": "REG",
+     "home": "DET",
+     "away": "SF",
+     "home_score": 32,
+     "away_score": 17,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2012-09-16",
+     "season": 2012,
+     "week": 2,
+     "type": "REG",
+     "home": "SF",
+     "away": "DET",
+     "home_score": 27,
+     "away_score": 19,
+     "winner": "SF",
+     "neutral": false
+    },
+    {
+     "date": "2011-10-16",
+     "season": 2011,
+     "week": 6,
+     "type": "REG",
+     "home": "DET",
+     "away": "SF",
+     "home_score": 19,
+     "away_score": 25,
+     "winner": "SF",
+     "neutral": false
+    },
+    {
+     "date": "2009-12-27",
+     "season": 2009,
+     "week": 16,
+     "type": "REG",
+     "home": "SF",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 6,
+     "winner": "SF",
+     "neutral": false
+    },
+    {
+     "date": "2008-09-21",
+     "season": 2008,
+     "week": 3,
+     "type": "REG",
+     "home": "SF",
+     "away": "DET",
+     "home_score": 31,
+     "away_score": 13,
+     "winner": "SF",
+     "neutral": false
+    },
+    {
+     "date": "2006-11-12",
+     "season": 2006,
+     "week": 10,
+     "type": "REG",
+     "home": "DET",
+     "away": "SF",
+     "home_score": 13,
+     "away_score": 19,
+     "winner": "SF",
+     "neutral": false
+    },
+    {
+     "date": "2003-10-05",
+     "season": 2003,
+     "week": 5,
+     "type": "REG",
+     "home": "SF",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 17,
+     "winner": "SF",
+     "neutral": false
+    },
+    {
+     "date": "2001-11-04",
+     "season": 2001,
+     "week": 8,
+     "type": "REG",
+     "home": "SF",
+     "away": "DET",
+     "home_score": 21,
+     "away_score": 13,
+     "winner": "SF",
+     "neutral": false
+    }
+   ]
+  },
+  "PIT": {
+   "games": 7,
+   "wins": 0,
+   "losses": 6,
+   "ties": 1,
+   "streak": "PIT W1",
+   "splits": {
+    "all": {
+     "w": 0,
+     "l": 6,
+     "t": 1
+    },
+    "regular": {
+     "w": 0,
+     "l": 6,
+     "t": 1
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 0,
+     "l": 3,
+     "t": 0
+    },
+    "away": {
+     "w": 0,
+     "l": 3,
+     "t": 1
+    },
+    "last5": {
+     "w": 0,
+     "l": 4,
+     "t": 1
+    },
+    "last10": {
+     "w": 0,
+     "l": 6,
+     "t": 1
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-12-21",
+     "season": 2025,
+     "week": 16,
+     "type": "REG",
+     "home": "DET",
+     "away": "PIT",
+     "home_score": 24,
+     "away_score": 29,
+     "winner": "PIT",
+     "neutral": false
+    },
+    {
+     "date": "2021-11-14",
+     "season": 2021,
+     "week": 10,
+     "type": "REG",
+     "home": "PIT",
+     "away": "DET",
+     "home_score": 16,
+     "away_score": 16,
+     "winner": null,
+     "neutral": false
+    },
+    {
+     "date": "2017-10-29",
+     "season": 2017,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "PIT",
+     "home_score": 15,
+     "away_score": 20,
+     "winner": "PIT",
+     "neutral": false
+    },
+    {
+     "date": "2013-11-17",
+     "season": 2013,
+     "week": 11,
+     "type": "REG",
+     "home": "PIT",
+     "away": "DET",
+     "home_score": 37,
+     "away_score": 27,
+     "winner": "PIT",
+     "neutral": false
+    },
+    {
+     "date": "2009-10-11",
+     "season": 2009,
+     "week": 5,
+     "type": "REG",
+     "home": "DET",
+     "away": "PIT",
+     "home_score": 20,
+     "away_score": 28,
+     "winner": "PIT",
+     "neutral": false
+    },
+    {
+     "date": "2006-01-01",
+     "season": 2005,
+     "week": 17,
+     "type": "REG",
+     "home": "PIT",
+     "away": "DET",
+     "home_score": 35,
+     "away_score": 21,
+     "winner": "PIT",
+     "neutral": false
+    },
+    {
+     "date": "2001-12-23",
+     "season": 2001,
+     "week": 15,
+     "type": "REG",
+     "home": "PIT",
+     "away": "DET",
+     "home_score": 47,
+     "away_score": 14,
+     "winner": "PIT",
+     "neutral": false
+    }
+   ]
+  },
+  "DAL": {
+   "games": 18,
+   "wins": 7,
+   "losses": 11,
+   "ties": 0,
+   "streak": "DET W2",
+   "splits": {
+    "all": {
+     "w": 7,
+     "l": 11,
+     "t": 0
+    },
+    "regular": {
+     "w": 7,
+     "l": 10,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 1,
+     "t": 0
+    },
+    "home": {
+     "w": 4,
+     "l": 3,
+     "t": 0
+    },
+    "away": {
+     "w": 3,
+     "l": 8,
+     "t": 0
+    },
+    "last5": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last10": {
+     "w": 4,
+     "l": 6,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-12-04",
+     "season": 2025,
+     "week": 14,
+     "type": "REG",
+     "home": "DET",
+     "away": "DAL",
+     "home_score": 44,
+     "away_score": 30,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2024-10-13",
+     "season": 2024,
+     "week": 6,
+     "type": "REG",
+     "home": "DAL",
+     "away": "DET",
+     "home_score": 9,
+     "away_score": 47,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2023-12-30",
+     "season": 2023,
+     "week": 17,
+     "type": "REG",
+     "home": "DAL",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 19,
+     "winner": "DAL",
+     "neutral": false
+    },
+    {
+     "date": "2022-10-23",
+     "season": 2022,
+     "week": 7,
+     "type": "REG",
+     "home": "DAL",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 6,
+     "winner": "DAL",
+     "neutral": false
+    },
+    {
+     "date": "2019-11-17",
+     "season": 2019,
+     "week": 11,
+     "type": "REG",
+     "home": "DET",
+     "away": "DAL",
+     "home_score": 27,
+     "away_score": 35,
+     "winner": "DAL",
+     "neutral": false
+    },
+    {
+     "date": "2018-09-30",
+     "season": 2018,
+     "week": 4,
+     "type": "REG",
+     "home": "DAL",
+     "away": "DET",
+     "home_score": 26,
+     "away_score": 24,
+     "winner": "DAL",
+     "neutral": false
+    },
+    {
+     "date": "2016-12-26",
+     "season": 2016,
+     "week": 16,
+     "type": "REG",
+     "home": "DAL",
+     "away": "DET",
+     "home_score": 42,
+     "away_score": 21,
+     "winner": "DAL",
+     "neutral": false
+    },
+    {
+     "date": "2015-01-04",
+     "season": 2014,
+     "week": 18,
+     "type": "WC",
+     "home": "DAL",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 20,
+     "winner": "DAL",
+     "neutral": false
+    },
+    {
+     "date": "2013-10-27",
+     "season": 2013,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "DAL",
+     "home_score": 31,
+     "away_score": 30,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2011-10-02",
+     "season": 2011,
+     "week": 4,
+     "type": "REG",
+     "home": "DAL",
+     "away": "DET",
+     "home_score": 30,
+     "away_score": 34,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2010-11-21",
+     "season": 2010,
+     "week": 11,
+     "type": "REG",
+     "home": "DAL",
+     "away": "DET",
+     "home_score": 35,
+     "away_score": 19,
+     "winner": "DAL",
+     "neutral": false
+    },
+    {
+     "date": "2007-12-09",
+     "season": 2007,
+     "week": 14,
+     "type": "REG",
+     "home": "DET",
+     "away": "DAL",
+     "home_score": 27,
+     "away_score": 28,
+     "winner": "DAL",
+     "neutral": false
+    }
+   ]
+  },
+  "BUF": {
+   "games": 8,
+   "wins": 1,
+   "losses": 7,
+   "ties": 0,
+   "streak": "BUF W6",
+   "splits": {
+    "all": {
+     "w": 1,
+     "l": 7,
+     "t": 0
+    },
+    "regular": {
+     "w": 1,
+     "l": 7,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 1,
+     "l": 3,
+     "t": 0
+    },
+    "away": {
+     "w": 0,
+     "l": 4,
+     "t": 0
+    },
+    "last5": {
+     "w": 0,
+     "l": 5,
+     "t": 0
+    },
+    "last10": {
+     "w": 1,
+     "l": 7,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2026-09-17",
+     "season": 2026,
+     "week": 2,
+     "type": "REG",
+     "home": "BUF",
+     "away": "DET",
+     "home_score": 41,
+     "away_score": 31,
+     "winner": "BUF",
+     "neutral": false
+    },
+    {
+     "date": "2024-12-15",
+     "season": 2024,
+     "week": 15,
+     "type": "REG",
+     "home": "DET",
+     "away": "BUF",
+     "home_score": 42,
+     "away_score": 48,
+     "winner": "BUF",
+     "neutral": false
+    },
+    {
+     "date": "2022-11-24",
+     "season": 2022,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "BUF",
+     "home_score": 25,
+     "away_score": 28,
+     "winner": "BUF",
+     "neutral": false
+    },
+    {
+     "date": "2018-12-16",
+     "season": 2018,
+     "week": 15,
+     "type": "REG",
+     "home": "BUF",
+     "away": "DET",
+     "home_score": 14,
+     "away_score": 13,
+     "winner": "BUF",
+     "neutral": false
+    },
+    {
+     "date": "2014-10-05",
+     "season": 2014,
+     "week": 5,
+     "type": "REG",
+     "home": "DET",
+     "away": "BUF",
+     "home_score": 14,
+     "away_score": 17,
+     "winner": "BUF",
+     "neutral": false
+    },
+    {
+     "date": "2010-11-14",
+     "season": 2010,
+     "week": 10,
+     "type": "REG",
+     "home": "BUF",
+     "away": "DET",
+     "home_score": 14,
+     "away_score": 12,
+     "winner": "BUF",
+     "neutral": false
+    },
+    {
+     "date": "2006-10-15",
+     "season": 2006,
+     "week": 6,
+     "type": "REG",
+     "home": "DET",
+     "away": "BUF",
+     "home_score": 20,
+     "away_score": 17,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2002-10-27",
+     "season": 2002,
+     "week": 8,
+     "type": "REG",
+     "home": "BUF",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 17,
+     "winner": "BUF",
+     "neutral": false
+    }
+   ]
+  },
+  "LV": {
+   "games": 6,
+   "wins": 5,
+   "losses": 1,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 5,
+     "l": 1,
+     "t": 0
+    },
+    "regular": {
+     "w": 5,
+     "l": 1,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 3,
+     "l": 0,
+     "t": 0
+    },
+    "away": {
+     "w": 2,
+     "l": 1,
+     "t": 0
+    },
+    "last5": {
+     "w": 4,
+     "l": 1,
+     "t": 0
+    },
+    "last10": {
+     "w": 5,
+     "l": 1,
+     "t": 0
+    }
+   },
+   "eras": [
+    {
+     "codes": [
+      "DET",
+      "OAK"
+     ],
+     "wins": {
+      "DET": 4,
+      "OAK": 1
+     },
+     "ties": 0,
+     "games": 5
+    },
+    {
+     "codes": [
+      "DET",
+      "LV"
+     ],
+     "wins": {
+      "DET": 1
+     },
+     "ties": 0,
+     "games": 1
+    }
+   ],
+   "recent": [
+    {
+     "date": "2023-10-30",
+     "season": 2023,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "LV",
+     "home_score": 26,
+     "away_score": 14,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2019-11-03",
+     "season": 2019,
+     "week": 9,
+     "type": "REG",
+     "home": "LV",
+     "away": "DET",
+     "home_score": 31,
+     "away_score": 24,
+     "winner": "LV",
+     "neutral": false
+    },
+    {
+     "date": "2015-11-22",
+     "season": 2015,
+     "week": 11,
+     "type": "REG",
+     "home": "DET",
+     "away": "LV",
+     "home_score": 18,
+     "away_score": 13,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2011-12-18",
+     "season": 2011,
+     "week": 15,
+     "type": "REG",
+     "home": "LV",
+     "away": "DET",
+     "home_score": 27,
+     "away_score": 28,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2007-09-09",
+     "season": 2007,
+     "week": 1,
+     "type": "REG",
+     "home": "LV",
+     "away": "DET",
+     "home_score": 21,
+     "away_score": 36,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2003-11-02",
+     "season": 2003,
+     "week": 9,
+     "type": "REG",
+     "home": "DET",
+     "away": "LV",
+     "home_score": 23,
+     "away_score": 13,
+     "winner": "DET",
+     "neutral": false
+    }
+   ]
+  },
+  "HOU": {
+   "games": 6,
+   "wins": 2,
+   "losses": 4,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 2,
+     "l": 4,
+     "t": 0
+    },
+    "regular": {
+     "w": 2,
+     "l": 4,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 1,
+     "l": 2,
+     "t": 0
+    },
+    "away": {
+     "w": 1,
+     "l": 2,
+     "t": 0
+    },
+    "last5": {
+     "w": 1,
+     "l": 4,
+     "t": 0
+    },
+    "last10": {
+     "w": 2,
+     "l": 4,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2024-11-10",
+     "season": 2024,
+     "week": 10,
+     "type": "REG",
+     "home": "HOU",
+     "away": "DET",
+     "home_score": 23,
+     "away_score": 26,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2020-11-26",
+     "season": 2020,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "HOU",
+     "home_score": 25,
+     "away_score": 41,
+     "winner": "HOU",
+     "neutral": false
+    },
+    {
+     "date": "2016-10-30",
+     "season": 2016,
+     "week": 8,
+     "type": "REG",
+     "home": "HOU",
+     "away": "DET",
+     "home_score": 20,
+     "away_score": 13,
+     "winner": "HOU",
+     "neutral": false
+    },
+    {
+     "date": "2012-11-22",
+     "season": 2012,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "HOU",
+     "home_score": 31,
+     "away_score": 34,
+     "winner": "HOU",
+     "neutral": false
+    },
+    {
+     "date": "2008-10-19",
+     "season": 2008,
+     "week": 7,
+     "type": "REG",
+     "home": "HOU",
+     "away": "DET",
+     "home_score": 28,
+     "away_score": 21,
+     "winner": "HOU",
+     "neutral": false
+    },
+    {
+     "date": "2004-09-19",
+     "season": 2004,
+     "week": 2,
+     "type": "REG",
+     "home": "DET",
+     "away": "HOU",
+     "home_score": 28,
+     "away_score": 16,
+     "winner": "DET",
+     "neutral": false
+    }
+   ]
+  },
+  "PHI": {
+   "games": 11,
+   "wins": 4,
+   "losses": 7,
+   "ties": 0,
+   "streak": "PHI W3",
+   "splits": {
+    "all": {
+     "w": 4,
+     "l": 7,
+     "t": 0
+    },
+    "regular": {
+     "w": 4,
+     "l": 7,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 2,
+     "l": 4,
+     "t": 0
+    },
+    "away": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last5": {
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    "last10": {
+     "w": 4,
+     "l": 6,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-11-16",
+     "season": 2025,
+     "week": 11,
+     "type": "REG",
+     "home": "PHI",
+     "away": "DET",
+     "home_score": 16,
+     "away_score": 9,
+     "winner": "PHI",
+     "neutral": false
+    },
+    {
+     "date": "2022-09-11",
+     "season": 2022,
+     "week": 1,
+     "type": "REG",
+     "home": "DET",
+     "away": "PHI",
+     "home_score": 35,
+     "away_score": 38,
+     "winner": "PHI",
+     "neutral": false
+    },
+    {
+     "date": "2021-10-31",
+     "season": 2021,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "PHI",
+     "home_score": 6,
+     "away_score": 44,
+     "winner": "PHI",
+     "neutral": false
+    },
+    {
+     "date": "2019-09-22",
+     "season": 2019,
+     "week": 3,
+     "type": "REG",
+     "home": "PHI",
+     "away": "DET",
+     "home_score": 24,
+     "away_score": 27,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2016-10-09",
+     "season": 2016,
+     "week": 5,
+     "type": "REG",
+     "home": "DET",
+     "away": "PHI",
+     "home_score": 24,
+     "away_score": 23,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2015-11-26",
+     "season": 2015,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "PHI",
+     "home_score": 45,
+     "away_score": 14,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2013-12-08",
+     "season": 2013,
+     "week": 14,
+     "type": "REG",
+     "home": "PHI",
+     "away": "DET",
+     "home_score": 34,
+     "away_score": 20,
+     "winner": "PHI",
+     "neutral": false
+    },
+    {
+     "date": "2012-10-14",
+     "season": 2012,
+     "week": 6,
+     "type": "REG",
+     "home": "PHI",
+     "away": "DET",
+     "home_score": 23,
+     "away_score": 26,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2010-09-19",
+     "season": 2010,
+     "week": 2,
+     "type": "REG",
+     "home": "DET",
+     "away": "PHI",
+     "home_score": 32,
+     "away_score": 35,
+     "winner": "PHI",
+     "neutral": false
+    },
+    {
+     "date": "2007-09-23",
+     "season": 2007,
+     "week": 3,
+     "type": "REG",
+     "home": "PHI",
+     "away": "DET",
+     "home_score": 56,
+     "away_score": 21,
+     "winner": "PHI",
+     "neutral": false
+    },
+    {
+     "date": "2004-09-26",
+     "season": 2004,
+     "week": 3,
+     "type": "REG",
+     "home": "DET",
+     "away": "PHI",
+     "home_score": 13,
+     "away_score": 30,
+     "winner": "PHI",
+     "neutral": false
+    }
+   ]
+  },
+  "JAX": {
+   "games": 7,
+   "wins": 5,
+   "losses": 2,
+   "ties": 0,
+   "streak": "DET W5",
+   "splits": {
+    "all": {
+     "w": 5,
+     "l": 2,
+     "t": 0
+    },
+    "regular": {
+     "w": 5,
+     "l": 2,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 3,
+     "l": 1,
+     "t": 0
+    },
+    "away": {
+     "w": 2,
+     "l": 1,
+     "t": 0
+    },
+    "last5": {
+     "w": 5,
+     "l": 0,
+     "t": 0
+    },
+    "last10": {
+     "w": 5,
+     "l": 2,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2024-11-17",
+     "season": 2024,
+     "week": 11,
+     "type": "REG",
+     "home": "DET",
+     "away": "JAX",
+     "home_score": 52,
+     "away_score": 6,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2022-12-04",
+     "season": 2022,
+     "week": 13,
+     "type": "REG",
+     "home": "DET",
+     "away": "JAX",
+     "home_score": 40,
+     "away_score": 14,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2020-10-18",
+     "season": 2020,
+     "week": 6,
+     "type": "REG",
+     "home": "JAX",
+     "away": "DET",
+     "home_score": 16,
+     "away_score": 34,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2016-11-20",
+     "season": 2016,
+     "week": 11,
+     "type": "REG",
+     "home": "DET",
+     "away": "JAX",
+     "home_score": 26,
+     "away_score": 19,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2012-11-04",
+     "season": 2012,
+     "week": 9,
+     "type": "REG",
+     "home": "JAX",
+     "away": "DET",
+     "home_score": 14,
+     "away_score": 31,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2008-11-09",
+     "season": 2008,
+     "week": 10,
+     "type": "REG",
+     "home": "DET",
+     "away": "JAX",
+     "home_score": 14,
+     "away_score": 38,
+     "winner": "JAX",
+     "neutral": false
+    },
+    {
+     "date": "2004-11-14",
+     "season": 2004,
+     "week": 10,
+     "type": "REG",
+     "home": "JAX",
+     "away": "DET",
+     "home_score": 23,
+     "away_score": 17,
+     "winner": "JAX",
+     "neutral": false
+    }
+   ]
+  },
+  "BAL": {
+   "games": 7,
+   "wins": 2,
+   "losses": 5,
+   "ties": 0,
+   "streak": "DET W1",
+   "splits": {
+    "all": {
+     "w": 2,
+     "l": 5,
+     "t": 0
+    },
+    "regular": {
+     "w": 2,
+     "l": 5,
+     "t": 0
+    },
+    "postseason": {
+     "w": 0,
+     "l": 0,
+     "t": 0
+    },
+    "home": {
+     "w": 1,
+     "l": 2,
+     "t": 0
+    },
+    "away": {
+     "w": 1,
+     "l": 3,
+     "t": 0
+    },
+    "last5": {
+     "w": 1,
+     "l": 4,
+     "t": 0
+    },
+    "last10": {
+     "w": 2,
+     "l": 5,
+     "t": 0
+    }
+   },
+   "eras": [],
+   "recent": [
+    {
+     "date": "2025-09-22",
+     "season": 2025,
+     "week": 3,
+     "type": "REG",
+     "home": "BAL",
+     "away": "DET",
+     "home_score": 30,
+     "away_score": 38,
+     "winner": "DET",
+     "neutral": false
+    },
+    {
+     "date": "2023-10-22",
+     "season": 2023,
+     "week": 7,
+     "type": "REG",
+     "home": "BAL",
+     "away": "DET",
+     "home_score": 38,
+     "away_score": 6,
+     "winner": "BAL",
+     "neutral": false
+    },
+    {
+     "date": "2021-09-26",
+     "season": 2021,
+     "week": 3,
+     "type": "REG",
+     "home": "DET",
+     "away": "BAL",
+     "home_score": 17,
+     "away_score": 19,
+     "winner": "BAL",
+     "neutral": false
+    },
+    {
+     "date": "2017-12-03",
+     "season": 2017,
+     "week": 13,
+     "type": "REG",
+     "home": "BAL",
+     "away": "DET",
+     "home_score": 44,
+     "away_score": 20,
+     "winner": "BAL",
+     "neutral": false
+    },
+    {
+     "date": "2013-12-16",
+     "season": 2013,
+     "week": 15,
+     "type": "REG",
+     "home": "DET",
+     "away": "BAL",
+     "home_score": 16,
+     "away_score": 18,
+     "winner": "BAL",
+     "neutral": false
+    },
+    {
+     "date": "2009-12-13",
+     "season": 2009,
+     "week": 14,
+     "type": "REG",
+     "home": "BAL",
+     "away": "DET",
+     "home_score": 48,
+     "away_score": 3,
+     "winner": "BAL",
+     "neutral": false
+    },
+    {
+     "date": "2005-10-09",
+     "season": 2005,
+     "week": 5,
+     "type": "REG",
+     "home": "DET",
+     "away": "BAL",
+     "home_score": 35,
+     "away_score": 17,
+     "winner": "DET",
+     "neutral": false
+    }
+   ]
+  }
+ }
+}
