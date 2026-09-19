@@ -1,0 +1,956 @@
+{
+  "teams": [
+    {
+      "id": "ARI",
+      "location": "Arizona",
+      "nickname": "Cardinals",
+      "conference": "NFC",
+      "division": "NFC West",
+      "colors": {
+        "primary": "#a40227",
+        "secondary": "#ffffff"
+      },
+      "espn": {
+        "abbr": "ARI",
+        "id": "22"
+      },
+      "teamrankings": {
+        "slug": "arizona-cardinals",
+        "name": "Arizona"
+      },
+      "nflverse": {
+        "current": "ARI",
+        "historical": []
+      },
+      "aliases": [
+        "ARIZONA",
+        "ARZ",
+        "CARDINALS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "ATL",
+      "location": "Atlanta",
+      "nickname": "Falcons",
+      "conference": "NFC",
+      "division": "NFC South",
+      "colors": {
+        "primary": "#a71930",
+        "secondary": "#000000"
+      },
+      "espn": {
+        "abbr": "ATL",
+        "id": "1"
+      },
+      "teamrankings": {
+        "slug": "atlanta-falcons",
+        "name": "Atlanta"
+      },
+      "nflverse": {
+        "current": "ATL",
+        "historical": []
+      },
+      "aliases": [
+        "ATLANTA",
+        "FALCONS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "BAL",
+      "location": "Baltimore",
+      "nickname": "Ravens",
+      "conference": "AFC",
+      "division": "AFC North",
+      "colors": {
+        "primary": "#29126f",
+        "secondary": "#000000"
+      },
+      "espn": {
+        "abbr": "BAL",
+        "id": "33"
+      },
+      "teamrankings": {
+        "slug": "baltimore-ravens",
+        "name": "Baltimore"
+      },
+      "nflverse": {
+        "current": "BAL",
+        "historical": []
+      },
+      "aliases": [
+        "BALTIMORE",
+        "RAVENS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "BUF",
+      "location": "Buffalo",
+      "nickname": "Bills",
+      "conference": "AFC",
+      "division": "AFC East",
+      "colors": {
+        "primary": "#00338d",
+        "secondary": "#d50a0a"
+      },
+      "espn": {
+        "abbr": "BUF",
+        "id": "2"
+      },
+      "teamrankings": {
+        "slug": "buffalo-bills",
+        "name": "Buffalo"
+      },
+      "nflverse": {
+        "current": "BUF",
+        "historical": []
+      },
+      "aliases": [
+        "BILLS",
+        "BUFFALO"
+      ],
+      "eras": []
+    },
+    {
+      "id": "CAR",
+      "location": "Carolina",
+      "nickname": "Panthers",
+      "conference": "NFC",
+      "division": "NFC South",
+      "colors": {
+        "primary": "#0085ca",
+        "secondary": "#000000"
+      },
+      "espn": {
+        "abbr": "CAR",
+        "id": "29"
+      },
+      "teamrankings": {
+        "slug": "carolina-panthers",
+        "name": "Carolina"
+      },
+      "nflverse": {
+        "current": "CAR",
+        "historical": []
+      },
+      "aliases": [
+        "CAROLINA",
+        "PANTHERS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "CHI",
+      "location": "Chicago",
+      "nickname": "Bears",
+      "conference": "NFC",
+      "division": "NFC North",
+      "colors": {
+        "primary": "#0b1c3a",
+        "secondary": "#e64100"
+      },
+      "espn": {
+        "abbr": "CHI",
+        "id": "3"
+      },
+      "teamrankings": {
+        "slug": "chicago-bears",
+        "name": "Chicago"
+      },
+      "nflverse": {
+        "current": "CHI",
+        "historical": []
+      },
+      "aliases": [
+        "BEARS",
+        "CHICAGO"
+      ],
+      "eras": []
+    },
+    {
+      "id": "CIN",
+      "location": "Cincinnati",
+      "nickname": "Bengals",
+      "conference": "AFC",
+      "division": "AFC North",
+      "colors": {
+        "primary": "#fb4f14",
+        "secondary": "#000000"
+      },
+      "espn": {
+        "abbr": "CIN",
+        "id": "4"
+      },
+      "teamrankings": {
+        "slug": "cincinnati-bengals",
+        "name": "Cincinnati"
+      },
+      "nflverse": {
+        "current": "CIN",
+        "historical": []
+      },
+      "aliases": [
+        "BENGALS",
+        "CINCINNATI"
+      ],
+      "eras": []
+    },
+    {
+      "id": "CLE",
+      "location": "Cleveland",
+      "nickname": "Browns",
+      "conference": "AFC",
+      "division": "AFC North",
+      "colors": {
+        "primary": "#472a08",
+        "secondary": "#ff3c00"
+      },
+      "espn": {
+        "abbr": "CLE",
+        "id": "5"
+      },
+      "teamrankings": {
+        "slug": "cleveland-browns",
+        "name": "Cleveland"
+      },
+      "nflverse": {
+        "current": "CLE",
+        "historical": []
+      },
+      "aliases": [
+        "BROWNS",
+        "CLEVELAND"
+      ],
+      "eras": []
+    },
+    {
+      "id": "DAL",
+      "location": "Dallas",
+      "nickname": "Cowboys",
+      "conference": "NFC",
+      "division": "NFC East",
+      "colors": {
+        "primary": "#002a5c",
+        "secondary": "#b0b7bc"
+      },
+      "espn": {
+        "abbr": "DAL",
+        "id": "6"
+      },
+      "teamrankings": {
+        "slug": "dallas-cowboys",
+        "name": "Dallas"
+      },
+      "nflverse": {
+        "current": "DAL",
+        "historical": []
+      },
+      "aliases": [
+        "COWBOYS",
+        "DALLAS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "DEN",
+      "location": "Denver",
+      "nickname": "Broncos",
+      "conference": "AFC",
+      "division": "AFC West",
+      "colors": {
+        "primary": "#0a2343",
+        "secondary": "#fc4c02"
+      },
+      "espn": {
+        "abbr": "DEN",
+        "id": "7"
+      },
+      "teamrankings": {
+        "slug": "denver-broncos",
+        "name": "Denver"
+      },
+      "nflverse": {
+        "current": "DEN",
+        "historical": []
+      },
+      "aliases": [
+        "BRONCOS",
+        "DENVER"
+      ],
+      "eras": []
+    },
+    {
+      "id": "DET",
+      "location": "Detroit",
+      "nickname": "Lions",
+      "conference": "NFC",
+      "division": "NFC North",
+      "colors": {
+        "primary": "#0076b6",
+        "secondary": "#bbbbbb"
+      },
+      "espn": {
+        "abbr": "DET",
+        "id": "8"
+      },
+      "teamrankings": {
+        "slug": "detroit-lions",
+        "name": "Detroit"
+      },
+      "nflverse": {
+        "current": "DET",
+        "historical": []
+      },
+      "aliases": [
+        "DETROIT",
+        "LIONS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "GB",
+      "location": "Green Bay",
+      "nickname": "Packers",
+      "conference": "NFC",
+      "division": "NFC North",
+      "colors": {
+        "primary": "#204e32",
+        "secondary": "#ffb612"
+      },
+      "espn": {
+        "abbr": "GB",
+        "id": "9"
+      },
+      "teamrankings": {
+        "slug": "green-bay-packers",
+        "name": "Green Bay"
+      },
+      "nflverse": {
+        "current": "GB",
+        "historical": []
+      },
+      "aliases": [
+        "GREEN BAY",
+        "PACKERS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "HOU",
+      "location": "Houston",
+      "nickname": "Texans",
+      "conference": "AFC",
+      "division": "AFC South",
+      "colors": {
+        "primary": "#021018",
+        "secondary": "#eb0028"
+      },
+      "espn": {
+        "abbr": "HOU",
+        "id": "34"
+      },
+      "teamrankings": {
+        "slug": "houston-texans",
+        "name": "Houston"
+      },
+      "nflverse": {
+        "current": "HOU",
+        "historical": []
+      },
+      "aliases": [
+        "HOUSTON",
+        "TEXANS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "IND",
+      "location": "Indianapolis",
+      "nickname": "Colts",
+      "conference": "AFC",
+      "division": "AFC South",
+      "colors": {
+        "primary": "#003b75",
+        "secondary": "#ffffff"
+      },
+      "espn": {
+        "abbr": "IND",
+        "id": "11"
+      },
+      "teamrankings": {
+        "slug": "indianapolis-colts",
+        "name": "Indianapolis"
+      },
+      "nflverse": {
+        "current": "IND",
+        "historical": []
+      },
+      "aliases": [
+        "COLTS",
+        "INDIANAPOLIS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "JAX",
+      "location": "Jacksonville",
+      "nickname": "Jaguars",
+      "conference": "AFC",
+      "division": "AFC South",
+      "colors": {
+        "primary": "#007487",
+        "secondary": "#d7a22a"
+      },
+      "espn": {
+        "abbr": "JAX",
+        "id": "30"
+      },
+      "teamrankings": {
+        "slug": "jacksonville-jaguars",
+        "name": "Jacksonville"
+      },
+      "nflverse": {
+        "current": "JAX",
+        "historical": []
+      },
+      "aliases": [
+        "JAC",
+        "JACKSONVILLE",
+        "JAGUARS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "KC",
+      "location": "Kansas City",
+      "nickname": "Chiefs",
+      "conference": "AFC",
+      "division": "AFC West",
+      "colors": {
+        "primary": "#e31837",
+        "secondary": "#ffb612"
+      },
+      "espn": {
+        "abbr": "KC",
+        "id": "12"
+      },
+      "teamrankings": {
+        "slug": "kansas-city-chiefs",
+        "name": "Kansas City"
+      },
+      "nflverse": {
+        "current": "KC",
+        "historical": []
+      },
+      "aliases": [
+        "CHIEFS",
+        "KANSAS CITY"
+      ],
+      "eras": []
+    },
+    {
+      "id": "LAC",
+      "location": "Los Angeles",
+      "nickname": "Chargers",
+      "conference": "AFC",
+      "division": "AFC West",
+      "colors": {
+        "primary": "#0080c6",
+        "secondary": "#ffc20e"
+      },
+      "espn": {
+        "abbr": "LAC",
+        "id": "24"
+      },
+      "teamrankings": {
+        "slug": "los-angeles-chargers",
+        "name": "LA Chargers"
+      },
+      "nflverse": {
+        "current": "LAC",
+        "historical": [
+          "SD"
+        ]
+      },
+      "aliases": [
+        "CHARGERS",
+        "LA CHARGERS",
+        "LOS ANGELES",
+        "SAN DIEGO"
+      ],
+      "eras": [
+        {
+          "from": 1961,
+          "to": 2016,
+          "code": "SD",
+          "name": "San Diego Chargers"
+        },
+        {
+          "from": 2017,
+          "to": null,
+          "code": "LAC",
+          "name": "Los Angeles Chargers"
+        }
+      ]
+    },
+    {
+      "id": "LAR",
+      "location": "Los Angeles",
+      "nickname": "Rams",
+      "conference": "NFC",
+      "division": "NFC West",
+      "colors": {
+        "primary": "#003594",
+        "secondary": "#ffd100"
+      },
+      "espn": {
+        "abbr": "LAR",
+        "id": "14"
+      },
+      "teamrankings": {
+        "slug": "los-angeles-rams",
+        "name": "LA Rams"
+      },
+      "nflverse": {
+        "current": "LA",
+        "historical": [
+          "STL"
+        ]
+      },
+      "aliases": [
+        "LA RAMS",
+        "LOS ANGELES",
+        "RAMS",
+        "SAINT LOUIS",
+        "ST LOUIS"
+      ],
+      "eras": [
+        {
+          "from": 1995,
+          "to": 2015,
+          "code": "STL",
+          "name": "St. Louis Rams"
+        },
+        {
+          "from": 2016,
+          "to": null,
+          "code": "LA",
+          "name": "Los Angeles Rams"
+        }
+      ]
+    },
+    {
+      "id": "LV",
+      "location": "Las Vegas",
+      "nickname": "Raiders",
+      "conference": "AFC",
+      "division": "AFC West",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#a5acaf"
+      },
+      "espn": {
+        "abbr": "LV",
+        "id": "13"
+      },
+      "teamrankings": {
+        "slug": "las-vegas-raiders",
+        "name": "Las Vegas"
+      },
+      "nflverse": {
+        "current": "LV",
+        "historical": [
+          "OAK"
+        ]
+      },
+      "aliases": [
+        "LAS VEGAS",
+        "OAKLAND",
+        "RAIDERS"
+      ],
+      "eras": [
+        {
+          "from": 1995,
+          "to": 2019,
+          "code": "OAK",
+          "name": "Oakland Raiders"
+        },
+        {
+          "from": 2020,
+          "to": null,
+          "code": "LV",
+          "name": "Las Vegas Raiders"
+        }
+      ]
+    },
+    {
+      "id": "MIA",
+      "location": "Miami",
+      "nickname": "Dolphins",
+      "conference": "AFC",
+      "division": "AFC East",
+      "colors": {
+        "primary": "#008e97",
+        "secondary": "#fc4c02"
+      },
+      "espn": {
+        "abbr": "MIA",
+        "id": "15"
+      },
+      "teamrankings": {
+        "slug": "miami-dolphins",
+        "name": "Miami"
+      },
+      "nflverse": {
+        "current": "MIA",
+        "historical": []
+      },
+      "aliases": [
+        "DOLPHINS",
+        "MIAMI"
+      ],
+      "eras": []
+    },
+    {
+      "id": "MIN",
+      "location": "Minnesota",
+      "nickname": "Vikings",
+      "conference": "NFC",
+      "division": "NFC North",
+      "colors": {
+        "primary": "#4f2683",
+        "secondary": "#ffc62f"
+      },
+      "espn": {
+        "abbr": "MIN",
+        "id": "16"
+      },
+      "teamrankings": {
+        "slug": "minnesota-vikings",
+        "name": "Minnesota"
+      },
+      "nflverse": {
+        "current": "MIN",
+        "historical": []
+      },
+      "aliases": [
+        "MINNESOTA",
+        "VIKINGS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "NE",
+      "location": "New England",
+      "nickname": "Patriots",
+      "conference": "AFC",
+      "division": "AFC East",
+      "colors": {
+        "primary": "#002a5c",
+        "secondary": "#c60c30"
+      },
+      "espn": {
+        "abbr": "NE",
+        "id": "17"
+      },
+      "teamrankings": {
+        "slug": "new-england-patriots",
+        "name": "New England"
+      },
+      "nflverse": {
+        "current": "NE",
+        "historical": []
+      },
+      "aliases": [
+        "NEW ENGLAND",
+        "PATRIOTS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "NO",
+      "location": "New Orleans",
+      "nickname": "Saints",
+      "conference": "NFC",
+      "division": "NFC South",
+      "colors": {
+        "primary": "#d3bc8d",
+        "secondary": "#000000"
+      },
+      "espn": {
+        "abbr": "NO",
+        "id": "18"
+      },
+      "teamrankings": {
+        "slug": "new-orleans-saints",
+        "name": "New Orleans"
+      },
+      "nflverse": {
+        "current": "NO",
+        "historical": []
+      },
+      "aliases": [
+        "NEW ORLEANS",
+        "SAINTS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "NYG",
+      "location": "New York",
+      "nickname": "Giants",
+      "conference": "NFC",
+      "division": "NFC East",
+      "colors": {
+        "primary": "#003c7f",
+        "secondary": "#c9243f"
+      },
+      "espn": {
+        "abbr": "NYG",
+        "id": "19"
+      },
+      "teamrankings": {
+        "slug": "new-york-giants",
+        "name": "NY Giants"
+      },
+      "nflverse": {
+        "current": "NYG",
+        "historical": []
+      },
+      "aliases": [
+        "GIANTS",
+        "NEW YORK",
+        "NY GIANTS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "NYJ",
+      "location": "New York",
+      "nickname": "Jets",
+      "conference": "AFC",
+      "division": "AFC East",
+      "colors": {
+        "primary": "#115740",
+        "secondary": "#ffffff"
+      },
+      "espn": {
+        "abbr": "NYJ",
+        "id": "20"
+      },
+      "teamrankings": {
+        "slug": "new-york-jets",
+        "name": "NY Jets"
+      },
+      "nflverse": {
+        "current": "NYJ",
+        "historical": []
+      },
+      "aliases": [
+        "JETS",
+        "NEW YORK",
+        "NY JETS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "PHI",
+      "location": "Philadelphia",
+      "nickname": "Eagles",
+      "conference": "NFC",
+      "division": "NFC East",
+      "colors": {
+        "primary": "#06424d",
+        "secondary": "#000000"
+      },
+      "espn": {
+        "abbr": "PHI",
+        "id": "21"
+      },
+      "teamrankings": {
+        "slug": "philadelphia-eagles",
+        "name": "Philadelphia"
+      },
+      "nflverse": {
+        "current": "PHI",
+        "historical": []
+      },
+      "aliases": [
+        "EAGLES",
+        "PHILADELPHIA"
+      ],
+      "eras": []
+    },
+    {
+      "id": "PIT",
+      "location": "Pittsburgh",
+      "nickname": "Steelers",
+      "conference": "AFC",
+      "division": "AFC North",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#ffb612"
+      },
+      "espn": {
+        "abbr": "PIT",
+        "id": "23"
+      },
+      "teamrankings": {
+        "slug": "pittsburgh-steelers",
+        "name": "Pittsburgh"
+      },
+      "nflverse": {
+        "current": "PIT",
+        "historical": []
+      },
+      "aliases": [
+        "PITTSBURGH",
+        "STEELERS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "SEA",
+      "location": "Seattle",
+      "nickname": "Seahawks",
+      "conference": "NFC",
+      "division": "NFC West",
+      "colors": {
+        "primary": "#002a5c",
+        "secondary": "#69be28"
+      },
+      "espn": {
+        "abbr": "SEA",
+        "id": "26"
+      },
+      "teamrankings": {
+        "slug": "seattle-seahawks",
+        "name": "Seattle"
+      },
+      "nflverse": {
+        "current": "SEA",
+        "historical": []
+      },
+      "aliases": [
+        "SEAHAWKS",
+        "SEATTLE"
+      ],
+      "eras": []
+    },
+    {
+      "id": "SF",
+      "location": "San Francisco",
+      "nickname": "49ers",
+      "conference": "NFC",
+      "division": "NFC West",
+      "colors": {
+        "primary": "#aa0000",
+        "secondary": "#b3995d"
+      },
+      "espn": {
+        "abbr": "SF",
+        "id": "25"
+      },
+      "teamrankings": {
+        "slug": "san-francisco-49ers",
+        "name": "San Francisco"
+      },
+      "nflverse": {
+        "current": "SF",
+        "historical": []
+      },
+      "aliases": [
+        "49ERS",
+        "SAN FRANCISCO"
+      ],
+      "eras": []
+    },
+    {
+      "id": "TB",
+      "location": "Tampa Bay",
+      "nickname": "Buccaneers",
+      "conference": "NFC",
+      "division": "NFC South",
+      "colors": {
+        "primary": "#bd1c36",
+        "secondary": "#3e3a35"
+      },
+      "espn": {
+        "abbr": "TB",
+        "id": "27"
+      },
+      "teamrankings": {
+        "slug": "tampa-bay-buccaneers",
+        "name": "Tampa Bay"
+      },
+      "nflverse": {
+        "current": "TB",
+        "historical": []
+      },
+      "aliases": [
+        "BUCCANEERS",
+        "TAMPA BAY"
+      ],
+      "eras": []
+    },
+    {
+      "id": "TEN",
+      "location": "Tennessee",
+      "nickname": "Titans",
+      "conference": "AFC",
+      "division": "AFC South",
+      "colors": {
+        "primary": "#4495d2",
+        "secondary": "#001532"
+      },
+      "espn": {
+        "abbr": "TEN",
+        "id": "10"
+      },
+      "teamrankings": {
+        "slug": "tennessee-titans",
+        "name": "Tennessee"
+      },
+      "nflverse": {
+        "current": "TEN",
+        "historical": []
+      },
+      "aliases": [
+        "TENNESSEE",
+        "TITANS"
+      ],
+      "eras": []
+    },
+    {
+      "id": "WAS",
+      "location": "Washington",
+      "nickname": "Commanders",
+      "conference": "NFC",
+      "division": "NFC East",
+      "colors": {
+        "primary": "#5a1414",
+        "secondary": "#ffb612"
+      },
+      "espn": {
+        "abbr": "WSH",
+        "id": "28"
+      },
+      "teamrankings": {
+        "slug": "washington-commanders",
+        "name": "Washington"
+      },
+      "nflverse": {
+        "current": "WAS",
+        "historical": []
+      },
+      "aliases": [
+        "COMMANDERS",
+        "WASHINGTON",
+        "WSH"
+      ],
+      "eras": []
+    }
+  ]
+}

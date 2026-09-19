@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 pipeline/tools/gen_teams.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(touch props/__init__.py props/sources/__init__.py props/transform/__init__.py)",
+      "Bash(time python3 pipeline/tools/legacy_parity.py)",
+      "Bash(python3 -m pytest --version)",
+      "Bash(python3 -m pytest tests/test_mismatch.py -q)",
+      "Bash(python3 -m venv --system-site-packages .venv)",
+      "Bash(.venv/bin/python -m pip install -q --upgrade pip)",
+      "Bash(.venv/bin/python -m pip install -q pytest jsonschema)",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(../.venv/bin/python -m pytest tests/test_mismatch.py -q)",
+      "Bash(../.venv/bin/python -m pytest tests/ -q)",
+      "Bash(../.venv/bin/python -m pytest tests/test_teamrankings.py -q)",
+      "Bash(mkdir -p pipeline/props)",
+      "Bash(PROPS_OUT=data/v1 .venv/bin/python -m props.cli scrape --out data/v1/stats.json)"
+    ]
+  }
+}

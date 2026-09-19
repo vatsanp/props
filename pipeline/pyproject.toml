@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "props"
+version = "1.0.0"
+description = "NFL matchup edges and player prop recommendations"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.28",
+    "beautifulsoup4>=4.11",
+    "prettytable>=3.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "jsonschema>=4"]
+
+[project.scripts]
+props = "props.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["props*"]
+
+[tool.setuptools.package-data]
+props = ["data/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
