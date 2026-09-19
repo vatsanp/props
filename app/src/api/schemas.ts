@@ -166,11 +166,13 @@ export const propsSchema = z.object({
   note: z.string(),
   recommendations: z.array(
     z.object({
+      id: z.string(),
       game_id: z.string(),
       week: z.number(),
       kickoff: z.string().nullable(),
       market: z.string(),
       market_label: z.string(),
+      metric: z.string(),
       position: z.string(),
       player: z.object({
         id: z.string().nullable(),
@@ -202,7 +204,58 @@ export const propsSchema = z.object({
   ),
 });
 
+/** What a defense allows per game to one position, for one metric. */
+export const dvpCellSchema = z.object({
+  allowed_per_game: z.number(),
+  current: nullableNumber,
+  prior: nullableNumber,
+  games: z.number(),
+  blend_weight: z.number(),
+  softness_rank: z.number(),
+  softness_pct: z.number(),
+});
+
+export const dvpSchema = z.object({
+  season: z.number().nullable(),
+  prior_season: z.number().nullable(),
+  blend_prior_games: z.number(),
+  note: z.string(),
+  defenses: z.record(
+    z.string(),
+    z.record(z.string(), z.record(z.string(), dvpCellSchema)),
+  ),
+});
+
+export const usageSchema = z.object({
+  season: z.number().nullable(),
+  week: z.number().nullable(),
+  teams: z.record(
+    z.string(),
+    z.record(
+      z.string(),
+      z.array(
+        z.object({
+          id: z.string().nullable(),
+          name: z.string(),
+          team: z.string(),
+          position: z.string(),
+          games: z.number(),
+          shares: z.record(z.string(), z.number()),
+          per_game: z.record(z.string(), z.number()),
+          status: z.string(),
+          depth: z.record(z.string(), z.number()),
+          roles: z.record(z.string(), z.string()),
+        }),
+      ),
+    ),
+  ),
+});
+
 export type Manifest = z.infer<typeof manifestSchema>;
+export type Dvp = z.infer<typeof dvpSchema>;
+export type DvpCell = z.infer<typeof dvpCellSchema>;
+export type Usage = z.infer<typeof usageSchema>;
+export type UsagePlayer = Usage['teams'][string][string][number];
 export type Stats = z.infer<typeof statsSchema>;
 export type Game = z.infer<typeof gameSchema>;
 export type Schedule = z.infer<typeof scheduleSchema>;

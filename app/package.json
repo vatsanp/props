@@ -33,7 +33,8 @@
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
     "test": "tsx src/domain/__tests__/mismatch.test.ts",
-    "test:payloads": "tsx src/api/__tests__/payloads.test.ts"
+    "test:payloads": "tsx src/api/__tests__/payloads.test.ts",
+    "test:detail": "tsx src/api/__tests__/propdetail.test.ts"
   },
   "private": true
 }

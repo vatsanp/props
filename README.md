@@ -77,6 +77,7 @@ python3 -m venv --system-site-packages .venv
 cd pipeline && python -m pytest -q        # pipeline tests
 cd app && npm run typecheck && npm test   # app typecheck and rule parity
 cd app && npm run test:payloads           # data/v1 parses against the app schemas
+cd app && npm run test:detail             # every prop's detail screen resolves its data
 ```
 
 The team list, stat definitions and market list live in Python and are

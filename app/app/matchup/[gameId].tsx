@@ -10,7 +10,8 @@ import {
   useStats,
 } from '../../src/api/queries';
 import { Card, Chip, Empty, Loading, SectionTitle } from '../../src/components/common';
-import { PropCard, format } from '../../src/components/PropCard';
+import { trim as format } from '../../src/components/PropRow';
+import { PropRow } from '../../src/components/PropRow';
 import { findEdges, summarize, type Edge } from '../../src/domain/mismatch';
 import { STATS } from '../../src/domain/stats';
 import { useSettings } from '../../src/settings';
@@ -142,8 +143,8 @@ function PropsTab({ gameId }: { gameId: string }) {
   }
   return (
     <>
-      {cards.map((card, index) => (
-        <PropCard key={`${card.market}-${card.player.id ?? index}`} card={card} />
+      {cards.map((card) => (
+        <PropRow key={card.id} card={card} />
       ))}
     </>
   );

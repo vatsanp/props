@@ -4,7 +4,8 @@ import { Pressable } from 'react-native';
 
 import { useProps, useRecords, useSchedule, useStats } from '../../src/api/queries';
 import { Card, Chip, Empty, Loading, SectionTitle } from '../../src/components/common';
-import { PropCard, format } from '../../src/components/PropCard';
+import { trim as format } from '../../src/components/PropRow';
+import { PropRow } from '../../src/components/PropRow';
 import { STAT_ORDER, STATS } from '../../src/domain/stats';
 import { team as lookupTeam } from '../../src/domain/teams';
 import { rankTone, useTheme } from '../../src/theme';
@@ -103,8 +104,8 @@ export default function TeamScreen() {
         {teamPicks.length ? (
           <>
             <SectionTitle>This week's props</SectionTitle>
-            {teamPicks.map((card, index) => (
-              <PropCard key={`${card.market}-${card.player.id ?? index}`} card={card} />
+            {teamPicks.map((card) => (
+              <PropRow key={card.id} card={card} />
             ))}
           </>
         ) : null}

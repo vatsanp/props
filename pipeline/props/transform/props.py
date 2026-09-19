@@ -133,11 +133,17 @@ def _card(
     total = score(cell["softness_pct"], usage_pct, conf)
 
     return {
+        # Stable across rebuilds, so the app can link to one card and still
+        # find it after the data refreshes.
+        "id": card_id(game["id"], market.id, player),
         "game_id": game["id"],
         "week": game["week"],
         "kickoff": game["kickoff"],
         "market": market.id,
         "market_label": market.label,
+        # The key this market occupies in dvp.json, so the app never has to
+        # reconstruct it from a display label.
+        "metric": market.metric,
         "position": market.position,
         "player": {
             "id": player["id"],
@@ -220,6 +226,12 @@ def _ordinal(number: int) -> str:
 
 def _player_key(player: dict) -> str:
     return player["id"] or f"{player['team']}:{player['name']}"
+
+
+def card_id(game_id: str, market_id: str, player: dict) -> str:
+    """game~market~player, using a separator that survives a URL path."""
+    who = player.get("id") or player.get("name", "").replace(" ", "-")
+    return f"{game_id}~{market_id}~{who}"
 
 
 def _usage_percentiles(usage_payload: dict) -> Dict[str, Dict[str, Dict[str, float]]]:

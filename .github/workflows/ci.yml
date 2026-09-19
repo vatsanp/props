@@ -39,6 +39,9 @@ jobs:
       - name: Published payloads must match the app schemas
         working-directory: app
         run: npm run test:payloads
+      - name: Every prop detail screen can resolve its data
+        working-directory: app
+        run: npm run test:detail
 
       # The domain constants are generated; a diff here means someone edited
       # the TypeScript instead of the Python.

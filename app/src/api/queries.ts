@@ -2,6 +2,7 @@ import { useQuery, type UseQueryResult } from '@tanstack/react-query';
 
 import { getJson } from './client';
 import {
+  dvpSchema,
   h2hSummarySchema,
   h2hTeamSchema,
   manifestSchema,
@@ -9,6 +10,8 @@ import {
   recordsSchema,
   scheduleSchema,
   statsSchema,
+  usageSchema,
+  type Dvp,
   type H2HSummary,
   type H2HTeam,
   type Manifest,
@@ -16,6 +19,7 @@ import {
   type Records,
   type Schedule,
   type Stats,
+  type Usage,
 } from './schemas';
 
 const MINUTE = 60 * 1000;
@@ -53,6 +57,10 @@ export const useSchedule = () => useVersioned<Schedule>('schedule.json', schedul
 export const useRecords = () => useVersioned<Records>('records.json', recordsSchema);
 export const useH2HSummary = () => useVersioned<H2HSummary>('h2h.json', h2hSummarySchema);
 export const useProps = () => useVersioned<PropsPayload>('props.json', propsSchema);
+
+// Only the detail screen needs these, so they are not fetched on open.
+export const useDvp = () => useVersioned<Dvp>('dvp.json', dvpSchema);
+export const useUsage = () => useVersioned<Usage>('usage.json', usageSchema);
 
 /** Per-team head-to-head detail, fetched only when a matchup is opened. */
 export function useH2HTeam(team: string | undefined): UseQueryResult<H2HTeam> {

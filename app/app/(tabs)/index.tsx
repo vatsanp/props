@@ -1,11 +1,10 @@
 import { useMemo, useState } from 'react';
 import { Pressable, RefreshControl, ScrollView, Text, View } from 'react-native';
-import { useRouter } from 'expo-router';
 
 import { failedSources, isStale, useManifest, useProps } from '../../src/api/queries';
 import type { Recommendation } from '../../src/api/schemas';
 import { Card, Chip, Empty, ErrorNote, Loading } from '../../src/components/common';
-import { PropCard } from '../../src/components/PropCard';
+import { PropRow } from '../../src/components/PropRow';
 import { POSITIONS } from '../../src/domain/markets';
 import { useTheme } from '../../src/theme';
 
@@ -14,7 +13,6 @@ import { useTheme } from '../../src/theme';
  */
 export default function PropsScreen() {
   const theme = useTheme();
-  const router = useRouter();
   const manifest = useManifest();
   const picks = useProps();
   const [position, setPosition] = useState<string | null>(null);
@@ -107,13 +105,7 @@ export default function PropsScreen() {
           }
         />
       ) : (
-        cards.map((card: Recommendation, index: number) => (
-          <PropCard
-            key={`${card.game_id}-${card.market}-${card.player.id ?? index}`}
-            card={card}
-            onPress={() => router.push(`/matchup/${card.game_id}`)}
-          />
-        ))
+        cards.map((card: Recommendation) => <PropRow key={card.id} card={card} />)
       )}
 
       <Text
