@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:59Z",
+ "generated_at": "2026-09-27T16:22:55Z",
  "season": 2026,
  "week": 3,
  "teams": {
@@ -349,7 +349,7 @@
      "position": "QB",
      "games": 2,
      "shares": {
-      "attempts": 0.7222
+      "attempts": 0.4937
      },
      "per_game": {
       "attempts": 19.5,
@@ -366,13 +366,36 @@
      }
     },
     {
+     "id": "00-0039917",
+     "name": "Michael Penix Jr.",
+     "team": "ATL",
+     "position": "QB",
+     "games": 1,
+     "shares": {
+      "attempts": 0.3165
+     },
+     "per_game": {
+      "attempts": 25.0,
+      "passing_tds": 1.0,
+      "passing_yards": 256.0,
+      "rushing_yards": -2.0
+     },
+     "status": "active",
+     "depth": {
+      "attempts": 2
+     },
+     "roles": {
+      "attempts": "secondary"
+     }
+    },
+    {
      "id": "00-0041194",
      "name": "Jack Strand",
      "team": "ATL",
      "position": "QB",
      "games": 1,
      "shares": {
-      "attempts": 0.2778
+      "attempts": 0.1899
      },
      "per_game": {
       "attempts": 15.0,
@@ -382,10 +405,10 @@
      },
      "status": "active",
      "depth": {
-      "attempts": 2
+      "attempts": 3
      },
      "roles": {
-      "attempts": "secondary"
+      "attempts": "committee"
      }
     }
    ],
@@ -395,16 +418,16 @@
      "name": "Drake London",
      "team": "ATL",
      "position": "WR",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.36
+      "targets": 0.4524
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 40.0,
-      "receptions": 3.0,
+      "receiving_yards": 91.33,
+      "receptions": 5.0,
       "rushing_tds": 0.0,
-      "targets": 4.5
+      "targets": 6.33
      },
      "status": "active",
      "depth": {
@@ -419,16 +442,16 @@
      "name": "Jahan Dotson",
      "team": "ATL",
      "position": "WR",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.28
+      "targets": 0.2381
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 15.0,
-      "receptions": 1.5,
+      "receiving_yards": 13.67,
+      "receptions": 1.33,
       "rushing_tds": 0.0,
-      "targets": 3.5
+      "targets": 3.33
      },
      "status": "active",
      "depth": {
@@ -443,14 +466,14 @@
      "name": "Olamide Zaccheaus",
      "team": "ATL",
      "position": "WR",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.16
+      "targets": 0.1429
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 4.0,
-      "receptions": 1.0,
+      "receiving_yards": 5.67,
+      "receptions": 1.33,
       "rushing_tds": 0.0,
       "targets": 2.0
      },
@@ -463,20 +486,20 @@
      }
     },
     {
-     "id": "00-0036463",
-     "name": "Chris Blair",
+     "id": "00-0041044",
+     "name": "Zachariah Branch",
      "team": "ATL",
      "position": "WR",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.12
+      "targets": 0.0952
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 3.0,
-      "receptions": 0.5,
+      "receiving_yards": 7.0,
+      "receptions": 1.0,
       "rushing_tds": 0.0,
-      "targets": 1.5
+      "targets": 1.33
      },
      "status": "active",
      "depth": {
@@ -487,18 +510,18 @@
      }
     },
     {
-     "id": "00-0041044",
-     "name": "Zachariah Branch",
+     "id": "00-0036463",
+     "name": "Chris Blair",
      "team": "ATL",
      "position": "WR",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.08
+      "targets": 0.0714
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 7.0,
-      "receptions": 1.0,
+      "receiving_yards": 2.0,
+      "receptions": 0.33,
       "rushing_tds": 0.0,
       "targets": 1.0
      },
@@ -517,16 +540,16 @@
      "name": "Austin Hooper",
      "team": "ATL",
      "position": "TE",
-     "games": 1,
+     "games": 2,
      "shares": {
-      "targets": 0.4444
+      "targets": 0.4615
      },
      "per_game": {
-      "receiving_tds": 0.0,
-      "receiving_yards": 20.0,
+      "receiving_tds": 0.5,
+      "receiving_yards": 15.5,
       "receptions": 2.0,
       "rushing_tds": 0.0,
-      "targets": 4.0
+      "targets": 3.0
      },
      "status": "active",
      "depth": {
@@ -541,14 +564,14 @@
      "name": "Kyle Pitts",
      "team": "ATL",
      "position": "TE",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.4444
+      "targets": 0.4615
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 7.5,
-      "receptions": 0.5,
+      "receiving_yards": 6.67,
+      "receptions": 0.67,
       "rushing_tds": 0.0,
       "targets": 2.0
      },
@@ -567,7 +590,7 @@
      "position": "TE",
      "games": 1,
      "shares": {
-      "targets": 0.1111
+      "targets": 0.0769
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -589,7 +612,7 @@
      "name": "Nick Muse",
      "team": "ATL",
      "position": "TE",
-     "games": 1,
+     "games": 2,
      "shares": {
       "targets": 0.0
      },
@@ -615,19 +638,19 @@
      "name": "Bijan Robinson",
      "team": "ATL",
      "position": "RB",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "carries": 0.6491,
-      "targets": 0.875
+      "carries": 0.6875,
+      "targets": 0.8889
      },
      "per_game": {
-      "carries": 18.5,
-      "receiving_tds": 0.5,
-      "receiving_yards": 49.5,
-      "receptions": 5.5,
-      "rushing_tds": 0.0,
-      "rushing_yards": 77.5,
-      "targets": 7.0
+      "carries": 22.0,
+      "receiving_tds": 0.33,
+      "receiving_yards": 39.33,
+      "receptions": 4.33,
+      "rushing_tds": 0.67,
+      "rushing_yards": 116.33,
+      "targets": 5.33
      },
      "status": "active",
      "depth": {
@@ -644,19 +667,19 @@
      "name": "Brian Robinson",
      "team": "ATL",
      "position": "RB",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "carries": 0.3509,
-      "targets": 0.125
+      "carries": 0.3125,
+      "targets": 0.1111
      },
      "per_game": {
       "carries": 10.0,
       "receiving_tds": 0.0,
-      "receiving_yards": 8.0,
-      "receptions": 1.0,
-      "rushing_tds": 0.0,
-      "rushing_yards": 41.0,
-      "targets": 1.0
+      "receiving_yards": 5.33,
+      "receptions": 0.67,
+      "rushing_tds": 0.33,
+      "rushing_yards": 44.0,
+      "targets": 0.67
      },
      "status": "active",
      "depth": {
@@ -712,7 +735,7 @@
       "rushing_tds": 0.0,
       "targets": 6.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 2
      },
@@ -1048,7 +1071,7 @@
       "rushing_tds": 0.0,
       "targets": 4.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 2
      },
@@ -1072,7 +1095,7 @@
       "rushing_tds": 0.0,
       "targets": 3.5
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 3
      },
@@ -1571,7 +1594,7 @@
       "rushing_tds": 0.0,
       "targets": 9.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 1
      },
@@ -1619,7 +1642,7 @@
       "rushing_tds": 0.0,
       "targets": 3.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 3
      },
@@ -2027,7 +2050,7 @@
       "passing_yards": 203.5,
       "rushing_yards": 53.5
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "attempts": 1
      },
@@ -2313,7 +2336,7 @@
       "rushing_tds": 0.0,
       "targets": 2.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 3
      },
@@ -3261,7 +3284,7 @@
       "rushing_tds": 0.0,
       "targets": 0.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 6
      },
@@ -3348,7 +3371,7 @@
       "rushing_yards": 19.5,
       "targets": 1.5
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "carries": 2,
       "targets": 2
@@ -3709,16 +3732,16 @@
      "name": "Tucker Kraft",
      "team": "GB",
      "position": "TE",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.75
+      "targets": 0.7391
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 40.0,
-      "receptions": 2.5,
+      "receiving_yards": 35.33,
+      "receptions": 3.0,
       "rushing_tds": 0.0,
-      "targets": 4.5
+      "targets": 5.67
      },
      "status": "active",
      "depth": {
@@ -3733,13 +3756,13 @@
      "name": "Jonnu Smith",
      "team": "GB",
      "position": "TE",
-     "games": 1,
+     "games": 2,
      "shares": {
-      "targets": 0.25
+      "targets": 0.2609
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 50.0,
+      "receiving_yards": 33.0,
       "receptions": 2.0,
       "rushing_tds": 0.0,
       "targets": 3.0
@@ -3759,14 +3782,14 @@
      "name": "Jordan Love",
      "team": "GB",
      "position": "QB",
-     "games": 2,
+     "games": 3,
      "shares": {
       "attempts": 1.0
      },
      "per_game": {
-      "attempts": 35.5,
+      "attempts": 41.33,
       "passing_tds": 2.0,
-      "passing_yards": 266.0,
+      "passing_yards": 281.33,
       "rushing_yards": 0.0
      },
      "status": "active",
@@ -3780,20 +3803,20 @@
    ],
    "WR": [
     {
-     "id": "00-0038124",
-     "name": "Christian Watson",
+     "id": "00-0040667",
+     "name": "Matthew Golden",
      "team": "GB",
      "position": "WR",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.3725
+      "targets": 0.3571
      },
      "per_game": {
-      "receiving_tds": 1.5,
-      "receiving_yards": 94.0,
+      "receiving_tds": 0.33,
+      "receiving_yards": 84.33,
       "receptions": 5.0,
       "rushing_tds": 0.0,
-      "targets": 9.5
+      "targets": 10.0
      },
      "status": "active",
      "depth": {
@@ -3804,20 +3827,20 @@
      }
     },
     {
-     "id": "00-0040667",
-     "name": "Matthew Golden",
+     "id": "00-0038124",
+     "name": "Christian Watson",
      "team": "GB",
      "position": "WR",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.3529
+      "targets": 0.3452
      },
      "per_game": {
-      "receiving_tds": 0.0,
-      "receiving_yards": 76.5,
-      "receptions": 5.0,
+      "receiving_tds": 1.33,
+      "receiving_yards": 94.67,
+      "receptions": 5.67,
       "rushing_tds": 0.0,
-      "targets": 9.0
+      "targets": 9.67
      },
      "status": "active",
      "depth": {
@@ -3828,13 +3851,37 @@
      }
     },
     {
+     "id": "00-0038090",
+     "name": "Skyy Moore",
+     "team": "GB",
+     "position": "WR",
+     "games": 3,
+     "shares": {
+      "targets": 0.131
+     },
+     "per_game": {
+      "receiving_tds": 0.0,
+      "receiving_yards": 12.33,
+      "receptions": 1.67,
+      "rushing_tds": 0.0,
+      "targets": 3.67
+     },
+     "status": "active",
+     "depth": {
+      "targets": 3
+     },
+     "roles": {
+      "targets": "committee"
+     }
+    },
+    {
      "id": "00-0039146",
      "name": "Jayden Reed",
      "team": "GB",
      "position": "WR",
      "games": 2,
      "shares": {
-      "targets": 0.1569
+      "targets": 0.0952
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -3844,30 +3891,6 @@
       "targets": 4.0
      },
      "status": "Out",
-     "depth": {
-      "targets": 3
-     },
-     "roles": {
-      "targets": "committee"
-     }
-    },
-    {
-     "id": "00-0038090",
-     "name": "Skyy Moore",
-     "team": "GB",
-     "position": "WR",
-     "games": 2,
-     "shares": {
-      "targets": 0.0784
-     },
-     "per_game": {
-      "receiving_tds": 0.0,
-      "receiving_yards": 3.0,
-      "receptions": 1.0,
-      "rushing_tds": 0.0,
-      "targets": 2.0
-     },
-     "status": "active",
      "depth": {
       "targets": 4
      },
@@ -3880,14 +3903,14 @@
      "name": "Bo Melton",
      "team": "GB",
      "position": "WR",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.0392
+      "targets": 0.0357
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 5.0,
-      "receptions": 0.5,
+      "receiving_yards": 3.33,
+      "receptions": 0.33,
       "rushing_tds": 0.0,
       "targets": 1.0
      },
@@ -3904,16 +3927,16 @@
      "name": "J. Michael Sturdivant",
      "team": "GB",
      "position": "WR",
-     "games": 1,
+     "games": 2,
      "shares": {
-      "targets": 0.0
+      "targets": 0.0357
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 0.0,
-      "receptions": 0.0,
+      "receiving_yards": 11.0,
+      "receptions": 1.5,
       "rushing_tds": 0.0,
-      "targets": 0.0
+      "targets": 1.5
      },
      "status": "active",
      "depth": {
@@ -3926,60 +3949,60 @@
    ],
    "RB": [
     {
-     "id": "00-0038685",
-     "name": "Chris Brooks",
-     "team": "GB",
-     "position": "RB",
-     "games": 2,
-     "shares": {
-      "carries": 0.2895,
-      "targets": 0.5
-     },
-     "per_game": {
-      "carries": 5.5,
-      "receiving_tds": 0.0,
-      "receiving_yards": 7.5,
-      "receptions": 0.5,
-      "rushing_tds": 0.0,
-      "rushing_yards": 20.0,
-      "targets": 1.5
-     },
-     "status": "active",
-     "depth": {
-      "carries": 2,
-      "targets": 1
-     },
-     "roles": {
-      "carries": "secondary",
-      "targets": "primary"
-     }
-    },
-    {
      "id": "00-0039811",
      "name": "MarShawn Lloyd",
      "team": "GB",
      "position": "RB",
-     "games": 2,
+     "games": 3,
      "shares": {
       "carries": 0.5,
-      "targets": 0.5
+      "targets": 0.4615
      },
      "per_game": {
-      "carries": 9.5,
-      "receiving_tds": 0.5,
-      "receiving_yards": 3.0,
-      "receptions": 1.0,
+      "carries": 7.67,
+      "receiving_tds": 0.33,
+      "receiving_yards": 4.33,
+      "receptions": 1.33,
       "rushing_tds": 0.0,
-      "rushing_yards": 28.5,
-      "targets": 1.5
+      "rushing_yards": 22.67,
+      "targets": 2.0
      },
      "status": "active",
      "depth": {
       "carries": 1,
-      "targets": 2
+      "targets": 1
      },
      "roles": {
       "carries": "primary",
+      "targets": "primary"
+     }
+    },
+    {
+     "id": "00-0038685",
+     "name": "Chris Brooks",
+     "team": "GB",
+     "position": "RB",
+     "games": 3,
+     "shares": {
+      "carries": 0.2391,
+      "targets": 0.3077
+     },
+     "per_game": {
+      "carries": 3.67,
+      "receiving_tds": 0.0,
+      "receiving_yards": 6.33,
+      "receptions": 0.67,
+      "rushing_tds": 0.0,
+      "rushing_yards": 13.33,
+      "targets": 1.33
+     },
+     "status": "active",
+     "depth": {
+      "carries": 3,
+      "targets": 2
+     },
+     "roles": {
+      "carries": "committee",
       "targets": "secondary"
      }
     },
@@ -3988,27 +4011,27 @@
      "name": "Kaleb Johnson",
      "team": "GB",
      "position": "RB",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "carries": 0.2105,
-      "targets": 0.0
+      "carries": 0.2609,
+      "targets": 0.2308
      },
      "per_game": {
       "carries": 4.0,
       "receiving_tds": 0.0,
-      "receiving_yards": 0.0,
-      "receptions": 0.0,
+      "receiving_yards": 3.33,
+      "receptions": 0.33,
       "rushing_tds": 0.0,
-      "rushing_yards": 16.0,
-      "targets": 0.0
+      "rushing_yards": 12.67,
+      "targets": 1.0
      },
      "status": "active",
      "depth": {
-      "carries": 3,
+      "carries": 2,
       "targets": 3
      },
      "roles": {
-      "carries": "committee",
+      "carries": "secondary",
       "targets": "committee"
      }
     }
@@ -4243,7 +4266,7 @@
       "rushing_tds": 0.0,
       "targets": 10.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 2
      },
@@ -4416,7 +4439,7 @@
       "rushing_tds": 0.0,
       "targets": 3.5
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 3
      },
@@ -4464,7 +4487,7 @@
       "rushing_tds": 0.0,
       "targets": 1.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 5
      },
@@ -5428,7 +5451,7 @@
       "rushing_tds": 0.0,
       "targets": 1.5
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 3
      },
@@ -5640,7 +5663,7 @@
       "rushing_tds": 0.0,
       "targets": 3.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 4
      },
@@ -5764,7 +5787,7 @@
       "rushing_tds": 0.0,
       "targets": 9.0
      },
-     "status": "active",
+     "status": "Doubtful",
      "depth": {
       "targets": 2
      },
@@ -5910,7 +5933,7 @@
       "rushing_tds": 0.0,
       "targets": 2.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 2
      },
@@ -6523,7 +6546,7 @@
       "rushing_yards": 5.0,
       "targets": 0.0
      },
-     "status": "active",
+     "status": "Doubtful",
      "depth": {
       "carries": 2,
       "targets": 3
@@ -6604,7 +6627,7 @@
       "rushing_tds": 0.0,
       "targets": 5.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 2
      },
@@ -6676,7 +6699,7 @@
       "rushing_tds": 0.0,
       "targets": 1.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 5
      },
@@ -7044,7 +7067,7 @@
       "rushing_tds": 0.0,
       "targets": 1.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 2
      },
@@ -7726,7 +7749,7 @@
       "rushing_tds": 0.0,
       "targets": 0.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 5
      },
@@ -8149,7 +8172,7 @@
       "rushing_tds": 0.0,
       "targets": 7.5
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 1
      },
@@ -8319,7 +8342,7 @@
       "rushing_tds": 0.0,
       "targets": 3.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 3
      },
@@ -8436,7 +8459,7 @@
       "rushing_tds": 0.0,
       "targets": 3.5
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 1
      },
@@ -8720,7 +8743,7 @@
       "rushing_tds": 0.0,
       "targets": 0.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 6
      },
@@ -8868,7 +8891,7 @@
       "rushing_tds": 0.0,
       "targets": 3.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 4
      },
@@ -8945,7 +8968,7 @@
       "rushing_yards": 44.5,
       "targets": 5.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "carries": 1,
       "targets": 1
@@ -8974,7 +8997,7 @@
       "rushing_yards": 18.5,
       "targets": 3.5
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "carries": 2,
       "targets": 2
@@ -9476,7 +9499,7 @@
       "rushing_tds": 0.0,
       "targets": 5.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "targets": 2
      },
@@ -9500,7 +9523,7 @@
       "rushing_tds": 0.0,
       "targets": 3.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 3
      },
@@ -10078,7 +10101,7 @@
       "rushing_yards": 26.5,
       "targets": 3.0
      },
-     "status": "active",
+     "status": "Questionable",
      "depth": {
       "carries": 2,
       "targets": 1
@@ -10538,7 +10561,7 @@
       "rushing_tds": 0.0,
       "targets": 3.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "targets": 1
      },
@@ -10724,7 +10747,7 @@
       "passing_yards": 130.0,
       "rushing_yards": 50.0
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "attempts": 1
      },

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:16Z",
+ "generated_at": "2026-09-27T16:22:17Z",
  "team": "ATL",
  "since": 1999,
  "opponents": {
@@ -3621,19 +3621,19 @@
    ]
   },
   "GB": {
-   "games": 16,
-   "wins": 8,
+   "games": 17,
+   "wins": 9,
    "losses": 8,
    "ties": 0,
-   "streak": "ATL W1",
+   "streak": "ATL W2",
    "splits": {
     "all": {
-     "w": 8,
+     "w": 9,
      "l": 8,
      "t": 0
     },
     "regular": {
-     "w": 6,
+     "w": 7,
      "l": 7,
      "t": 0
     },
@@ -3648,7 +3648,7 @@
      "t": 0
     },
     "away": {
-     "w": 3,
+     "w": 4,
      "l": 5,
      "t": 0
     },
@@ -3658,13 +3658,25 @@
      "t": 0
     },
     "last10": {
-     "w": 4,
-     "l": 6,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-24",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "GB",
+     "away": "ATL",
+     "home_score": 14,
+     "away_score": 35,
+     "winner": "ATL",
+     "neutral": false
+    },
     {
      "date": "2023-09-17",
      "season": 2023,
@@ -3794,18 +3806,6 @@
      "away": "GB",
      "home_score": 20,
      "away_score": 17,
-     "winner": "ATL",
-     "neutral": false
-    },
-    {
-     "date": "2008-10-05",
-     "season": 2008,
-     "week": 5,
-     "type": "REG",
-     "home": "GB",
-     "away": "ATL",
-     "home_score": 24,
-     "away_score": 27,
      "winner": "ATL",
      "neutral": false
     }
