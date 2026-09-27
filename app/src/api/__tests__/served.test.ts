@@ -113,7 +113,14 @@ async function main(): Promise<void> {
     assert.ok(etag, 'props.json is missing an ETag');
     const second = await fetch(`${BASE}/props.json`, { headers: { 'if-none-match': etag } });
     assert.equal(second.status, 304, `expected 304, got ${second.status}`);
-    console.log('  ok  props.json revalidates to 304');
+
+    // Cloudflare rewrites the ETag to W/"..." whenever it compresses, so that
+    // is what real clients send back. Locally nothing compresses, so send the
+    // weak form explicitly or this only ever tests the easy case.
+    const weak = etag.startsWith('W/') ? etag : `W/${etag}`;
+    const third = await fetch(`${BASE}/props.json`, { headers: { 'if-none-match': weak } });
+    assert.equal(third.status, 304, `weak ${weak}: expected 304, got ${third.status}`);
+    console.log('  ok  props.json revalidates to 304, strong or weak');
   } catch (error) {
     fail(`ETag revalidation: ${String(error)}`);
   }

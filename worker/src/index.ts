@@ -43,8 +43,10 @@ export interface Env extends ExpoEnv {
 /** Stored beside each payload so a sync can skip what has not changed. */
 interface PayloadMeta {
   /**
-   * The pipeline's content hash for this file. A payload pulled in by the
-   * fetch fallback carries `origin`, so the next cron reconciles it.
+   * The pipeline's content hash for this file (the manifest's own is its
+   * `generated_at`). `origin` when the published hash was not known at write
+   * time: the next sync sees the mismatch and reconciles it, and it is never
+   * sent as an ETag.
    */
   hash: string;
   /** When this key was last written, ISO-8601. */
@@ -74,6 +76,8 @@ const PAYLOAD_PREFIX = 'v1/';
 const H2H_PREFIX = 'h2h/';
 
 const MANIFEST = 'manifest.json';
+/** Metadata hash for content whose published hash is not known. Never an ETag. */
+const UNKNOWN_HASH = 'origin';
 const H2H_SUMMARY = 'h2h.json';
 
 /** Superseded team files are never read again; this is just the bin collection. */
@@ -125,9 +129,30 @@ function sleep(ms: number): Promise<void> {
 // Origin
 // --------------------------------------------------------------------------
 
-function originUrl(env: Env, path: string, bust = false): string {
+/**
+ * How to ask origin for a file.
+ *
+ * GitHub's raw CDN caches every file for five minutes (max-age=300). Fetching a
+ * payload at its bare URL right after a data commit can therefore return the
+ * *previous* build -- and if that body were stored under the new build's hash,
+ * the sync would consider it current and serve it until the build after next.
+ *
+ * So a payload is fetched at `?v=<hash>`: a new build is a URL the CDN has never
+ * seen, which forces a fresh read, while an unchanged one stays cacheable. The
+ * manifest, which is how we learn the hashes, is fetched with a time buster.
+ */
+interface OriginQuery {
+  bust?: boolean;
+  version?: string;
+}
+
+function originUrl(env: Env, path: string, { bust = false, version }: OriginQuery = {}): string {
   const base = env.ORIGIN_BASE.replace(/\/+$/, '');
-  return `${base}/${path}${bust ? `?t=${Date.now()}` : ''}`;
+  if (bust) return `${base}/${path}?t=${Date.now()}`;
+  if (version && version !== UNKNOWN_HASH) {
+    return `${base}/${path}?v=${encodeURIComponent(version)}`;
+  }
+  return `${base}/${path}`;
 }
 
 /**
@@ -135,7 +160,7 @@ function originUrl(env: Env, path: string, bust = false): string {
  * connection mid-sync would otherwise hold the manifest back for a full hour.
  * A 404 is not retried: that file is genuinely not published.
  */
-async function originText(env: Env, path: string, bust = false): Promise<string> {
+async function originText(env: Env, path: string, query: OriginQuery = {}): Promise<string> {
   // Caught before the retry loop: an unset ORIGIN_BASE would otherwise surface
   // as three slow 404s against a URL that still says <github-user>.
   if (env.ORIGIN_BASE.includes('<')) {
@@ -146,7 +171,7 @@ async function originText(env: Env, path: string, bust = false): Promise<string>
 
   for (let attempt = 1; attempt <= FETCH_ATTEMPTS; attempt++) {
     try {
-      const response = await fetch(originUrl(env, path, bust), {
+      const response = await fetch(originUrl(env, path, query), {
         headers: { 'user-agent': USER_AGENT, accept: 'application/json' },
       });
       if (response.status === 404) {
@@ -223,7 +248,7 @@ export async function sync(env: Env): Promise<SyncReport> {
   const wrote: string[] = [];
   const failed: string[] = [];
 
-  const manifestText = await originText(env, MANIFEST, true);
+  const manifestText = await originText(env, MANIFEST, { bust: true });
   const manifest = JSON.parse(manifestText) as Manifest;
   const files = manifest.files ?? {};
   if (Object.keys(files).length === 0) {
@@ -237,7 +262,7 @@ export async function sync(env: Env): Promise<SyncReport> {
 
   await pool(stale, CONCURRENCY, async ([name, entry]) => {
     try {
-      const body = await originText(env, name);
+      const body = await originText(env, name, { version: entry.hash });
       await env.MISMATCH_STORE.put(PAYLOAD_PREFIX + name, body, {
         metadata: meta(entry.hash),
       });
@@ -294,11 +319,40 @@ function problem(status: number, message: string, method = 'GET'): Response {
 }
 
 /** The current h2h.json hash, which per-team cache keys hang off. */
-async function h2hHash(env: Env): Promise<string> {
-  const manifestText = await env.MISMATCH_STORE.get(PAYLOAD_PREFIX + MANIFEST, 'text');
-  if (manifestText === null) return 'origin';
-  const manifest = JSON.parse(manifestText) as Manifest;
-  return manifest.files?.[H2H_SUMMARY]?.hash ?? 'origin';
+/**
+ * If-None-Match is compared *weakly* (RFC 9110 §13.1.2): W/"x" matches "x".
+ * That is not a nicety here. Cloudflare's edge rewrites a strong ETag to a weak
+ * one whenever it compresses the response, which it does to all of this JSON,
+ * so every real client sends back W/"...". An exact comparison never matched,
+ * and no 304 was ever served in production.
+ */
+function etagMatches(header: string | null, etag: string | undefined): boolean {
+  if (!header || !etag) return false;
+  const opaque = (tag: string) => tag.trim().replace(/^W\//, '');
+  const wanted = opaque(etag);
+  return header.split(',').some((tag) => tag.trim() === '*' || opaque(tag) === wanted);
+}
+
+/** An ETag only when the hash names the content; `origin` names nothing. */
+function etagFor(hash: string | undefined, suffix = ''): string | undefined {
+  return hash && hash !== UNKNOWN_HASH ? `"${hash}${suffix}"` : undefined;
+}
+
+/**
+ * The hash the pipeline published for `path` -- from the manifest in KV, or
+ * from origin when a freshly deployed Worker has none yet.
+ *
+ * Callers read this *before* fetching the payload itself. If a build lands in
+ * between, the stored label is then older than the body, never newer, and the
+ * next sync sees the mismatch and corrects it. The other order could label an
+ * old body with a new hash, which the sync would never revisit.
+ */
+async function publishedHash(env: Env, path: string): Promise<string> {
+  const text =
+    (await env.MISMATCH_STORE.get(PAYLOAD_PREFIX + MANIFEST, 'text')) ??
+    (await originText(env, MANIFEST, { bust: true }));
+  const manifest = JSON.parse(text) as Manifest;
+  return manifest.files?.[path]?.hash ?? UNKNOWN_HASH;
 }
 
 /**
@@ -314,22 +368,29 @@ async function serveH2HTeam(
   path: string,
   team: string,
 ): Promise<Response> {
-  const hash = await h2hHash(env);
+  const hash = await publishedHash(env, H2H_SUMMARY);
   const cacheKey = `${H2H_PREFIX}${team}@${hash}.json`;
+  const etag = etagFor(hash, `-${team}`);
+
+  if (etagMatches(request.headers.get('if-none-match'), etag)) {
+    return respond(null, { status: 304, etag, method: request.method });
+  }
 
   const cached = await env.MISMATCH_STORE.get(cacheKey, 'text');
   if (cached !== null) {
-    return respond(cached, { etag: `"${hash}-${team}"`, method: request.method });
+    return respond(cached, { etag, method: request.method });
   }
 
-  const body = await originText(env, path);
+  // Versioned for the same reason the sync is: a stale CDN copy stored under
+  // this key would otherwise be served for the key's whole 30-day life.
+  const body = await originText(env, path, { version: hash });
   ctx.waitUntil(
     env.MISMATCH_STORE.put(cacheKey, body, {
       metadata: meta(hash),
       expirationTtl: H2H_TTL_SECONDS,
     }).catch(() => {}),
   );
-  return respond(body, { etag: `"${hash}-${team}"`, method: request.method });
+  return respond(body, { etag, method: request.method });
 }
 
 /**
@@ -352,22 +413,32 @@ async function servePayload(
   );
 
   if (stored.value !== null) {
-    const etag = stored.metadata?.hash ? `"${stored.metadata.hash}"` : undefined;
+    const etag = etagFor(stored.metadata?.hash);
     // The manifest changes every build, so revalidating it by etag would only
     // ever miss; the payloads are the ones worth a 304.
-    if (!isManifest && etag && request.headers.get('if-none-match') === etag) {
+    if (!isManifest && etagMatches(request.headers.get('if-none-match'), etag)) {
       return respond(null, { status: 304, cache, etag, method: request.method });
     }
     return respond(stored.value, { cache, etag, method: request.method });
   }
 
-  const body = await originText(env, path, isManifest);
+  // A miss: backfill from origin, labelled with the real hash so the ETag is
+  // meaningful immediately and the next sync has nothing to rewrite.
+  let hash: string;
+  let body: string;
+  if (isManifest) {
+    body = await originText(env, MANIFEST, { bust: true });
+    hash = (JSON.parse(body) as Manifest).generated_at ?? UNKNOWN_HASH;
+  } else {
+    hash = await publishedHash(env, path);
+    body = await originText(env, path, { version: hash });
+  }
   ctx.waitUntil(
-    env.MISMATCH_STORE.put(PAYLOAD_PREFIX + path, body, { metadata: meta('origin') }).catch(
+    env.MISMATCH_STORE.put(PAYLOAD_PREFIX + path, body, { metadata: meta(hash) }).catch(
       () => {},
     ),
   );
-  return respond(body, { cache, method: request.method });
+  return respond(body, { cache, etag: isManifest ? undefined : etagFor(hash), method: request.method });
 }
 
 /** A quick look at what the Worker is holding, for when something looks stale. */
