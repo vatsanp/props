@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-27T19:56:08Z",
+ "generated_at": "2026-09-27T22:44:26Z",
  "season": 2026,
  "current_week": 3,
  "games": [
@@ -573,9 +573,9 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "away": "CAR",
    "home": "CLE",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 18,
+   "home_score": 21,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -2.5,
@@ -590,9 +590,9 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "away": "CIN",
    "home": "PIT",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 27,
+   "home_score": 30,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": -3.5,
@@ -607,9 +607,9 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "away": "HOU",
    "home": "IND",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 17,
+   "home_score": 19,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": -1.5,
@@ -624,9 +624,9 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "away": "KC",
    "home": "MIA",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 24,
+   "home_score": 10,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -10.0,
@@ -641,9 +641,9 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "away": "LAC",
    "home": "BUF",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 16,
+   "home_score": 24,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 7.0,
@@ -658,9 +658,9 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "away": "NE",
    "home": "JAX",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 6,
+   "home_score": 35,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 3.0,
@@ -675,9 +675,9 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "away": "NYJ",
    "home": "DET",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 24,
+   "home_score": 31,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 7.0,
@@ -692,9 +692,9 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "away": "SEA",
    "home": "WAS",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 31,
+   "home_score": 33,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -8.5,
@@ -709,9 +709,9 @@
    "kickoff": "2026-09-27T17:00:00Z",
    "away": "TEN",
    "home": "NYG",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 7,
+   "home_score": 12,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 2.5,
@@ -833,8 +833,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -2.5,
+   "total": 38.5,
    "venue": "Huntington Bank Field"
   },
   {
@@ -850,8 +850,8 @@
    "status": "scheduled",
    "neutral": true,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -3.5,
+   "total": 46.5,
    "venue": "Tottenham Hotspur Stadium"
   },
   {
@@ -867,8 +867,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 2.5,
+   "total": 43.5,
    "venue": "MetLife Stadium"
   },
   {
@@ -884,8 +884,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 2.5,
+   "total": 46.5,
    "venue": "Reliant Stadium"
   },
   {
@@ -901,8 +901,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 1.5,
+   "total": 46.5,
    "venue": "Raymond James Stadium"
   },
   {
@@ -918,8 +918,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 2.5,
+   "total": 49.5,
    "venue": "Paycor Stadium"
   },
   {
@@ -935,8 +935,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -2.5,
+   "total": 45.5,
    "venue": "Lincoln Financial Field"
   },
   {
@@ -952,8 +952,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 7.0,
+   "total": 48.5,
    "venue": "Highmark Stadium"
   },
   {
@@ -969,8 +969,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 42.5,
    "venue": "Soldier Field"
   },
   {
@@ -986,8 +986,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 11.5,
+   "total": 43.5,
    "venue": "M&T Bank Stadium"
   },
   {
@@ -1003,8 +1003,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 10.5,
+   "total": 42.5,
    "venue": "U.S. Bank Stadium"
   },
   {
@@ -1020,8 +1020,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 45.5,
    "venue": "Levi's Stadium"
   },
   {
@@ -1037,8 +1037,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -5.5,
+   "total": 45.5,
    "venue": "Allegiant Stadium"
   },
   {
@@ -1054,8 +1054,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 6.5,
+   "total": 43.5,
    "venue": "Lumen Field"
   },
   {
@@ -1071,8 +1071,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -3.0,
+   "total": 49.5,
    "venue": "Bank of America Stadium"
   },
   {
@@ -1088,8 +1088,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 2.5,
+   "total": 46.5,
    "venue": "Caesars Superdome"
   },
   {
