@@ -1,0 +1,42 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "props-data",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-20",
+
+  // Logs for `wrangler tail`, which is how you watch the first cron run.
+  "observability": { "enabled": true },
+
+  // The app itself, for Expo Go: `make app-bundle` writes the exported bundle
+  // and its images into public/update/. A request that matches a file here is
+  // served without running the Worker, and static asset requests are free and
+  // unlimited. Everything else (/v1, /expo, /open) falls through to the Worker.
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+
+  // Holds every published payload, keyed by its path under data/v1/.
+  // Create it with:  npx wrangler kv namespace create MISMATCH_STORE
+  // then paste the printed id below.
+  "kv_namespaces": [
+    {
+      "binding": "MISMATCH_STORE",
+      "id": "PASTE_KV_NAMESPACE_ID_HERE"
+    }
+  ],
+
+  // Hourly, at :17. The daily pipeline commits at ~11:10 UTC and the game-day
+  // workflow commits on :00 and :30, so a run at :17 picks up either within the
+  // hour. Cron invocations count against the free plan's 100k/day requests;
+  // 24 a day is nothing.
+  "triggers": {
+    "crons": ["17 * * * *"]
+  },
+
+  "vars": {
+    // Where the pipeline publishes. Replace <github-user> with your account
+    // once the repo is pushed; the Worker only ever reads from here.
+    "ORIGIN_BASE": "https://raw.githubusercontent.com/vatsanp/props/main/data/v1"
+  }
+}

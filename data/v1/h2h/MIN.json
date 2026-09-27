@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T17:59:06Z",
+ "generated_at": "2026-09-24T21:58:16Z",
  "team": "MIN",
  "since": 1999,
  "opponents": {
@@ -733,19 +733,19 @@
    ]
   },
   "CHI": {
-   "games": 54,
-   "wins": 28,
+   "games": 55,
+   "wins": 29,
    "losses": 26,
    "ties": 0,
-   "streak": "CHI W1",
+   "streak": "MIN W1",
    "splits": {
     "all": {
-     "w": 28,
+     "w": 29,
      "l": 26,
      "t": 0
     },
     "regular": {
-     "w": 28,
+     "w": 29,
      "l": 26,
      "t": 0
     },
@@ -760,13 +760,13 @@
      "t": 0
     },
     "away": {
-     "w": 11,
+     "w": 12,
      "l": 16,
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 4,
+     "l": 1,
      "t": 0
     },
     "last10": {
@@ -777,6 +777,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-20",
+     "season": 2026,
+     "week": 2,
+     "type": "REG",
+     "home": "CHI",
+     "away": "MIN",
+     "home_score": 3,
+     "away_score": 9,
+     "winner": "MIN",
+     "neutral": false
+    },
     {
      "date": "2025-11-16",
      "season": 2025,
@@ -907,18 +919,6 @@
      "home_score": 27,
      "away_score": 33,
      "winner": "CHI",
-     "neutral": false
-    },
-    {
-     "date": "2020-11-16",
-     "season": 2020,
-     "week": 10,
-     "type": "REG",
-     "home": "CHI",
-     "away": "MIN",
-     "home_score": 13,
-     "away_score": 19,
-     "winner": "MIN",
      "neutral": false
     }
    ]

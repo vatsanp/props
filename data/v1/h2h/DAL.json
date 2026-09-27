@@ -1,23 +1,23 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T17:59:06Z",
+ "generated_at": "2026-09-24T21:58:17Z",
  "team": "DAL",
  "since": 1999,
  "opponents": {
   "WAS": {
-   "games": 54,
-   "wins": 38,
+   "games": 55,
+   "wins": 39,
    "losses": 16,
    "ties": 0,
-   "streak": "DAL W2",
+   "streak": "DAL W3",
    "splits": {
     "all": {
-     "w": 38,
+     "w": 39,
      "l": 16,
      "t": 0
     },
     "regular": {
-     "w": 38,
+     "w": 39,
      "l": 16,
      "t": 0
     },
@@ -27,7 +27,7 @@
      "t": 0
     },
     "home": {
-     "w": 20,
+     "w": 21,
      "l": 7,
      "t": 0
     },
@@ -49,6 +49,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-20",
+     "season": 2026,
+     "week": 2,
+     "type": "REG",
+     "home": "DAL",
+     "away": "WAS",
+     "home_score": 37,
+     "away_score": 20,
+     "winner": "DAL",
+     "neutral": false
+    },
     {
      "date": "2025-12-25",
      "season": 2025,
@@ -178,18 +190,6 @@
      "away": "WAS",
      "home_score": 16,
      "away_score": 41,
-     "winner": "WAS",
-     "neutral": false
-    },
-    {
-     "date": "2020-10-25",
-     "season": 2020,
-     "week": 7,
-     "type": "REG",
-     "home": "WAS",
-     "away": "DAL",
-     "home_score": 25,
-     "away_score": 3,
      "winner": "WAS",
      "neutral": false
     }

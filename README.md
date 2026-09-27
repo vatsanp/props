@@ -21,18 +21,24 @@ number you have to beat is still the one in your sportsbook.
 
 ```
 teamrankings.com  ─┐
-nflverse games.csv ├─► Python pipeline ─► data/v1/*.json ─► git ─► CDN ─► Expo app
-nflverse players   ┘     (GitHub Actions)
+nflverse games.csv ├─► Python pipeline ─► data/v1/*.json ─► git ─┐
+nflverse players   ┘     (GitHub Actions)                        │
+                                                                 ▼
+                              Expo app ◄── KV ◄── Cloudflare Worker
+                                                    (hourly cron)
 ```
 
-There is no server and no database. The pipeline commits static JSON; the app
-reads it and caches it for offline use.
+There is no database, and nothing is computed at request time. The pipeline
+commits static JSON; a Worker mirrors it into KV and serves it from the edge;
+the app reads it and caches it for offline use. Matchup edges are calculated
+on the phone, not on a server, because the thresholds are user settings.
 
 | Path | What it is |
 |---|---|
 | `pipeline/props/` | the pipeline: scraping, transforms, the recommender, the CLI |
 | `pipeline/tests/` | 1188 tests, including golden parity against the original script |
 | `data/v1/` | generated payloads, committed and served to the app |
+| `worker/` | the Cloudflare Worker that serves those payloads from KV |
 | `app/` | the Expo app: Props, This Week, Compare, Teams, plus matchup and team screens |
 | `archive/csv/` | the original CSV archives, 2024-2026 |
 
@@ -59,14 +65,56 @@ make phone
 That serves `data/` and starts Metro with the app pointed at this machine.
 Scan the QR code with the iPhone Camera app, or from inside Expo Go on Android.
 
-Once the data is published to GitHub, `npx expo start` on its own is enough --
-the app falls back to the URL in `app.json` and no laptop needs to be running.
+That is the development loop, and it needs the phone on the same wifi.
 
-Expo Go is the only permanently free way to run this on an iPhone — TestFlight
-needs the $99/yr Apple Developer Program, and a free-provisioned development
-build expires after seven days. Every dependency here is Expo Go compatible, so
-keep it that way. On Android, `eas build --profile preview` produces a free APK
-that installs permanently.
+Once the Worker is deployed, the data no longer comes from this machine, and
+the wifi requirement goes with it:
+
+```sh
+make worker-deploy   # once: see worker/README.md
+make anywhere        # Metro over a tunnel, data from Cloudflare
+```
+
+`make anywhere` works on cellular, in another building. The laptop still has to
+be awake, because **Expo Go loads the JavaScript from Metro** and there is no
+free way around that on an iPhone:
+
+- EAS Update cannot help. `expo-updates` requires a `runtimeVersion`, and
+  ["updates published with the `runtimeVersion` field can't be loaded in Expo
+  Go"](https://docs.expo.dev/build/updates/).
+- A development build drops Metro, but free Apple provisioning expires after
+  seven days.
+- TestFlight is permanent and needs the $99/yr Apple Developer Program.
+
+Every dependency here is Expo Go compatible, so keep it that way. On Android
+none of this applies: `eas build --profile preview` produces a free APK that
+installs permanently and needs nothing running.
+
+### First time: publish the data
+
+Everything downstream reads from GitHub, so the repo has to be pushed and
+public before the Worker has anything to mirror:
+
+```sh
+git remote add origin https://github.com/<github-user>/props.git
+git push -u origin main
+```
+
+Then the workflows in `.github/workflows/` start running on their schedules and
+commit fresh payloads to `data/v1/`. Replace `<github-user>` in
+`worker/wrangler.jsonc` (`ORIGIN_BASE`) and in `app/src/api/client.ts`
+(`FALLBACK_BASE`) with the same account.
+
+### Where the app looks for data
+
+In order: `EXPO_PUBLIC_DATA_BASE` (what `make phone` sets), then
+`extra.dataBase` in `app.json` (the Worker), then the GitHub raw URL compiled
+into `src/api/client.ts`. A URL still containing an unreplaced `<placeholder>`
+is skipped, so a half-finished setup falls through to the next source instead
+of failing every request.
+
+`make anywhere` sets none of them, so it uses `extra.dataBase` — which is why
+that has to hold the real Worker URL before the phone will see live data.
 
 ## Development
 
@@ -78,7 +126,14 @@ cd pipeline && python -m pytest -q        # pipeline tests
 cd app && npm run typecheck && npm test   # app typecheck and rule parity
 cd app && npm run test:payloads           # data/v1 parses against the app schemas
 cd app && npm run test:detail             # every prop's detail screen resolves its data
+
+make worker                               # the worker against local data, on :8787
+make worker-check                         # and what it serves parses too
 ```
+
+`test:payloads` proves the pipeline writes what the app expects; `worker-check`
+proves the thing *serving* those payloads hands them over intact, with the CORS
+and cache headers the app relies on.
 
 The team list, stat definitions and market list live in Python and are
 generated into TypeScript:

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T17:59:07Z",
+ "generated_at": "2026-09-24T21:58:17Z",
  "team": "LAC",
  "since": 1999,
  "opponents": {
@@ -1394,20 +1394,20 @@
    ]
   },
   "LV": {
-   "games": 54,
+   "games": 55,
    "wins": 33,
-   "losses": 21,
+   "losses": 22,
    "ties": 0,
-   "streak": "LAC W4",
+   "streak": "LV W1",
    "splits": {
     "all": {
      "w": 33,
-     "l": 21,
+     "l": 22,
      "t": 0
     },
     "regular": {
      "w": 33,
-     "l": 21,
+     "l": 22,
      "t": 0
     },
     "postseason": {
@@ -1417,7 +1417,7 @@
     },
     "home": {
      "w": 18,
-     "l": 9,
+     "l": 10,
      "t": 0
     },
     "away": {
@@ -1431,8 +1431,8 @@
      "t": 0
     },
     "last10": {
-     "w": 7,
-     "l": 3,
+     "w": 6,
+     "l": 4,
      "t": 0
     }
    },
@@ -1467,14 +1467,26 @@
       "LV"
      ],
      "wins": {
-      "LV": 4,
+      "LV": 5,
       "LAC": 8
      },
      "ties": 0,
-     "games": 12
+     "games": 13
     }
    ],
    "recent": [
+    {
+     "date": "2026-09-20",
+     "season": 2026,
+     "week": 2,
+     "type": "REG",
+     "home": "LAC",
+     "away": "LV",
+     "home_score": 14,
+     "away_score": 26,
+     "winner": "LV",
+     "neutral": false
+    },
     {
      "date": "2025-11-30",
      "season": 2025,
@@ -1605,18 +1617,6 @@
      "home_score": 27,
      "away_score": 30,
      "winner": "LAC",
-     "neutral": false
-    },
-    {
-     "date": "2020-11-08",
-     "season": 2020,
-     "week": 9,
-     "type": "REG",
-     "home": "LAC",
-     "away": "LV",
-     "home_score": 26,
-     "away_score": 31,
-     "winner": "LV",
      "neutral": false
     }
    ]

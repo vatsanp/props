@@ -1,18 +1,37 @@
 import Constants from 'expo-constants';
 import type { z } from 'zod';
 
+import { dataUrl, type FetchOptions } from './url';
+
 /**
  * Every payload is a static JSON file on a CDN. The manifest is fetched with
  * no-store and carries a content hash per file; those hashes go into the query
- * keys, so an unchanged file costs nothing on a refresh.
+ * keys *and* into the payload URLs, so an unchanged file costs nothing on a
+ * refresh and a changed one can never be served from a stale cache.
+ *
+ * Three sources, in order of preference:
+ *
+ *   1. EXPO_PUBLIC_DATA_BASE   - what `make phone` sets, pointing at the laptop
+ *   2. extra.dataBase          - the Cloudflare Worker, set in app.json
+ *   3. FALLBACK_BASE           - the GitHub raw URL the Worker itself reads
+ *
+ * The Worker adds edge caching, real cache headers and CORS on top of (3), but
+ * (3) still serves the same bytes, so a Worker problem is not an outage.
  */
 
-const FALLBACK_BASE =
-  'https://raw.githubusercontent.com/vatsan/props/main/data/v1';
+const FALLBACK_BASE = 'https://raw.githubusercontent.com/vatsanp/props/main/data/v1';
+
+/**
+ * A URL still carrying an unreplaced <placeholder> is not configured. Falling
+ * through beats failing every request against an address that cannot resolve.
+ */
+function configured(value: string | undefined): string | undefined {
+  return value && !value.includes('<') ? value : undefined;
+}
 
 export const DATA_BASE: string =
-  process.env.EXPO_PUBLIC_DATA_BASE ??
-  (Constants.expoConfig?.extra?.dataBase as string | undefined) ??
+  configured(process.env.EXPO_PUBLIC_DATA_BASE) ??
+  configured(Constants.expoConfig?.extra?.dataBase as string | undefined) ??
   FALLBACK_BASE;
 
 const TIMEOUT_MS = 10_000;
@@ -28,15 +47,15 @@ export class DataError extends Error {
   }
 }
 
-async function fetchJson(path: string, noStore = false): Promise<unknown> {
+async function fetchJson(path: string, options: FetchOptions = {}): Promise<unknown> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
-  const url = `${DATA_BASE}/${path}${noStore ? `?t=${Math.floor(Date.now() / 60_000)}` : ''}`;
+  const url = dataUrl(DATA_BASE, path, options);
 
   try {
     const response = await fetch(url, {
       signal: controller.signal,
-      headers: noStore ? { 'Cache-Control': 'no-store' } : undefined,
+      headers: options.noStore ? { 'Cache-Control': 'no-store' } : undefined,
     });
     if (!response.ok) {
       throw new DataError(`${path}: HTTP ${response.status}`, path);
@@ -58,9 +77,9 @@ async function fetchJson(path: string, noStore = false): Promise<unknown> {
 export async function getJson<T>(
   path: string,
   schema: z.ZodType<T>,
-  noStore = false,
+  options: FetchOptions = {},
 ): Promise<T> {
-  const raw = await fetchJson(path, noStore);
+  const raw = await fetchJson(path, options);
   const parsed = schema.safeParse(raw);
   if (!parsed.success) {
     throw new DataError(

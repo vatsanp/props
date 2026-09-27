@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T17:59:06Z",
+ "generated_at": "2026-09-24T21:58:16Z",
  "team": "LAR",
  "since": 1999,
  "opponents": {
@@ -1756,19 +1756,19 @@
    ]
   },
   "NYG": {
-   "games": 14,
-   "wins": 7,
+   "games": 15,
+   "wins": 8,
    "losses": 7,
    "ties": 0,
-   "streak": "LAR W4",
+   "streak": "LAR W5",
    "splits": {
     "all": {
-     "w": 7,
+     "w": 8,
      "l": 7,
      "t": 0
     },
     "regular": {
-     "w": 7,
+     "w": 8,
      "l": 7,
      "t": 0
     },
@@ -1778,7 +1778,7 @@
      "t": 0
     },
     "home": {
-     "w": 3,
+     "w": 4,
      "l": 3,
      "t": 0
     },
@@ -1788,13 +1788,13 @@
      "t": 0
     },
     "last5": {
-     "w": 4,
-     "l": 1,
+     "w": 5,
+     "l": 0,
      "t": 0
     },
     "last10": {
-     "w": 4,
-     "l": 6,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
@@ -1818,13 +1818,25 @@
      ],
      "wins": {
       "NYG": 1,
-      "LA": 4
+      "LA": 5
      },
      "ties": 0,
-     "games": 5
+     "games": 6
     }
    ],
    "recent": [
+    {
+     "date": "2026-09-21",
+     "season": 2026,
+     "week": 2,
+     "type": "REG",
+     "home": "LAR",
+     "away": "NYG",
+     "home_score": 28,
+     "away_score": 6,
+     "winner": "LAR",
+     "neutral": false
+    },
     {
      "date": "2023-12-31",
      "season": 2023,
@@ -1955,18 +1967,6 @@
      "home_score": 21,
      "away_score": 26,
      "winner": "NYG",
-     "neutral": false
-    },
-    {
-     "date": "2001-10-14",
-     "season": 2001,
-     "week": 5,
-     "type": "REG",
-     "home": "LAR",
-     "away": "NYG",
-     "home_score": 15,
-     "away_score": 14,
-     "winner": "LAR",
      "neutral": false
     }
    ]

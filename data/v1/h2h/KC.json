@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T17:59:06Z",
+ "generated_at": "2026-09-24T21:58:16Z",
  "team": "KC",
  "since": 1999,
  "opponents": {
@@ -1068,19 +1068,19 @@
    ]
   },
   "IND": {
-   "games": 17,
-   "wins": 5,
+   "games": 18,
+   "wins": 6,
    "losses": 12,
    "ties": 0,
-   "streak": "KC W1",
+   "streak": "KC W2",
    "splits": {
     "all": {
-     "w": 5,
+     "w": 6,
      "l": 12,
      "t": 0
     },
     "regular": {
-     "w": 4,
+     "w": 5,
      "l": 9,
      "t": 0
     },
@@ -1090,7 +1090,7 @@
      "t": 0
     },
     "home": {
-     "w": 3,
+     "w": 4,
      "l": 6,
      "t": 0
     },
@@ -1105,13 +1105,25 @@
      "t": 0
     },
     "last10": {
-     "w": 4,
-     "l": 6,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-20",
+     "season": 2026,
+     "week": 2,
+     "type": "REG",
+     "home": "KC",
+     "away": "IND",
+     "home_score": 33,
+     "away_score": 30,
+     "winner": "KC",
+     "neutral": false
+    },
     {
      "date": "2025-11-23",
      "season": 2025,
@@ -1241,18 +1253,6 @@
      "away": "KC",
      "home_score": 13,
      "away_score": 10,
-     "winner": "IND",
-     "neutral": false
-    },
-    {
-     "date": "2007-01-06",
-     "season": 2006,
-     "week": 18,
-     "type": "WC",
-     "home": "IND",
-     "away": "KC",
-     "home_score": 23,
-     "away_score": 8,
      "winner": "IND",
      "neutral": false
     }

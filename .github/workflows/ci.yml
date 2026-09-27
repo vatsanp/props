@@ -46,6 +46,12 @@ jobs:
         working-directory: app
         run: npm run test:format
 
+      # The content hash has to reach the URL, or a new build is served from
+      # the HTTP cache as the old one.
+      - name: Payload URLs carry their content hash
+        working-directory: app
+        run: npm run test:url
+
       # The domain constants are generated; a diff here means someone edited
       # the TypeScript instead of the Python.
       - name: Generated files are up to date

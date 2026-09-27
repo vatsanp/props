@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 
 import { useStats } from '../../src/api/queries';
-import { Card, Empty, Loading, SectionTitle } from '../../src/components/common';
+import { Card, Empty, ErrorNote, Loading, SectionTitle } from '../../src/components/common';
 import { trim as format } from '../../src/format';
 import { findEdges, summarize } from '../../src/domain/mismatch';
 import { STATS } from '../../src/domain/stats';
@@ -24,6 +24,9 @@ export default function CompareScreen() {
   const [picking, setPicking] = useState<1 | 2 | null>(null);
 
   if (stats.isLoading && !stats.data) return <Loading what="team stats" />;
+  // The error has to come before the empty state, or a data source that is
+  // simply unreachable reads as "the season has not started yet".
+  if (stats.error && !stats.data) return <ErrorNote error={stats.error} />;
   if (!stats.data) return <Empty title="No stats yet" />;
 
   const edges =

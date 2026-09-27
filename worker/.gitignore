@@ -1,0 +1,6 @@
+node_modules/
+.wrangler/
+.dev.vars
+
+# Build output of `make app-bundle`.
+public/update/

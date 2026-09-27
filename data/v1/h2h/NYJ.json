@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T17:59:06Z",
+ "generated_at": "2026-09-24T21:58:16Z",
  "team": "NYJ",
  "since": 1999,
  "opponents": {
@@ -2045,20 +2045,20 @@
    ]
   },
   "GB": {
-   "games": 7,
+   "games": 8,
    "wins": 4,
-   "losses": 3,
+   "losses": 4,
    "ties": 0,
-   "streak": "NYJ W1",
+   "streak": "GB W1",
    "splits": {
     "all": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "regular": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "postseason": {
@@ -2068,7 +2068,7 @@
     },
     "home": {
      "w": 1,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "away": {
@@ -2077,18 +2077,30 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-20",
+     "season": 2026,
+     "week": 2,
+     "type": "REG",
+     "home": "NYJ",
+     "away": "GB",
+     "home_score": 17,
+     "away_score": 20,
+     "winner": "GB",
+     "neutral": false
+    },
     {
      "date": "2022-10-16",
      "season": 2022,

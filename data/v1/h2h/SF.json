@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T17:59:06Z",
+ "generated_at": "2026-09-24T21:58:16Z",
  "team": "SF",
  "since": 1999,
  "opponents": {
@@ -3681,19 +3681,19 @@
    ]
   },
   "MIA": {
-   "games": 8,
-   "wins": 3,
+   "games": 9,
+   "wins": 4,
    "losses": 5,
    "ties": 0,
-   "streak": "MIA W1",
+   "streak": "SF W1",
    "splits": {
     "all": {
-     "w": 3,
+     "w": 4,
      "l": 5,
      "t": 0
     },
     "regular": {
-     "w": 3,
+     "w": 4,
      "l": 5,
      "t": 0
     },
@@ -3703,7 +3703,7 @@
      "t": 0
     },
     "home": {
-     "w": 3,
+     "w": 4,
      "l": 2,
      "t": 0
     },
@@ -3718,13 +3718,25 @@
      "t": 0
     },
     "last10": {
-     "w": 3,
+     "w": 4,
      "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-20",
+     "season": 2026,
+     "week": 2,
+     "type": "REG",
+     "home": "SF",
+     "away": "MIA",
+     "home_score": 35,
+     "away_score": 13,
+     "winner": "SF",
+     "neutral": false
+    },
     {
      "date": "2024-12-22",
      "season": 2024,

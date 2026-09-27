@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T17:59:06Z",
+ "generated_at": "2026-09-24T21:58:16Z",
  "team": "SEA",
  "since": 1999,
  "opponents": {
@@ -4291,19 +4291,19 @@
    ]
   },
   "ARI": {
-   "games": 48,
-   "wins": 30,
+   "games": 49,
+   "wins": 31,
    "losses": 17,
    "ties": 1,
-   "streak": "SEA W9",
+   "streak": "SEA W10",
    "splits": {
     "all": {
-     "w": 30,
+     "w": 31,
      "l": 17,
      "t": 1
     },
     "regular": {
-     "w": 30,
+     "w": 31,
      "l": 17,
      "t": 1
     },
@@ -4318,7 +4318,7 @@
      "t": 0
     },
     "away": {
-     "w": 15,
+     "w": 16,
      "l": 8,
      "t": 1
     },
@@ -4328,13 +4328,25 @@
      "t": 0
     },
     "last10": {
-     "w": 9,
-     "l": 1,
+     "w": 10,
+     "l": 0,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-20",
+     "season": 2026,
+     "week": 2,
+     "type": "REG",
+     "home": "ARI",
+     "away": "SEA",
+     "home_score": 7,
+     "away_score": 31,
+     "winner": "SEA",
+     "neutral": false
+    },
     {
      "date": "2025-11-09",
      "season": 2025,
@@ -4465,18 +4477,6 @@
      "home_score": 28,
      "away_score": 21,
      "winner": "SEA",
-     "neutral": false
-    },
-    {
-     "date": "2020-10-25",
-     "season": 2020,
-     "week": 7,
-     "type": "REG",
-     "home": "ARI",
-     "away": "SEA",
-     "home_score": 37,
-     "away_score": 34,
-     "winner": "ARI",
      "neutral": false
     }
    ]

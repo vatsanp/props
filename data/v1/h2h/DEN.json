@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-19T17:59:07Z",
+ "generated_at": "2026-09-24T21:58:17Z",
  "team": "DEN",
  "since": 1999,
  "opponents": {
@@ -1785,19 +1785,19 @@
    ]
   },
   "JAX": {
-   "games": 12,
-   "wins": 5,
+   "games": 13,
+   "wins": 6,
    "losses": 7,
    "ties": 0,
-   "streak": "JAX W1",
+   "streak": "DEN W1",
    "splits": {
     "all": {
-     "w": 5,
+     "w": 6,
      "l": 7,
      "t": 0
     },
     "regular": {
-     "w": 5,
+     "w": 6,
      "l": 7,
      "t": 0
     },
@@ -1807,7 +1807,7 @@
      "t": 0
     },
     "home": {
-     "w": 1,
+     "w": 2,
      "l": 4,
      "t": 0
     },
@@ -1829,6 +1829,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-20",
+     "season": 2026,
+     "week": 2,
+     "type": "REG",
+     "home": "DEN",
+     "away": "JAX",
+     "home_score": 20,
+     "away_score": 13,
+     "winner": "DEN",
+     "neutral": false
+    },
     {
      "date": "2025-12-21",
      "season": 2025,
@@ -1958,18 +1970,6 @@
      "away": "DEN",
      "home_score": 7,
      "away_score": 6,
-     "winner": "JAX",
-     "neutral": false
-    },
-    {
-     "date": "1999-12-13",
-     "season": 1999,
-     "week": 14,
-     "type": "REG",
-     "home": "JAX",
-     "away": "DEN",
-     "home_score": 27,
-     "away_score": 24,
      "winner": "JAX",
      "neutral": false
     }

@@ -16,3 +16,5 @@ app/ios/
 app/android/
 *.log
 .serve.pid
+.origin.pid
+.claude/settings.local.json
