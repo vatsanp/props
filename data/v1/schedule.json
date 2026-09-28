@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T02:21:30Z",
+ "generated_at": "2026-09-28T08:49:29Z",
  "season": 2026,
  "current_week": 3,
  "games": [
@@ -794,9 +794,9 @@
    "kickoff": "2026-09-28T00:20:00Z",
    "away": "LAR",
    "home": "DEN",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 26,
+   "home_score": 30,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 1.5,
@@ -816,7 +816,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -4.5,
+   "spread": -3.5,
    "total": 41.5,
    "venue": "Soldier Field"
   },
@@ -850,8 +850,8 @@
    "status": "scheduled",
    "neutral": true,
    "div_game": false,
-   "spread": -3.5,
-   "total": 46.5,
+   "spread": -3.0,
+   "total": 47.5,
    "venue": "Tottenham Hotspur Stadium"
   },
   {
@@ -867,8 +867,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 1.5,
-   "total": 43.5,
+   "spread": -1.5,
+   "total": 44.5,
    "venue": "MetLife Stadium"
   },
   {
@@ -901,8 +901,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -3.0,
-   "total": 41.5,
+   "spread": -3.5,
+   "total": 39.5,
    "venue": "Raymond James Stadium"
   },
   {
@@ -919,7 +919,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 2.5,
-   "total": 50.5,
+   "total": 51.5,
    "venue": "Paycor Stadium"
   },
   {
@@ -935,8 +935,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -2.5,
+   "total": 46.5,
    "venue": "Lincoln Financial Field"
   },
   {
@@ -1003,8 +1003,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 10.5,
-   "total": 41.5,
+   "spread": 10.0,
+   "total": 39.5,
    "venue": "U.S. Bank Stadium"
   },
   {
@@ -1020,8 +1020,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 46.5,
    "venue": "Levi's Stadium"
   },
   {
@@ -1072,7 +1072,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -3.0,
-   "total": 49.5,
+   "total": 50.5,
    "venue": "Bank of America Stadium"
   },
   {
@@ -1088,8 +1088,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 2.5,
-   "total": 47.5,
+   "spread": 3.0,
+   "total": 48.5,
    "venue": "Caesars Superdome"
   },
   {
