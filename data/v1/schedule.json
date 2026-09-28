@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-27T22:44:26Z",
+ "generated_at": "2026-09-28T01:19:21Z",
  "season": 2026,
  "current_week": 3,
  "games": [
@@ -726,9 +726,9 @@
    "kickoff": "2026-09-27T20:05:00Z",
    "away": "ARI",
    "home": "SF",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 30,
+   "home_score": 36,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": 7.5,
@@ -743,9 +743,9 @@
    "kickoff": "2026-09-27T20:05:00Z",
    "away": "MIN",
    "home": "TB",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 23,
+   "home_score": 16,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -1.5,
@@ -760,9 +760,9 @@
    "kickoff": "2026-09-27T20:25:00Z",
    "away": "BAL",
    "home": "DAL",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 34,
+   "home_score": 31,
+   "status": "final",
    "neutral": true,
    "div_game": false,
    "spread": -3.0,
@@ -777,9 +777,9 @@
    "kickoff": "2026-09-27T20:25:00Z",
    "away": "LV",
    "home": "NO",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 35,
+   "home_score": 27,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 3.5,
@@ -799,8 +799,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -1.5,
-   "total": 44.5,
+   "spread": 1.5,
+   "total": 43.5,
    "venue": "Empower Field at Mile High"
   },
   {
@@ -867,7 +867,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 2.5,
+   "spread": 1.5,
    "total": 43.5,
    "venue": "MetLife Stadium"
   },
@@ -901,8 +901,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 1.5,
-   "total": 46.5,
+   "spread": -3.0,
+   "total": 42.5,
    "venue": "Raymond James Stadium"
   },
   {
@@ -935,8 +935,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -2.5,
-   "total": 45.5,
+   "spread": null,
+   "total": null,
    "venue": "Lincoln Financial Field"
   },
   {
@@ -1004,7 +1004,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 10.5,
-   "total": 42.5,
+   "total": 41.5,
    "venue": "U.S. Bank Stadium"
   },
   {
@@ -1020,8 +1020,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
-   "total": 45.5,
+   "spread": null,
+   "total": null,
    "venue": "Levi's Stadium"
   },
   {
@@ -1038,7 +1038,7 @@
    "neutral": false,
    "div_game": true,
    "spread": -5.5,
-   "total": 45.5,
+   "total": 46.5,
    "venue": "Allegiant Stadium"
   },
   {
