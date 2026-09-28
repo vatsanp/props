@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:17Z",
+ "generated_at": "2026-09-28T18:34:19Z",
  "team": "WAS",
  "since": 1999,
  "opponents": {
@@ -3502,19 +3502,19 @@
    ]
   },
   "SEA": {
-   "games": 15,
-   "wins": 8,
+   "games": 16,
+   "wins": 9,
    "losses": 7,
    "ties": 0,
-   "streak": "SEA W2",
+   "streak": "WAS W1",
    "splits": {
     "all": {
-     "w": 8,
+     "w": 9,
      "l": 7,
      "t": 0
     },
     "regular": {
-     "w": 8,
+     "w": 9,
      "l": 4,
      "t": 0
     },
@@ -3524,7 +3524,7 @@
      "t": 0
     },
     "home": {
-     "w": 4,
+     "w": 5,
      "l": 4,
      "t": 0
     },
@@ -3539,13 +3539,25 @@
      "t": 0
     },
     "last10": {
-     "w": 4,
-     "l": 6,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-27",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "WAS",
+     "away": "SEA",
+     "home_score": 33,
+     "away_score": 31,
+     "winner": "WAS",
+     "neutral": false
+    },
     {
      "date": "2025-11-02",
      "season": 2025,
@@ -3676,18 +3688,6 @@
      "home_score": 20,
      "away_score": 10,
      "winner": "SEA",
-     "neutral": false
-    },
-    {
-     "date": "2005-10-02",
-     "season": 2005,
-     "week": 4,
-     "type": "REG",
-     "home": "WAS",
-     "away": "SEA",
-     "home_score": 20,
-     "away_score": 17,
-     "winner": "WAS",
      "neutral": false
     }
    ]

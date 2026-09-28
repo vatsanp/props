@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:16Z",
+ "generated_at": "2026-09-28T18:34:18Z",
  "team": "SF",
  "since": 1999,
  "opponents": {
@@ -339,19 +339,19 @@
    ]
   },
   "ARI": {
-   "games": 50,
-   "wins": 28,
+   "games": 51,
+   "wins": 29,
    "losses": 22,
    "ties": 0,
-   "streak": "SF W2",
+   "streak": "SF W3",
    "splits": {
     "all": {
-     "w": 28,
+     "w": 29,
      "l": 22,
      "t": 0
     },
     "regular": {
-     "w": 28,
+     "w": 29,
      "l": 22,
      "t": 0
     },
@@ -361,7 +361,7 @@
      "t": 0
     },
     "home": {
-     "w": 15,
+     "w": 16,
      "l": 10,
      "t": 0
     },
@@ -376,13 +376,25 @@
      "t": 0
     },
     "last10": {
-     "w": 6,
-     "l": 4,
+     "w": 7,
+     "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-27",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "SF",
+     "away": "ARI",
+     "home_score": 36,
+     "away_score": 30,
+     "winner": "SF",
+     "neutral": false
+    },
     {
      "date": "2025-11-16",
      "season": 2025,
@@ -513,18 +525,6 @@
      "home_score": 12,
      "away_score": 20,
      "winner": "SF",
-     "neutral": false
-    },
-    {
-     "date": "2020-09-13",
-     "season": 2020,
-     "week": 1,
-     "type": "REG",
-     "home": "SF",
-     "away": "ARI",
-     "home_score": 20,
-     "away_score": 24,
-     "winner": "ARI",
      "neutral": false
     }
    ]

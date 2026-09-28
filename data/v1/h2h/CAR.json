@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:16Z",
+ "generated_at": "2026-09-28T18:34:18Z",
  "team": "CAR",
  "since": 1999,
  "opponents": {
@@ -1653,20 +1653,20 @@
    ]
   },
   "CLE": {
-   "games": 7,
+   "games": 8,
    "wins": 4,
-   "losses": 3,
+   "losses": 4,
    "ties": 0,
-   "streak": "CLE W2",
+   "streak": "CLE W3",
    "splits": {
     "all": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "regular": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "postseason": {
@@ -1681,22 +1681,34 @@
     },
     "away": {
      "w": 2,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-27",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "CLE",
+     "away": "CAR",
+     "home_score": 21,
+     "away_score": 18,
+     "winner": "CLE",
+     "neutral": false
+    },
     {
      "date": "2022-09-11",
      "season": 2022,

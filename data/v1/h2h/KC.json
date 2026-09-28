@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:16Z",
+ "generated_at": "2026-09-28T18:34:18Z",
  "team": "KC",
  "since": 1999,
  "opponents": {
@@ -4230,19 +4230,19 @@
    ]
   },
   "MIA": {
-   "games": 10,
-   "wins": 7,
+   "games": 11,
+   "wins": 8,
    "losses": 3,
    "ties": 0,
-   "streak": "KC W5",
+   "streak": "KC W6",
    "splits": {
     "all": {
-     "w": 7,
+     "w": 8,
      "l": 3,
      "t": 0
     },
     "regular": {
-     "w": 6,
+     "w": 7,
      "l": 3,
      "t": 0
     },
@@ -4257,7 +4257,7 @@
      "t": 0
     },
     "away": {
-     "w": 3,
+     "w": 4,
      "l": 1,
      "t": 0
     },
@@ -4274,6 +4274,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-27",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "MIA",
+     "away": "KC",
+     "home_score": 10,
+     "away_score": 24,
+     "winner": "KC",
+     "neutral": false
+    },
     {
      "date": "2024-01-13",
      "season": 2023,

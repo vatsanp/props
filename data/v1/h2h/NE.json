@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:16Z",
+ "generated_at": "2026-09-28T18:34:18Z",
  "team": "NE",
  "since": 1999,
  "opponents": {
@@ -4708,20 +4708,20 @@
    ]
   },
   "JAX": {
-   "games": 11,
+   "games": 12,
    "wins": 9,
-   "losses": 2,
+   "losses": 3,
    "ties": 0,
-   "streak": "JAX W1",
+   "streak": "JAX W2",
    "splits": {
     "all": {
      "w": 9,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "regular": {
      "w": 6,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "postseason": {
@@ -4736,22 +4736,34 @@
     },
     "away": {
      "w": 2,
-     "l": 1,
+     "l": 2,
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
-     "w": 8,
-     "l": 2,
+     "w": 7,
+     "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-27",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "JAX",
+     "away": "NE",
+     "home_score": 35,
+     "away_score": 6,
+     "winner": "JAX",
+     "neutral": false
+    },
     {
      "date": "2024-10-20",
      "season": 2024,

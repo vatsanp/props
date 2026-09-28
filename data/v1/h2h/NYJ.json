@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:16Z",
+ "generated_at": "2026-09-28T18:34:18Z",
  "team": "NYJ",
  "since": 1999,
  "opponents": {
@@ -2641,20 +2641,20 @@
    ]
   },
   "DET": {
-   "games": 7,
+   "games": 8,
    "wins": 4,
-   "losses": 3,
+   "losses": 4,
    "ties": 0,
-   "streak": "DET W1",
+   "streak": "DET W2",
    "splits": {
     "all": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "regular": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "postseason": {
@@ -2669,22 +2669,34 @@
     },
     "away": {
      "w": 3,
-     "l": 0,
+     "l": 1,
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-27",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "DET",
+     "away": "NYJ",
+     "home_score": 31,
+     "away_score": 24,
+     "winner": "DET",
+     "neutral": false
+    },
     {
      "date": "2022-12-18",
      "season": 2022,

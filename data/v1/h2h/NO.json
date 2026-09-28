@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:16Z",
+ "generated_at": "2026-09-28T18:34:18Z",
  "team": "NO",
  "since": 1999,
  "opponents": {
@@ -3038,20 +3038,20 @@
    ]
   },
   "LV": {
-   "games": 8,
+   "games": 9,
    "wins": 4,
-   "losses": 4,
+   "losses": 5,
    "ties": 0,
-   "streak": "LV W1",
+   "streak": "LV W2",
    "splits": {
     "all": {
      "w": 4,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "regular": {
      "w": 4,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "postseason": {
@@ -3061,7 +3061,7 @@
     },
     "home": {
      "w": 2,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "away": {
@@ -3070,13 +3070,13 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
      "w": 4,
-     "l": 4,
+     "l": 5,
      "t": 0
     }
    },
@@ -3099,14 +3099,26 @@
       "NO"
      ],
      "wins": {
-      "LV": 2,
+      "LV": 3,
       "NO": 1
      },
      "ties": 0,
-     "games": 3
+     "games": 4
     }
    ],
    "recent": [
+    {
+     "date": "2026-09-27",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "NO",
+     "away": "LV",
+     "home_score": 27,
+     "away_score": 35,
+     "winner": "LV",
+     "neutral": false
+    },
     {
      "date": "2024-12-29",
      "season": 2024,

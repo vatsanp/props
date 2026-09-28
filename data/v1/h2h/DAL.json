@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:17Z",
+ "generated_at": "2026-09-28T18:34:19Z",
  "team": "DAL",
  "since": 1999,
  "opponents": {
@@ -2737,20 +2737,20 @@
    ]
   },
   "BAL": {
-   "games": 7,
+   "games": 8,
    "wins": 1,
-   "losses": 6,
+   "losses": 7,
    "ties": 0,
-   "streak": "BAL W2",
+   "streak": "BAL W3",
    "splits": {
     "all": {
      "w": 1,
-     "l": 6,
+     "l": 7,
      "t": 0
     },
     "regular": {
      "w": 1,
-     "l": 6,
+     "l": 7,
      "t": 0
     },
     "postseason": {
@@ -2775,12 +2775,24 @@
     },
     "last10": {
      "w": 1,
-     "l": 6,
+     "l": 7,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-27",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "DAL",
+     "away": "BAL",
+     "home_score": 31,
+     "away_score": 34,
+     "winner": "BAL",
+     "neutral": true
+    },
     {
      "date": "2024-09-22",
      "season": 2024,

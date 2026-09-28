@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:17Z",
+ "generated_at": "2026-09-28T18:34:19Z",
  "team": "TEN",
  "since": 1999,
  "opponents": {
@@ -2525,20 +2525,20 @@
    ]
   },
   "NYG": {
-   "games": 7,
+   "games": 8,
    "wins": 5,
-   "losses": 2,
+   "losses": 3,
    "ties": 0,
-   "streak": "NYG W1",
+   "streak": "NYG W2",
    "splits": {
     "all": {
      "w": 5,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "regular": {
      "w": 5,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "postseason": {
@@ -2553,22 +2553,34 @@
     },
     "away": {
      "w": 3,
-     "l": 0,
+     "l": 1,
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
      "w": 5,
-     "l": 2,
+     "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-27",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "NYG",
+     "away": "TEN",
+     "home_score": 12,
+     "away_score": 7,
+     "winner": "NYG",
+     "neutral": false
+    },
     {
      "date": "2022-09-11",
      "season": 2022,

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:17Z",
+ "generated_at": "2026-09-28T18:34:19Z",
  "team": "DEN",
  "since": 1999,
  "opponents": {
@@ -2119,19 +2119,19 @@
    ]
   },
   "LAR": {
-   "games": 7,
-   "wins": 1,
+   "games": 8,
+   "wins": 2,
    "losses": 6,
    "ties": 0,
-   "streak": "LAR W5",
+   "streak": "DEN W1",
    "splits": {
     "all": {
-     "w": 1,
+     "w": 2,
      "l": 6,
      "t": 0
     },
     "regular": {
-     "w": 1,
+     "w": 2,
      "l": 6,
      "t": 0
     },
@@ -2141,7 +2141,7 @@
      "t": 0
     },
     "home": {
-     "w": 1,
+     "w": 2,
      "l": 2,
      "t": 0
     },
@@ -2151,12 +2151,12 @@
      "t": 0
     },
     "last5": {
-     "w": 0,
-     "l": 5,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
-     "w": 1,
+     "w": 2,
      "l": 6,
      "t": 0
     }
@@ -2180,13 +2180,26 @@
       "LA"
      ],
      "wins": {
-      "LA": 2
+      "LA": 2,
+      "DEN": 1
      },
      "ties": 0,
-     "games": 2
+     "games": 3
     }
    ],
    "recent": [
+    {
+     "date": "2026-09-27",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "DEN",
+     "away": "LAR",
+     "home_score": 30,
+     "away_score": 26,
+     "winner": "DEN",
+     "neutral": false
+    },
     {
      "date": "2022-12-25",
      "season": 2022,
