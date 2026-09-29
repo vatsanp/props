@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-24T21:58:16Z",
+ "generated_at": "2026-09-29T16:51:58Z",
  "team": "CHI",
  "since": 1999,
  "opponents": {
@@ -888,19 +888,19 @@
    ]
   },
   "PHI": {
-   "games": 17,
-   "wins": 5,
+   "games": 18,
+   "wins": 6,
    "losses": 12,
    "ties": 0,
-   "streak": "CHI W1",
+   "streak": "CHI W2",
    "splits": {
     "all": {
-     "w": 5,
+     "w": 6,
      "l": 12,
      "t": 0
     },
     "regular": {
-     "w": 5,
+     "w": 6,
      "l": 10,
      "t": 0
     },
@@ -910,7 +910,7 @@
      "t": 0
     },
     "home": {
-     "w": 2,
+     "w": 3,
      "l": 8,
      "t": 0
     },
@@ -920,18 +920,30 @@
      "t": 0
     },
     "last5": {
-     "w": 1,
-     "l": 4,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
-     "w": 3,
-     "l": 7,
+     "w": 4,
+     "l": 6,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-09-28",
+     "season": 2026,
+     "week": 3,
+     "type": "REG",
+     "home": "CHI",
+     "away": "PHI",
+     "home_score": 27,
+     "away_score": 7,
+     "winner": "CHI",
+     "neutral": false
+    },
     {
      "date": "2025-11-28",
      "season": 2025,
@@ -1061,18 +1073,6 @@
      "away": "PHI",
      "home_score": 24,
      "away_score": 20,
-     "winner": "CHI",
-     "neutral": false
-    },
-    {
-     "date": "2007-10-21",
-     "season": 2007,
-     "week": 7,
-     "type": "REG",
-     "home": "PHI",
-     "away": "CHI",
-     "home_score": 16,
-     "away_score": 19,
      "winner": "CHI",
      "neutral": false
     }
