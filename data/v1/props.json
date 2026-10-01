@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-29T10:50:26Z",
+ "generated_at": "2026-10-01T17:21:17Z",
  "week": 4,
  "max_softness_rank": 10,
  "weights": {
@@ -1586,7 +1586,7 @@
     "position": "WR",
     "role": "primary",
     "depth": 1,
-    "status": "Questionable",
+    "status": "active",
     "games": 3,
     "share": 0.383,
     "share_of": "targets",
@@ -1608,7 +1608,7 @@
     "usage": 0.877,
     "confidence": 0.5
    },
-   "rationale": "New England allows 1.18 touchdowns per game to WRs (28th of 32). DJ Moore: 0.33 TD per game, 38% target share. Based on 3 games this season, blended with last season. Listed questionable."
+   "rationale": "New England allows 1.18 touchdowns per game to WRs (28th of 32). DJ Moore: 0.33 TD per game, 38% target share. Based on 3 games this season, blended with last season."
   },
   {
    "id": "2026_04_DEN_SF~rb_receptions~00-0040730",
@@ -1906,7 +1906,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "Questionable",
+    "status": "active",
     "games": 3,
     "share": 0.3385,
     "share_of": "targets",
@@ -1928,7 +1928,7 @@
     "usage": 0.8021,
     "confidence": 0.5
    },
-   "rationale": "Detroit allows 170.02 receiving yards per game to WRs (29th of 32). Jalen Coker: 74 yds per game, 34% target share. Based on 3 games this season, blended with last season. Listed questionable."
+   "rationale": "Detroit allows 170.02 receiving yards per game to WRs (29th of 32). Jalen Coker: 74 yds per game, 34% target share. Based on 3 games this season, blended with last season."
   },
   {
    "id": "2026_04_DET_CAR~wr_receptions~00-0039491",
@@ -1946,7 +1946,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "Questionable",
+    "status": "active",
     "games": 3,
     "share": 0.3385,
     "share_of": "targets",
@@ -1968,7 +1968,7 @@
     "usage": 0.8021,
     "confidence": 0.5
    },
-   "rationale": "Detroit allows 12.49 receptions per game to WRs (29th of 32). Jalen Coker: 6 rec per game, 34% target share. Based on 3 games this season, blended with last season. Listed questionable."
+   "rationale": "Detroit allows 12.49 receptions per game to WRs (29th of 32). Jalen Coker: 6 rec per game, 34% target share. Based on 3 games this season, blended with last season."
   },
   {
    "id": "2026_04_ARI_NYG~te_receptions~00-0037838",
@@ -2826,7 +2826,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "Questionable",
+    "status": "active",
     "games": 3,
     "share": 0.3385,
     "share_of": "targets",
@@ -2848,7 +2848,7 @@
     "usage": 0.8021,
     "confidence": 0.5
    },
-   "rationale": "Detroit allows 1.17 touchdowns per game to WRs (27th of 32). Jalen Coker: 0.67 TD per game, 34% target share. Based on 3 games this season, blended with last season. Listed questionable."
+   "rationale": "Detroit allows 1.17 touchdowns per game to WRs (27th of 32). Jalen Coker: 0.67 TD per game, 34% target share. Based on 3 games this season, blended with last season."
   },
   {
    "id": "2026_04_GB_TB~wr_receptions~00-0040129",
@@ -3906,7 +3906,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "Questionable",
+    "status": "active",
     "games": 2,
     "share": 0.2927,
     "share_of": "targets",
@@ -3928,7 +3928,7 @@
     "usage": 0.738,
     "confidence": 0.3333
    },
-   "rationale": "Tennessee allows 12.32 receptions per game to WRs (28th of 32). Zay Flowers: 5 rec per game, 29% target share. Based on 3 games this season, blended with last season. Listed questionable."
+   "rationale": "Tennessee allows 12.32 receptions per game to WRs (28th of 32). Zay Flowers: 5 rec per game, 29% target share. Based on 3 games this season, blended with last season."
   },
   {
    "id": "2026_04_DAL_HOU~wr_receiving_yards~00-0038618",
@@ -4426,7 +4426,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "Questionable",
+    "status": "active",
     "games": 2,
     "share": 0.2927,
     "share_of": "targets",
@@ -4448,7 +4448,7 @@
     "usage": 0.738,
     "confidence": 0.3333
    },
-   "rationale": "Tennessee allows 162.02 receiving yards per game to WRs (27th of 32). Zay Flowers: 117 yds per game, 29% target share. Based on 3 games this season, blended with last season. Listed questionable."
+   "rationale": "Tennessee allows 162.02 receiving yards per game to WRs (27th of 32). Zay Flowers: 117 yds per game, 29% target share. Based on 3 games this season, blended with last season."
   },
   {
    "id": "2026_04_ATL_NO~te_anytime_td~00-0036040",
@@ -5129,6 +5129,46 @@
     "confidence": 0.3333
    },
    "rationale": "San Francisco allows 33.97 receiving yards per game to RBs (26th of 32). Tyler Badie: 20 yds per game, 20% target share. Based on 3 games this season, blended with last season."
+  },
+  {
+   "id": "2026_04_NYJ_CHI~qb_passing_tds~00-0039918",
+   "game_id": "2026_04_NYJ_CHI",
+   "week": 4,
+   "kickoff": "2026-10-04T17:00:00Z",
+   "market": "qb_passing_tds",
+   "market_label": "Passing TDs",
+   "metric": "passing_tds",
+   "position": "QB",
+   "player": {
+    "id": "00-0039918",
+    "name": "Caleb Williams",
+    "team": "CHI",
+    "position": "QB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 2,
+    "share": 0.5612,
+    "share_of": "attempts",
+    "per_game": 1.0,
+    "unit": "TD"
+   },
+   "defense": {
+    "team": "NYJ",
+    "allowed_per_game": 1.89,
+    "softness_rank": 6,
+    "games": 3,
+    "blend_weight": 0.429,
+    "current": 1.67,
+    "prior": 2.06
+   },
+   "score": 0.5972,
+   "components": {
+    "softness": 0.8387,
+    "usage": 0.4375,
+    "confidence": 0.3333
+   },
+   "rationale": "New York allows 1.89 passing touchdowns per game to QBs (27th of 32). Caleb Williams: 1 TD per game, 56% of the team's pass attempts. Based on 3 games this season, blended with last season."
   },
   {
    "id": "2026_04_GB_TB~te_receiving_yards~00-0033858",
