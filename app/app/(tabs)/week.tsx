@@ -5,6 +5,7 @@ import { useRouter } from 'expo-router';
 import { useManifest, useRecords, useSchedule } from '../../src/api/queries';
 import type { Game } from '../../src/api/schemas';
 import { Card, Empty, ErrorNote, Loading, SectionTitle, TeamPill } from '../../src/components/common';
+import { formatGameDay, localDayKey } from '../../src/format';
 import { useTheme } from '../../src/theme';
 
 /** This week's games, grouped by day, each tappable through to the matchup. */
@@ -22,7 +23,7 @@ export default function WeekScreen() {
     const games = (schedule.data?.games ?? []).filter((g) => g.week === currentWeek);
     const groups = new Map<string, Game[]>();
     for (const game of games) {
-      const day = game.kickoff ? game.kickoff.slice(0, 10) : 'TBD';
+      const day = game.kickoff ? localDayKey(game.kickoff) : 'TBD';
       groups.set(day, [...(groups.get(day) ?? []), game]);
     }
     return [...groups.entries()].sort(([a], [b]) => a.localeCompare(b));
@@ -166,13 +167,7 @@ function Stepper({ label, onPress }: { label: string; onPress: () => void }) {
 }
 
 function formatDay(day: string): string {
-  if (day === 'TBD') return 'Time to be announced';
-  const date = new Date(`${day}T12:00:00Z`);
-  return date.toLocaleDateString(undefined, {
-    weekday: 'long',
-    month: 'short',
-    day: 'numeric',
-  });
+  return day === 'TBD' ? 'Time to be announced' : formatGameDay(day);
 }
 
 function formatTime(kickoff: string | null): string {

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { ordinal, scoreOutOf100, shortName, trim } from '../format';
+import { localDayKey, ordinal, scoreOutOf100, shortName, trim } from '../format';
 
 // Per-game figures always carry one decimal so columns align.
 assert.equal(trim(2), '2.0');
@@ -36,6 +36,15 @@ assert.equal(shortName('Kenneth Walker III'), 'K. Walker III');
 assert.equal(shortName('Amon-Ra St. Brown'), 'A. St. Brown');
 // A single token cannot be abbreviated without losing the whole name.
 assert.equal(shortName('Supercalifragilistic'), 'Supercalifragilistic');
+
+// Night games stay on the day they kick off locally, not the UTC date.
+// Run under TZ=America/New_York (or any US zone) for these to hold.
+if (new Date('2026-09-25T00:15:00Z').getTimezoneOffset() >= 240) {
+  assert.equal(localDayKey('2026-09-25T00:15:00Z'), '2026-09-24'); // TNF, Thursday
+  assert.equal(localDayKey('2026-09-27T17:00:00Z'), '2026-09-27'); // Sunday 1 PM
+  assert.equal(localDayKey('2026-09-28T00:20:00Z'), '2026-09-27'); // SNF, Sunday
+  assert.equal(localDayKey('2026-09-29T00:15:00Z'), '2026-09-28'); // MNF, Monday
+}
 
 // Nothing in the real data ends up longer than the row can hold.
 const DATA = join(import.meta.dirname, '..', '..', '..', 'data', 'v1', 'props.json');

@@ -1,11 +1,13 @@
 import { useMemo, useState } from 'react';
-import { Pressable, RefreshControl, ScrollView, Text, View } from 'react-native';
+import { RefreshControl, ScrollView, Text, View } from 'react-native';
 
-import { failedSources, isStale, useManifest, useProps } from '../../src/api/queries';
+import { failedSources, isStale, useManifest, useProps, useSchedule } from '../../src/api/queries';
 import type { Recommendation } from '../../src/api/schemas';
 import { Card, Chip, Empty, ErrorNote, Loading } from '../../src/components/common';
+import { FilterButton, PickerSheet, type PickerOption } from '../../src/components/PickerSheet';
 import { PropRow } from '../../src/components/PropRow';
 import { POSITIONS } from '../../src/domain/markets';
+import { formatKickoff } from '../../src/format';
 import { useTheme } from '../../src/theme';
 
 /**
@@ -15,12 +17,50 @@ export default function PropsScreen() {
   const theme = useTheme();
   const manifest = useManifest();
   const picks = useProps();
+  const schedule = useSchedule();
   const [position, setPosition] = useState<string | null>(null);
+  const [pickedGame, setPickedGame] = useState<string | null>(null);
+  const [sheet, setSheet] = useState<'position' | 'game' | null>(null);
+
+  // Only games with at least one prop, in kickoff order.
+  const games = useMemo(() => {
+    const byId = new Map<string, { kickoff: string | null; count: number }>();
+    for (const card of picks.data?.recommendations ?? []) {
+      const seen = byId.get(card.game_id);
+      byId.set(card.game_id, { kickoff: card.kickoff, count: (seen?.count ?? 0) + 1 });
+    }
+    const scheduled = new Map((schedule.data?.games ?? []).map((g) => [g.id, g]));
+    return [...byId.entries()]
+      .sort(([, a], [, b]) => (a.kickoff ?? '').localeCompare(b.kickoff ?? ''))
+      .map(([id, { kickoff, count }]) => {
+        const game = scheduled.get(id);
+        return {
+          id,
+          label: game ? `${game.away} @ ${game.home}` : id,
+          detail: `${formatKickoff(kickoff)} · ${count} prop${count === 1 ? '' : 's'}`,
+        };
+      });
+  }, [picks.data, schedule.data]);
+
+  // A pick from last week's slate quietly falls back to every game.
+  const gameId = games.some((g) => g.id === pickedGame) ? pickedGame : null;
 
   const cards = useMemo(() => {
     const all = picks.data?.recommendations ?? [];
-    return position ? all.filter((card) => card.position === position) : all;
-  }, [picks.data, position]);
+    return all.filter(
+      (card) =>
+        (!position || card.position === position) && (!gameId || card.game_id === gameId),
+    );
+  }, [picks.data, position, gameId]);
+
+  const positionOptions: PickerOption<string | null>[] = [
+    { value: null, label: 'All positions' },
+    ...POSITIONS.map((pos) => ({ value: pos, label: pos })),
+  ];
+  const gameOptions: PickerOption<string | null>[] = [
+    { value: null, label: 'All games' },
+    ...games.map((g) => ({ value: g.id, label: g.label, detail: g.detail })),
+  ];
 
   const stale = isStale(manifest.data);
   const failed = failedSources(manifest.data);
@@ -81,19 +121,38 @@ export default function PropsScreen() {
           gap: 8,
           paddingHorizontal: 16,
           paddingVertical: 10,
-          flexWrap: 'wrap',
         }}
       >
-        <Filter label="All" active={position === null} onPress={() => setPosition(null)} />
-        {POSITIONS.map((pos) => (
-          <Filter
-            key={pos}
-            label={pos}
-            active={position === pos}
-            onPress={() => setPosition(position === pos ? null : pos)}
-          />
-        ))}
+        <FilterButton
+          label="Game"
+          value={games.find((g) => g.id === gameId)?.label ?? 'All'}
+          active={gameId !== null}
+          onPress={() => setSheet('game')}
+        />
+        <FilterButton
+          label="Position"
+          value={position ?? 'All'}
+          active={position !== null}
+          onPress={() => setSheet('position')}
+        />
       </View>
+
+      <PickerSheet
+        title="Position"
+        visible={sheet === 'position'}
+        options={positionOptions}
+        selected={position}
+        onSelect={setPosition}
+        onClose={() => setSheet(null)}
+      />
+      <PickerSheet
+        title="Game"
+        visible={sheet === 'game'}
+        options={gameOptions}
+        selected={gameId}
+        onSelect={setPickedGame}
+        onClose={() => setSheet(null)}
+      />
 
       {cards.length === 0 ? (
         <Empty
@@ -121,40 +180,5 @@ export default function PropsScreen() {
         Matchup and usage evidence only — no betting lines. Check the number in your book.
       </Text>
     </ScrollView>
-  );
-}
-
-function Filter({
-  label,
-  active,
-  onPress,
-}: {
-  label: string;
-  active: boolean;
-  onPress: () => void;
-}) {
-  const theme = useTheme();
-  return (
-    <Pressable
-      onPress={onPress}
-      style={{
-        paddingHorizontal: 14,
-        paddingVertical: 7,
-        borderRadius: 999,
-        backgroundColor: active ? theme.accent : theme.card,
-        borderWidth: 1,
-        borderColor: active ? theme.accent : theme.border,
-      }}
-    >
-      <Text
-        style={{
-          color: active ? '#FFFFFF' : theme.muted,
-          fontWeight: '600',
-          fontSize: 13,
-        }}
-      >
-        {label}
-      </Text>
-    </Pressable>
   );
 }
