@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-02T03:25:15Z",
+ "generated_at": "2026-10-02T09:57:30Z",
  "season": 2026,
  "current_week": 4,
  "games": [
@@ -828,9 +828,9 @@
    "kickoff": "2026-10-02T00:15:00Z",
    "away": "PIT",
    "home": "CLE",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 24,
+   "home_score": 27,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": -2.5,
@@ -1173,8 +1173,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 1.5,
+   "total": 40.5,
    "venue": "MetLife Stadium"
   },
   {
@@ -1207,8 +1207,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 1.5,
+   "total": 44.5,
    "venue": "Acrisure Stadium"
   },
   {
