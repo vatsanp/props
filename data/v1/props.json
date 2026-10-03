@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-02T09:57:31Z",
+ "generated_at": "2026-10-03T15:09:18Z",
  "week": 4,
  "max_softness_rank": 10,
  "weights": {
@@ -346,7 +346,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3509,
     "share_of": "targets",
@@ -368,7 +368,7 @@
     "usage": 0.8449,
     "confidence": 0.5
    },
-   "rationale": "Washington allows 1.43 touchdowns per game to WRs (32nd of 32). Keenan Allen: 0.33 TD per game, 35% target share. Based on 3 games this season, blended with last season."
+   "rationale": "Washington allows 1.43 touchdowns per game to WRs (32nd of 32). Keenan Allen: 0.33 TD per game, 35% target share. Based on 3 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_04_NYJ_CHI~rb_anytime_td~00-0036275",
@@ -706,7 +706,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3509,
     "share_of": "targets",
@@ -728,7 +728,7 @@
     "usage": 0.8449,
     "confidence": 0.5
    },
-   "rationale": "Washington allows 13.5 receptions per game to WRs (31st of 32). Keenan Allen: 4.33 rec per game, 35% target share. Based on 3 games this season, blended with last season."
+   "rationale": "Washington allows 13.5 receptions per game to WRs (31st of 32). Keenan Allen: 4.33 rec per game, 35% target share. Based on 3 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_04_TEN_BAL~rb_carries~00-0032764",
@@ -1226,7 +1226,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3188,
     "share_of": "targets",
@@ -1248,7 +1248,7 @@
     "usage": 0.7807,
     "confidence": 0.5
    },
-   "rationale": "Indianapolis allows 173.03 receiving yards per game to WRs (31st of 32). Terry McLaurin: 47 yds per game, 32% target share. Based on 3 games this season, blended with last season."
+   "rationale": "Indianapolis allows 173.03 receiving yards per game to WRs (31st of 32). Terry McLaurin: 47 yds per game, 32% target share. Based on 3 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_04_MIA_MIN~te_receiving_yards~00-0035229",
@@ -2066,7 +2066,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3385,
     "share_of": "targets",
@@ -2088,7 +2088,7 @@
     "usage": 0.8021,
     "confidence": 0.5
    },
-   "rationale": "Detroit allows 170.02 receiving yards per game to WRs (29th of 32). Jalen Coker: 74 yds per game, 34% target share. Based on 3 games this season, blended with last season."
+   "rationale": "Detroit allows 170.02 receiving yards per game to WRs (29th of 32). Jalen Coker: 74 yds per game, 34% target share. Based on 3 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_04_DET_CAR~wr_receptions~00-0039491",
@@ -2106,7 +2106,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3385,
     "share_of": "targets",
@@ -2128,7 +2128,7 @@
     "usage": 0.8021,
     "confidence": 0.5
    },
-   "rationale": "Detroit allows 12.49 receptions per game to WRs (29th of 32). Jalen Coker: 6 rec per game, 34% target share. Based on 3 games this season, blended with last season."
+   "rationale": "Detroit allows 12.49 receptions per game to WRs (29th of 32). Jalen Coker: 6 rec per game, 34% target share. Based on 3 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_04_ARI_NYG~te_receptions~00-0037838",
@@ -2611,46 +2611,6 @@
    "rationale": "Arizona allows 24.04 carries per game to RBs (27th of 32). Cam Skattebo: 16.67 att per game, 67% carry share. Based on 3 games this season, blended with last season."
   },
   {
-   "id": "2026_04_LA_PHI~wr_anytime_td~00-0036912",
-   "game_id": "2026_04_LA_PHI",
-   "week": 4,
-   "kickoff": "2026-10-04T17:00:00Z",
-   "market": "wr_anytime_td",
-   "market_label": "Anytime TD",
-   "metric": "rushing_tds_receiving_tds",
-   "position": "WR",
-   "player": {
-    "id": "00-0036912",
-    "name": "DeVonta Smith",
-    "team": "PHI",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 3,
-    "share": 0.5,
-    "share_of": "targets",
-    "per_game": 0.33,
-    "unit": "TD"
-   },
-   "defense": {
-    "team": "LAR",
-    "allowed_per_game": 1.08,
-    "softness_rank": 9,
-    "games": 3,
-    "blend_weight": 0.429,
-    "current": 1.33,
-    "prior": 0.88
-   },
-   "score": 0.7745,
-   "components": {
-    "softness": 0.7419,
-    "usage": 0.9733,
-    "confidence": 0.5
-   },
-   "rationale": "Los Angeles allows 1.08 touchdowns per game to WRs (24th of 32). DeVonta Smith: 0.33 TD per game, 50% target share. Based on 3 games this season, blended with last season."
-  },
-  {
    "id": "2026_04_MIA_MIN~rb_rushing_yards~00-0033293",
    "game_id": "2026_04_MIA_MIN",
    "week": 4,
@@ -3026,7 +2986,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3385,
     "share_of": "targets",
@@ -3048,7 +3008,7 @@
     "usage": 0.8021,
     "confidence": 0.5
    },
-   "rationale": "Detroit allows 1.17 touchdowns per game to WRs (27th of 32). Jalen Coker: 0.67 TD per game, 34% target share. Based on 3 games this season, blended with last season."
+   "rationale": "Detroit allows 1.17 touchdowns per game to WRs (27th of 32). Jalen Coker: 0.67 TD per game, 34% target share. Based on 3 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_04_JAX_CIN~wr_receiving_yards~00-0036410",
@@ -3146,7 +3106,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3188,
     "share_of": "targets",
@@ -3168,7 +3128,7 @@
     "usage": 0.7807,
     "confidence": 0.5
    },
-   "rationale": "Indianapolis allows 12.24 receptions per game to WRs (27th of 32). Terry McLaurin: 3.33 rec per game, 32% target share. Based on 3 games this season, blended with last season."
+   "rationale": "Indianapolis allows 12.24 receptions per game to WRs (27th of 32). Terry McLaurin: 3.33 rec per game, 32% target share. Based on 3 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_04_MIA_MIN~te_anytime_td~00-0035229",
@@ -3731,46 +3691,6 @@
    "rationale": "New Orleans allows 1.04 touchdowns per game to RBs (24th of 32). Bijan Robinson: 1 TD per game, 69% carry share. Based on 3 games this season, blended with last season."
   },
   {
-   "id": "2026_04_NYJ_CHI~rb_rushing_yards~00-0038120",
-   "game_id": "2026_04_NYJ_CHI",
-   "week": 4,
-   "kickoff": "2026-10-04T17:00:00Z",
-   "market": "rb_rushing_yards",
-   "market_label": "Rushing Yards",
-   "metric": "rushing_yards",
-   "position": "RB",
-   "player": {
-    "id": "00-0038120",
-    "name": "Breece Hall",
-    "team": "NYJ",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 3,
-    "share": 0.7286,
-    "share_of": "carries",
-    "per_game": 54.33,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "CHI",
-    "allowed_per_game": 100.42,
-    "softness_rank": 10,
-    "games": 3,
-    "blend_weight": 0.429,
-    "current": 95.33,
-    "prior": 104.24
-   },
-   "score": 0.7353,
-   "components": {
-    "softness": 0.7097,
-    "usage": 0.9027,
-    "confidence": 0.5
-   },
-   "rationale": "Chicago allows 100.42 rushing yards per game to RBs (23rd of 32). Breece Hall: 54.33 yds per game, 73% carry share. Based on 3 games this season, blended with last season."
-  },
-  {
    "id": "2026_04_PIT_CLE~te_receptions~00-0036894",
    "game_id": "2026_04_PIT_CLE",
    "week": 4,
@@ -4026,7 +3946,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 2,
     "share": 0.2927,
     "share_of": "targets",
@@ -4048,7 +3968,7 @@
     "usage": 0.7433,
     "confidence": 0.3333
    },
-   "rationale": "Tennessee allows 12.32 receptions per game to WRs (28th of 32). Zay Flowers: 5 rec per game, 29% target share. Based on 3 games this season, blended with last season."
+   "rationale": "Tennessee allows 12.32 receptions per game to WRs (28th of 32). Zay Flowers: 5 rec per game, 29% target share. Based on 3 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_04_LA_PHI~rb_rushing_yards~00-0037840",
@@ -4346,7 +4266,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 2,
     "share": 0.2927,
     "share_of": "targets",
@@ -4368,7 +4288,7 @@
     "usage": 0.7433,
     "confidence": 0.3333
    },
-   "rationale": "Tennessee allows 162.02 receiving yards per game to WRs (27th of 32). Zay Flowers: 117 yds per game, 29% target share. Based on 3 games this season, blended with last season."
+   "rationale": "Tennessee allows 162.02 receiving yards per game to WRs (27th of 32). Zay Flowers: 117 yds per game, 29% target share. Based on 3 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_04_DAL_HOU~wr_receiving_yards~00-0038618",
@@ -5009,46 +4929,6 @@
     "confidence": 0.3333
    },
    "rationale": "Miami allows 1.97 passing touchdowns per game to QBs (28th of 32). Carson Wentz: 1.5 TD per game, 53% of the team's pass attempts. Based on 3 games this season, blended with last season."
-  },
-  {
-   "id": "2026_04_NYJ_CHI~qb_passing_tds~00-0039918",
-   "game_id": "2026_04_NYJ_CHI",
-   "week": 4,
-   "kickoff": "2026-10-04T17:00:00Z",
-   "market": "qb_passing_tds",
-   "market_label": "Passing TDs",
-   "metric": "passing_tds",
-   "position": "QB",
-   "player": {
-    "id": "00-0039918",
-    "name": "Caleb Williams",
-    "team": "CHI",
-    "position": "QB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 2,
-    "share": 0.5612,
-    "share_of": "attempts",
-    "per_game": 1.0,
-    "unit": "TD"
-   },
-   "defense": {
-    "team": "NYJ",
-    "allowed_per_game": 1.89,
-    "softness_rank": 6,
-    "games": 3,
-    "blend_weight": 0.429,
-    "current": 1.67,
-    "prior": 2.06
-   },
-   "score": 0.5972,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.4375,
-    "confidence": 0.3333
-   },
-   "rationale": "New York allows 1.89 passing touchdowns per game to QBs (27th of 32). Caleb Williams: 1 TD per game, 56% of the team's pass attempts. Based on 3 games this season, blended with last season."
   },
   {
    "id": "2026_04_GB_TB~te_receiving_yards~00-0033858",
