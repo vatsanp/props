@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T15:45:56Z",
+ "generated_at": "2026-10-04T19:51:08Z",
  "season": 2026,
  "current_week": 4,
  "games": [
@@ -845,9 +845,9 @@
    "kickoff": "2026-10-04T13:30:00Z",
    "away": "IND",
    "home": "WAS",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 30,
+   "home_score": 13,
+   "status": "final",
    "neutral": true,
    "div_game": false,
    "spread": -4.5,
@@ -1105,8 +1105,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 9.5,
-   "total": 47.5,
+   "spread": null,
+   "total": null,
    "venue": "AT&T Stadium"
   },
   {
@@ -1122,8 +1122,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
-   "total": 44.5,
+   "spread": null,
+   "total": null,
    "venue": "Tottenham Hotspur Stadium"
   },
   {
@@ -1139,8 +1139,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 2.5,
-   "total": 45.5,
+   "spread": null,
+   "total": null,
    "venue": "Lambeau Field"
   },
   {
@@ -1156,8 +1156,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -8.5,
-   "total": 46.5,
+   "spread": null,
+   "total": null,
    "venue": "Hard Rock Stadium"
   },
   {
@@ -1173,8 +1173,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 1.5,
-   "total": 40.5,
+   "spread": null,
+   "total": null,
    "venue": "MetLife Stadium"
   },
   {
@@ -1190,8 +1190,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -6.5,
-   "total": 39.5,
+   "spread": null,
+   "total": null,
    "venue": "Nissan Stadium"
   },
   {
@@ -1224,8 +1224,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.5,
-   "total": 44.5,
+   "spread": null,
+   "total": null,
    "venue": "Gillette Stadium"
   },
   {
@@ -1241,8 +1241,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -2.5,
-   "total": 44.5,
+   "spread": null,
+   "total": null,
    "venue": "Caesars Superdome"
   },
   {
@@ -1275,8 +1275,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -2.5,
-   "total": 43.5,
+   "spread": null,
+   "total": null,
    "venue": "SoFi Stadium"
   },
   {
@@ -1292,8 +1292,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -5.5,
-   "total": 52.5,
+   "spread": null,
+   "total": null,
    "venue": "State Farm Stadium"
   },
   {
@@ -1309,8 +1309,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 3.0,
-   "total": 47.5,
+   "spread": null,
+   "total": null,
    "venue": "Lumen Field"
   },
   {
@@ -1326,8 +1326,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -6.0,
-   "total": 49.5,
+   "spread": null,
+   "total": null,
    "venue": "Mercedes-Benz Stadium"
   },
   {
@@ -1343,8 +1343,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 2.5,
-   "total": 52.5,
+   "spread": null,
+   "total": null,
    "venue": "SoFi Stadium"
   },
   {
