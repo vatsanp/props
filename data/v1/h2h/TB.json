@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:19Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "TB",
  "since": 1999,
  "opponents": {
@@ -709,20 +709,20 @@
    ]
   },
   "GB": {
-   "games": 18,
+   "games": 19,
    "wins": 10,
-   "losses": 8,
+   "losses": 9,
    "ties": 0,
-   "streak": "TB W1",
+   "streak": "GB W1",
    "splits": {
     "all": {
      "w": 10,
-     "l": 8,
+     "l": 9,
      "t": 0
     },
     "regular": {
      "w": 9,
-     "l": 8,
+     "l": 9,
      "t": 0
     },
     "postseason": {
@@ -732,7 +732,7 @@
     },
     "home": {
      "w": 7,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "away": {
@@ -746,13 +746,25 @@
      "t": 0
     },
     "last10": {
-     "w": 6,
-     "l": 4,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "TB",
+     "away": "GB",
+     "home_score": 14,
+     "away_score": 17,
+     "winner": "GB",
+     "neutral": false
+    },
     {
      "date": "2023-12-17",
      "season": 2023,
@@ -883,18 +895,6 @@
      "home_score": 13,
      "away_score": 20,
      "winner": "GB",
-     "neutral": false
-    },
-    {
-     "date": "2002-11-24",
-     "season": 2002,
-     "week": 12,
-     "type": "REG",
-     "home": "TB",
-     "away": "GB",
-     "home_score": 21,
-     "away_score": 7,
-     "winner": "TB",
      "neutral": false
     }
    ]

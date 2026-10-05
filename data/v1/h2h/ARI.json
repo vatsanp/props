@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:18Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "ARI",
  "since": 1999,
  "opponents": {
@@ -709,20 +709,20 @@
    ]
   },
   "NYG": {
-   "games": 17,
+   "games": 18,
    "wins": 9,
-   "losses": 8,
+   "losses": 9,
    "ties": 0,
-   "streak": "NYG W1",
+   "streak": "NYG W2",
    "splits": {
     "all": {
      "w": 9,
-     "l": 8,
+     "l": 9,
      "t": 0
     },
     "regular": {
      "w": 9,
-     "l": 8,
+     "l": 9,
      "t": 0
     },
     "postseason": {
@@ -737,22 +737,34 @@
     },
     "away": {
      "w": 5,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "last5": {
-     "w": 4,
-     "l": 1,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
-     "w": 6,
-     "l": 4,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "NYG",
+     "away": "ARI",
+     "home_score": 36,
+     "away_score": 24,
+     "winner": "NYG",
+     "neutral": false
+    },
     {
      "date": "2023-09-17",
      "season": 2023,
@@ -883,18 +895,6 @@
      "home_score": 21,
      "away_score": 7,
      "winner": "ARI",
-     "neutral": false
-    },
-    {
-     "date": "2001-12-15",
-     "season": 2001,
-     "week": 14,
-     "type": "REG",
-     "home": "NYG",
-     "away": "ARI",
-     "home_score": 17,
-     "away_score": 13,
-     "winner": "NYG",
      "neutral": false
     }
    ]

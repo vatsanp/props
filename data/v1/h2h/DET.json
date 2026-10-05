@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:18Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "DET",
  "since": 1999,
  "opponents": {
@@ -876,20 +876,20 @@
    ]
   },
   "CAR": {
-   "games": 12,
+   "games": 13,
    "wins": 4,
-   "losses": 8,
+   "losses": 9,
    "ties": 0,
-   "streak": "DET W1",
+   "streak": "CAR W1",
    "splits": {
     "all": {
      "w": 4,
-     "l": 8,
+     "l": 9,
      "t": 0
     },
     "regular": {
      "w": 4,
-     "l": 8,
+     "l": 9,
      "t": 0
     },
     "postseason": {
@@ -904,7 +904,7 @@
     },
     "away": {
      "w": 1,
-     "l": 6,
+     "l": 7,
      "t": 0
     },
     "last5": {
@@ -920,6 +920,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "CAR",
+     "away": "DET",
+     "home_score": 32,
+     "away_score": 26,
+     "winner": "CAR",
+     "neutral": false
+    },
     {
      "date": "2023-10-08",
      "season": 2023,
@@ -1050,18 +1062,6 @@
      "home_score": 31,
      "away_score": 7,
      "winner": "CAR",
-     "neutral": false
-    },
-    {
-     "date": "1999-10-24",
-     "season": 1999,
-     "week": 7,
-     "type": "REG",
-     "home": "CAR",
-     "away": "DET",
-     "home_score": 9,
-     "away_score": 24,
-     "winner": "DET",
      "neutral": false
     }
    ]

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-29T16:51:58Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "CHI",
  "since": 1999,
  "opponents": {
@@ -2679,19 +2679,19 @@
    ]
   },
   "NYJ": {
-   "games": 7,
-   "wins": 5,
+   "games": 8,
+   "wins": 6,
    "losses": 2,
    "ties": 0,
-   "streak": "NYJ W1",
+   "streak": "CHI W1",
    "splits": {
     "all": {
-     "w": 5,
+     "w": 6,
      "l": 2,
      "t": 0
     },
     "regular": {
-     "w": 5,
+     "w": 6,
      "l": 2,
      "t": 0
     },
@@ -2701,7 +2701,7 @@
      "t": 0
     },
     "home": {
-     "w": 3,
+     "w": 4,
      "l": 0,
      "t": 0
     },
@@ -2716,13 +2716,25 @@
      "t": 0
     },
     "last10": {
-     "w": 5,
+     "w": 6,
      "l": 2,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "CHI",
+     "away": "NYJ",
+     "home_score": 23,
+     "away_score": 12,
+     "winner": "CHI",
+     "neutral": false
+    },
     {
      "date": "2022-11-27",
      "season": 2022,

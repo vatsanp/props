@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:18Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "SF",
  "since": 1999,
  "opponents": {
@@ -2966,19 +2966,19 @@
    ]
   },
   "DEN": {
-   "games": 7,
-   "wins": 3,
+   "games": 8,
+   "wins": 4,
    "losses": 4,
    "ties": 0,
-   "streak": "DEN W1",
+   "streak": "SF W1",
    "splits": {
     "all": {
-     "w": 3,
+     "w": 4,
      "l": 4,
      "t": 0
     },
     "regular": {
-     "w": 3,
+     "w": 4,
      "l": 4,
      "t": 0
     },
@@ -2988,7 +2988,7 @@
      "t": 0
     },
     "home": {
-     "w": 1,
+     "w": 2,
      "l": 1,
      "t": 0
     },
@@ -3003,13 +3003,25 @@
      "t": 0
     },
     "last10": {
-     "w": 3,
+     "w": 4,
      "l": 4,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "SF",
+     "away": "DEN",
+     "home_score": 24,
+     "away_score": 14,
+     "winner": "SF",
+     "neutral": false
+    },
     {
      "date": "2022-09-25",
      "season": 2022,

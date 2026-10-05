@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:19Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "TEN",
  "since": 1999,
  "opponents": {
@@ -709,20 +709,20 @@
    ]
   },
   "BAL": {
-   "games": 21,
+   "games": 22,
    "wins": 9,
-   "losses": 12,
+   "losses": 13,
    "ties": 0,
-   "streak": "BAL W2",
+   "streak": "BAL W3",
    "splits": {
     "all": {
      "w": 9,
-     "l": 12,
+     "l": 13,
      "t": 0
     },
     "regular": {
      "w": 7,
-     "l": 9,
+     "l": 10,
      "t": 0
     },
     "postseason": {
@@ -737,7 +737,7 @@
     },
     "away": {
      "w": 5,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "last5": {
@@ -746,13 +746,25 @@
      "t": 0
     },
     "last10": {
-     "w": 5,
-     "l": 5,
+     "w": 4,
+     "l": 6,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "BAL",
+     "away": "TEN",
+     "home_score": 24,
+     "away_score": 18,
+     "winner": "BAL",
+     "neutral": false
+    },
     {
      "date": "2023-10-15",
      "season": 2023,
@@ -883,18 +895,6 @@
      "home_score": 26,
      "away_score": 27,
      "winner": "BAL",
-     "neutral": false
-    },
-    {
-     "date": "2005-09-18",
-     "season": 2005,
-     "week": 2,
-     "type": "REG",
-     "home": "TEN",
-     "away": "BAL",
-     "home_score": 25,
-     "away_score": 10,
-     "winner": "TEN",
      "neutral": false
     }
    ]

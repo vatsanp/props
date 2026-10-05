@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:18Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "JAX",
  "since": 1999,
  "opponents": {
@@ -1055,19 +1055,19 @@
    ]
   },
   "CIN": {
-   "games": 18,
-   "wins": 9,
+   "games": 19,
+   "wins": 10,
    "losses": 9,
    "ties": 0,
-   "streak": "CIN W4",
+   "streak": "JAX W1",
    "splits": {
     "all": {
-     "w": 9,
+     "w": 10,
      "l": 9,
      "t": 0
     },
     "regular": {
-     "w": 9,
+     "w": 10,
      "l": 9,
      "t": 0
     },
@@ -1082,7 +1082,7 @@
      "t": 0
     },
     "away": {
-     "w": 4,
+     "w": 5,
      "l": 6,
      "t": 0
     },
@@ -1092,13 +1092,25 @@
      "t": 0
     },
     "last10": {
-     "w": 2,
-     "l": 8,
+     "w": 3,
+     "l": 7,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "CIN",
+     "away": "JAX",
+     "home_score": 17,
+     "away_score": 22,
+     "winner": "JAX",
+     "neutral": false
+    },
     {
      "date": "2025-09-14",
      "season": 2025,
@@ -1228,18 +1240,6 @@
      "away": "CIN",
      "home_score": 23,
      "away_score": 20,
-     "winner": "JAX",
-     "neutral": false
-    },
-    {
-     "date": "2002-12-15",
-     "season": 2002,
-     "week": 15,
-     "type": "REG",
-     "home": "CIN",
-     "away": "JAX",
-     "home_score": 15,
-     "away_score": 29,
      "winner": "JAX",
      "neutral": false
     }

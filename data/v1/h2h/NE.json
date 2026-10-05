@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:18Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "NE",
  "since": 1999,
  "opponents": {
@@ -1461,19 +1461,19 @@
    ]
   },
   "BUF": {
-   "games": 55,
-   "wins": 39,
+   "games": 56,
+   "wins": 40,
    "losses": 16,
    "ties": 0,
-   "streak": "BUF W1",
+   "streak": "NE W1",
    "splits": {
     "all": {
-     "w": 39,
+     "w": 40,
      "l": 16,
      "t": 0
     },
     "regular": {
-     "w": 39,
+     "w": 40,
      "l": 15,
      "t": 0
     },
@@ -1488,23 +1488,35 @@
      "t": 0
     },
     "away": {
-     "w": 20,
+     "w": 21,
      "l": 8,
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
-     "w": 3,
-     "l": 7,
+     "w": 4,
+     "l": 6,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "BUF",
+     "away": "NE",
+     "home_score": 26,
+     "away_score": 29,
+     "winner": "NE",
+     "neutral": false
+    },
     {
      "date": "2025-12-14",
      "season": 2025,
@@ -1635,18 +1647,6 @@
      "home_score": 10,
      "away_score": 14,
      "winner": "NE",
-     "neutral": false
-    },
-    {
-     "date": "2020-12-28",
-     "season": 2020,
-     "week": 16,
-     "type": "REG",
-     "home": "NE",
-     "away": "BUF",
-     "home_score": 9,
-     "away_score": 38,
-     "winner": "BUF",
      "neutral": false
     }
    ]

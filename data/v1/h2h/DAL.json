@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:19Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "DAL",
  "since": 1999,
  "opponents": {
@@ -4039,19 +4039,19 @@
    ]
   },
   "HOU": {
-   "games": 7,
-   "wins": 4,
+   "games": 8,
+   "wins": 5,
    "losses": 3,
    "ties": 0,
-   "streak": "HOU W1",
+   "streak": "DAL W1",
    "splits": {
     "all": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     },
     "regular": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     },
@@ -4066,7 +4066,7 @@
      "t": 0
     },
     "away": {
-     "w": 1,
+     "w": 2,
      "l": 2,
      "t": 0
     },
@@ -4076,13 +4076,25 @@
      "t": 0
     },
     "last10": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "HOU",
+     "away": "DAL",
+     "home_score": 30,
+     "away_score": 34,
+     "winner": "DAL",
+     "neutral": false
+    },
     {
      "date": "2024-11-18",
      "season": 2024,

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:19Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "LAR",
  "since": 1999,
  "opponents": {
@@ -2188,19 +2188,19 @@
    ]
   },
   "PHI": {
-   "games": 16,
-   "wins": 4,
+   "games": 17,
+   "wins": 5,
    "losses": 12,
    "ties": 0,
-   "streak": "PHI W4",
+   "streak": "LAR W1",
    "splits": {
     "all": {
-     "w": 4,
+     "w": 5,
      "l": 12,
      "t": 0
     },
     "regular": {
-     "w": 3,
+     "w": 4,
      "l": 11,
      "t": 0
     },
@@ -2215,7 +2215,7 @@
      "t": 0
     },
     "away": {
-     "w": 2,
+     "w": 3,
      "l": 6,
      "t": 0
     },
@@ -2225,8 +2225,8 @@
      "t": 0
     },
     "last10": {
-     "w": 1,
-     "l": 9,
+     "w": 2,
+     "l": 8,
      "t": 0
     }
    },
@@ -2250,13 +2250,25 @@
      ],
      "wins": {
       "PHI": 6,
-      "LA": 1
+      "LA": 2
      },
      "ties": 0,
-     "games": 7
+     "games": 8
     }
    ],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "PHI",
+     "away": "LAR",
+     "home_score": 20,
+     "away_score": 24,
+     "winner": "LAR",
+     "neutral": false
+    },
     {
      "date": "2025-09-21",
      "season": 2025,
@@ -2387,18 +2399,6 @@
      "home_score": 16,
      "away_score": 17,
      "winner": "PHI",
-     "neutral": false
-    },
-    {
-     "date": "2004-12-27",
-     "season": 2004,
-     "week": 16,
-     "type": "REG",
-     "home": "LAR",
-     "away": "PHI",
-     "home_score": 20,
-     "away_score": 7,
-     "winner": "LAR",
      "neutral": false
     }
    ]

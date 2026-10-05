@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:19Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "LAC",
  "since": 1999,
  "opponents": {
@@ -807,20 +807,20 @@
    ]
   },
   "SEA": {
-   "games": 12,
+   "games": 13,
    "wins": 5,
-   "losses": 7,
+   "losses": 8,
    "ties": 0,
-   "streak": "SEA W1",
+   "streak": "SEA W2",
    "splits": {
     "all": {
      "w": 5,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "regular": {
      "w": 5,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "postseason": {
@@ -835,12 +835,12 @@
     },
     "away": {
      "w": 3,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
@@ -869,13 +869,25 @@
      ],
      "wins": {
       "LAC": 1,
-      "SEA": 1
+      "SEA": 2
      },
      "ties": 0,
-     "games": 2
+     "games": 3
     }
    ],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "SEA",
+     "away": "LAC",
+     "home_score": 30,
+     "away_score": 23,
+     "winner": "SEA",
+     "neutral": false
+    },
     {
      "date": "2022-10-23",
      "season": 2022,
@@ -1005,18 +1017,6 @@
      "away": "LAC",
      "home_score": 16,
      "away_score": 19,
-     "winner": "LAC",
-     "neutral": false
-    },
-    {
-     "date": "1999-10-17",
-     "season": 1999,
-     "week": 6,
-     "type": "REG",
-     "home": "LAC",
-     "away": "SEA",
-     "home_score": 13,
-     "away_score": 10,
      "winner": "LAC",
      "neutral": false
     }

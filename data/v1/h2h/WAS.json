@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:19Z",
+ "generated_at": "2026-10-05T19:35:57Z",
  "team": "WAS",
  "since": 1999,
  "opponents": {
@@ -1616,20 +1616,20 @@
    ]
   },
   "IND": {
-   "games": 7,
+   "games": 8,
    "wins": 2,
-   "losses": 5,
+   "losses": 6,
    "ties": 0,
-   "streak": "WAS W1",
+   "streak": "IND W1",
    "splits": {
     "all": {
      "w": 2,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "regular": {
      "w": 2,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "postseason": {
@@ -1654,12 +1654,24 @@
     },
     "last10": {
      "w": 2,
-     "l": 5,
+     "l": 6,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-04",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "WAS",
+     "away": "IND",
+     "home_score": 13,
+     "away_score": 30,
+     "winner": "IND",
+     "neutral": true
+    },
     {
      "date": "2022-10-30",
      "season": 2022,
