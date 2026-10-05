@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-04T22:37:41Z",
+ "generated_at": "2026-10-05T01:25:47Z",
  "season": 2026,
  "current_week": 4,
  "games": [
@@ -998,9 +998,9 @@
    "kickoff": "2026-10-04T20:05:00Z",
    "away": "MIA",
    "home": "MIN",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 10,
+   "home_score": 15,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 10.0,
@@ -1015,9 +1015,9 @@
    "kickoff": "2026-10-04T20:25:00Z",
    "away": "DEN",
    "home": "SF",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 14,
+   "home_score": 24,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 3.0,
@@ -1032,9 +1032,9 @@
    "kickoff": "2026-10-04T20:25:00Z",
    "away": "KC",
    "home": "LV",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 30,
+   "home_score": 27,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": -4.5,
@@ -1049,9 +1049,9 @@
    "kickoff": "2026-10-04T20:25:00Z",
    "away": "LAC",
    "home": "SEA",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 23,
+   "home_score": 30,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 7.0,
@@ -1071,8 +1071,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -3.5,
-   "total": 51.5,
+   "spread": -4.5,
+   "total": 52.5,
    "venue": "Bank of America Stadium"
   },
   {
@@ -1105,8 +1105,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 9.5,
-   "total": 46.5,
+   "spread": 10.0,
+   "total": 47.5,
    "venue": "AT&T Stadium"
   },
   {
@@ -1122,7 +1122,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.5,
+   "spread": 4.5,
    "total": 43.5,
    "venue": "Tottenham Hotspur Stadium"
   },
@@ -1139,8 +1139,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -1.5,
+   "total": 44.5,
    "venue": "Lambeau Field"
   },
   {
@@ -1157,7 +1157,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -7.5,
-   "total": 45.5,
+   "total": 42.5,
    "venue": "Hard Rock Stadium"
   },
   {
@@ -1174,7 +1174,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 1.5,
-   "total": 40.5,
+   "total": 39.5,
    "venue": "MetLife Stadium"
   },
   {
@@ -1190,8 +1190,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -6.5,
+   "total": 39.5,
    "venue": "Nissan Stadium"
   },
   {
@@ -1207,8 +1207,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 2.5,
+   "total": 43.5,
    "venue": "Acrisure Stadium"
   },
   {
@@ -1225,7 +1225,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 3.5,
-   "total": 44.5,
+   "total": 45.5,
    "venue": "Gillette Stadium"
   },
   {
@@ -1242,7 +1242,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -1.5,
-   "total": 44.5,
+   "total": 42.5,
    "venue": "Caesars Superdome"
   },
   {
@@ -1258,8 +1258,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 44.5,
    "venue": "Northwest Stadium"
   },
   {
@@ -1275,8 +1275,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -3.5,
+   "total": 43.5,
    "venue": "SoFi Stadium"
   },
   {
@@ -1309,8 +1309,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 46.5,
    "venue": "Lumen Field"
   },
   {
@@ -1326,8 +1326,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -3.5,
+   "total": 46.5,
    "venue": "Mercedes-Benz Stadium"
   },
   {
@@ -1343,8 +1343,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 2.5,
+   "total": 53.5,
    "venue": "SoFi Stadium"
   },
   {
