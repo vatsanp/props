@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:35:57Z",
+ "generated_at": "2026-10-06T04:54:18Z",
  "season": 2026,
- "current_week": 4,
+ "current_week": 5,
  "games": [
   {
    "id": "2026_01_NE_SEA",
@@ -1083,9 +1083,9 @@
    "kickoff": "2026-10-06T00:15:00Z",
    "away": "ATL",
    "home": "NO",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 45,
+   "home_score": 24,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": 1.5,
@@ -1105,7 +1105,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 10.0,
+   "spread": 9.5,
    "total": 47.5,
    "venue": "AT&T Stadium"
   },
@@ -1122,7 +1122,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 5.5,
+   "spread": 7.0,
    "total": 42.5,
    "venue": "Tottenham Hotspur Stadium"
   },
@@ -1140,7 +1140,7 @@
    "neutral": false,
    "div_game": true,
    "spread": -3.0,
-   "total": 44.5,
+   "total": 45.5,
    "venue": "Lambeau Field"
   },
   {
@@ -1173,7 +1173,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 1.5,
+   "spread": 2.5,
    "total": 39.5,
    "venue": "MetLife Stadium"
   },
@@ -1242,7 +1242,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -1.5,
-   "total": 41.5,
+   "total": 42.5,
    "venue": "Caesars Superdome"
   },
   {
@@ -1293,7 +1293,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -4.5,
-   "total": 53.5,
+   "total": 54.5,
    "venue": "State Farm Stadium"
   },
   {
@@ -1326,8 +1326,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -3.5,
-   "total": 46.5,
+   "spread": -2.5,
+   "total": 45.5,
    "venue": "Mercedes-Benz Stadium"
   },
   {
@@ -1344,7 +1344,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 2.5,
-   "total": 53.5,
+   "total": 54.5,
    "venue": "SoFi Stadium"
   },
   {
