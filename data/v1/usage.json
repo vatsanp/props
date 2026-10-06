@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:36:37Z",
+ "generated_at": "2026-10-06T17:09:35Z",
  "season": 2026,
- "week": 4,
+ "week": 5,
  "teams": {
   "ARI": {
    "QB": [
@@ -343,19 +343,19 @@
   "ATL": {
    "QB": [
     {
-     "id": "00-0033662",
-     "name": "Cooper Rush",
+     "id": "00-0039917",
+     "name": "Michael Penix Jr.",
      "team": "ATL",
      "position": "QB",
      "games": 2,
      "shares": {
-      "attempts": 0.4937
+      "attempts": 0.4545
      },
      "per_game": {
-      "attempts": 19.5,
-      "passing_tds": 0.5,
-      "passing_yards": 114.5,
-      "rushing_yards": 10.0
+      "attempts": 22.5,
+      "passing_tds": 1.0,
+      "passing_yards": 239.5,
+      "rushing_yards": -2.0
      },
      "status": "active",
      "depth": {
@@ -366,19 +366,19 @@
      }
     },
     {
-     "id": "00-0039917",
-     "name": "Michael Penix Jr.",
+     "id": "00-0033662",
+     "name": "Cooper Rush",
      "team": "ATL",
      "position": "QB",
-     "games": 1,
+     "games": 2,
      "shares": {
-      "attempts": 0.3165
+      "attempts": 0.3939
      },
      "per_game": {
-      "attempts": 25.0,
-      "passing_tds": 1.0,
-      "passing_yards": 256.0,
-      "rushing_yards": -2.0
+      "attempts": 19.5,
+      "passing_tds": 0.5,
+      "passing_yards": 114.5,
+      "rushing_yards": 10.0
      },
      "status": "active",
      "depth": {
@@ -395,7 +395,7 @@
      "position": "QB",
      "games": 1,
      "shares": {
-      "attempts": 0.1899
+      "attempts": 0.1515
      },
      "per_game": {
       "attempts": 15.0,
@@ -418,16 +418,16 @@
      "name": "Drake London",
      "team": "ATL",
      "position": "WR",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "targets": 0.4524
+      "targets": 0.463
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 91.33,
+      "receiving_yards": 92.5,
       "receptions": 5.0,
       "rushing_tds": 0.0,
-      "targets": 6.33
+      "targets": 6.25
      },
      "status": "active",
      "depth": {
@@ -442,16 +442,16 @@
      "name": "Jahan Dotson",
      "team": "ATL",
      "position": "WR",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "targets": 0.2381
+      "targets": 0.2407
      },
      "per_game": {
-      "receiving_tds": 0.0,
-      "receiving_yards": 13.67,
-      "receptions": 1.33,
+      "receiving_tds": 0.25,
+      "receiving_yards": 23.75,
+      "receptions": 1.5,
       "rushing_tds": 0.0,
-      "targets": 3.33
+      "targets": 3.25
      },
      "status": "active",
      "depth": {
@@ -466,16 +466,16 @@
      "name": "Olamide Zaccheaus",
      "team": "ATL",
      "position": "WR",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "targets": 0.1429
+      "targets": 0.1296
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 5.67,
-      "receptions": 1.33,
+      "receiving_yards": 4.25,
+      "receptions": 1.0,
       "rushing_tds": 0.0,
-      "targets": 2.0
+      "targets": 1.75
      },
      "status": "active",
      "depth": {
@@ -490,16 +490,16 @@
      "name": "Zachariah Branch",
      "team": "ATL",
      "position": "WR",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "targets": 0.0952
+      "targets": 0.1111
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 7.0,
-      "receptions": 1.0,
+      "receiving_yards": 7.75,
+      "receptions": 1.25,
       "rushing_tds": 0.0,
-      "targets": 1.33
+      "targets": 1.5
      },
      "status": "active",
      "depth": {
@@ -514,16 +514,16 @@
      "name": "Chris Blair",
      "team": "ATL",
      "position": "WR",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "targets": 0.0714
+      "targets": 0.0556
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 2.0,
-      "receptions": 0.33,
+      "receiving_yards": 1.5,
+      "receptions": 0.25,
       "rushing_tds": 0.0,
-      "targets": 1.0
+      "targets": 0.75
      },
      "status": "active",
      "depth": {
@@ -536,44 +536,20 @@
    ],
    "TE": [
     {
-     "id": "00-0032392",
-     "name": "Austin Hooper",
-     "team": "ATL",
-     "position": "TE",
-     "games": 2,
-     "shares": {
-      "targets": 0.4615
-     },
-     "per_game": {
-      "receiving_tds": 0.5,
-      "receiving_yards": 15.5,
-      "receptions": 2.0,
-      "rushing_tds": 0.0,
-      "targets": 3.0
-     },
-     "status": "active",
-     "depth": {
-      "targets": 2
-     },
-     "roles": {
-      "targets": "secondary"
-     }
-    },
-    {
      "id": "00-0036970",
      "name": "Kyle Pitts",
      "team": "ATL",
      "position": "TE",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "targets": 0.4615
+      "targets": 0.5
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 6.67,
-      "receptions": 0.67,
+      "receiving_yards": 16.75,
+      "receptions": 1.25,
       "rushing_tds": 0.0,
-      "targets": 2.0
+      "targets": 2.25
      },
      "status": "active",
      "depth": {
@@ -584,13 +560,37 @@
      }
     },
     {
+     "id": "00-0032392",
+     "name": "Austin Hooper",
+     "team": "ATL",
+     "position": "TE",
+     "games": 3,
+     "shares": {
+      "targets": 0.3889
+     },
+     "per_game": {
+      "receiving_tds": 0.33,
+      "receiving_yards": 13.33,
+      "receptions": 1.67,
+      "rushing_tds": 0.0,
+      "targets": 2.33
+     },
+     "status": "active",
+     "depth": {
+      "targets": 2
+     },
+     "roles": {
+      "targets": "secondary"
+     }
+    },
+    {
      "id": "00-0036429",
      "name": "Charlie Woerner",
      "team": "ATL",
      "position": "TE",
-     "games": 1,
+     "games": 2,
      "shares": {
-      "targets": 0.0769
+      "targets": 0.1111
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -638,19 +638,19 @@
      "name": "Bijan Robinson",
      "team": "ATL",
      "position": "RB",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "carries": 0.6875,
-      "targets": 0.8889
+      "carries": 0.6589,
+      "targets": 0.8571
      },
      "per_game": {
-      "carries": 22.0,
-      "receiving_tds": 0.33,
-      "receiving_yards": 39.33,
-      "receptions": 4.33,
-      "rushing_tds": 0.67,
-      "rushing_yards": 116.33,
-      "targets": 5.33
+      "carries": 21.25,
+      "receiving_tds": 0.25,
+      "receiving_yards": 30.0,
+      "receptions": 3.5,
+      "rushing_tds": 1.0,
+      "rushing_yards": 123.5,
+      "targets": 4.5
      },
      "status": "active",
      "depth": {
@@ -667,19 +667,19 @@
      "name": "Brian Robinson",
      "team": "ATL",
      "position": "RB",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "carries": 0.3125,
-      "targets": 0.1111
+      "carries": 0.3411,
+      "targets": 0.1429
      },
      "per_game": {
-      "carries": 10.0,
+      "carries": 11.0,
       "receiving_tds": 0.0,
-      "receiving_yards": 5.33,
-      "receptions": 0.67,
-      "rushing_tds": 0.33,
-      "rushing_yards": 44.0,
-      "targets": 0.67
+      "receiving_yards": 5.25,
+      "receptions": 0.75,
+      "rushing_tds": 1.0,
+      "rushing_yards": 48.5,
+      "targets": 0.75
      },
      "status": "active",
      "depth": {
@@ -8239,16 +8239,16 @@
      "name": "Juwan Johnson",
      "team": "NO",
      "position": "TE",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "targets": 0.5938
+      "targets": 0.6585
      },
      "per_game": {
-      "receiving_tds": 1.0,
-      "receiving_yards": 57.67,
-      "receptions": 5.0,
+      "receiving_tds": 0.75,
+      "receiving_yards": 58.0,
+      "receptions": 5.25,
       "rushing_tds": 0.0,
-      "targets": 6.33
+      "targets": 6.75
      },
      "status": "active",
      "depth": {
@@ -8265,7 +8265,7 @@
      "position": "TE",
      "games": 3,
      "shares": {
-      "targets": 0.375
+      "targets": 0.2927
      },
      "per_game": {
       "receiving_tds": 1.0,
@@ -8287,16 +8287,16 @@
      "name": "Oscar Delp",
      "team": "NO",
      "position": "TE",
-     "games": 1,
+     "games": 2,
      "shares": {
-      "targets": 0.0312
+      "targets": 0.0244
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 8.0,
-      "receptions": 1.0,
+      "receiving_yards": 4.0,
+      "receptions": 0.5,
       "rushing_tds": 0.0,
-      "targets": 1.0
+      "targets": 0.5
      },
      "status": "active",
      "depth": {
@@ -8311,16 +8311,16 @@
      "name": "Treyton Welch",
      "team": "NO",
      "position": "TE",
-     "games": 1,
+     "games": 2,
      "shares": {
-      "targets": 0.0
+      "targets": 0.0244
      },
      "per_game": {
       "receiving_tds": 0.0,
       "receiving_yards": 0.0,
       "receptions": 0.0,
       "rushing_tds": 0.0,
-      "targets": 0.0
+      "targets": 0.5
      },
      "status": "active",
      "depth": {
@@ -8333,14 +8333,43 @@
    ],
    "RB": [
     {
+     "id": "00-0033906",
+     "name": "Alvin Kamara",
+     "team": "NO",
+     "position": "RB",
+     "games": 3,
+     "shares": {
+      "carries": 0.3086,
+      "targets": 0.3784
+     },
+     "per_game": {
+      "carries": 8.33,
+      "receiving_tds": 0.0,
+      "receiving_yards": 15.67,
+      "receptions": 3.67,
+      "rushing_tds": 0.67,
+      "rushing_yards": 24.67,
+      "targets": 4.67
+     },
+     "status": "active",
+     "depth": {
+      "carries": 2,
+      "targets": 1
+     },
+     "roles": {
+      "carries": "secondary",
+      "targets": "primary"
+     }
+    },
+    {
      "id": "00-0036973",
      "name": "Travis Etienne",
      "team": "NO",
      "position": "RB",
      "games": 3,
      "shares": {
-      "carries": 0.4615,
-      "targets": 0.52
+      "carries": 0.3704,
+      "targets": 0.3514
      },
      "per_game": {
       "carries": 10.0,
@@ -8354,39 +8383,10 @@
      "status": "active",
      "depth": {
       "carries": 1,
-      "targets": 1
-     },
-     "roles": {
-      "carries": "primary",
-      "targets": "primary"
-     }
-    },
-    {
-     "id": "00-0033906",
-     "name": "Alvin Kamara",
-     "team": "NO",
-     "position": "RB",
-     "games": 2,
-     "shares": {
-      "carries": 0.2769,
-      "targets": 0.28
-     },
-     "per_game": {
-      "carries": 9.0,
-      "receiving_tds": 0.0,
-      "receiving_yards": 6.0,
-      "receptions": 3.0,
-      "rushing_tds": 0.0,
-      "rushing_yards": 25.5,
-      "targets": 3.5
-     },
-     "status": "active",
-     "depth": {
-      "carries": 2,
       "targets": 2
      },
      "roles": {
-      "carries": "secondary",
+      "carries": "primary",
       "targets": "secondary"
      }
     },
@@ -8395,19 +8395,19 @@
      "name": "Kendre Miller",
      "team": "NO",
      "position": "RB",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "carries": 0.2,
-      "targets": 0.12
+      "carries": 0.2346,
+      "targets": 0.1622
      },
      "per_game": {
-      "carries": 6.5,
+      "carries": 6.33,
       "receiving_tds": 0.0,
-      "receiving_yards": 2.5,
-      "receptions": 1.0,
-      "rushing_tds": 0.5,
-      "rushing_yards": 22.0,
-      "targets": 1.5
+      "receiving_yards": 5.0,
+      "receptions": 1.33,
+      "rushing_tds": 0.33,
+      "rushing_yards": 17.67,
+      "targets": 2.0
      },
      "status": "active",
      "depth": {
@@ -8424,19 +8424,19 @@
      "name": "CJ Donaldson",
      "team": "NO",
      "position": "RB",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "carries": 0.0615,
-      "targets": 0.08
+      "carries": 0.0864,
+      "targets": 0.1081
      },
      "per_game": {
-      "carries": 1.33,
+      "carries": 1.75,
       "receiving_tds": 0.0,
-      "receiving_yards": -0.67,
-      "receptions": 0.33,
+      "receiving_yards": 0.75,
+      "receptions": 0.75,
       "rushing_tds": 0.0,
-      "rushing_yards": 3.67,
-      "targets": 0.67
+      "rushing_yards": 7.25,
+      "targets": 1.0
      },
      "status": "active",
      "depth": {
@@ -8455,14 +8455,14 @@
      "name": "Chris Olave",
      "team": "NO",
      "position": "WR",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "targets": 0.5373
+      "targets": 0.5161
      },
      "per_game": {
-      "receiving_tds": 0.33,
-      "receiving_yards": 125.0,
-      "receptions": 9.0,
+      "receiving_tds": 0.25,
+      "receiving_yards": 122.75,
+      "receptions": 8.75,
       "rushing_tds": 0.0,
       "targets": 12.0
      },
@@ -8479,16 +8479,16 @@
      "name": "Devaughn Vele",
      "team": "NO",
      "position": "WR",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "targets": 0.3284
+      "targets": 0.3333
      },
      "per_game": {
-      "receiving_tds": 0.33,
-      "receiving_yards": 57.33,
-      "receptions": 5.0,
+      "receiving_tds": 0.5,
+      "receiving_yards": 56.5,
+      "receptions": 5.25,
       "rushing_tds": 0.0,
-      "targets": 7.33
+      "targets": 7.75
      },
      "status": "active",
      "depth": {
@@ -8503,16 +8503,16 @@
      "name": "Bryce Lance",
      "team": "NO",
      "position": "WR",
-     "games": 3,
+     "games": 4,
      "shares": {
-      "targets": 0.1194
+      "targets": 0.1398
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 16.67,
-      "receptions": 1.33,
+      "receiving_yards": 14.25,
+      "receptions": 1.25,
       "rushing_tds": 0.0,
-      "targets": 2.67
+      "targets": 3.25
      },
      "status": "active",
      "depth": {
@@ -8529,7 +8529,7 @@
      "position": "WR",
      "games": 1,
      "shares": {
-      "targets": 0.0149
+      "targets": 0.0108
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -8551,7 +8551,7 @@
      "name": "Barion Brown",
      "team": "NO",
      "position": "WR",
-     "games": 2,
+     "games": 3,
      "shares": {
       "targets": 0.0
      },
@@ -8601,15 +8601,15 @@
      "name": "Tyler Shough",
      "team": "NO",
      "position": "QB",
-     "games": 3,
+     "games": 4,
      "shares": {
       "attempts": 1.0
      },
      "per_game": {
-      "attempts": 44.0,
-      "passing_tds": 2.67,
-      "passing_yards": 305.67,
-      "rushing_yards": 22.33
+      "attempts": 45.0,
+      "passing_tds": 2.25,
+      "passing_yards": 300.75,
+      "rushing_yards": 18.0
      },
      "status": "active",
      "depth": {

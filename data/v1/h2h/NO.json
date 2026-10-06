@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-09-28T18:34:18Z",
+ "generated_at": "2026-10-06T17:08:57Z",
  "team": "NO",
  "since": 1999,
  "opponents": {
@@ -578,20 +578,20 @@
    ]
   },
   "ATL": {
-   "games": 54,
+   "games": 55,
    "wins": 32,
-   "losses": 22,
+   "losses": 23,
    "ties": 0,
-   "streak": "ATL W2",
+   "streak": "ATL W3",
    "splits": {
     "all": {
      "w": 32,
-     "l": 22,
+     "l": 23,
      "t": 0
     },
     "regular": {
      "w": 32,
-     "l": 22,
+     "l": 23,
      "t": 0
     },
     "postseason": {
@@ -601,7 +601,7 @@
     },
     "home": {
      "w": 17,
-     "l": 10,
+     "l": 11,
      "t": 0
     },
     "away": {
@@ -610,8 +610,8 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
@@ -622,6 +622,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-05",
+     "season": 2026,
+     "week": 4,
+     "type": "REG",
+     "home": "NO",
+     "away": "ATL",
+     "home_score": 24,
+     "away_score": 45,
+     "winner": "ATL",
+     "neutral": false
+    },
     {
      "date": "2026-01-04",
      "season": 2025,
@@ -751,18 +763,6 @@
      "away": "NO",
      "home_score": 16,
      "away_score": 21,
-     "winner": "NO",
-     "neutral": false
-    },
-    {
-     "date": "2020-11-22",
-     "season": 2020,
-     "week": 11,
-     "type": "REG",
-     "home": "NO",
-     "away": "ATL",
-     "home_score": 24,
-     "away_score": 9,
      "winner": "NO",
      "neutral": false
     }
