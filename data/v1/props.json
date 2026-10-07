@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T04:54:19Z",
+ "generated_at": "2026-10-07T17:46:50Z",
  "week": 5,
  "max_softness_rank": 10,
  "weights": {
@@ -3931,6 +3931,46 @@
    "rationale": "Miami allows 1.73 passing touchdowns per game to QBs (25th of 32). Joe Burrow: 1.75 TD per game, 100% of the team's pass attempts. Based on 4 games this season, blended with last season. Listed questionable."
   },
   {
+   "id": "2026_05_TB_DAL~qb_rushing_yards~00-0034855",
+   "game_id": "2026_05_TB_DAL",
+   "week": 5,
+   "kickoff": "2026-10-09T00:15:00Z",
+   "market": "qb_rushing_yards",
+   "market_label": "Rushing Yards",
+   "metric": "rushing_yards",
+   "position": "QB",
+   "player": {
+    "id": "00-0034855",
+    "name": "Baker Mayfield",
+    "team": "TB",
+    "position": "QB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 3,
+    "share": 0.7619,
+    "share_of": "attempts",
+    "per_game": 21.67,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "DAL",
+    "allowed_per_game": 35.21,
+    "softness_rank": 1,
+    "games": 4,
+    "blend_weight": 0.5,
+    "current": 47.0,
+    "prior": 23.41
+   },
+   "score": 0.725,
+   "components": {
+    "softness": 1.0,
+    "usage": 0.5,
+    "confidence": 0.5
+   },
+   "rationale": "Dallas allows 35.21 rushing yards per game to QBs (32nd of 32). Baker Mayfield: 21.67 yds per game, 76% of the team's pass attempts. Based on 4 games this season, blended with last season."
+  },
+  {
    "id": "2026_05_TB_DAL~wr_receptions~00-0033921",
    "game_id": "2026_05_TB_DAL",
    "week": 5,
@@ -4529,6 +4569,46 @@
     "confidence": 0.3333
    },
    "rationale": "Buffalo allows 1.13 touchdowns per game to WRs (25th of 32). Puka Nacua: 0.5 TD per game, 26% target share. Based on 4 games this season, blended with last season."
+  },
+  {
+   "id": "2026_05_TB_DAL~qb_passing_yards~00-0034855",
+   "game_id": "2026_05_TB_DAL",
+   "week": 5,
+   "kickoff": "2026-10-09T00:15:00Z",
+   "market": "qb_passing_yards",
+   "market_label": "Passing Yards",
+   "metric": "passing_yards",
+   "position": "QB",
+   "player": {
+    "id": "00-0034855",
+    "name": "Baker Mayfield",
+    "team": "TB",
+    "position": "QB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 3,
+    "share": 0.7619,
+    "share_of": "attempts",
+    "per_game": 205.0,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "DAL",
+    "allowed_per_game": 254.22,
+    "softness_rank": 5,
+    "games": 4,
+    "blend_weight": 0.5,
+    "current": 242.5,
+    "prior": 265.94
+   },
+   "score": 0.667,
+   "components": {
+    "softness": 0.871,
+    "usage": 0.5,
+    "confidence": 0.5
+   },
+   "rationale": "Dallas allows 254.22 passing yards per game to QBs (28th of 32). Baker Mayfield: 205 yds per game, 76% of the team's pass attempts. Based on 4 games this season, blended with last season."
   },
   {
    "id": "2026_05_CLE_NYJ~qb_passing_tds~00-0033537",
