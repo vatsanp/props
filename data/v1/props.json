@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-07T17:46:50Z",
+ "generated_at": "2026-10-08T17:50:43Z",
  "week": 5,
  "max_softness_rank": 10,
  "weights": {
@@ -2426,7 +2426,7 @@
     "position": "WR",
     "role": "primary",
     "depth": 1,
-    "status": "Questionable",
+    "status": "active",
     "games": 3,
     "share": 0.386,
     "share_of": "targets",
@@ -2448,7 +2448,7 @@
     "usage": 0.898,
     "confidence": 0.5
    },
-   "rationale": "Atlanta allows 12.81 receptions per game to WRs (28th of 32). Zay Flowers: 6 rec per game, 39% target share. Based on 4 games this season, blended with last season. Listed questionable."
+   "rationale": "Atlanta allows 12.81 receptions per game to WRs (28th of 32). Zay Flowers: 6 rec per game, 39% target share. Based on 4 games this season, blended with last season."
   },
   {
    "id": "2026_05_IND_PIT~rb_receiving_yards~00-0037228",
@@ -2586,7 +2586,7 @@
     "position": "WR",
     "role": "primary",
     "depth": 1,
-    "status": "Questionable",
+    "status": "active",
     "games": 3,
     "share": 0.386,
     "share_of": "targets",
@@ -2608,7 +2608,7 @@
     "usage": 0.898,
     "confidence": 0.5
    },
-   "rationale": "Atlanta allows 169.33 receiving yards per game to WRs (27th of 32). Zay Flowers: 117.33 yds per game, 39% target share. Based on 4 games this season, blended with last season. Listed questionable."
+   "rationale": "Atlanta allows 169.33 receiving yards per game to WRs (27th of 32). Zay Flowers: 117.33 yds per game, 39% target share. Based on 4 games this season, blended with last season."
   },
   {
    "id": "2026_05_CIN_MIA~te_receiving_yards~00-0034829",
@@ -3931,44 +3931,44 @@
    "rationale": "Miami allows 1.73 passing touchdowns per game to QBs (25th of 32). Joe Burrow: 1.75 TD per game, 100% of the team's pass attempts. Based on 4 games this season, blended with last season. Listed questionable."
   },
   {
-   "id": "2026_05_TB_DAL~qb_rushing_yards~00-0034855",
-   "game_id": "2026_05_TB_DAL",
+   "id": "2026_05_MIN_NO~wr_anytime_td~00-0036322",
+   "game_id": "2026_05_MIN_NO",
    "week": 5,
-   "kickoff": "2026-10-09T00:15:00Z",
-   "market": "qb_rushing_yards",
-   "market_label": "Rushing Yards",
-   "metric": "rushing_yards",
-   "position": "QB",
+   "kickoff": "2026-10-11T17:00:00Z",
+   "market": "wr_anytime_td",
+   "market_label": "Anytime TD",
+   "metric": "rushing_tds_receiving_tds",
+   "position": "WR",
    "player": {
-    "id": "00-0034855",
-    "name": "Baker Mayfield",
-    "team": "TB",
-    "position": "QB",
-    "role": "primary",
-    "depth": 1,
+    "id": "00-0036322",
+    "name": "Justin Jefferson",
+    "team": "MIN",
+    "position": "WR",
+    "role": "secondary",
+    "depth": 2,
     "status": "active",
     "games": 3,
-    "share": 0.7619,
-    "share_of": "attempts",
-    "per_game": 21.67,
-    "unit": "yds"
+    "share": 0.3469,
+    "share_of": "targets",
+    "per_game": 0.67,
+    "unit": "TD"
    },
    "defense": {
-    "team": "DAL",
-    "allowed_per_game": 35.21,
-    "softness_rank": 1,
+    "team": "NO",
+    "allowed_per_game": 1.1,
+    "softness_rank": 10,
     "games": 4,
     "blend_weight": 0.5,
-    "current": 47.0,
-    "prior": 23.41
+    "current": 1.25,
+    "prior": 0.94
    },
-   "score": 0.725,
+   "score": 0.7211,
    "components": {
-    "softness": 1.0,
-    "usage": 0.5,
+    "softness": 0.7097,
+    "usage": 0.8622,
     "confidence": 0.5
    },
-   "rationale": "Dallas allows 35.21 rushing yards per game to QBs (32nd of 32). Baker Mayfield: 21.67 yds per game, 76% of the team's pass attempts. Based on 4 games this season, blended with last season."
+   "rationale": "New Orleans allows 1.1 touchdowns per game to WRs (23rd of 32). Justin Jefferson: 0.67 TD per game, 35% target share. Based on 4 games this season, blended with last season."
   },
   {
    "id": "2026_05_TB_DAL~wr_receptions~00-0033921",
@@ -4169,6 +4169,46 @@
     "confidence": 0.6667
    },
    "rationale": "Indianapolis allows 61.01 receiving yards per game to TEs (24th of 32). Darnell Washington: 29.75 yds per game, 39% target share. Based on 4 games this season, blended with last season."
+  },
+  {
+   "id": "2026_05_CLE_NYJ~rb_rushing_yards~00-0038120",
+   "game_id": "2026_05_CLE_NYJ",
+   "week": 5,
+   "kickoff": "2026-10-11T17:00:00Z",
+   "market": "rb_rushing_yards",
+   "market_label": "Rushing Yards",
+   "metric": "rushing_yards",
+   "position": "RB",
+   "player": {
+    "id": "00-0038120",
+    "name": "Breece Hall",
+    "team": "NYJ",
+    "position": "RB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 3,
+    "share": 0.6071,
+    "share_of": "carries",
+    "per_game": 54.33,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "CLE",
+    "allowed_per_game": 99.43,
+    "softness_rank": 10,
+    "games": 4,
+    "blend_weight": 0.5,
+    "current": 102.5,
+    "prior": 96.35
+   },
+   "score": 0.7065,
+   "components": {
+    "softness": 0.7097,
+    "usage": 0.8205,
+    "confidence": 0.5
+   },
+   "rationale": "Cleveland allows 99.43 rushing yards per game to RBs (23rd of 32). Breece Hall: 54.33 yds per game, 61% carry share. Based on 4 games this season, blended with last season."
   },
   {
    "id": "2026_05_LV_NE~rb_carries~00-0040734",
@@ -4466,7 +4506,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "Questionable",
+    "status": "active",
     "games": 3,
     "share": 0.2366,
     "share_of": "targets",
@@ -4488,7 +4528,7 @@
     "usage": 0.6888,
     "confidence": 0.5
    },
-   "rationale": "New York allows 1.12 touchdowns per game to WRs (24th of 32). Terry McLaurin: 0.33 TD per game, 24% target share. Based on 4 games this season, blended with last season. Listed questionable."
+   "rationale": "New York allows 1.12 touchdowns per game to WRs (24th of 32). Terry McLaurin: 0.33 TD per game, 24% target share. Based on 4 games this season, blended with last season."
   },
   {
    "id": "2026_05_HOU_TEN~wr_receptions~00-0036554",
@@ -4569,46 +4609,6 @@
     "confidence": 0.3333
    },
    "rationale": "Buffalo allows 1.13 touchdowns per game to WRs (25th of 32). Puka Nacua: 0.5 TD per game, 26% target share. Based on 4 games this season, blended with last season."
-  },
-  {
-   "id": "2026_05_TB_DAL~qb_passing_yards~00-0034855",
-   "game_id": "2026_05_TB_DAL",
-   "week": 5,
-   "kickoff": "2026-10-09T00:15:00Z",
-   "market": "qb_passing_yards",
-   "market_label": "Passing Yards",
-   "metric": "passing_yards",
-   "position": "QB",
-   "player": {
-    "id": "00-0034855",
-    "name": "Baker Mayfield",
-    "team": "TB",
-    "position": "QB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 3,
-    "share": 0.7619,
-    "share_of": "attempts",
-    "per_game": 205.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "DAL",
-    "allowed_per_game": 254.22,
-    "softness_rank": 5,
-    "games": 4,
-    "blend_weight": 0.5,
-    "current": 242.5,
-    "prior": 265.94
-   },
-   "score": 0.667,
-   "components": {
-    "softness": 0.871,
-    "usage": 0.5,
-    "confidence": 0.5
-   },
-   "rationale": "Dallas allows 254.22 passing yards per game to QBs (28th of 32). Baker Mayfield: 205 yds per game, 76% of the team's pass attempts. Based on 4 games this season, blended with last season."
   },
   {
    "id": "2026_05_CLE_NYJ~qb_passing_tds~00-0033537",
@@ -5169,6 +5169,46 @@
     "confidence": 0.3333
    },
    "rationale": "Dallas allows 35.21 rushing yards per game to QBs (32nd of 32). Jalon Daniels: 32 yds per game, 24% of the team's pass attempts. Based on 4 games this season, blended with last season."
+  },
+  {
+   "id": "2026_05_NYG_WAS~qb_passing_tds~00-0039910",
+   "game_id": "2026_05_NYG_WAS",
+   "week": 5,
+   "kickoff": "2026-10-11T17:00:00Z",
+   "market": "qb_passing_tds",
+   "market_label": "Passing TDs",
+   "metric": "passing_tds",
+   "position": "QB",
+   "player": {
+    "id": "00-0039910",
+    "name": "Jayden Daniels",
+    "team": "WAS",
+    "position": "QB",
+    "role": "secondary",
+    "depth": 2,
+    "status": "active",
+    "games": 2,
+    "share": 0.3778,
+    "share_of": "attempts",
+    "per_game": 1.5,
+    "unit": "TD"
+   },
+   "defense": {
+    "team": "NYG",
+    "allowed_per_game": 1.86,
+    "softness_rank": 5,
+    "games": 4,
+    "blend_weight": 0.5,
+    "current": 2.25,
+    "prior": 1.47
+   },
+   "score": 0.5706,
+   "components": {
+    "softness": 0.871,
+    "usage": 0.32,
+    "confidence": 0.3333
+   },
+   "rationale": "New York allows 1.86 passing touchdowns per game to QBs (28th of 32). Jayden Daniels: 1.5 TD per game, 38% of the team's pass attempts. Based on 4 games this season, blended with last season."
   },
   {
    "id": "2026_05_BAL_ATL~qb_passing_yards~00-0039917",
