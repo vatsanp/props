@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:35:57Z",
+ "generated_at": "2026-10-09T17:24:50Z",
  "team": "TB",
  "since": 1999,
  "opponents": {
@@ -2989,19 +2989,19 @@
    ]
   },
   "DAL": {
-   "games": 15,
-   "wins": 6,
+   "games": 16,
+   "wins": 7,
    "losses": 9,
    "ties": 0,
-   "streak": "DAL W2",
+   "streak": "TB W1",
    "splits": {
     "all": {
-     "w": 6,
+     "w": 7,
      "l": 9,
      "t": 0
     },
     "regular": {
-     "w": 6,
+     "w": 7,
      "l": 8,
      "t": 0
     },
@@ -3016,23 +3016,35 @@
      "t": 0
     },
     "away": {
-     "w": 2,
+     "w": 3,
      "l": 6,
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
-     "w": 3,
-     "l": 7,
+     "w": 4,
+     "l": 6,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-08",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "DAL",
+     "away": "TB",
+     "home_score": 16,
+     "away_score": 24,
+     "winner": "TB",
+     "neutral": false
+    },
     {
      "date": "2024-12-22",
      "season": 2024,
@@ -3162,18 +3174,6 @@
      "away": "TB",
      "home_score": 13,
      "away_score": 9,
-     "winner": "DAL",
-     "neutral": false
-    },
-    {
-     "date": "2006-11-23",
-     "season": 2006,
-     "week": 12,
-     "type": "REG",
-     "home": "DAL",
-     "away": "TB",
-     "home_score": 38,
-     "away_score": 10,
      "winner": "DAL",
      "neutral": false
     }
