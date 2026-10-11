@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-11T16:37:19Z",
+ "generated_at": "2026-10-11T20:43:02Z",
  "season": 2026,
  "current_week": 5,
  "games": [
@@ -1117,9 +1117,9 @@
    "kickoff": "2026-10-11T13:30:00Z",
    "away": "PHI",
    "home": "JAX",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 17,
+   "home_score": 19,
+   "status": "final",
    "neutral": true,
    "div_game": false,
    "spread": 7.5,
@@ -1134,13 +1134,13 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "away": "CHI",
    "home": "GB",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 7,
+   "home_score": 31,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": -1.5,
-   "total": 47.5,
+   "total": 46.5,
    "venue": "Lambeau Field"
   },
   {
@@ -1151,9 +1151,9 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "away": "CIN",
    "home": "MIA",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 31,
+   "home_score": 24,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -7.0,
@@ -1168,9 +1168,9 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "away": "CLE",
    "home": "NYJ",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 12,
+   "home_score": 17,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 2.5,
@@ -1185,9 +1185,9 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "away": "HOU",
    "home": "TEN",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 26,
+   "home_score": 3,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": -6.5,
@@ -1202,9 +1202,9 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "away": "IND",
    "home": "PIT",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 22,
+   "home_score": 34,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 3.0,
@@ -1219,9 +1219,9 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "away": "LV",
    "home": "NE",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 17,
+   "home_score": 45,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 3.5,
@@ -1236,9 +1236,9 @@
    "kickoff": "2026-10-11T17:00:00Z",
    "away": "MIN",
    "home": "NO",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 23,
+   "home_score": 13,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -2.5,
@@ -1276,7 +1276,7 @@
    "neutral": false,
    "div_game": true,
    "spread": -3.5,
-   "total": 41.5,
+   "total": 42.5,
    "venue": "SoFi Stadium"
   },
   {
@@ -1293,7 +1293,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -5.5,
-   "total": 54.5,
+   "total": 55.5,
    "venue": "State Farm Stadium"
   },
   {
@@ -1360,8 +1360,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -1.5,
-   "total": 42.5,
+   "spread": null,
+   "total": null,
    "venue": "Empower Field at Mile High"
   },
   {
@@ -1377,8 +1377,8 @@
    "status": "scheduled",
    "neutral": true,
    "div_game": true,
-   "spread": 3.0,
-   "total": 42.5,
+   "spread": null,
+   "total": null,
    "venue": "Wembley Stadium"
   },
   {
@@ -1394,8 +1394,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -3.5,
-   "total": 41.5,
+   "spread": null,
+   "total": null,
    "venue": "Huntington Bank Field"
   },
   {
@@ -1411,8 +1411,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 1.5,
-   "total": 42.5,
+   "spread": null,
+   "total": null,
    "venue": "Lincoln Financial Field"
   },
   {
@@ -1428,8 +1428,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -1.5,
-   "total": 47.5,
+   "spread": null,
+   "total": null,
    "venue": "Mercedes-Benz Stadium"
   },
   {
@@ -1445,8 +1445,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -1.5,
-   "total": 45.5,
+   "spread": null,
+   "total": null,
    "venue": "MetLife Stadium"
   },
   {
@@ -1462,8 +1462,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 7.0,
-   "total": 43.5,
+   "spread": null,
+   "total": null,
    "venue": "Gillette Stadium"
   },
   {
@@ -1479,8 +1479,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -2.5,
-   "total": 39.5,
+   "spread": null,
+   "total": null,
    "venue": "Raymond James Stadium"
   },
   {
@@ -1496,8 +1496,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 6.5,
-   "total": 44.5,
+   "spread": null,
+   "total": null,
    "venue": "Lucas Oil Stadium"
   },
   {
@@ -1513,8 +1513,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 10.5,
-   "total": 51.5,
+   "spread": null,
+   "total": null,
    "venue": "SoFi Stadium"
   },
   {
@@ -1530,8 +1530,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -4.5,
-   "total": 51.5,
+   "spread": null,
+   "total": null,
    "venue": "Allegiant Stadium"
   },
   {
@@ -1547,8 +1547,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 7.5,
-   "total": 45.5,
+   "spread": null,
+   "total": null,
    "venue": "GEHA Field at Arrowhead Stadium"
   },
   {
@@ -1564,8 +1564,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -1.5,
-   "total": 50.5,
+   "spread": null,
+   "total": null,
    "venue": "Lambeau Field"
   },
   {
@@ -1581,8 +1581,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 7.5,
-   "total": 50.5,
+   "spread": null,
+   "total": null,
    "venue": "Levi's Stadium"
   },
   {
