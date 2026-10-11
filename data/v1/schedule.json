@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-10T16:12:15Z",
+ "generated_at": "2026-10-11T16:37:19Z",
  "season": 2026,
  "current_week": 5,
  "games": [
@@ -1120,7 +1120,7 @@
    "away_score": null,
    "home_score": null,
    "status": "scheduled",
-   "neutral": false,
+   "neutral": true,
    "div_game": false,
    "spread": 7.5,
    "total": 41.5,
@@ -1140,7 +1140,7 @@
    "neutral": false,
    "div_game": true,
    "spread": -1.5,
-   "total": 46.5,
+   "total": 47.5,
    "venue": "Lambeau Field"
   },
   {
@@ -1157,7 +1157,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -7.0,
-   "total": 43.5,
+   "total": 44.5,
    "venue": "Hard Rock Stadium"
   },
   {
@@ -1174,7 +1174,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 2.5,
-   "total": 39.5,
+   "total": 38.5,
    "venue": "MetLife Stadium"
   },
   {
@@ -1190,8 +1190,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -7.0,
-   "total": 38.5,
+   "spread": -6.5,
+   "total": 37.5,
    "venue": "Nissan Stadium"
   },
   {
@@ -1208,7 +1208,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 3.0,
-   "total": 43.5,
+   "total": 41.5,
    "venue": "Acrisure Stadium"
   },
   {
@@ -1310,7 +1310,7 @@
    "neutral": false,
    "div_game": true,
    "spread": 3.0,
-   "total": 45.5,
+   "total": 46.5,
    "venue": "Lumen Field"
   },
   {
@@ -1378,7 +1378,7 @@
    "neutral": true,
    "div_game": true,
    "spread": 3.0,
-   "total": 43.5,
+   "total": 42.5,
    "venue": "Wembley Stadium"
   },
   {
@@ -1394,7 +1394,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -3.0,
+   "spread": -3.5,
    "total": 41.5,
    "venue": "Huntington Bank Field"
   },
@@ -1411,8 +1411,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 2.5,
-   "total": 43.5,
+   "spread": 1.5,
+   "total": 42.5,
    "venue": "Lincoln Financial Field"
   },
   {
