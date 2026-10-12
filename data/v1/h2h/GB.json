@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:35:57Z",
+ "generated_at": "2026-10-12T20:14:07Z",
  "team": "GB",
  "since": 1999,
  "opponents": {
@@ -1221,19 +1221,19 @@
    ]
   },
   "CHI": {
-   "games": 56,
-   "wins": 40,
+   "games": 57,
+   "wins": 41,
    "losses": 16,
    "ties": 0,
-   "streak": "CHI W2",
+   "streak": "GB W1",
    "splits": {
     "all": {
-     "w": 40,
+     "w": 41,
      "l": 16,
      "t": 0
     },
     "regular": {
-     "w": 39,
+     "w": 40,
      "l": 15,
      "t": 0
     },
@@ -1243,7 +1243,7 @@
      "t": 0
     },
     "home": {
-     "w": 18,
+     "w": 19,
      "l": 9,
      "t": 0
     },
@@ -1265,6 +1265,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-11",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "GB",
+     "away": "CHI",
+     "home_score": 31,
+     "away_score": 7,
+     "winner": "GB",
+     "neutral": false
+    },
     {
      "date": "2026-01-10",
      "season": 2025,
@@ -1394,18 +1406,6 @@
      "away": "GB",
      "home_score": 14,
      "away_score": 24,
-     "winner": "GB",
-     "neutral": false
-    },
-    {
-     "date": "2021-01-03",
-     "season": 2020,
-     "week": 17,
-     "type": "REG",
-     "home": "CHI",
-     "away": "GB",
-     "home_score": 16,
-     "away_score": 35,
      "winner": "GB",
      "neutral": false
     }

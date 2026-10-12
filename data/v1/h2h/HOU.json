@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:35:57Z",
+ "generated_at": "2026-10-12T20:14:07Z",
  "team": "HOU",
  "since": 1999,
  "opponents": {
@@ -1426,19 +1426,19 @@
    ]
   },
   "TEN": {
-   "games": 48,
-   "wins": 24,
+   "games": 49,
+   "wins": 25,
    "losses": 24,
    "ties": 0,
-   "streak": "HOU W3",
+   "streak": "HOU W4",
    "splits": {
     "all": {
-     "w": 24,
+     "w": 25,
      "l": 24,
      "t": 0
     },
     "regular": {
-     "w": 24,
+     "w": 25,
      "l": 24,
      "t": 0
     },
@@ -1453,7 +1453,7 @@
      "t": 0
     },
     "away": {
-     "w": 12,
+     "w": 13,
      "l": 12,
      "t": 0
     },
@@ -1470,6 +1470,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-11",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "TEN",
+     "away": "HOU",
+     "home_score": 3,
+     "away_score": 26,
+     "winner": "HOU",
+     "neutral": false
+    },
     {
      "date": "2025-11-16",
      "season": 2025,
@@ -1599,18 +1611,6 @@
      "away": "TEN",
      "home_score": 38,
      "away_score": 41,
-     "winner": "TEN",
-     "neutral": false
-    },
-    {
-     "date": "2020-10-18",
-     "season": 2020,
-     "week": 6,
-     "type": "REG",
-     "home": "TEN",
-     "away": "HOU",
-     "home_score": 42,
-     "away_score": 36,
      "winner": "TEN",
      "neutral": false
     }

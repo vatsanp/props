@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-06T17:08:57Z",
+ "generated_at": "2026-10-12T20:14:07Z",
  "team": "NO",
  "since": 1999,
  "opponents": {
@@ -3349,20 +3349,20 @@
    ]
   },
   "MIN": {
-   "games": 17,
+   "games": 18,
    "wins": 7,
-   "losses": 10,
+   "losses": 11,
    "ties": 0,
-   "streak": "MIN W2",
+   "streak": "MIN W3",
    "splits": {
     "all": {
      "w": 7,
-     "l": 10,
+     "l": 11,
      "t": 0
     },
     "regular": {
      "w": 6,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "postseason": {
@@ -3372,7 +3372,7 @@
     },
     "home": {
      "w": 5,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "away": {
@@ -3381,18 +3381,30 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
-     "w": 5,
-     "l": 5,
+     "w": 4,
+     "l": 6,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-11",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "NO",
+     "away": "MIN",
+     "home_score": 13,
+     "away_score": 23,
+     "winner": "MIN",
+     "neutral": false
+    },
     {
      "date": "2023-11-12",
      "season": 2023,
@@ -3523,18 +3535,6 @@
      "home_score": 31,
      "away_score": 28,
      "winner": "NO",
-     "neutral": false
-    },
-    {
-     "date": "2008-10-06",
-     "season": 2008,
-     "week": 5,
-     "type": "REG",
-     "home": "NO",
-     "away": "MIN",
-     "home_score": 27,
-     "away_score": 30,
-     "winner": "MIN",
      "neutral": false
     }
    ]

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:35:57Z",
+ "generated_at": "2026-10-12T20:14:07Z",
  "team": "PHI",
  "since": 1999,
  "opponents": {
@@ -4410,20 +4410,20 @@
    ]
   },
   "JAX": {
-   "games": 7,
+   "games": 8,
    "wins": 5,
-   "losses": 2,
+   "losses": 3,
    "ties": 0,
-   "streak": "PHI W5",
+   "streak": "JAX W1",
    "splits": {
     "all": {
      "w": 5,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "regular": {
      "w": 5,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "postseason": {
@@ -4442,18 +4442,30 @@
      "t": 0
     },
     "last5": {
-     "w": 5,
-     "l": 0,
+     "w": 4,
+     "l": 1,
      "t": 0
     },
     "last10": {
      "w": 5,
-     "l": 2,
+     "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-11",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "JAX",
+     "away": "PHI",
+     "home_score": 19,
+     "away_score": 17,
+     "winner": "JAX",
+     "neutral": true
+    },
     {
      "date": "2024-11-03",
      "season": 2024,

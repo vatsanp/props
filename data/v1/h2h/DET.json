@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:35:57Z",
+ "generated_at": "2026-10-12T20:14:07Z",
  "team": "DET",
  "since": 1999,
  "opponents": {
@@ -1474,19 +1474,19 @@
    ]
   },
   "ARI": {
-   "games": 19,
-   "wins": 8,
+   "games": 20,
+   "wins": 9,
    "losses": 10,
    "ties": 1,
-   "streak": "DET W3",
+   "streak": "DET W4",
    "splits": {
     "all": {
-     "w": 8,
+     "w": 9,
      "l": 10,
      "t": 1
     },
     "regular": {
-     "w": 8,
+     "w": 9,
      "l": 10,
      "t": 1
     },
@@ -1501,7 +1501,7 @@
      "t": 0
     },
     "away": {
-     "w": 3,
+     "w": 4,
      "l": 8,
      "t": 1
     },
@@ -1511,13 +1511,25 @@
      "t": 1
     },
     "last10": {
-     "w": 5,
-     "l": 4,
+     "w": 6,
+     "l": 3,
      "t": 1
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-11",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "ARI",
+     "away": "DET",
+     "home_score": 21,
+     "away_score": 45,
+     "winner": "DET",
+     "neutral": false
+    },
     {
      "date": "2024-09-22",
      "season": 2024,
@@ -1647,18 +1659,6 @@
      "away": "ARI",
      "home_score": 24,
      "away_score": 31,
-     "winner": "ARI",
-     "neutral": false
-    },
-    {
-     "date": "2007-11-11",
-     "season": 2007,
-     "week": 10,
-     "type": "REG",
-     "home": "ARI",
-     "away": "DET",
-     "home_score": 31,
-     "away_score": 21,
      "winner": "ARI",
      "neutral": false
     }

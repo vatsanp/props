@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:35:57Z",
+ "generated_at": "2026-10-12T20:14:07Z",
  "team": "SEA",
  "since": 1999,
  "opponents": {
@@ -4673,20 +4673,20 @@
    ]
   },
   "SF": {
-   "games": 51,
+   "games": 52,
    "wins": 31,
-   "losses": 20,
+   "losses": 21,
    "ties": 0,
-   "streak": "SEA W2",
+   "streak": "SF W1",
    "splits": {
     "all": {
      "w": 31,
-     "l": 20,
+     "l": 21,
      "t": 0
     },
     "regular": {
      "w": 29,
-     "l": 19,
+     "l": 20,
      "t": 0
     },
     "postseason": {
@@ -4696,7 +4696,7 @@
     },
     "home": {
      "w": 17,
-     "l": 9,
+     "l": 10,
      "t": 0
     },
     "away": {
@@ -4717,6 +4717,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-11",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "SEA",
+     "away": "SF",
+     "home_score": 29,
+     "away_score": 32,
+     "winner": "SF",
+     "neutral": false
+    },
     {
      "date": "2026-01-17",
      "season": 2025,
@@ -4846,18 +4858,6 @@
      "away": "SF",
      "home_score": 30,
      "away_score": 23,
-     "winner": "SEA",
-     "neutral": false
-    },
-    {
-     "date": "2021-10-03",
-     "season": 2021,
-     "week": 4,
-     "type": "REG",
-     "home": "SF",
-     "away": "SEA",
-     "home_score": 21,
-     "away_score": 28,
      "winner": "SEA",
      "neutral": false
     }

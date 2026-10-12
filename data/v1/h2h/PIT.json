@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-02T16:36:02Z",
+ "generated_at": "2026-10-12T20:14:06Z",
  "team": "PIT",
  "since": 1999,
  "opponents": {
@@ -3657,19 +3657,19 @@
    ]
   },
   "IND": {
-   "games": 15,
-   "wins": 11,
+   "games": 16,
+   "wins": 12,
    "losses": 4,
    "ties": 0,
-   "streak": "PIT W1",
+   "streak": "PIT W2",
    "splits": {
     "all": {
-     "w": 11,
+     "w": 12,
      "l": 4,
      "t": 0
     },
     "regular": {
-     "w": 10,
+     "w": 11,
      "l": 4,
      "t": 0
     },
@@ -3679,7 +3679,7 @@
      "t": 0
     },
     "home": {
-     "w": 6,
+     "w": 7,
      "l": 1,
      "t": 0
     },
@@ -3701,6 +3701,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-11",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "PIT",
+     "away": "IND",
+     "home_score": 34,
+     "away_score": 22,
+     "winner": "PIT",
+     "neutral": false
+    },
     {
      "date": "2025-11-02",
      "season": 2025,
@@ -3831,18 +3843,6 @@
      "home_score": 20,
      "away_score": 23,
      "winner": "PIT",
-     "neutral": false
-    },
-    {
-     "date": "2008-11-09",
-     "season": 2008,
-     "week": 10,
-     "type": "REG",
-     "home": "PIT",
-     "away": "IND",
-     "home_score": 20,
-     "away_score": 24,
-     "winner": "IND",
      "neutral": false
     }
    ]

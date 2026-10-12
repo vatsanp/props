@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:35:57Z",
+ "generated_at": "2026-10-12T20:14:07Z",
  "team": "NYJ",
  "since": 1999,
  "opponents": {
@@ -4025,19 +4025,19 @@
    ]
   },
   "CLE": {
-   "games": 15,
-   "wins": 9,
+   "games": 16,
+   "wins": 10,
    "losses": 6,
    "ties": 0,
-   "streak": "NYJ W1",
+   "streak": "NYJ W2",
    "splits": {
     "all": {
-     "w": 9,
+     "w": 10,
      "l": 6,
      "t": 0
     },
     "regular": {
-     "w": 9,
+     "w": 10,
      "l": 6,
      "t": 0
     },
@@ -4047,7 +4047,7 @@
      "t": 0
     },
     "home": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     },
@@ -4057,8 +4057,8 @@
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 4,
+     "l": 1,
      "t": 0
     },
     "last10": {
@@ -4069,6 +4069,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-11",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "NYJ",
+     "away": "CLE",
+     "home_score": 17,
+     "away_score": 12,
+     "winner": "NYJ",
+     "neutral": false
+    },
     {
      "date": "2025-11-09",
      "season": 2025,
@@ -4199,18 +4211,6 @@
      "home_score": 20,
      "away_score": 26,
      "winner": "NYJ",
-     "neutral": false
-    },
-    {
-     "date": "2007-12-09",
-     "season": 2007,
-     "week": 14,
-     "type": "REG",
-     "home": "NYJ",
-     "away": "CLE",
-     "home_score": 18,
-     "away_score": 24,
-     "winner": "CLE",
      "neutral": false
     }
    ]

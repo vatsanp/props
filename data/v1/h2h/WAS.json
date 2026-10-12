@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:35:57Z",
+ "generated_at": "2026-10-12T20:14:07Z",
  "team": "WAS",
  "since": 1999,
  "opponents": {
@@ -196,21 +196,21 @@
    ]
   },
   "NYG": {
-   "games": 54,
+   "games": 55,
    "wins": 21,
    "losses": 32,
-   "ties": 1,
-   "streak": "WAS W4",
+   "ties": 2,
+   "streak": "T1",
    "splits": {
     "all": {
      "w": 21,
      "l": 32,
-     "t": 1
+     "t": 2
     },
     "regular": {
      "w": 21,
      "l": 32,
-     "t": 1
+     "t": 2
     },
     "postseason": {
      "w": 0,
@@ -220,7 +220,7 @@
     "home": {
      "w": 11,
      "l": 16,
-     "t": 0
+     "t": 1
     },
     "away": {
      "w": 10,
@@ -229,17 +229,29 @@
     },
     "last5": {
      "w": 4,
-     "l": 1,
-     "t": 0
+     "l": 0,
+     "t": 1
     },
     "last10": {
-     "w": 6,
+     "w": 5,
      "l": 3,
-     "t": 1
+     "t": 2
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-11",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "WAS",
+     "away": "NYG",
+     "home_score": 27,
+     "away_score": 27,
+     "winner": null,
+     "neutral": false
+    },
     {
      "date": "2025-12-14",
      "season": 2025,
@@ -369,18 +381,6 @@
      "away": "NYG",
      "home_score": 20,
      "away_score": 23,
-     "winner": "NYG",
-     "neutral": false
-    },
-    {
-     "date": "2020-10-18",
-     "season": 2020,
-     "week": 6,
-     "type": "REG",
-     "home": "NYG",
-     "away": "WAS",
-     "home_score": 20,
-     "away_score": 19,
      "winner": "NYG",
      "neutral": false
     }
