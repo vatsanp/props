@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:06Z",
+ "generated_at": "2026-10-13T05:30:22Z",
  "season": 2026,
- "current_week": 5,
+ "current_week": 6,
  "games": [
   {
    "id": "2026_01_NE_SEA",
@@ -1338,13 +1338,13 @@
    "kickoff": "2026-10-13T00:15:00Z",
    "away": "BUF",
    "home": "LAR",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 37,
+   "home_score": 34,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 3.5,
-   "total": 54.5,
+   "total": 55.5,
    "venue": "SoFi Stadium"
   },
   {
@@ -1429,7 +1429,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -3.0,
-   "total": 48.5,
+   "total": 49.5,
    "venue": "Mercedes-Benz Stadium"
   },
   {
@@ -1445,7 +1445,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -1.5,
+   "spread": 1.5,
    "total": 45.5,
    "venue": "MetLife Stadium"
   },
@@ -1462,7 +1462,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 7.0,
+   "spread": 7.5,
    "total": 43.5,
    "venue": "Gillette Stadium"
   },
@@ -1513,7 +1513,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 12.5,
+   "spread": 13.5,
    "total": 52.5,
    "venue": "SoFi Stadium"
   },
@@ -1530,8 +1530,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -5.5,
-   "total": 52.5,
+   "spread": -6.0,
+   "total": 53.5,
    "venue": "Allegiant Stadium"
   },
   {
