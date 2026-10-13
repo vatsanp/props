@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-05T19:35:57Z",
+ "generated_at": "2026-10-13T18:08:13Z",
  "team": "BUF",
  "since": 1999,
  "opponents": {
@@ -4741,19 +4741,19 @@
    ]
   },
   "LAR": {
-   "games": 7,
-   "wins": 5,
+   "games": 8,
+   "wins": 6,
    "losses": 2,
    "ties": 0,
-   "streak": "LAR W1",
+   "streak": "BUF W1",
    "splits": {
     "all": {
-     "w": 5,
+     "w": 6,
      "l": 2,
      "t": 0
     },
     "regular": {
-     "w": 5,
+     "w": 6,
      "l": 2,
      "t": 0
     },
@@ -4768,17 +4768,17 @@
      "t": 0
     },
     "away": {
-     "w": 3,
+     "w": 4,
      "l": 1,
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 4,
+     "l": 1,
      "t": 0
     },
     "last10": {
-     "w": 5,
+     "w": 6,
      "l": 2,
      "t": 0
     }
@@ -4802,14 +4802,26 @@
       "LA"
      ],
      "wins": {
-      "BUF": 3,
+      "BUF": 4,
       "LA": 1
      },
      "ties": 0,
-     "games": 4
+     "games": 5
     }
    ],
    "recent": [
+    {
+     "date": "2026-10-12",
+     "season": 2026,
+     "week": 5,
+     "type": "REG",
+     "home": "LAR",
+     "away": "BUF",
+     "home_score": 34,
+     "away_score": 37,
+     "winner": "BUF",
+     "neutral": false
+    },
     {
      "date": "2024-12-08",
      "season": 2024,
