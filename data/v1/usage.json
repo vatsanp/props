@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-15T15:34:45Z",
+ "generated_at": "2026-10-16T15:21:14Z",
  "season": 2026,
  "week": 6,
  "teams": {
@@ -782,7 +782,7 @@
       "rushing_tds": 0.0,
       "targets": 7.75
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 1
      },
@@ -1213,7 +1213,7 @@
       "rushing_tds": 0.0,
       "targets": 5.0
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 2
      },
@@ -1261,7 +1261,7 @@
       "rushing_tds": 0.0,
       "targets": 3.0
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 4
      },
@@ -3575,16 +3575,16 @@
      "name": "Evan Engram",
      "team": "DEN",
      "position": "TE",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "targets": 0.6538
+      "targets": 0.6786
      },
      "per_game": {
-      "receiving_tds": 0.2,
-      "receiving_yards": 24.2,
+      "receiving_tds": 0.17,
+      "receiving_yards": 22.33,
       "receptions": 2.0,
       "rushing_tds": 0.0,
-      "targets": 3.4
+      "targets": 3.17
      },
      "status": "active",
      "depth": {
@@ -3601,7 +3601,7 @@
      "position": "TE",
      "games": 3,
      "shares": {
-      "targets": 0.1923
+      "targets": 0.1786
      },
      "per_game": {
       "receiving_tds": 0.67,
@@ -3625,7 +3625,7 @@
      "position": "TE",
      "games": 2,
      "shares": {
-      "targets": 0.1538
+      "targets": 0.1429
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -3649,16 +3649,16 @@
      "name": "Jaylen Waddle",
      "team": "DEN",
      "position": "WR",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "targets": 0.378
+      "targets": 0.3918
      },
      "per_game": {
-      "receiving_tds": 0.2,
-      "receiving_yards": 40.8,
-      "receptions": 3.6,
+      "receiving_tds": 0.17,
+      "receiving_yards": 38.0,
+      "receptions": 3.67,
       "rushing_tds": 0.0,
-      "targets": 6.2
+      "targets": 6.33
      },
      "status": "active",
      "depth": {
@@ -3673,16 +3673,16 @@
      "name": "Courtland Sutton",
      "team": "DEN",
      "position": "WR",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "targets": 0.3049
+      "targets": 0.2887
      },
      "per_game": {
-      "receiving_tds": 0.2,
-      "receiving_yards": 20.8,
-      "receptions": 2.2,
+      "receiving_tds": 0.17,
+      "receiving_yards": 20.5,
+      "receptions": 2.17,
       "rushing_tds": 0.0,
-      "targets": 5.0
+      "targets": 4.67
      },
      "status": "active",
      "depth": {
@@ -3699,7 +3699,7 @@
      "position": "WR",
      "games": 4,
      "shares": {
-      "targets": 0.1463
+      "targets": 0.1237
      },
      "per_game": {
       "receiving_tds": 0.25,
@@ -3717,20 +3717,20 @@
      }
     },
     {
-     "id": "00-0039868",
-     "name": "Troy Franklin",
+     "id": "00-0038976",
+     "name": "Marvin Mims Jr.",
      "team": "DEN",
      "position": "WR",
      "games": 4,
      "shares": {
-      "targets": 0.0732
+      "targets": 0.0928
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 16.0,
-      "receptions": 1.0,
+      "receiving_yards": 7.25,
+      "receptions": 1.25,
       "rushing_tds": 0.0,
-      "targets": 1.5
+      "targets": 2.25
      },
      "status": "active",
      "depth": {
@@ -3741,20 +3741,20 @@
      }
     },
     {
-     "id": "00-0038976",
-     "name": "Marvin Mims Jr.",
+     "id": "00-0039868",
+     "name": "Troy Franklin",
      "team": "DEN",
      "position": "WR",
-     "games": 3,
+     "games": 5,
      "shares": {
-      "targets": 0.061
+      "targets": 0.0722
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 5.33,
+      "receiving_yards": 13.2,
       "receptions": 1.0,
       "rushing_tds": 0.0,
-      "targets": 1.67
+      "targets": 1.4
      },
      "status": "active",
      "depth": {
@@ -3771,7 +3771,7 @@
      "position": "WR",
      "games": 2,
      "shares": {
-      "targets": 0.0366
+      "targets": 0.0309
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -3819,28 +3819,28 @@
      "name": "J.K. Dobbins",
      "team": "DEN",
      "position": "RB",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "carries": 0.6809,
-      "targets": 0.1579
+      "carries": 0.6864,
+      "targets": 0.2
      },
      "per_game": {
-      "carries": 12.8,
+      "carries": 13.5,
       "receiving_tds": 0.0,
-      "receiving_yards": 4.4,
-      "receptions": 1.0,
-      "rushing_tds": 0.2,
-      "rushing_yards": 45.8,
-      "targets": 1.2
+      "receiving_yards": 4.5,
+      "receptions": 1.33,
+      "rushing_tds": 0.33,
+      "rushing_yards": 45.0,
+      "targets": 1.5
      },
      "status": "active",
      "depth": {
       "carries": 1,
-      "targets": 3
+      "targets": 2
      },
      "roles": {
       "carries": "primary",
-      "targets": "committee"
+      "targets": "secondary"
      }
     },
     {
@@ -3848,19 +3848,19 @@
      "name": "RJ Harvey",
      "team": "DEN",
      "position": "RB",
-     "games": 4,
+     "games": 5,
      "shares": {
-      "carries": 0.1596,
-      "targets": 0.5789
+      "carries": 0.178,
+      "targets": 0.5778
      },
      "per_game": {
-      "carries": 3.75,
+      "carries": 4.2,
       "receiving_tds": 0.0,
-      "receiving_yards": 33.0,
-      "receptions": 5.0,
-      "rushing_tds": 0.0,
-      "rushing_yards": 14.0,
-      "targets": 5.5
+      "receiving_yards": 32.6,
+      "receptions": 4.6,
+      "rushing_tds": 0.2,
+      "rushing_yards": 16.2,
+      "targets": 5.2
      },
      "status": "active",
      "depth": {
@@ -3877,28 +3877,28 @@
      "name": "Tyler Badie",
      "team": "DEN",
      "position": "RB",
-     "games": 4,
+     "games": 5,
      "shares": {
-      "carries": 0.0532,
-      "targets": 0.1842
+      "carries": 0.0508,
+      "targets": 0.1556
      },
      "per_game": {
-      "carries": 1.25,
+      "carries": 1.2,
       "receiving_tds": 0.0,
-      "receiving_yards": 16.75,
-      "receptions": 1.5,
+      "receiving_yards": 13.4,
+      "receptions": 1.2,
       "rushing_tds": 0.0,
-      "rushing_yards": 4.0,
-      "targets": 1.75
+      "rushing_yards": 4.4,
+      "targets": 1.4
      },
      "status": "active",
      "depth": {
       "carries": 4,
-      "targets": 2
+      "targets": 3
      },
      "roles": {
       "carries": "committee",
-      "targets": "secondary"
+      "targets": "committee"
      }
     },
     {
@@ -3908,8 +3908,8 @@
      "position": "RB",
      "games": 2,
      "shares": {
-      "carries": 0.1064,
-      "targets": 0.0789
+      "carries": 0.0847,
+      "targets": 0.0667
      },
      "per_game": {
       "carries": 5.0,
@@ -3937,15 +3937,15 @@
      "name": "Bo Nix",
      "team": "DEN",
      "position": "QB",
-     "games": 5,
+     "games": 6,
      "shares": {
       "attempts": 1.0
      },
      "per_game": {
-      "attempts": 32.4,
-      "passing_tds": 1.2,
-      "passing_yards": 188.4,
-      "rushing_yards": 7.0
+      "attempts": 31.5,
+      "passing_tds": 1.0,
+      "passing_yards": 174.83,
+      "rushing_yards": 6.17
      },
      "status": "active",
      "depth": {
@@ -10754,15 +10754,15 @@
      "name": "AJ Barner",
      "team": "SEA",
      "position": "TE",
-     "games": 5,
+     "games": 6,
      "shares": {
       "targets": 0.8
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 24.4,
-      "receptions": 2.4,
-      "rushing_tds": 0.2,
+      "receiving_yards": 23.0,
+      "receptions": 2.5,
+      "rushing_tds": 0.17,
       "targets": 4.0
      },
      "status": "active",
@@ -10778,16 +10778,16 @@
      "name": "Eric Saubert",
      "team": "SEA",
      "position": "TE",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "targets": 0.12
+      "targets": 0.1333
      },
      "per_game": {
-      "receiving_tds": 0.2,
-      "receiving_yards": 0.6,
-      "receptions": 0.4,
+      "receiving_tds": 0.17,
+      "receiving_yards": 0.5,
+      "receptions": 0.33,
       "rushing_tds": 0.0,
-      "targets": 0.6
+      "targets": 0.67
      },
      "status": "active",
      "depth": {
@@ -10804,7 +10804,7 @@
      "position": "TE",
      "games": 2,
      "shares": {
-      "targets": 0.08
+      "targets": 0.0667
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -10828,16 +10828,16 @@
      "name": "Jaxon Smith-Njigba",
      "team": "SEA",
      "position": "WR",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "targets": 0.5682
+      "targets": 0.5197
      },
      "per_game": {
-      "receiving_tds": 1.4,
-      "receiving_yards": 116.6,
-      "receptions": 7.4,
+      "receiving_tds": 1.17,
+      "receiving_yards": 119.5,
+      "receptions": 8.17,
       "rushing_tds": 0.0,
-      "targets": 10.0
+      "targets": 11.0
      },
      "status": "active",
      "depth": {
@@ -10852,16 +10852,16 @@
      "name": "Rashid Shaheed",
      "team": "SEA",
      "position": "WR",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "targets": 0.2159
+      "targets": 0.2126
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 19.2,
-      "receptions": 1.8,
-      "rushing_tds": 0.2,
-      "targets": 3.8
+      "receiving_yards": 27.0,
+      "receptions": 2.33,
+      "rushing_tds": 0.17,
+      "targets": 4.5
      },
      "status": "active",
      "depth": {
@@ -10876,16 +10876,16 @@
      "name": "Cooper Kupp",
      "team": "SEA",
      "position": "WR",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "targets": 0.1705
+      "targets": 0.1969
      },
      "per_game": {
-      "receiving_tds": 0.2,
-      "receiving_yards": 25.8,
-      "receptions": 2.2,
+      "receiving_tds": 0.17,
+      "receiving_yards": 29.83,
+      "receptions": 2.67,
       "rushing_tds": 0.0,
-      "targets": 3.0
+      "targets": 4.17
      },
      "status": "active",
      "depth": {
@@ -10900,20 +10900,44 @@
      "name": "Tory Horton",
      "team": "SEA",
      "position": "WR",
-     "games": 2,
+     "games": 3,
      "shares": {
-      "targets": 0.0455
+      "targets": 0.0709
      },
      "per_game": {
-      "receiving_tds": 0.5,
-      "receiving_yards": 27.0,
-      "receptions": 2.0,
+      "receiving_tds": 0.33,
+      "receiving_yards": 22.33,
+      "receptions": 1.67,
       "rushing_tds": 0.0,
-      "targets": 2.0
+      "targets": 3.0
      },
      "status": "active",
      "depth": {
       "targets": 4
+     },
+     "roles": {
+      "targets": "committee"
+     }
+    },
+    {
+     "id": "00-0037156",
+     "name": "Irvin Charles",
+     "team": "SEA",
+     "position": "WR",
+     "games": 1,
+     "shares": {
+      "targets": 0.0
+     },
+     "per_game": {
+      "receiving_tds": 0.0,
+      "receiving_yards": 0.0,
+      "receptions": 0.0,
+      "rushing_tds": 0.0,
+      "targets": 0.0
+     },
+     "status": "active",
+     "depth": {
+      "targets": 5
      },
      "roles": {
       "targets": "committee"
@@ -10937,7 +10961,7 @@
      },
      "status": "active",
      "depth": {
-      "targets": 5
+      "targets": 6
      },
      "roles": {
       "targets": "committee"
@@ -10950,15 +10974,15 @@
      "name": "Sam Darnold",
      "team": "SEA",
      "position": "QB",
-     "games": 4,
+     "games": 5,
      "shares": {
-      "attempts": 0.6712
+      "attempts": 0.7563
      },
      "per_game": {
-      "attempts": 24.5,
-      "passing_tds": 1.75,
-      "passing_yards": 188.75,
-      "rushing_yards": 4.0
+      "attempts": 29.8,
+      "passing_tds": 1.4,
+      "passing_yards": 206.6,
+      "rushing_yards": 7.0
      },
      "status": "active",
      "depth": {
@@ -10975,7 +10999,7 @@
      "position": "QB",
      "games": 2,
      "shares": {
-      "attempts": 0.3288
+      "attempts": 0.2437
      },
      "per_game": {
       "attempts": 24.0,
@@ -10998,19 +11022,19 @@
      "name": "Emanuel Wilson",
      "team": "SEA",
      "position": "RB",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "carries": 0.5748,
-      "targets": 0.2414
+      "carries": 0.58,
+      "targets": 0.2581
      },
      "per_game": {
-      "carries": 14.6,
-      "receiving_tds": 0.2,
-      "receiving_yards": 10.0,
-      "receptions": 1.0,
-      "rushing_tds": 0.4,
-      "rushing_yards": 50.2,
-      "targets": 1.4
+      "carries": 14.5,
+      "receiving_tds": 0.17,
+      "receiving_yards": 8.33,
+      "receptions": 0.83,
+      "rushing_tds": 0.33,
+      "rushing_yards": 50.5,
+      "targets": 1.33
      },
      "status": "active",
      "depth": {
@@ -11027,27 +11051,27 @@
      "name": "George Holani",
      "team": "SEA",
      "position": "RB",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "carries": 0.2047,
-      "targets": 0.4138
+      "carries": 0.2067,
+      "targets": 0.3871
      },
      "per_game": {
-      "carries": 5.2,
+      "carries": 5.17,
       "receiving_tds": 0.0,
-      "receiving_yards": 15.2,
-      "receptions": 2.2,
-      "rushing_tds": 0.0,
-      "rushing_yards": 15.4,
-      "targets": 2.4
+      "receiving_yards": 12.67,
+      "receptions": 1.83,
+      "rushing_tds": 0.17,
+      "rushing_yards": 16.17,
+      "targets": 2.0
      },
      "status": "active",
      "depth": {
-      "carries": 3,
+      "carries": 2,
       "targets": 1
      },
      "roles": {
-      "carries": "committee",
+      "carries": "secondary",
       "targets": "primary"
      }
     },
@@ -11058,8 +11082,8 @@
      "position": "RB",
      "games": 3,
      "shares": {
-      "carries": 0.2205,
-      "targets": 0.2414
+      "carries": 0.1867,
+      "targets": 0.2258
      },
      "per_game": {
       "carries": 9.33,
@@ -11072,11 +11096,11 @@
      },
      "status": "Out",
      "depth": {
-      "carries": 2,
+      "carries": 3,
       "targets": 3
      },
      "roles": {
-      "carries": "secondary",
+      "carries": "committee",
       "targets": "committee"
      }
     },
@@ -11085,23 +11109,23 @@
      "name": "Brady Russell",
      "team": "SEA",
      "position": "RB",
-     "games": 4,
+     "games": 5,
      "shares": {
       "carries": 0.0,
-      "targets": 0.1034
+      "targets": 0.0968
      },
      "per_game": {
       "carries": 0.0,
       "receiving_tds": 0.0,
-      "receiving_yards": 10.0,
-      "receptions": 0.75,
+      "receiving_yards": 8.0,
+      "receptions": 0.6,
       "rushing_tds": 0.0,
       "rushing_yards": 0.0,
-      "targets": 0.75
+      "targets": 0.6
      },
      "status": "active",
      "depth": {
-      "carries": 4,
+      "carries": 5,
       "targets": 4
      },
      "roles": {
@@ -11114,23 +11138,23 @@
      "name": "Velus Jones Jr.",
      "team": "SEA",
      "position": "RB",
-     "games": 1,
+     "games": 2,
      "shares": {
-      "carries": 0.0,
-      "targets": 0.0
+      "carries": 0.0267,
+      "targets": 0.0323
      },
      "per_game": {
-      "carries": 0.0,
+      "carries": 2.0,
       "receiving_tds": 0.0,
-      "receiving_yards": 0.0,
-      "receptions": 0.0,
+      "receiving_yards": -0.5,
+      "receptions": 0.5,
       "rushing_tds": 0.0,
-      "rushing_yards": 0.0,
-      "targets": 0.0
+      "rushing_yards": 10.0,
+      "targets": 0.5
      },
      "status": "active",
      "depth": {
-      "carries": 5,
+      "carries": 4,
       "targets": 5
      },
      "roles": {
@@ -12323,7 +12347,7 @@
       "rushing_tds": 0.0,
       "targets": 7.75
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 1
      },
@@ -12347,7 +12371,7 @@
       "rushing_tds": 0.0,
       "targets": 6.5
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 2
      },
@@ -12760,7 +12784,7 @@
       "passing_yards": 113.33,
       "rushing_yards": 16.33
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "attempts": 2
      },

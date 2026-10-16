@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-16T15:20:30Z",
  "team": "SEA",
  "since": 1999,
  "opponents": {
@@ -1462,20 +1462,20 @@
    ]
   },
   "DEN": {
-   "games": 14,
+   "games": 15,
    "wins": 7,
-   "losses": 7,
+   "losses": 8,
    "ties": 0,
-   "streak": "SEA W2",
+   "streak": "DEN W1",
    "splits": {
     "all": {
      "w": 7,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "regular": {
      "w": 6,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "postseason": {
@@ -1490,22 +1490,34 @@
     },
     "away": {
      "w": 1,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "last5": {
-     "w": 4,
-     "l": 1,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
-     "w": 6,
-     "l": 4,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-15",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "DEN",
+     "away": "SEA",
+     "home_score": 17,
+     "away_score": 14,
+     "winner": "DEN",
+     "neutral": false
+    },
     {
      "date": "2024-09-08",
      "season": 2024,
@@ -1635,18 +1647,6 @@
      "away": "SEA",
      "home_score": 31,
      "away_score": 24,
-     "winner": "DEN",
-     "neutral": false
-    },
-    {
-     "date": "2000-11-26",
-     "season": 2000,
-     "week": 13,
-     "type": "REG",
-     "home": "SEA",
-     "away": "DEN",
-     "home_score": 31,
-     "away_score": 38,
      "winner": "DEN",
      "neutral": false
     }
