@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-16T02:31:38Z",
+ "generated_at": "2026-10-16T07:45:20Z",
  "season": 2026,
  "current_week": 6,
  "games": [
@@ -1355,9 +1355,9 @@
    "kickoff": "2026-10-16T00:15:00Z",
    "away": "SEA",
    "home": "DEN",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 14,
+   "home_score": 17,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -2.5,
@@ -1547,7 +1547,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 8.5,
+   "spread": 7.5,
    "total": 41.5,
    "venue": "GEHA Field at Arrowhead Stadium"
   },
@@ -1751,8 +1751,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -5.5,
+   "total": 45.5,
    "venue": "State Farm Stadium"
   },
   {
@@ -1802,8 +1802,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 2.5,
+   "total": 44.5,
    "venue": "Lumen Field"
   },
   {
