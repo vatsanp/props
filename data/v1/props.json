@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-16T07:45:21Z",
+ "generated_at": "2026-10-17T14:10:33Z",
  "week": 6,
  "max_softness_rank": 10,
  "weights": {
@@ -1851,46 +1851,6 @@
    "rationale": "Atlanta allows 164.3 receiving yards per game to WRs (27th of 32). Luther Burden III: 53.2 yds per game, 37% target share. Based on 5 games this season, blended with last season."
   },
   {
-   "id": "2026_06_ARI_LA~rb_receptions~00-0041027",
-   "game_id": "2026_06_ARI_LA",
-   "week": 6,
-   "kickoff": "2026-10-18T20:05:00Z",
-   "market": "rb_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "RB",
-   "player": {
-    "id": "00-0041027",
-    "name": "Jeremiyah Love",
-    "team": "ARI",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 5,
-    "share": 0.5385,
-    "share_of": "targets",
-    "per_game": 2.2,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "LAR",
-    "allowed_per_game": 4.82,
-    "softness_rank": 5,
-    "games": 5,
-    "blend_weight": 0.556,
-    "current": 5.0,
-    "prior": 4.59
-   },
-   "score": 0.8545,
-   "components": {
-    "softness": 0.871,
-    "usage": 0.8455,
-    "confidence": 0.8333
-   },
-   "rationale": "Los Angeles allows 4.82 receptions per game to RBs (28th of 32). Jeremiyah Love: 2.2 rec per game, 54% target share. Based on 5 games this season, blended with last season."
-  },
-  {
    "id": "2026_06_BUF_LV~wr_receptions~00-0038563",
    "game_id": "2026_06_BUF_LV",
    "week": 6,
@@ -2226,7 +2186,7 @@
     "position": "RB",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 5,
     "share": 0.5882,
     "share_of": "targets",
@@ -2248,7 +2208,7 @@
     "usage": 0.878,
     "confidence": 0.8333
    },
-   "rationale": "Baltimore allows 4.76 receptions per game to RBs (26th of 32). Quinshon Judkins: 3.6 rec per game, 59% target share. Based on 5 games this season, blended with last season."
+   "rationale": "Baltimore allows 4.76 receptions per game to RBs (26th of 32). Quinshon Judkins: 3.6 rec per game, 59% target share. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_06_BUF_LV~rb_receptions~00-0040122",
@@ -2529,46 +2489,6 @@
     "confidence": 0.8333
    },
    "rationale": "Chicago allows 160.14 receiving yards per game to WRs (23rd of 32). Drake London: 97.6 yds per game, 51% target share. Based on 5 games this season, blended with last season."
-  },
-  {
-   "id": "2026_06_CAR_PHI~rb_rushing_yards~00-0034844",
-   "game_id": "2026_06_CAR_PHI",
-   "week": 6,
-   "kickoff": "2026-10-18T17:00:00Z",
-   "market": "rb_rushing_yards",
-   "market_label": "Rushing Yards",
-   "metric": "rushing_yards",
-   "position": "RB",
-   "player": {
-    "id": "00-0034844",
-    "name": "Saquon Barkley",
-    "team": "PHI",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 4,
-    "share": 0.3789,
-    "share_of": "carries",
-    "per_game": 45.5,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "CAR",
-    "allowed_per_game": 113.18,
-    "softness_rank": 2,
-    "games": 4,
-    "blend_weight": 0.5,
-    "current": 120.0,
-    "prior": 106.35
-   },
-   "score": 0.8249,
-   "components": {
-    "softness": 0.9677,
-    "usage": 0.7317,
-    "confidence": 0.6667
-   },
-   "rationale": "Carolina allows 113.18 rushing yards per game to RBs (31st of 32). Saquon Barkley: 45.5 yds per game, 38% carry share. Based on 4 games this season, blended with last season."
   },
   {
    "id": "2026_06_DAL_GB~rb_anytime_td~00-0039811",
@@ -3226,7 +3146,7 @@
     "position": "RB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 4,
     "share": 0.3529,
     "share_of": "carries",
@@ -3248,7 +3168,7 @@
     "usage": 0.7073,
     "confidence": 0.6667
    },
-   "rationale": "New York allows 24.55 carries per game to RBs (30th of 32). TreVeyon Henderson: 10.5 att per game, 35% carry share. Based on 5 games this season, blended with last season."
+   "rationale": "New York allows 24.55 carries per game to RBs (30th of 32). TreVeyon Henderson: 10.5 att per game, 35% carry share. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_06_DAL_GB~wr_receptions~00-0040667",
@@ -3971,46 +3891,6 @@
    "rationale": "Arizona allows 6.13 receptions per game to TEs (27th of 32). Tyler Higbee: 5 rec per game, 47% target share. Based on 5 games this season, blended with last season."
   },
   {
-   "id": "2026_06_CAR_PHI~qb_rushing_yards~00-0036389",
-   "game_id": "2026_06_CAR_PHI",
-   "week": 6,
-   "kickoff": "2026-10-18T17:00:00Z",
-   "market": "qb_rushing_yards",
-   "market_label": "Rushing Yards",
-   "metric": "rushing_yards",
-   "position": "QB",
-   "player": {
-    "id": "00-0036389",
-    "name": "Jalen Hurts",
-    "team": "PHI",
-    "position": "QB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 5,
-    "share": 0.9935,
-    "share_of": "attempts",
-    "per_game": 21.4,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "CAR",
-    "allowed_per_game": 25.49,
-    "softness_rank": 4,
-    "games": 4,
-    "blend_weight": 0.5,
-    "current": 36.5,
-    "prior": 14.47
-   },
-   "score": 0.7666,
-   "components": {
-    "softness": 0.9032,
-    "usage": 0.6481,
-    "confidence": 0.6667
-   },
-   "rationale": "Carolina allows 25.49 rushing yards per game to QBs (29th of 32). Jalen Hurts: 21.4 yds per game, 99% of the team's pass attempts. Based on 4 games this season, blended with last season."
-  },
-  {
    "id": "2026_06_DAL_GB~rb_carries~00-0039811",
    "game_id": "2026_06_DAL_GB",
    "week": 6,
@@ -4306,7 +4186,7 @@
     "position": "RB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 4,
     "share": 0.3529,
     "share_of": "carries",
@@ -4328,47 +4208,7 @@
     "usage": 0.7073,
     "confidence": 0.6667
    },
-   "rationale": "New York allows 105.67 rushing yards per game to RBs (26th of 32). TreVeyon Henderson: 40.75 yds per game, 35% carry share. Based on 5 games this season, blended with last season."
-  },
-  {
-   "id": "2026_06_NYJ_NE~rb_receptions~00-0038120",
-   "game_id": "2026_06_NYJ_NE",
-   "week": 6,
-   "kickoff": "2026-10-18T17:00:00Z",
-   "market": "rb_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "RB",
-   "player": {
-    "id": "00-0038120",
-    "name": "Breece Hall",
-    "team": "NYJ",
-    "position": "RB",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 3,
-    "share": 0.4348,
-    "share_of": "targets",
-    "per_game": 3.33,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "NE",
-    "allowed_per_game": 4.78,
-    "softness_rank": 6,
-    "games": 5,
-    "blend_weight": 0.556,
-    "current": 4.8,
-    "prior": 4.76
-   },
-   "score": 0.7363,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.7398,
-    "confidence": 0.5
-   },
-   "rationale": "New England allows 4.78 receptions per game to RBs (27th of 32). Breece Hall: 3.33 rec per game, 43% target share. Based on 5 games this season, blended with last season."
+   "rationale": "New York allows 105.67 rushing yards per game to RBs (26th of 32). TreVeyon Henderson: 40.75 yds per game, 35% carry share. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_06_NO_NYG~rb_rushing_yards~00-0036973",
@@ -4409,46 +4249,6 @@
     "confidence": 0.5
    },
    "rationale": "New York allows 107.57 rushing yards per game to RBs (27th of 32). Travis Etienne: 42.67 yds per game, 31% carry share. Based on 5 games this season, blended with last season."
-  },
-  {
-   "id": "2026_06_NYJ_NE~rb_receiving_yards~00-0038120",
-   "game_id": "2026_06_NYJ_NE",
-   "week": 6,
-   "kickoff": "2026-10-18T17:00:00Z",
-   "market": "rb_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "RB",
-   "player": {
-    "id": "00-0038120",
-    "name": "Breece Hall",
-    "team": "NYJ",
-    "position": "RB",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 3,
-    "share": 0.4348,
-    "share_of": "targets",
-    "per_game": 34.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "NE",
-    "allowed_per_game": 35.5,
-    "softness_rank": 8,
-    "games": 5,
-    "blend_weight": 0.556,
-    "current": 40.0,
-    "prior": 29.88
-   },
-   "score": 0.7073,
-   "components": {
-    "softness": 0.7742,
-    "usage": 0.7398,
-    "confidence": 0.5
-   },
-   "rationale": "New England allows 35.5 receiving yards per game to RBs (25th of 32). Breece Hall: 34 yds per game, 43% target share. Based on 5 games this season, blended with last season."
   },
   {
    "id": "2026_06_NO_NYG~rb_anytime_td~00-0038551",
@@ -4546,7 +4346,7 @@
     "position": "RB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 2,
     "share": 0.2121,
     "share_of": "targets",
@@ -4568,7 +4368,7 @@
     "usage": 0.5772,
     "confidence": 0.3333
    },
-   "rationale": "Tampa Bay allows 5.04 receptions per game to RBs (29th of 32). Rico Dowdle: 2 rec per game, 21% target share. Based on 5 games this season, blended with last season."
+   "rationale": "Tampa Bay allows 5.04 receptions per game to RBs (29th of 32). Rico Dowdle: 2 rec per game, 21% target share. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_06_LAC_KC~te_receiving_yards~00-0033885",
@@ -4611,86 +4411,6 @@
    "rationale": "Kansas City allows 64.92 receiving yards per game to TEs (27th of 32). David Njoku: 33.5 yds per game, 25% target share. Based on 4 games this season, blended with last season."
   },
   {
-   "id": "2026_06_BAL_CLE~qb_passing_tds~00-0034796",
-   "game_id": "2026_06_BAL_CLE",
-   "week": 6,
-   "kickoff": "2026-10-18T17:00:00Z",
-   "market": "qb_passing_tds",
-   "market_label": "Passing TDs",
-   "metric": "passing_tds",
-   "position": "QB",
-   "player": {
-    "id": "00-0034796",
-    "name": "Lamar Jackson",
-    "team": "BAL",
-    "position": "QB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 4,
-    "share": 0.7007,
-    "share_of": "attempts",
-    "per_game": 1.5,
-    "unit": "TD"
-   },
-   "defense": {
-    "team": "CLE",
-    "allowed_per_game": 1.74,
-    "softness_rank": 8,
-    "games": 5,
-    "blend_weight": 0.556,
-    "current": 2.0,
-    "prior": 1.41
-   },
-   "score": 0.6567,
-   "components": {
-    "softness": 0.7742,
-    "usage": 0.5,
-    "confidence": 0.6667
-   },
-   "rationale": "Cleveland allows 1.74 passing touchdowns per game to QBs (25th of 32). Lamar Jackson: 1.5 TD per game, 70% of the team's pass attempts. Based on 5 games this season, blended with last season."
-  },
-  {
-   "id": "2026_06_PIT_TB~qb_passing_yards~00-0034855",
-   "game_id": "2026_06_PIT_TB",
-   "week": 6,
-   "kickoff": "2026-10-18T17:00:00Z",
-   "market": "qb_passing_yards",
-   "market_label": "Passing Yards",
-   "metric": "passing_yards",
-   "position": "QB",
-   "player": {
-    "id": "00-0034855",
-    "name": "Baker Mayfield",
-    "team": "TB",
-    "position": "QB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 3,
-    "share": 0.6358,
-    "share_of": "attempts",
-    "per_game": 205.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "PIT",
-    "allowed_per_game": 245.78,
-    "softness_rank": 8,
-    "games": 5,
-    "blend_weight": 0.556,
-    "current": 233.6,
-    "prior": 261.0
-   },
-   "score": 0.6169,
-   "components": {
-    "softness": 0.7742,
-    "usage": 0.4815,
-    "confidence": 0.5
-   },
-   "rationale": "Pittsburgh allows 245.78 passing yards per game to QBs (25th of 32). Baker Mayfield: 205 yds per game, 64% of the team's pass attempts. Based on 5 games this season, blended with last season."
-  },
-  {
    "id": "2026_06_CHI_ATL~qb_passing_tds~00-0039918",
    "game_id": "2026_06_CHI_ATL",
    "week": 6,
@@ -4706,7 +4426,7 @@
     "position": "QB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 2,
     "share": 0.3198,
     "share_of": "attempts",
@@ -4728,7 +4448,7 @@
     "usage": 0.3889,
     "confidence": 0.3333
    },
-   "rationale": "Atlanta allows 1.71 passing touchdowns per game to QBs (24th of 32). Caleb Williams: 1 TD per game, 32% of the team's pass attempts. Based on 5 games this season, blended with last season."
+   "rationale": "Atlanta allows 1.71 passing touchdowns per game to QBs (24th of 32). Caleb Williams: 1 TD per game, 32% of the team's pass attempts. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_06_BAL_CLE~qb_passing_tds~00-0035993",
@@ -4786,7 +4506,7 @@
     "position": "QB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 2,
     "share": 0.3198,
     "share_of": "attempts",
@@ -4808,7 +4528,7 @@
     "usage": 0.3889,
     "confidence": 0.3333
    },
-   "rationale": "Atlanta allows 243.86 passing yards per game to QBs (23rd of 32). Caleb Williams: 203.5 yds per game, 32% of the team's pass attempts. Based on 5 games this season, blended with last season."
+   "rationale": "Atlanta allows 243.86 passing yards per game to QBs (23rd of 32). Caleb Williams: 203.5 yds per game, 32% of the team's pass attempts. Based on 5 games this season, blended with last season. Listed questionable."
   }
  ]
 }
