@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T02:12:05Z",
+ "generated_at": "2026-10-19T07:57:31Z",
  "season": 2026,
  "current_week": 6,
  "games": [
@@ -1559,9 +1559,9 @@
    "kickoff": "2026-10-19T00:20:00Z",
    "away": "DAL",
    "home": "GB",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 13,
+   "home_score": 23,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -1.5,
@@ -1616,7 +1616,7 @@
    "neutral": true,
    "div_game": false,
    "spread": -2.5,
-   "total": 44.5,
+   "total": 43.5,
    "venue": "Stade de France"
   },
   {
@@ -1666,7 +1666,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 6.0,
+   "spread": 5.5,
    "total": 41.5,
    "venue": "U.S. Bank Stadium"
   },
@@ -1734,8 +1734,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 3.0,
-   "total": 43.5,
+   "spread": 3.5,
+   "total": 44.5,
    "venue": "Bank of America Stadium"
   },
   {
@@ -1752,7 +1752,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -4.5,
-   "total": 43.5,
+   "total": 42.5,
    "venue": "State Farm Stadium"
   },
   {
@@ -1768,8 +1768,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 52.5,
    "venue": "Ford Field"
   },
   {
@@ -1819,8 +1819,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -4.5,
+   "total": 44.5,
    "venue": "Lincoln Financial Field"
   },
   {
