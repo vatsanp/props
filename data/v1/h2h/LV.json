@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "LV",
  "since": 1999,
  "opponents": {
@@ -924,20 +924,20 @@
    ]
   },
   "BUF": {
-   "games": 11,
+   "games": 12,
    "wins": 6,
-   "losses": 5,
+   "losses": 6,
    "ties": 0,
-   "streak": "BUF W3",
+   "streak": "BUF W4",
    "splits": {
     "all": {
      "w": 6,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "regular": {
      "w": 6,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "postseason": {
@@ -947,7 +947,7 @@
     },
     "home": {
      "w": 4,
-     "l": 1,
+     "l": 2,
      "t": 0
     },
     "away": {
@@ -956,13 +956,13 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
-     "w": 5,
-     "l": 5,
+     "w": 4,
+     "l": 6,
      "t": 0
     }
    },
@@ -985,13 +985,25 @@
       "LV"
      ],
      "wins": {
-      "BUF": 2
+      "BUF": 3
      },
      "ties": 0,
-     "games": 2
+     "games": 3
     }
    ],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "LV",
+     "away": "BUF",
+     "home_score": 30,
+     "away_score": 33,
+     "winner": "BUF",
+     "neutral": false
+    },
     {
      "date": "2023-09-17",
      "season": 2023,

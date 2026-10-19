@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "TEN",
  "since": 1999,
  "opponents": {
@@ -2143,19 +2143,19 @@
    ]
   },
   "IND": {
-   "games": 49,
-   "wins": 15,
+   "games": 50,
+   "wins": 16,
    "losses": 34,
    "ties": 0,
-   "streak": "IND W6",
+   "streak": "TEN W1",
    "splits": {
     "all": {
-     "w": 15,
+     "w": 16,
      "l": 34,
      "t": 0
     },
     "regular": {
-     "w": 14,
+     "w": 15,
      "l": 34,
      "t": 0
     },
@@ -2170,13 +2170,13 @@
      "t": 0
     },
     "away": {
-     "w": 8,
+     "w": 9,
      "l": 17,
      "t": 0
     },
     "last5": {
-     "w": 0,
-     "l": 5,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
@@ -2187,6 +2187,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "IND",
+     "away": "TEN",
+     "home_score": 20,
+     "away_score": 26,
+     "winner": "TEN",
+     "neutral": false
+    },
     {
      "date": "2025-10-26",
      "season": 2025,
@@ -2317,18 +2329,6 @@
      "home_score": 26,
      "away_score": 45,
      "winner": "TEN",
-     "neutral": false
-    },
-    {
-     "date": "2020-11-12",
-     "season": 2020,
-     "week": 10,
-     "type": "REG",
-     "home": "TEN",
-     "away": "IND",
-     "home_score": 17,
-     "away_score": 34,
-     "winner": "IND",
      "neutral": false
     }
    ]

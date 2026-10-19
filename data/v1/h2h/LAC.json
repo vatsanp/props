@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "LAC",
  "since": 1999,
  "opponents": {
@@ -436,20 +436,20 @@
    ]
   },
   "KC": {
-   "games": 54,
+   "games": 55,
    "wins": 23,
-   "losses": 31,
+   "losses": 32,
    "ties": 0,
-   "streak": "LAC W2",
+   "streak": "KC W1",
    "splits": {
     "all": {
      "w": 23,
-     "l": 31,
+     "l": 32,
      "t": 0
     },
     "regular": {
      "w": 23,
-     "l": 31,
+     "l": 32,
      "t": 0
     },
     "postseason": {
@@ -464,7 +464,7 @@
     },
     "away": {
      "w": 10,
-     "l": 17,
+     "l": 18,
      "t": 0
     },
     "last5": {
@@ -473,8 +473,8 @@
      "t": 0
     },
     "last10": {
-     "w": 3,
-     "l": 7,
+     "w": 2,
+     "l": 8,
      "t": 0
     }
    },
@@ -497,14 +497,26 @@
       "LAC"
      ],
      "wins": {
-      "KC": 13,
+      "KC": 14,
       "LAC": 5
      },
      "ties": 0,
-     "games": 18
+     "games": 19
     }
    ],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "KC",
+     "away": "LAC",
+     "home_score": 22,
+     "away_score": 6,
+     "winner": "KC",
+     "neutral": false
+    },
     {
      "date": "2025-12-14",
      "season": 2025,
@@ -635,18 +647,6 @@
      "home_score": 21,
      "away_score": 38,
      "winner": "LAC",
-     "neutral": false
-    },
-    {
-     "date": "2020-09-20",
-     "season": 2020,
-     "week": 2,
-     "type": "REG",
-     "home": "LAC",
-     "away": "KC",
-     "home_score": 20,
-     "away_score": 23,
-     "winner": "KC",
      "neutral": false
     }
    ]

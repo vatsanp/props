@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "BAL",
  "since": 1999,
  "opponents": {
@@ -376,20 +376,20 @@
    ]
   },
   "CLE": {
-   "games": 54,
+   "games": 55,
    "wins": 39,
-   "losses": 15,
+   "losses": 16,
    "ties": 0,
-   "streak": "BAL W3",
+   "streak": "CLE W1",
    "splits": {
     "all": {
      "w": 39,
-     "l": 15,
+     "l": 16,
      "t": 0
     },
     "regular": {
      "w": 39,
-     "l": 15,
+     "l": 16,
      "t": 0
     },
     "postseason": {
@@ -404,7 +404,7 @@
     },
     "away": {
      "w": 18,
-     "l": 9,
+     "l": 10,
      "t": 0
     },
     "last5": {
@@ -413,13 +413,25 @@
      "t": 0
     },
     "last10": {
-     "w": 6,
-     "l": 4,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "CLE",
+     "away": "BAL",
+     "home_score": 13,
+     "away_score": 10,
+     "winner": "CLE",
+     "neutral": false
+    },
     {
      "date": "2025-11-16",
      "season": 2025,
@@ -549,18 +561,6 @@
      "away": "BAL",
      "home_score": 42,
      "away_score": 47,
-     "winner": "BAL",
-     "neutral": false
-    },
-    {
-     "date": "2020-09-13",
-     "season": 2020,
-     "week": 1,
-     "type": "REG",
-     "home": "BAL",
-     "away": "CLE",
-     "home_score": 38,
-     "away_score": 6,
      "winner": "BAL",
      "neutral": false
     }

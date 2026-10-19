@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "PHI",
  "since": 1999,
  "opponents": {
@@ -1234,20 +1234,20 @@
    ]
   },
   "CAR": {
-   "games": 13,
+   "games": 14,
    "wins": 8,
-   "losses": 5,
+   "losses": 6,
    "ties": 0,
-   "streak": "PHI W2",
+   "streak": "CAR W1",
    "splits": {
     "all": {
      "w": 8,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "regular": {
      "w": 8,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "postseason": {
@@ -1257,7 +1257,7 @@
     },
     "home": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "away": {
@@ -1271,13 +1271,25 @@
      "t": 0
     },
     "last10": {
-     "w": 7,
-     "l": 3,
+     "w": 6,
+     "l": 4,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "PHI",
+     "away": "CAR",
+     "home_score": 14,
+     "away_score": 25,
+     "winner": "CAR",
+     "neutral": false
+    },
     {
      "date": "2024-12-08",
      "season": 2024,
@@ -1408,18 +1420,6 @@
      "home_score": 3,
      "away_score": 14,
      "winner": "CAR",
-     "neutral": false
-    },
-    {
-     "date": "2003-11-30",
-     "season": 2003,
-     "week": 13,
-     "type": "REG",
-     "home": "CAR",
-     "away": "PHI",
-     "home_score": 16,
-     "away_score": 25,
-     "winner": "PHI",
      "neutral": false
     }
    ]

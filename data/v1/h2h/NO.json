@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "NO",
  "since": 1999,
  "opponents": {
@@ -924,19 +924,19 @@
    ]
   },
   "NYG": {
-   "games": 15,
-   "wins": 9,
+   "games": 16,
+   "wins": 10,
    "losses": 6,
    "ties": 0,
-   "streak": "NO W3",
+   "streak": "NO W4",
    "splits": {
     "all": {
-     "w": 9,
+     "w": 10,
      "l": 6,
      "t": 0
     },
     "regular": {
-     "w": 9,
+     "w": 10,
      "l": 6,
      "t": 0
     },
@@ -951,7 +951,7 @@
      "t": 0
     },
     "away": {
-     "w": 3,
+     "w": 4,
      "l": 4,
      "t": 0
     },
@@ -968,6 +968,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "NYG",
+     "away": "NO",
+     "home_score": 27,
+     "away_score": 34,
+     "winner": "NO",
+     "neutral": false
+    },
     {
      "date": "2025-10-05",
      "season": 2025,
@@ -1098,18 +1110,6 @@
      "home_score": 7,
      "away_score": 30,
      "winner": "NO",
-     "neutral": false
-    },
-    {
-     "date": "2005-09-19",
-     "season": 2005,
-     "week": 2,
-     "type": "REG",
-     "home": "NO",
-     "away": "NYG",
-     "home_score": 10,
-     "away_score": 27,
-     "winner": "NYG",
      "neutral": false
     }
    ]

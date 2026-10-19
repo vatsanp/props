@@ -1,23 +1,23 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "NE",
  "since": 1999,
  "opponents": {
   "NYJ": {
-   "games": 56,
-   "wins": 42,
+   "games": 57,
+   "wins": 43,
    "losses": 14,
    "ties": 0,
-   "streak": "NE W3",
+   "streak": "NE W4",
    "splits": {
     "all": {
-     "w": 42,
+     "w": 43,
      "l": 14,
      "t": 0
     },
     "regular": {
-     "w": 41,
+     "w": 42,
      "l": 13,
      "t": 0
     },
@@ -27,7 +27,7 @@
      "t": 0
     },
     "home": {
-     "w": 21,
+     "w": 22,
      "l": 8,
      "t": 0
     },
@@ -37,8 +37,8 @@
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 4,
+     "l": 1,
      "t": 0
     },
     "last10": {
@@ -49,6 +49,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "NE",
+     "away": "NYJ",
+     "home_score": 26,
+     "away_score": 19,
+     "winner": "NE",
+     "neutral": false
+    },
     {
      "date": "2025-12-28",
      "season": 2025,
@@ -178,18 +190,6 @@
      "away": "NYJ",
      "home_score": 28,
      "away_score": 14,
-     "winner": "NE",
-     "neutral": false
-    },
-    {
-     "date": "2020-11-09",
-     "season": 2020,
-     "week": 9,
-     "type": "REG",
-     "home": "NYJ",
-     "away": "NE",
-     "home_score": 27,
-     "away_score": 30,
      "winner": "NE",
      "neutral": false
     }

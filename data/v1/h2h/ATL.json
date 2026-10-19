@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:06Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "ATL",
  "since": 1999,
  "opponents": {
@@ -3311,20 +3311,20 @@
    ]
   },
   "CHI": {
-   "games": 11,
+   "games": 12,
    "wins": 4,
-   "losses": 7,
+   "losses": 8,
    "ties": 0,
-   "streak": "CHI W1",
+   "streak": "CHI W2",
    "splits": {
     "all": {
      "w": 4,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "regular": {
      "w": 4,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "postseason": {
@@ -3334,7 +3334,7 @@
     },
     "home": {
      "w": 3,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "away": {
@@ -3355,6 +3355,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "ATL",
+     "away": "CHI",
+     "home_score": 23,
+     "away_score": 31,
+     "winner": "CHI",
+     "neutral": false
+    },
     {
      "date": "2023-12-31",
      "season": 2023,

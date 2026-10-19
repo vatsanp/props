@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T18:08:13Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "LAR",
  "since": 1999,
  "opponents": {
@@ -5003,20 +5003,20 @@
    ]
   },
   "ARI": {
-   "games": 49,
+   "games": 50,
    "wins": 29,
-   "losses": 20,
+   "losses": 21,
    "ties": 0,
-   "streak": "LAR W3",
+   "streak": "ARI W1",
    "splits": {
     "all": {
      "w": 29,
-     "l": 20,
+     "l": 21,
      "t": 0
     },
     "regular": {
      "w": 28,
-     "l": 20,
+     "l": 21,
      "t": 0
     },
     "postseason": {
@@ -5026,7 +5026,7 @@
     },
     "home": {
      "w": 12,
-     "l": 12,
+     "l": 13,
      "t": 0
     },
     "away": {
@@ -5035,13 +5035,13 @@
      "t": 0
     },
     "last5": {
-     "w": 4,
-     "l": 1,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
-     "w": 8,
-     "l": 2,
+     "w": 7,
+     "l": 3,
      "t": 0
     }
    },
@@ -5065,13 +5065,25 @@
      ],
      "wins": {
       "LA": 17,
-      "ARI": 4
+      "ARI": 5
      },
      "ties": 0,
-     "games": 21
+     "games": 22
     }
    ],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "LAR",
+     "away": "ARI",
+     "home_score": 16,
+     "away_score": 18,
+     "winner": "ARI",
+     "neutral": false
+    },
     {
      "date": "2026-01-04",
      "season": 2025,
@@ -5202,18 +5214,6 @@
      "home_score": 20,
      "away_score": 37,
      "winner": "ARI",
-     "neutral": false
-    },
-    {
-     "date": "2021-01-03",
-     "season": 2020,
-     "week": 17,
-     "type": "REG",
-     "home": "LAR",
-     "away": "ARI",
-     "home_score": 18,
-     "away_score": 7,
-     "winner": "LAR",
      "neutral": false
     }
    ]

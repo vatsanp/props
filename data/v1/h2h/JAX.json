@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "JAX",
  "since": 1999,
  "opponents": {
@@ -3857,20 +3857,20 @@
    ]
   },
   "HOU": {
-   "games": 48,
+   "games": 49,
    "wins": 16,
-   "losses": 32,
+   "losses": 33,
    "ties": 0,
-   "streak": "HOU W1",
+   "streak": "HOU W2",
    "splits": {
     "all": {
      "w": 16,
-     "l": 32,
+     "l": 33,
      "t": 0
     },
     "regular": {
      "w": 16,
-     "l": 32,
+     "l": 33,
      "t": 0
     },
     "postseason": {
@@ -3889,8 +3889,8 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
@@ -3901,6 +3901,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "JAX",
+     "away": "HOU",
+     "home_score": 31,
+     "away_score": 34,
+     "winner": "HOU",
+     "neutral": true
+    },
     {
      "date": "2025-11-09",
      "season": 2025,
@@ -4030,18 +4042,6 @@
      "away": "HOU",
      "home_score": 25,
      "away_score": 27,
-     "winner": "HOU",
-     "neutral": false
-    },
-    {
-     "date": "2020-10-11",
-     "season": 2020,
-     "week": 5,
-     "type": "REG",
-     "home": "HOU",
-     "away": "JAX",
-     "home_score": 30,
-     "away_score": 14,
      "winner": "HOU",
      "neutral": false
     }

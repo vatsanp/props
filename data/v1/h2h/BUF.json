@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-13T18:08:13Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "BUF",
  "since": 1999,
  "opponents": {
@@ -912,19 +912,19 @@
    ]
   },
   "LV": {
-   "games": 11,
-   "wins": 5,
+   "games": 12,
+   "wins": 6,
    "losses": 6,
    "ties": 0,
-   "streak": "BUF W3",
+   "streak": "BUF W4",
    "splits": {
     "all": {
-     "w": 5,
+     "w": 6,
      "l": 6,
      "t": 0
     },
     "regular": {
-     "w": 5,
+     "w": 6,
      "l": 6,
      "t": 0
     },
@@ -939,18 +939,18 @@
      "t": 0
     },
     "away": {
-     "w": 1,
+     "w": 2,
      "l": 4,
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 4,
+     "l": 1,
      "t": 0
     },
     "last10": {
-     "w": 5,
-     "l": 5,
+     "w": 6,
+     "l": 4,
      "t": 0
     }
    },
@@ -973,13 +973,25 @@
       "LV"
      ],
      "wins": {
-      "BUF": 2
+      "BUF": 3
      },
      "ties": 0,
-     "games": 2
+     "games": 3
     }
    ],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "LV",
+     "away": "BUF",
+     "home_score": 30,
+     "away_score": 33,
+     "winner": "BUF",
+     "neutral": false
+    },
     {
      "date": "2023-09-17",
      "season": 2023,

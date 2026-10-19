@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-19T17:25:42Z",
  "team": "GB",
  "since": 1999,
  "opponents": {
@@ -1412,19 +1412,19 @@
    ]
   },
   "DAL": {
-   "games": 16,
-   "wins": 11,
+   "games": 17,
+   "wins": 12,
    "losses": 4,
    "ties": 1,
-   "streak": "T1",
+   "streak": "GB W1",
    "splits": {
     "all": {
-     "w": 11,
+     "w": 12,
      "l": 4,
      "t": 1
     },
     "regular": {
-     "w": 8,
+     "w": 9,
      "l": 4,
      "t": 1
     },
@@ -1434,7 +1434,7 @@
      "t": 0
     },
     "home": {
-     "w": 6,
+     "w": 7,
      "l": 2,
      "t": 0
     },
@@ -1456,6 +1456,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-18",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "GB",
+     "away": "DAL",
+     "home_score": 23,
+     "away_score": 13,
+     "winner": "GB",
+     "neutral": false
+    },
     {
      "date": "2025-09-28",
      "season": 2025,
@@ -1584,18 +1596,6 @@
      "home": "GB",
      "away": "DAL",
      "home_score": 45,
-     "away_score": 7,
-     "winner": "GB",
-     "neutral": false
-    },
-    {
-     "date": "2009-11-15",
-     "season": 2009,
-     "week": 10,
-     "type": "REG",
-     "home": "GB",
-     "away": "DAL",
-     "home_score": 17,
      "away_score": 7,
      "winner": "GB",
      "neutral": false
