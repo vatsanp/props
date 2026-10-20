@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-20T15:37:39Z",
  "team": "WAS",
  "since": 1999,
  "opponents": {
@@ -1759,20 +1759,20 @@
    ]
   },
   "SF": {
-   "games": 13,
+   "games": 14,
    "wins": 5,
-   "losses": 8,
+   "losses": 9,
    "ties": 0,
-   "streak": "SF W2",
+   "streak": "SF W3",
    "splits": {
     "all": {
      "w": 5,
-     "l": 8,
+     "l": 9,
      "t": 0
     },
     "regular": {
      "w": 5,
-     "l": 8,
+     "l": 9,
      "t": 0
     },
     "postseason": {
@@ -1787,22 +1787,34 @@
     },
     "away": {
      "w": 2,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
-     "w": 3,
-     "l": 7,
+     "w": 2,
+     "l": 8,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-19",
+     "season": 2026,
+     "week": 6,
+     "type": "REG",
+     "home": "SF",
+     "away": "WAS",
+     "home_score": 23,
+     "away_score": 17,
+     "winner": "SF",
+     "neutral": false
+    },
     {
      "date": "2023-12-31",
      "season": 2023,
@@ -1933,18 +1945,6 @@
      "home_score": 16,
      "away_score": 26,
      "winner": "WAS",
-     "neutral": false
-    },
-    {
-     "date": "2002-09-22",
-     "season": 2002,
-     "week": 3,
-     "type": "REG",
-     "home": "SF",
-     "away": "WAS",
-     "home_score": 20,
-     "away_score": 10,
-     "winner": "SF",
      "neutral": false
     }
    ]
