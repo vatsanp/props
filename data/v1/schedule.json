@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T03:25:31Z",
+ "generated_at": "2026-10-20T08:47:41Z",
  "season": 2026,
  "current_week": 7,
  "games": [
@@ -1576,9 +1576,9 @@
    "kickoff": "2026-10-20T00:15:00Z",
    "away": "WAS",
    "home": "SF",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 17,
+   "home_score": 23,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 7.5,
@@ -1700,7 +1700,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 9.5,
+   "spread": 10.0,
    "total": 42.5,
    "venue": "Reliant Stadium"
   },
@@ -1717,8 +1717,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -3.5,
+   "total": 49.5,
    "venue": "Mercedes-Benz Stadium"
   },
   {
