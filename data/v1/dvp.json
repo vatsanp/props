@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T15:38:17Z",
+ "generated_at": "2026-10-22T15:52:01Z",
  "season": 2026,
  "prior_season": 2025,
  "blend_prior_games": 4.0,
@@ -431,8 +431,8 @@
      "prior": 2.71,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 21,
-     "softness_pct": 0.3548
+     "softness_rank": 22,
+     "softness_pct": 0.3226
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.22,
@@ -1713,8 +1713,8 @@
      "prior": 5.12,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 22,
-     "softness_pct": 0.3226
+     "softness_rank": 23,
+     "softness_pct": 0.2903
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.29,
@@ -1985,8 +1985,8 @@
      "prior": 6.12,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 22,
-     "softness_pct": 0.3226
+     "softness_rank": 23,
+     "softness_pct": 0.2903
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.59,
@@ -3320,8 +3320,8 @@
    },
    "TE": {
     "receiving_yards": {
-     "allowed_per_game": 46.53,
-     "current": 40.33,
+     "allowed_per_game": 47.33,
+     "current": 41.67,
      "prior": 55.82,
      "games": 6,
      "blend_weight": 0.6,
@@ -3329,13 +3329,13 @@
      "softness_pct": 0.3226
     },
     "receptions": {
-     "allowed_per_game": 4.94,
-     "current": 4.5,
+     "allowed_per_game": 5.04,
+     "current": 4.67,
      "prior": 5.59,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 24,
-     "softness_pct": 0.2581
+     "softness_rank": 20,
+     "softness_pct": 0.3871
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.34,
@@ -3349,8 +3349,8 @@
    },
    "WR": {
     "receiving_yards": {
-     "allowed_per_game": 136.32,
-     "current": 136.5,
+     "allowed_per_game": 135.52,
+     "current": 135.17,
      "prior": 136.06,
      "games": 6,
      "blend_weight": 0.6,
@@ -3358,8 +3358,8 @@
      "softness_pct": 0.2581
     },
     "receptions": {
-     "allowed_per_game": 11.01,
-     "current": 11.33,
+     "allowed_per_game": 10.91,
+     "current": 11.17,
      "prior": 10.53,
      "games": 6,
      "blend_weight": 0.6,
@@ -3617,8 +3617,8 @@
      "prior": 6.24,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.56,

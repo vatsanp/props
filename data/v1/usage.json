@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-21T15:55:54Z",
+ "generated_at": "2026-10-22T15:52:01Z",
  "season": 2026,
  "week": 7,
  "teams": {
@@ -294,7 +294,7 @@
       "rushing_yards": 49.0,
       "targets": 2.8
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "carries": 1,
       "targets": 2
@@ -1065,7 +1065,7 @@
       "rushing_tds": 0.0,
       "targets": 1.67
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 3
      },
@@ -1114,7 +1114,7 @@
       "passing_yards": 241.75,
       "rushing_yards": 36.0
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "attempts": 1
      },
@@ -1737,7 +1737,7 @@
       "rushing_yards": 10.75,
       "targets": 0.5
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "carries": 2,
       "targets": 3
@@ -2245,7 +2245,7 @@
       "rushing_yards": 81.0,
       "targets": 1.25
      },
-     "status": "active",
+     "status": "Out",
      "depth": {
       "carries": 2,
       "targets": 3
@@ -3133,7 +3133,7 @@
       "rushing_yards": 44.2,
       "targets": 4.0
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "carries": 1,
       "targets": 1
@@ -3249,7 +3249,7 @@
       "rushing_yards": 0.0,
       "targets": 0.0
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "carries": 5,
       "targets": 5
@@ -3954,7 +3954,7 @@
       "rushing_yards": 19.5,
       "targets": 1.5
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "carries": 3,
       "targets": 4
@@ -4025,7 +4025,7 @@
      "position": "WR",
      "games": 5,
      "shares": {
-      "targets": 0.5377
+      "targets": 0.5429
      },
      "per_game": {
       "receiving_tds": 1.0,
@@ -4049,7 +4049,7 @@
      "position": "WR",
      "games": 5,
      "shares": {
-      "targets": 0.2736
+      "targets": 0.2762
      },
      "per_game": {
       "receiving_tds": 0.4,
@@ -4073,7 +4073,7 @@
      "position": "WR",
      "games": 5,
      "shares": {
-      "targets": 0.1792
+      "targets": 0.181
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -4085,30 +4085,6 @@
      "status": "active",
      "depth": {
       "targets": 3
-     },
-     "roles": {
-      "targets": "committee"
-     }
-    },
-    {
-     "id": "00-0040390",
-     "name": "Jackson Meeks",
-     "team": "DET",
-     "position": "WR",
-     "games": 1,
-     "shares": {
-      "targets": 0.0094
-     },
-     "per_game": {
-      "receiving_tds": 0.0,
-      "receiving_yards": 8.0,
-      "receptions": 1.0,
-      "rushing_tds": 0.0,
-      "targets": 1.0
-     },
-     "status": "active",
-     "depth": {
-      "targets": 4
      },
      "roles": {
       "targets": "committee"
@@ -4132,7 +4108,7 @@
      },
      "status": "active",
      "depth": {
-      "targets": 6
+      "targets": 5
      },
      "roles": {
       "targets": "committee"
@@ -4156,7 +4132,7 @@
      },
      "status": "active",
      "depth": {
-      "targets": 5
+      "targets": 4
      },
      "roles": {
       "targets": "committee"
@@ -4171,7 +4147,7 @@
      "position": "TE",
      "games": 5,
      "shares": {
-      "targets": 0.8605
+      "targets": 0.8409
      },
      "per_game": {
       "receiving_tds": 0.6,
@@ -4195,7 +4171,7 @@
      "position": "TE",
      "games": 5,
      "shares": {
-      "targets": 0.1395
+      "targets": 0.1364
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -4207,6 +4183,30 @@
      "status": "active",
      "depth": {
       "targets": 2
+     },
+     "roles": {
+      "targets": "committee"
+     }
+    },
+    {
+     "id": "00-0040390",
+     "name": "Jackson Meeks",
+     "team": "DET",
+     "position": "TE",
+     "games": 1,
+     "shares": {
+      "targets": 0.0227
+     },
+     "per_game": {
+      "receiving_tds": 0.0,
+      "receiving_yards": 8.0,
+      "receptions": 1.0,
+      "rushing_tds": 0.0,
+      "targets": 1.0
+     },
+     "status": "active",
+     "depth": {
+      "targets": 3
      },
      "roles": {
       "targets": "committee"
@@ -4587,7 +4587,7 @@
       "rushing_tds": 0.0,
       "targets": 4.0
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 7
      },
@@ -4911,7 +4911,7 @@
       "rushing_yards": 27.6,
       "targets": 1.4
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "carries": 2,
       "targets": 2
@@ -5319,7 +5319,7 @@
       "rushing_tds": 0.0,
       "targets": 3.5
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 5
      },
@@ -5502,7 +5502,7 @@
       "rushing_tds": 0.2,
       "targets": 7.2
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 1
      },
@@ -6089,7 +6089,7 @@
       "rushing_tds": 0.0,
       "targets": 5.67
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 2
      },
@@ -7795,7 +7795,7 @@
       "rushing_yards": 7.0,
       "targets": 0.0
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "carries": 3,
       "targets": 4
@@ -7895,7 +7895,7 @@
       "rushing_tds": 0.0,
       "targets": 5.0
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 4
      },
@@ -8264,7 +8264,7 @@
       "rushing_tds": 0.0,
       "targets": 6.0
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 1
      },
@@ -8288,7 +8288,7 @@
       "rushing_tds": 0.0,
       "targets": 5.5
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 2
      },
@@ -8954,7 +8954,7 @@
       "rushing_yards": 24.0,
       "targets": 4.0
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "carries": 2,
       "targets": 1
@@ -9583,7 +9583,7 @@
       "rushing_tds": 0.0,
       "targets": 2.25
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 2
      },
@@ -9779,7 +9779,7 @@
       "rushing_tds": 0.0,
       "targets": 7.5
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 2
      },
@@ -10103,7 +10103,7 @@
       "rushing_yards": 54.33,
       "targets": 3.33
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "carries": 2,
       "targets": 2
@@ -10823,7 +10823,7 @@
       "rushing_tds": 0.0,
       "targets": 1.33
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 5
      },
@@ -10929,7 +10929,7 @@
       "rushing_yards": 25.67,
       "targets": 3.67
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "carries": 2,
       "targets": 2
@@ -11537,7 +11537,7 @@
       "rushing_tds": 0.0,
       "targets": 6.5
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 1
      },
@@ -11561,7 +11561,7 @@
       "rushing_tds": 0.0,
       "targets": 4.0
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 2
      },
@@ -12088,7 +12088,7 @@
       "passing_yards": 205.0,
       "rushing_yards": 21.67
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "attempts": 2
      },
@@ -12175,7 +12175,7 @@
       "rushing_yards": 14.0,
       "targets": 0.0
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "carries": 3,
       "targets": 3
@@ -12364,7 +12364,7 @@
       "rushing_yards": 11.0,
       "targets": 2.83
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "carries": 2,
       "targets": 1
