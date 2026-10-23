@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-22T15:51:26Z",
+ "generated_at": "2026-10-23T02:47:25Z",
  "season": 2026,
  "current_week": 7,
  "games": [
@@ -1632,7 +1632,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -1.5,
+   "spread": 1.5,
    "total": 48.5,
    "venue": "M&T Bank Stadium"
   },
@@ -1888,7 +1888,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 3.0,
-   "total": 51.5,
+   "total": 52.5,
    "venue": "Highmark Stadium"
   },
   {
@@ -1956,7 +1956,7 @@
    "neutral": false,
    "div_game": true,
    "spread": 2.5,
-   "total": 47.5,
+   "total": 46.5,
    "venue": "Ford Field"
   },
   {
@@ -1989,8 +1989,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 7.5,
-   "total": 46.5,
+   "spread": 7.0,
+   "total": 45.5,
    "venue": "SoFi Stadium"
   },
   {
@@ -2023,8 +2023,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -7.5,
-   "total": 44.5,
+   "spread": null,
+   "total": null,
    "venue": "Hard Rock Stadium"
   },
   {
@@ -2057,8 +2057,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
-   "total": 46.5,
+   "spread": null,
+   "total": null,
    "venue": "Lumen Field"
   },
   {
