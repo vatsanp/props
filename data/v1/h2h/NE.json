@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-10-23T15:42:31Z",
  "team": "NE",
  "since": 1999,
  "opponents": {
@@ -2725,20 +2725,20 @@
    ]
   },
   "CHI": {
-   "games": 8,
+   "games": 9,
    "wins": 6,
-   "losses": 2,
+   "losses": 3,
    "ties": 0,
-   "streak": "NE W1",
+   "streak": "CHI W1",
    "splits": {
     "all": {
      "w": 6,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "regular": {
      "w": 6,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "postseason": {
@@ -2753,22 +2753,34 @@
     },
     "away": {
      "w": 4,
-     "l": 1,
+     "l": 2,
      "t": 0
     },
     "last5": {
-     "w": 4,
-     "l": 1,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
      "w": 6,
-     "l": 2,
+     "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-22",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "CHI",
+     "away": "NE",
+     "home_score": 30,
+     "away_score": 24,
+     "winner": "CHI",
+     "neutral": false
+    },
     {
      "date": "2024-11-10",
      "season": 2024,

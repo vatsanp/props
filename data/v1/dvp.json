@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-22T15:52:01Z",
+ "generated_at": "2026-10-23T15:43:13Z",
  "season": 2026,
  "prior_season": 2025,
  "blend_prior_games": 4.0,
@@ -72,8 +72,8 @@
      "prior": 34.24,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 21,
-     "softness_pct": 0.3548
+     "softness_rank": 22,
+     "softness_pct": 0.3226
     },
     "receptions": {
      "allowed_per_game": 3.52,
@@ -81,8 +81,8 @@
      "prior": 4.29,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 29,
-     "softness_pct": 0.0968
+     "softness_rank": 30,
+     "softness_pct": 0.0645
     },
     "rushing_yards": {
      "allowed_per_game": 109.52,
@@ -128,8 +128,8 @@
      "prior": 11.18,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 27,
-     "softness_pct": 0.1613
+     "softness_rank": 26,
+     "softness_pct": 0.1935
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 1.33,
@@ -208,8 +208,8 @@
      "prior": 30.0,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 17,
-     "softness_pct": 0.4839
+     "softness_rank": 18,
+     "softness_pct": 0.4516
     },
     "receptions": {
      "allowed_per_game": 4.78,
@@ -226,8 +226,8 @@
      "prior": 99.82,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 24,
-     "softness_pct": 0.2581
+     "softness_rank": 23,
+     "softness_pct": 0.2903
     },
     "carries": {
      "allowed_per_game": 20.75,
@@ -255,8 +255,8 @@
      "prior": 48.0,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 14,
-     "softness_pct": 0.5806
+     "softness_rank": 16,
+     "softness_pct": 0.5161
     },
     "receptions": {
      "allowed_per_game": 5.49,
@@ -264,8 +264,8 @@
      "prior": 4.24,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 12,
-     "softness_pct": 0.6452
+     "softness_rank": 13,
+     "softness_pct": 0.6129
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.47,
@@ -324,8 +324,8 @@
      "prior": 259.0,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 13,
-     "softness_pct": 0.6129
+     "softness_rank": 14,
+     "softness_pct": 0.5806
     },
     "passing_tds": {
      "allowed_per_game": 1.04,
@@ -344,8 +344,8 @@
      "prior": 42.65,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 26,
-     "softness_pct": 0.1935
+     "softness_rank": 27,
+     "softness_pct": 0.1613
     },
     "receptions": {
      "allowed_per_game": 4.69,
@@ -362,8 +362,8 @@
      "prior": 82.12,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 26,
-     "softness_pct": 0.1935
+     "softness_rank": 27,
+     "softness_pct": 0.1613
     },
     "carries": {
      "allowed_per_game": 20.36,
@@ -409,8 +409,8 @@
      "prior": 0.24,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 19,
-     "softness_pct": 0.4194
+     "softness_rank": 20,
+     "softness_pct": 0.3871
     }
    }
   },
@@ -431,8 +431,8 @@
      "prior": 2.71,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 22,
-     "softness_pct": 0.3226
+     "softness_rank": 23,
+     "softness_pct": 0.2903
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.22,
@@ -451,8 +451,8 @@
      "prior": 24.88,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 8,
-     "softness_pct": 0.7742
+     "softness_rank": 7,
+     "softness_pct": 0.8065
     },
     "receptions": {
      "allowed_per_game": 4.85,
@@ -558,8 +558,8 @@
      "prior": 124.59,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 22,
-     "softness_pct": 0.3226
+     "softness_rank": 23,
+     "softness_pct": 0.2903
     },
     "receptions": {
      "allowed_per_game": 11.28,
@@ -587,8 +587,8 @@
      "prior": 28.65,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 16,
-     "softness_pct": 0.5161
+     "softness_rank": 17,
+     "softness_pct": 0.4839
     },
     "receptions": {
      "allowed_per_game": 4.63,
@@ -643,8 +643,8 @@
      "prior": 5.12,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 14,
-     "softness_pct": 0.5806
+     "softness_rank": 15,
+     "softness_pct": 0.5484
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.63,
@@ -689,136 +689,136 @@
   "CHI": {
    "TE": {
     "receiving_yards": {
-     "allowed_per_game": 47.51,
-     "current": 44.83,
+     "allowed_per_game": 54.74,
+     "current": 56.57,
      "prior": 51.53,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 21,
-     "softness_pct": 0.3548
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 13,
+     "softness_pct": 0.6129
     },
     "receptions": {
-     "allowed_per_game": 4.71,
-     "current": 4.0,
+     "allowed_per_game": 5.19,
+     "current": 4.86,
      "prior": 5.76,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 27,
-     "softness_pct": 0.1613
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 19,
+     "softness_pct": 0.4194
     },
     "rushing_tds_receiving_tds": {
-     "allowed_per_game": 0.34,
-     "current": 0.33,
+     "allowed_per_game": 0.4,
+     "current": 0.43,
      "prior": 0.35,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 19,
+     "softness_pct": 0.4194
     }
    },
    "RB": {
     "receiving_yards": {
-     "allowed_per_game": 24.73,
-     "current": 23.33,
+     "allowed_per_game": 32.21,
+     "current": 35.29,
      "prior": 26.82,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 29,
-     "softness_pct": 0.0968
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 15,
+     "softness_pct": 0.5484
     },
     "receptions": {
-     "allowed_per_game": 3.48,
-     "current": 3.17,
+     "allowed_per_game": 3.8,
+     "current": 3.71,
      "prior": 3.94,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 30,
-     "softness_pct": 0.0645
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 23,
+     "softness_pct": 0.2903
     },
     "rushing_yards": {
-     "allowed_per_game": 88.79,
-     "current": 78.5,
+     "allowed_per_game": 84.72,
+     "current": 73.57,
      "prior": 104.24,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 21,
-     "softness_pct": 0.3548
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 25,
+     "softness_pct": 0.2258
     },
     "carries": {
-     "allowed_per_game": 19.21,
-     "current": 17.67,
+     "allowed_per_game": 18.65,
+     "current": 17.0,
      "prior": 21.53,
-     "games": 6,
-     "blend_weight": 0.6,
+     "games": 7,
+     "blend_weight": 0.636,
      "softness_rank": 30,
      "softness_pct": 0.0645
     },
     "rushing_tds_receiving_tds": {
-     "allowed_per_game": 0.71,
-     "current": 0.67,
+     "allowed_per_game": 0.73,
+     "current": 0.71,
      "prior": 0.76,
-     "games": 6,
-     "blend_weight": 0.6,
+     "games": 7,
+     "blend_weight": 0.636,
      "softness_rank": 24,
      "softness_pct": 0.2581
     }
    },
    "QB": {
     "rushing_yards": {
-     "allowed_per_game": 16.32,
-     "current": 11.67,
+     "allowed_per_game": 17.2,
+     "current": 13.71,
      "prior": 23.29,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
-    },
-    "passing_yards": {
-     "allowed_per_game": 232.49,
-     "current": 228.0,
-     "prior": 239.24,
-     "games": 6,
-     "blend_weight": 0.6,
+     "games": 7,
+     "blend_weight": 0.636,
      "softness_rank": 17,
      "softness_pct": 0.4839
     },
-    "passing_tds": {
-     "allowed_per_game": 1.65,
-     "current": 1.5,
-     "prior": 1.88,
-     "games": 6,
-     "blend_weight": 0.6,
+    "passing_yards": {
+     "allowed_per_game": 240.54,
+     "current": 241.29,
+     "prior": 239.24,
+     "games": 7,
+     "blend_weight": 0.636,
      "softness_rank": 11,
      "softness_pct": 0.6774
+    },
+    "passing_tds": {
+     "allowed_per_game": 1.68,
+     "current": 1.57,
+     "prior": 1.88,
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 10,
+     "softness_pct": 0.7097
     }
    },
    "WR": {
     "receiving_yards": {
-     "allowed_per_game": 159.92,
-     "current": 159.83,
+     "allowed_per_game": 153.29,
+     "current": 149.43,
      "prior": 160.06,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 10,
-     "softness_pct": 0.7097
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 12,
+     "softness_pct": 0.6452
     },
     "receptions": {
-     "allowed_per_game": 10.32,
-     "current": 9.83,
+     "allowed_per_game": 10.02,
+     "current": 9.43,
      "prior": 11.06,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 24,
-     "softness_pct": 0.2581
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 27,
+     "softness_pct": 0.1613
     },
     "rushing_tds_receiving_tds": {
-     "allowed_per_game": 1.12,
-     "current": 1.0,
+     "allowed_per_game": 1.02,
+     "current": 0.86,
      "prior": 1.29,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 5,
-     "softness_pct": 0.871
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 10,
+     "softness_pct": 0.7097
     }
    }
   },
@@ -877,8 +877,8 @@
      "prior": 1.76,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 19,
-     "softness_pct": 0.4194
+     "softness_rank": 20,
+     "softness_pct": 0.3871
     }
    },
    "RB": {
@@ -1031,8 +1031,8 @@
      "prior": 1.41,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 10,
-     "softness_pct": 0.7097
+     "softness_rank": 11,
+     "softness_pct": 0.6774
     }
    },
    "WR": {
@@ -1042,8 +1042,8 @@
      "prior": 109.53,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 23,
-     "softness_pct": 0.2903
+     "softness_rank": 24,
+     "softness_pct": 0.2581
     },
     "receptions": {
      "allowed_per_game": 9.98,
@@ -1060,8 +1060,8 @@
      "prior": 1.0,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 6,
-     "softness_pct": 0.8387
+     "softness_rank": 5,
+     "softness_pct": 0.871
     }
    },
    "TE": {
@@ -1071,8 +1071,8 @@
      "prior": 51.47,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 15,
-     "softness_pct": 0.5484
+     "softness_rank": 17,
+     "softness_pct": 0.4839
     },
     "receptions": {
      "allowed_per_game": 5.5,
@@ -1080,8 +1080,8 @@
      "prior": 5.0,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 11,
-     "softness_pct": 0.6774
+     "softness_rank": 12,
+     "softness_pct": 0.6452
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.52,
@@ -1102,8 +1102,8 @@
      "prior": 43.18,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 15,
-     "softness_pct": 0.5484
+     "softness_rank": 16,
+     "softness_pct": 0.5161
     },
     "receptions": {
      "allowed_per_game": 4.18,
@@ -1178,8 +1178,8 @@
      "prior": 51.71,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 18,
-     "softness_pct": 0.4516
+     "softness_rank": 19,
+     "softness_pct": 0.4194
     },
     "receptions": {
      "allowed_per_game": 5.22,
@@ -1187,8 +1187,8 @@
      "prior": 5.29,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 17,
-     "softness_pct": 0.4839
+     "softness_rank": 18,
+     "softness_pct": 0.4516
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.42,
@@ -1247,8 +1247,8 @@
      "prior": 5.59,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 16,
-     "softness_pct": 0.5161
+     "softness_rank": 17,
+     "softness_pct": 0.4839
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.44,
@@ -1276,8 +1276,8 @@
      "prior": 212.12,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 22,
-     "softness_pct": 0.3226
+     "softness_rank": 23,
+     "softness_pct": 0.2903
     },
     "passing_tds": {
      "allowed_per_game": 1.12,
@@ -1296,8 +1296,8 @@
      "prior": 130.82,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 21,
-     "softness_pct": 0.3548
+     "softness_rank": 22,
+     "softness_pct": 0.3226
     },
     "receptions": {
      "allowed_per_game": 11.18,
@@ -1325,8 +1325,8 @@
      "prior": 21.24,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 25,
-     "softness_pct": 0.2258
+     "softness_rank": 26,
+     "softness_pct": 0.1935
     },
     "receptions": {
      "allowed_per_game": 3.63,
@@ -1334,8 +1334,8 @@
      "prior": 2.82,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 28,
-     "softness_pct": 0.129
+     "softness_rank": 29,
+     "softness_pct": 0.0968
     },
     "rushing_yards": {
      "allowed_per_game": 93.41,
@@ -1412,8 +1412,8 @@
      "prior": 3.53,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 26,
-     "softness_pct": 0.1935
+     "softness_rank": 27,
+     "softness_pct": 0.1613
     },
     "rushing_yards": {
      "allowed_per_game": 86.5,
@@ -1421,8 +1421,8 @@
      "prior": 89.12,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 23,
-     "softness_pct": 0.2903
+     "softness_rank": 22,
+     "softness_pct": 0.3226
     },
     "carries": {
      "allowed_per_game": 20.2,
@@ -1510,8 +1510,8 @@
      "prior": 14.47,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 19,
-     "softness_pct": 0.4194
+     "softness_rank": 20,
+     "softness_pct": 0.3871
     },
     "passing_yards": {
      "allowed_per_game": 208.23,
@@ -1539,8 +1539,8 @@
      "prior": 26.53,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 18,
-     "softness_pct": 0.4516
+     "softness_rank": 19,
+     "softness_pct": 0.4194
     },
     "receptions": {
      "allowed_per_game": 4.41,
@@ -1595,8 +1595,8 @@
      "prior": 5.53,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 26,
-     "softness_pct": 0.1935
+     "softness_rank": 27,
+     "softness_pct": 0.1613
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.34,
@@ -1604,8 +1604,8 @@
      "prior": 0.35,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     }
    },
    "WR": {
@@ -1615,8 +1615,8 @@
      "prior": 135.06,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     },
     "receptions": {
      "allowed_per_game": 12.8,
@@ -1684,8 +1684,8 @@
      "prior": 204.12,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 12,
-     "softness_pct": 0.6452
+     "softness_rank": 13,
+     "softness_pct": 0.6129
     },
     "passing_tds": {
      "allowed_per_game": 1.47,
@@ -1713,8 +1713,8 @@
      "prior": 5.12,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 23,
-     "softness_pct": 0.2903
+     "softness_rank": 24,
+     "softness_pct": 0.2581
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.29,
@@ -1722,8 +1722,8 @@
      "prior": 0.47,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 25,
-     "softness_pct": 0.2258
+     "softness_rank": 26,
+     "softness_pct": 0.1935
     }
    },
    "RB": {
@@ -1733,8 +1733,8 @@
      "prior": 31.59,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 24,
-     "softness_pct": 0.2581
+     "softness_rank": 25,
+     "softness_pct": 0.2258
     },
     "receptions": {
      "allowed_per_game": 4.47,
@@ -1782,8 +1782,8 @@
      "prior": 168.29,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 11,
-     "softness_pct": 0.6774
+     "softness_rank": 10,
+     "softness_pct": 0.7097
     },
     "receptions": {
      "allowed_per_game": 11.66,
@@ -1858,8 +1858,8 @@
      "prior": 69.76,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 12,
-     "softness_pct": 0.6452
+     "softness_rank": 14,
+     "softness_pct": 0.5806
     },
     "receptions": {
      "allowed_per_game": 5.3,
@@ -1867,8 +1867,8 @@
      "prior": 6.0,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 15,
-     "softness_pct": 0.5484
+     "softness_rank": 16,
+     "softness_pct": 0.5161
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.54,
@@ -1936,8 +1936,8 @@
      "prior": 1.47,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 22,
-     "softness_pct": 0.3226
+     "softness_rank": 23,
+     "softness_pct": 0.2903
     }
    },
    "WR": {
@@ -1985,8 +1985,8 @@
      "prior": 6.12,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 23,
-     "softness_pct": 0.2903
+     "softness_rank": 24,
+     "softness_pct": 0.2581
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.59,
@@ -2092,8 +2092,8 @@
      "prior": 10.94,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 26,
-     "softness_pct": 0.1935
+     "softness_rank": 25,
+     "softness_pct": 0.2258
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.26,
@@ -2139,8 +2139,8 @@
      "prior": 20.59,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 28,
-     "softness_pct": 0.129
+     "softness_rank": 29,
+     "softness_pct": 0.0968
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.65,
@@ -2148,8 +2148,8 @@
      "prior": 0.71,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 25,
-     "softness_pct": 0.2258
+     "softness_rank": 26,
+     "softness_pct": 0.1935
     }
    },
    "QB": {
@@ -2248,8 +2248,8 @@
      "prior": 42.18,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 16,
-     "softness_pct": 0.5161
+     "softness_rank": 18,
+     "softness_pct": 0.4516
     },
     "receptions": {
      "allowed_per_game": 4.45,
@@ -2277,8 +2277,8 @@
      "prior": 24.0,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 27,
-     "softness_pct": 0.1613
+     "softness_rank": 28,
+     "softness_pct": 0.129
     },
     "receptions": {
      "allowed_per_game": 3.66,
@@ -2286,8 +2286,8 @@
      "prior": 3.41,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 27,
-     "softness_pct": 0.1613
+     "softness_rank": 28,
+     "softness_pct": 0.129
     },
     "rushing_yards": {
      "allowed_per_game": 96.41,
@@ -2344,8 +2344,8 @@
      "prior": 0.88,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 10,
-     "softness_pct": 0.7097
+     "softness_rank": 9,
+     "softness_pct": 0.7419
     }
    },
    "RB": {
@@ -2420,8 +2420,8 @@
      "prior": 0.47,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 25,
-     "softness_pct": 0.2258
+     "softness_rank": 26,
+     "softness_pct": 0.1935
     }
    },
    "QB": {
@@ -2462,8 +2462,8 @@
      "prior": 38.59,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     },
     "receptions": {
      "allowed_per_game": 5.62,
@@ -2491,8 +2491,8 @@
      "prior": 15.65,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 18,
-     "softness_pct": 0.4516
+     "softness_rank": 19,
+     "softness_pct": 0.4194
     },
     "passing_yards": {
      "allowed_per_game": 237.84,
@@ -2500,8 +2500,8 @@
      "prior": 214.35,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 14,
-     "softness_pct": 0.5806
+     "softness_rank": 15,
+     "softness_pct": 0.5484
     },
     "passing_tds": {
      "allowed_per_game": 1.84,
@@ -2520,8 +2520,8 @@
      "prior": 26.47,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 10,
-     "softness_pct": 0.7097
+     "softness_rank": 9,
+     "softness_pct": 0.7419
     },
     "receptions": {
      "allowed_per_game": 4.26,
@@ -2567,8 +2567,8 @@
      "prior": 147.24,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 12,
-     "softness_pct": 0.6452
+     "softness_rank": 11,
+     "softness_pct": 0.6774
     },
     "receptions": {
      "allowed_per_game": 10.74,
@@ -2585,8 +2585,8 @@
      "prior": 0.94,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 9,
-     "softness_pct": 0.7419
+     "softness_rank": 8,
+     "softness_pct": 0.7742
     }
    }
   },
@@ -2636,8 +2636,8 @@
      "prior": 10.53,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 25,
-     "softness_pct": 0.2258
+     "softness_rank": 24,
+     "softness_pct": 0.2581
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.67,
@@ -2685,8 +2685,8 @@
      "prior": 35.53,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 9,
-     "softness_pct": 0.7419
+     "softness_rank": 8,
+     "softness_pct": 0.7742
     },
     "receptions": {
      "allowed_per_game": 4.7,
@@ -2839,8 +2839,8 @@
      "prior": 105.12,
      "games": 5,
      "blend_weight": 0.556,
-     "softness_rank": 22,
-     "softness_pct": 0.3226
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     },
     "carries": {
      "allowed_per_game": 22.5,
@@ -2865,136 +2865,136 @@
   "NE": {
    "TE": {
     "receiving_yards": {
-     "allowed_per_game": 50.75,
-     "current": 46.5,
+     "allowed_per_game": 54.95,
+     "current": 53.71,
      "prior": 57.12,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 17,
-     "softness_pct": 0.4839
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 12,
+     "softness_pct": 0.6452
     },
     "receptions": {
-     "allowed_per_game": 5.18,
-     "current": 4.83,
+     "allowed_per_game": 5.62,
+     "current": 5.57,
      "prior": 5.71,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 18,
-     "softness_pct": 0.4516
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 9,
+     "softness_pct": 0.7419
     },
     "rushing_tds_receiving_tds": {
-     "allowed_per_game": 0.26,
-     "current": 0.17,
+     "allowed_per_game": 0.33,
+     "current": 0.29,
      "prior": 0.41,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 28,
-     "softness_pct": 0.129
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 24,
+     "softness_pct": 0.2581
     }
    },
    "WR": {
     "receiving_yards": {
-     "allowed_per_game": 132.39,
-     "current": 141.67,
+     "allowed_per_game": 138.44,
+     "current": 149.86,
      "prior": 118.47,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 25,
-     "softness_pct": 0.2258
-    },
-    "receptions": {
-     "allowed_per_game": 11.05,
-     "current": 11.83,
-     "prior": 9.88,
-     "games": 6,
-     "blend_weight": 0.6,
+     "games": 7,
+     "blend_weight": 0.636,
      "softness_rank": 19,
      "softness_pct": 0.4194
+    },
+    "receptions": {
+     "allowed_per_game": 10.78,
+     "current": 11.29,
+     "prior": 9.88,
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 20,
+     "softness_pct": 0.3871
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 1.02,
      "current": 1.0,
      "prior": 1.06,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 11,
-     "softness_pct": 0.6774
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 10,
+     "softness_pct": 0.7097
     }
    },
    "QB": {
     "rushing_yards": {
-     "allowed_per_game": 11.69,
-     "current": 8.67,
+     "allowed_per_game": 12.27,
+     "current": 10.0,
      "prior": 16.24,
-     "games": 6,
-     "blend_weight": 0.6,
+     "games": 7,
+     "blend_weight": 0.636,
      "softness_rank": 28,
      "softness_pct": 0.129
     },
     "passing_yards": {
-     "allowed_per_game": 219.06,
-     "current": 227.5,
+     "allowed_per_game": 227.15,
+     "current": 239.0,
      "prior": 206.41,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 23,
-     "softness_pct": 0.2903
-    },
-    "passing_tds": {
-     "allowed_per_game": 1.29,
-     "current": 1.17,
-     "prior": 1.47,
-     "games": 6,
-     "blend_weight": 0.6,
+     "games": 7,
+     "blend_weight": 0.636,
      "softness_rank": 22,
      "softness_pct": 0.3226
+    },
+    "passing_tds": {
+     "allowed_per_game": 1.35,
+     "current": 1.29,
+     "prior": 1.47,
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 19,
+     "softness_pct": 0.4194
     }
    },
    "RB": {
     "receiving_yards": {
-     "allowed_per_game": 35.55,
-     "current": 39.33,
+     "allowed_per_game": 33.41,
+     "current": 35.43,
      "prior": 29.88,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 7,
-     "softness_pct": 0.8065
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 12,
+     "softness_pct": 0.6452
     },
     "receptions": {
-     "allowed_per_game": 4.61,
-     "current": 4.5,
+     "allowed_per_game": 4.55,
+     "current": 4.43,
      "prior": 4.76,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 11,
-     "softness_pct": 0.6774
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 12,
+     "softness_pct": 0.6452
     },
     "rushing_yards": {
-     "allowed_per_game": 80.15,
-     "current": 82.17,
+     "allowed_per_game": 81.13,
+     "current": 83.43,
      "prior": 77.12,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 27,
-     "softness_pct": 0.1613
-    },
-    "carries": {
-     "allowed_per_game": 19.76,
-     "current": 19.83,
-     "prior": 19.65,
-     "games": 6,
-     "blend_weight": 0.6,
-     "softness_rank": 29,
-     "softness_pct": 0.0968
-    },
-    "rushing_tds_receiving_tds": {
-     "allowed_per_game": 0.64,
-     "current": 0.67,
-     "prior": 0.59,
-     "games": 6,
-     "blend_weight": 0.6,
+     "games": 7,
+     "blend_weight": 0.636,
      "softness_rank": 26,
      "softness_pct": 0.1935
+    },
+    "carries": {
+     "allowed_per_game": 20.14,
+     "current": 20.43,
+     "prior": 19.65,
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 28,
+     "softness_pct": 0.129
+    },
+    "rushing_tds_receiving_tds": {
+     "allowed_per_game": 0.67,
+     "current": 0.71,
+     "prior": 0.59,
+     "games": 7,
+     "blend_weight": 0.636,
+     "softness_rank": 25,
+     "softness_pct": 0.2258
     }
    }
   },
@@ -3035,8 +3035,8 @@
      "prior": 121.53,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 19,
-     "softness_pct": 0.4194
+     "softness_rank": 20,
+     "softness_pct": 0.3871
     },
     "receptions": {
      "allowed_per_game": 10.61,
@@ -3093,8 +3093,8 @@
      "prior": 23.29,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 23,
-     "softness_pct": 0.2903
+     "softness_rank": 24,
+     "softness_pct": 0.2581
     },
     "receptions": {
      "allowed_per_game": 3.72,
@@ -3102,8 +3102,8 @@
      "prior": 3.29,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 25,
-     "softness_pct": 0.2258
+     "softness_rank": 26,
+     "softness_pct": 0.1935
     },
     "rushing_yards": {
      "allowed_per_game": 111.18,
@@ -3189,8 +3189,8 @@
      "prior": 1.0,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 6,
-     "softness_pct": 0.8387
+     "softness_rank": 5,
+     "softness_pct": 0.871
     }
    },
    "RB": {
@@ -3200,8 +3200,8 @@
      "prior": 29.88,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 28,
-     "softness_pct": 0.129
+     "softness_rank": 29,
+     "softness_pct": 0.0968
     },
     "receptions": {
      "allowed_per_game": 3.89,
@@ -3256,8 +3256,8 @@
      "prior": 4.82,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 13,
-     "softness_pct": 0.6129
+     "softness_rank": 14,
+     "softness_pct": 0.5806
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.32,
@@ -3265,8 +3265,8 @@
      "prior": 0.29,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 24,
-     "softness_pct": 0.2581
+     "softness_rank": 25,
+     "softness_pct": 0.2258
     }
    }
   },
@@ -3278,8 +3278,8 @@
      "prior": 34.53,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     },
     "receptions": {
      "allowed_per_game": 3.76,
@@ -3287,8 +3287,8 @@
      "prior": 3.65,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 23,
-     "softness_pct": 0.2903
+     "softness_rank": 24,
+     "softness_pct": 0.2581
     },
     "rushing_yards": {
      "allowed_per_game": 107.5,
@@ -3334,8 +3334,8 @@
      "prior": 5.59,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.34,
@@ -3343,8 +3343,8 @@
      "prior": 0.59,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     }
    },
    "WR": {
@@ -3354,8 +3354,8 @@
      "prior": 136.06,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 24,
-     "softness_pct": 0.2581
+     "softness_rank": 25,
+     "softness_pct": 0.2258
     },
     "receptions": {
      "allowed_per_game": 10.91,
@@ -3363,8 +3363,8 @@
      "prior": 10.53,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 19,
+     "softness_pct": 0.4194
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.98,
@@ -3383,8 +3383,8 @@
      "prior": 19.24,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 17,
-     "softness_pct": 0.4839
+     "softness_rank": 18,
+     "softness_pct": 0.4516
     },
     "passing_yards": {
      "allowed_per_game": 210.87,
@@ -3461,8 +3461,8 @@
      "prior": 0.24,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 25,
-     "softness_pct": 0.2258
+     "softness_rank": 26,
+     "softness_pct": 0.1935
     }
    },
    "RB": {
@@ -3472,8 +3472,8 @@
      "prior": 37.29,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 22,
-     "softness_pct": 0.3226
+     "softness_rank": 23,
+     "softness_pct": 0.2903
     },
     "receptions": {
      "allowed_per_game": 3.76,
@@ -3481,8 +3481,8 @@
      "prior": 3.65,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 23,
-     "softness_pct": 0.2903
+     "softness_rank": 24,
+     "softness_pct": 0.2581
     },
     "rushing_yards": {
      "allowed_per_game": 100.55,
@@ -3528,8 +3528,8 @@
      "prior": 204.47,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 16,
-     "softness_pct": 0.5161
+     "softness_rank": 17,
+     "softness_pct": 0.4839
     },
     "passing_tds": {
      "allowed_per_game": 1.13,
@@ -3559,8 +3559,8 @@
      "prior": 261.0,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 15,
-     "softness_pct": 0.5484
+     "softness_rank": 16,
+     "softness_pct": 0.5161
     },
     "passing_tds": {
      "allowed_per_game": 1.31,
@@ -3568,8 +3568,8 @@
      "prior": 1.76,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     }
    },
    "WR": {
@@ -3608,8 +3608,8 @@
      "prior": 65.94,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 13,
-     "softness_pct": 0.6129
+     "softness_rank": 15,
+     "softness_pct": 0.5484
     },
     "receptions": {
      "allowed_per_game": 4.99,
@@ -3617,8 +3617,8 @@
      "prior": 6.24,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 21,
-     "softness_pct": 0.3548
+     "softness_rank": 22,
+     "softness_pct": 0.3226
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.56,
@@ -3637,8 +3637,8 @@
      "prior": 31.18,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 12,
-     "softness_pct": 0.6452
+     "softness_rank": 11,
+     "softness_pct": 0.6774
     },
     "receptions": {
      "allowed_per_game": 4.59,
@@ -3646,8 +3646,8 @@
      "prior": 4.47,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 12,
-     "softness_pct": 0.6452
+     "softness_rank": 11,
+     "softness_pct": 0.6774
     },
     "rushing_yards": {
      "allowed_per_game": 90.26,
@@ -3695,8 +3695,8 @@
      "prior": 6.12,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 19,
-     "softness_pct": 0.4194
+     "softness_rank": 20,
+     "softness_pct": 0.3871
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.34,
@@ -3704,8 +3704,8 @@
      "prior": 0.35,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     }
    },
    "WR": {
@@ -3880,8 +3880,8 @@
      "prior": 56.94,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 19,
-     "softness_pct": 0.4194
+     "softness_rank": 20,
+     "softness_pct": 0.3871
     },
     "receptions": {
      "allowed_per_game": 5.53,
@@ -3889,8 +3889,8 @@
      "prior": 5.82,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 10,
-     "softness_pct": 0.7097
+     "softness_rank": 11,
+     "softness_pct": 0.6774
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.24,
@@ -3927,8 +3927,8 @@
      "prior": 93.06,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 25,
-     "softness_pct": 0.2258
+     "softness_rank": 24,
+     "softness_pct": 0.2581
     },
     "carries": {
      "allowed_per_game": 21.38,
@@ -4103,8 +4103,8 @@
      "prior": 248.29,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 11,
-     "softness_pct": 0.6774
+     "softness_rank": 12,
+     "softness_pct": 0.6452
     },
     "passing_tds": {
      "allowed_per_game": 1.31,
@@ -4112,8 +4112,8 @@
      "prior": 1.76,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 20,
-     "softness_pct": 0.3871
+     "softness_rank": 21,
+     "softness_pct": 0.3548
     }
    },
    "WR": {
@@ -4161,8 +4161,8 @@
      "prior": 5.41,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 25,
-     "softness_pct": 0.2258
+     "softness_rank": 26,
+     "softness_pct": 0.1935
     },
     "rushing_tds_receiving_tds": {
      "allowed_per_game": 0.51,
@@ -4181,8 +4181,8 @@
      "prior": 26.29,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 19,
-     "softness_pct": 0.4194
+     "softness_rank": 20,
+     "softness_pct": 0.3871
     },
     "receptions": {
      "allowed_per_game": 3.27,
@@ -4259,8 +4259,8 @@
      "prior": 32.59,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 11,
-     "softness_pct": 0.6774
+     "softness_rank": 10,
+     "softness_pct": 0.7097
     },
     "receptions": {
      "allowed_per_game": 4.24,
@@ -4353,8 +4353,8 @@
      "prior": 1.0,
      "games": 6,
      "blend_weight": 0.6,
-     "softness_rank": 6,
-     "softness_pct": 0.8387
+     "softness_rank": 5,
+     "softness_pct": 0.871
     }
    }
   }
