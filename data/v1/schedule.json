@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-23T08:08:34Z",
+ "generated_at": "2026-10-24T14:26:22Z",
  "season": 2026,
  "current_week": 7,
  "games": [
@@ -1632,7 +1632,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 1.5,
+   "spread": -1.5,
    "total": 48.5,
    "venue": "M&T Bank Stadium"
   },
@@ -1649,8 +1649,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -1.5,
-   "total": 37.5,
+   "spread": -2.5,
+   "total": 36.5,
    "venue": "Nissan Stadium"
   },
   {
@@ -1700,7 +1700,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 10.5,
+   "spread": 10.0,
    "total": 42.5,
    "venue": "Reliant Stadium"
   },
@@ -1785,7 +1785,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -3.5,
+   "spread": -3.0,
    "total": 48.5,
    "venue": "Allegiant Stadium"
   },

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-23T08:08:36Z",
+ "generated_at": "2026-10-24T14:27:03Z",
  "week": 7,
  "max_softness_rank": 10,
  "weights": {
@@ -89,46 +89,6 @@
     "confidence": 1.0
    },
    "rationale": "San Francisco allows 6.51 receptions per game to RBs (32nd of 32). Bijan Robinson: 3.33 rec per game, 82% target share."
-  },
-  {
-   "id": "2026_07_SF_ATL~wr_receptions~00-0031408",
-   "game_id": "2026_07_SF_ATL",
-   "week": 7,
-   "kickoff": "2026-10-25T17:00:00Z",
-   "market": "wr_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "WR",
-   "player": {
-    "id": "00-0031408",
-    "name": "Mike Evans",
-    "team": "SF",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 6,
-    "share": 0.4937,
-    "share_of": "targets",
-    "per_game": 4.5,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "ATL",
-    "allowed_per_game": 13.35,
-    "softness_rank": 1,
-    "games": 6,
-    "blend_weight": 0.6,
-    "current": 14.83,
-    "prior": 11.12
-   },
-   "score": 0.99,
-   "components": {
-    "softness": 1.0,
-    "usage": 0.9713,
-    "confidence": 1.0
-   },
-   "rationale": "Atlanta allows 13.35 receptions per game to WRs (32nd of 32). Mike Evans: 4.5 rec per game, 49% target share."
   },
   {
    "id": "2026_07_PIT_NO~rb_rushing_yards~00-0037228",
@@ -769,46 +729,6 @@
     "confidence": 1.0
    },
    "rationale": "Arizona allows 24.63 carries per game to RBs (29th of 32). J.K. Dobbins: 13.5 att per game, 69% carry share."
-  },
-  {
-   "id": "2026_07_SF_ATL~wr_receiving_yards~00-0031408",
-   "game_id": "2026_07_SF_ATL",
-   "week": 7,
-   "kickoff": "2026-10-25T17:00:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0031408",
-    "name": "Mike Evans",
-    "team": "SF",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 6,
-    "share": 0.4937,
-    "share_of": "targets",
-    "per_game": 70.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "ATL",
-    "allowed_per_game": 165.56,
-    "softness_rank": 6,
-    "games": 6,
-    "blend_weight": 0.6,
-    "current": 180.33,
-    "prior": 143.41
-   },
-   "score": 0.9174,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.9713,
-    "confidence": 1.0
-   },
-   "rationale": "Atlanta allows 165.56 receiving yards per game to WRs (27th of 32). Mike Evans: 70 yds per game, 49% target share."
   },
   {
    "id": "2026_07_CIN_BAL~te_receptions~00-0034753",
@@ -1649,46 +1569,6 @@
     "confidence": 1.0
    },
    "rationale": "Cleveland allows 1.1 touchdowns per game to WRs (28th of 32). Wan'Dale Robinson: 0.33 TD per game, 33% target share."
-  },
-  {
-   "id": "2026_07_SF_ATL~wr_receptions~00-0035719",
-   "game_id": "2026_07_SF_ATL",
-   "week": 7,
-   "kickoff": "2026-10-25T17:00:00Z",
-   "market": "wr_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "WR",
-   "player": {
-    "id": "00-0035719",
-    "name": "Deebo Samuel Sr.",
-    "team": "SF",
-    "position": "WR",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 5,
-    "share": 0.2532,
-    "share_of": "targets",
-    "per_game": 3.2,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "ATL",
-    "allowed_per_game": 13.35,
-    "softness_rank": 1,
-    "games": 6,
-    "blend_weight": 0.6,
-    "current": 14.83,
-    "prior": 11.12
-   },
-   "score": 0.8829,
-   "components": {
-    "softness": 1.0,
-    "usage": 0.7608,
-    "confidence": 0.8333
-   },
-   "rationale": "Atlanta allows 13.35 receptions per game to WRs (32nd of 32). Deebo Samuel Sr.: 3.2 rec per game, 25% target share."
   },
   {
    "id": "2026_07_CLE_TEN~rb_carries~00-0040784",
@@ -3411,46 +3291,6 @@
    "rationale": "Tampa Bay allows 0.68 touchdowns per game to TEs (28th of 32). Darren Waller: 0.4 TD per game, 44% target share."
   },
   {
-   "id": "2026_07_SF_ATL~wr_receiving_yards~00-0035719",
-   "game_id": "2026_07_SF_ATL",
-   "week": 7,
-   "kickoff": "2026-10-25T17:00:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0035719",
-    "name": "Deebo Samuel Sr.",
-    "team": "SF",
-    "position": "WR",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 5,
-    "share": 0.2532,
-    "share_of": "targets",
-    "per_game": 41.2,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "ATL",
-    "allowed_per_game": 165.56,
-    "softness_rank": 6,
-    "games": 6,
-    "blend_weight": 0.6,
-    "current": 180.33,
-    "prior": 143.41
-   },
-   "score": 0.8104,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.7608,
-    "confidence": 0.8333
-   },
-   "rationale": "Atlanta allows 165.56 receiving yards per game to WRs (27th of 32). Deebo Samuel Sr.: 41.2 yds per game, 25% target share."
-  },
-  {
    "id": "2026_07_DAL_PHI~wr_receptions~00-0037247",
    "game_id": "2026_07_DAL_PHI",
    "week": 7,
@@ -3546,7 +3386,7 @@
     "position": "WR",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 4,
     "share": 0.4127,
     "share_of": "targets",
@@ -3568,7 +3408,7 @@
     "usage": 0.9282,
     "confidence": 0.6667
    },
-   "rationale": "Las Vegas allows 1.08 touchdowns per game to WRs (25th of 32). Puka Nacua: 0.5 TD per game, 41% target share."
+   "rationale": "Las Vegas allows 1.08 touchdowns per game to WRs (25th of 32). Puka Nacua: 0.5 TD per game, 41% target share. Listed questionable."
   },
   {
    "id": "2026_07_TB_CAR~te_anytime_td~00-0037005",
@@ -3769,46 +3609,6 @@
     "confidence": 0.6667
    },
    "rationale": "New York allows 1.1 touchdowns per game to WRs (28th of 32). Nico Collins: 0.75 TD per game, 24% target share."
-  },
-  {
-   "id": "2026_07_NYG_HOU~rb_anytime_td~00-0035685",
-   "game_id": "2026_07_NYG_HOU",
-   "week": 7,
-   "kickoff": "2026-10-25T17:00:00Z",
-   "market": "rb_anytime_td",
-   "market_label": "Anytime TD",
-   "metric": "rushing_tds_receiving_tds",
-   "position": "RB",
-   "player": {
-    "id": "00-0035685",
-    "name": "David Montgomery",
-    "team": "HOU",
-    "position": "RB",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 5,
-    "share": 0.4483,
-    "share_of": "carries",
-    "per_game": 0.6,
-    "unit": "TD"
-   },
-   "defense": {
-    "team": "NYG",
-    "allowed_per_game": 1.05,
-    "softness_rank": 8,
-    "games": 6,
-    "blend_weight": 0.6,
-    "current": 1.0,
-    "prior": 1.12
-   },
-   "score": 0.783,
-   "components": {
-    "softness": 0.7742,
-    "usage": 0.7656,
-    "confidence": 0.8333
-   },
-   "rationale": "New York allows 1.05 touchdowns per game to RBs (25th of 32). David Montgomery: 0.6 TD per game, 45% carry share."
   },
   {
    "id": "2026_07_TB_CAR~rb_receptions~00-0039361",
@@ -4346,7 +4146,7 @@
     "position": "RB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3806,
     "share_of": "carries",
@@ -4368,7 +4168,7 @@
     "usage": 0.75,
     "confidence": 0.5
    },
-   "rationale": "Miami allows 23.8 carries per game to RBs (27th of 32). Breece Hall: 17 att per game, 38% carry share. Based on 5 games this season, blended with last season."
+   "rationale": "Miami allows 23.8 carries per game to RBs (27th of 32). Breece Hall: 17 att per game, 38% carry share. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_07_NE_CHI~qb_passing_tds~00-0039851",
@@ -4506,7 +4306,7 @@
     "position": "RB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3806,
     "share_of": "carries",
@@ -4528,7 +4328,7 @@
     "usage": 0.75,
     "confidence": 0.5
    },
-   "rationale": "Miami allows 103.86 rushing yards per game to RBs (26th of 32). Breece Hall: 54.33 yds per game, 38% carry share. Based on 5 games this season, blended with last season."
+   "rationale": "Miami allows 103.86 rushing yards per game to RBs (26th of 32). Breece Hall: 54.33 yds per game, 38% carry share. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_07_TB_CAR~qb_passing_yards~00-0039150",
@@ -4586,7 +4386,7 @@
     "position": "QB",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 4,
     "share": 0.5714,
     "share_of": "attempts",
@@ -4608,7 +4408,7 @@
     "usage": 0.4727,
     "confidence": 0.6667
    },
-   "rationale": "Cincinnati allows 24.33 rushing yards per game to QBs (30th of 32). Lamar Jackson: 36 yds per game, 57% of the team's pass attempts. Based on 5 games this season, blended with last season."
+   "rationale": "Cincinnati allows 24.33 rushing yards per game to QBs (30th of 32). Lamar Jackson: 36 yds per game, 57% of the team's pass attempts. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_07_MIA_NYJ~rb_receptions~00-0038120",
@@ -4626,7 +4426,7 @@
     "position": "RB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3846,
     "share_of": "targets",
@@ -4648,7 +4448,7 @@
     "usage": 0.7188,
     "confidence": 0.5
    },
-   "rationale": "Miami allows 4.7 receptions per game to RBs (26th of 32). Breece Hall: 3.33 rec per game, 38% target share. Based on 5 games this season, blended with last season."
+   "rationale": "Miami allows 4.7 receptions per game to RBs (26th of 32). Breece Hall: 3.33 rec per game, 38% target share. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_07_DEN_ARI~te_anytime_td~00-0038783",
@@ -4746,7 +4546,7 @@
     "position": "RB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.3846,
     "share_of": "targets",
@@ -4768,7 +4568,7 @@
     "usage": 0.7188,
     "confidence": 0.5
    },
-   "rationale": "Miami allows 34.68 receiving yards per game to RBs (25th of 32). Breece Hall: 34 yds per game, 38% target share. Based on 5 games this season, blended with last season."
+   "rationale": "Miami allows 34.68 receiving yards per game to RBs (25th of 32). Breece Hall: 34 yds per game, 38% target share. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_07_GB_DET~te_receiving_yards~00-0033858",
@@ -4946,7 +4746,7 @@
     "position": "QB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 3,
     "share": 0.4948,
     "share_of": "attempts",
@@ -4968,7 +4768,7 @@
     "usage": 0.4182,
     "confidence": 0.5
    },
-   "rationale": "Carolina allows 22.65 rushing yards per game to QBs (28th of 32). Baker Mayfield: 21.67 yds per game, 49% of the team's pass attempts. Based on 5 games this season, blended with last season."
+   "rationale": "Carolina allows 22.65 rushing yards per game to QBs (28th of 32). Baker Mayfield: 21.67 yds per game, 49% of the team's pass attempts. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_07_CIN_BAL~qb_passing_yards~00-0034796",
@@ -4986,7 +4786,7 @@
     "position": "QB",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 4,
     "share": 0.5714,
     "share_of": "attempts",
@@ -5008,7 +4808,7 @@
     "usage": 0.4727,
     "confidence": 0.6667
    },
-   "rationale": "Cincinnati allows 245.03 passing yards per game to QBs (24th of 32). Lamar Jackson: 241.75 yds per game, 57% of the team's pass attempts. Based on 5 games this season, blended with last season."
+   "rationale": "Cincinnati allows 245.03 passing yards per game to QBs (24th of 32). Lamar Jackson: 241.75 yds per game, 57% of the team's pass attempts. Based on 5 games this season, blended with last season. Listed questionable."
   },
   {
    "id": "2026_07_DAL_PHI~qb_passing_yards~00-0038400",
