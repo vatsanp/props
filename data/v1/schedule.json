@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-25T14:55:46Z",
+ "generated_at": "2026-10-25T19:23:39Z",
  "season": 2026,
  "current_week": 7,
  "games": [
@@ -1610,9 +1610,9 @@
    "kickoff": "2026-10-25T13:30:00Z",
    "away": "PIT",
    "home": "NO",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 16,
+   "home_score": 10,
+   "status": "final",
    "neutral": true,
    "div_game": false,
    "spread": -3.0,
@@ -1649,7 +1649,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -2.5,
+   "spread": -1.5,
    "total": 36.5,
    "venue": "Nissan Stadium"
   },
@@ -1666,7 +1666,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 7.0,
+   "spread": 6.5,
    "total": 41.5,
    "venue": "U.S. Bank Stadium"
   },
@@ -1700,7 +1700,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 10.5,
+   "spread": 10.0,
    "total": 42.5,
    "venue": "Reliant Stadium"
   },
@@ -1718,7 +1718,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -2.5,
-   "total": 50.5,
+   "total": 49.5,
    "venue": "Mercedes-Benz Stadium"
   },
   {
@@ -1752,7 +1752,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -4.5,
-   "total": 42.5,
+   "total": 43.5,
    "venue": "State Farm Stadium"
   },
   {
@@ -1836,8 +1836,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
-   "total": 47.5,
+   "spread": null,
+   "total": null,
    "venue": "Lambeau Field"
   },
   {
@@ -1853,8 +1853,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 6.5,
-   "total": 51.5,
+   "spread": null,
+   "total": null,
    "venue": "AT&T Stadium"
   },
   {
@@ -1870,8 +1870,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 1.5,
-   "total": 44.5,
+   "spread": null,
+   "total": null,
    "venue": "Raymond James Stadium"
   },
   {
@@ -1887,8 +1887,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
-   "total": 52.5,
+   "spread": null,
+   "total": null,
    "venue": "Highmark Stadium"
   },
   {
@@ -1921,8 +1921,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 7.5,
-   "total": 47.5,
+   "spread": null,
+   "total": null,
    "venue": "EverBank Stadium"
   },
   {
@@ -1938,8 +1938,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -1.5,
-   "total": 42.5,
+   "spread": null,
+   "total": null,
    "venue": "MetLife Stadium"
   },
   {
@@ -1955,8 +1955,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 2.5,
-   "total": 46.5,
+   "spread": null,
+   "total": null,
    "venue": "Ford Field"
   },
   {
@@ -1972,8 +1972,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 10.0,
-   "total": 46.5,
+   "spread": null,
+   "total": null,
    "venue": "Paycor Stadium"
   },
   {
@@ -1989,8 +1989,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 7.0,
-   "total": 45.5,
+   "spread": null,
+   "total": null,
    "venue": "SoFi Stadium"
   },
   {
@@ -2006,8 +2006,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -1.5,
-   "total": 42.5,
+   "spread": null,
+   "total": null,
    "venue": "Empower Field at Mile High"
   },
   {
@@ -2023,8 +2023,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -8.5,
-   "total": 44.5,
+   "spread": null,
+   "total": null,
    "venue": "Hard Rock Stadium"
   },
   {
@@ -2040,8 +2040,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 3.5,
-   "total": 41.5,
+   "spread": null,
+   "total": null,
    "venue": "Northwest Stadium"
   },
   {
@@ -2057,8 +2057,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
-   "total": 46.5,
+   "spread": null,
+   "total": null,
    "venue": "Lumen Field"
   },
   {
