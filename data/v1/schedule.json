@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T02:07:04Z",
+ "generated_at": "2026-10-26T07:57:12Z",
  "season": 2026,
  "current_week": 7,
  "games": [
@@ -1797,9 +1797,9 @@
    "kickoff": "2026-10-26T00:20:00Z",
    "away": "KC",
    "home": "SEA",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 3,
+   "home_score": 20,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 3.0,
@@ -1820,7 +1820,7 @@
    "neutral": false,
    "div_game": true,
    "spread": -4.5,
-   "total": 43.5,
+   "total": 44.5,
    "venue": "Lincoln Financial Field"
   },
   {
@@ -1836,7 +1836,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 4.5,
+   "spread": 3.5,
    "total": 47.5,
    "venue": "Lambeau Field"
   },
@@ -1854,7 +1854,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 6.5,
-   "total": 52.5,
+   "total": 53.5,
    "venue": "AT&T Stadium"
   },
   {
@@ -1871,7 +1871,7 @@
    "neutral": false,
    "div_game": true,
    "spread": 1.5,
-   "total": 45.5,
+   "total": 44.5,
    "venue": "Raymond James Stadium"
   },
   {
@@ -1905,7 +1905,7 @@
    "neutral": false,
    "div_game": true,
    "spread": 3.5,
-   "total": 39.5,
+   "total": 38.5,
    "venue": "Acrisure Stadium"
   },
   {
@@ -1990,7 +1990,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 7.0,
-   "total": 44.5,
+   "total": 43.5,
    "venue": "SoFi Stadium"
   },
   {
@@ -2006,8 +2006,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -1.5,
+   "total": 41.5,
    "venue": "Empower Field at Mile High"
   },
   {
@@ -2057,8 +2057,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 46.5,
    "venue": "Lumen Field"
   },
   {
