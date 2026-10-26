@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-16T15:20:30Z",
+ "generated_at": "2026-10-26T17:16:49Z",
  "team": "SEA",
  "since": 1999,
  "opponents": {
@@ -1653,19 +1653,19 @@
    ]
   },
   "KC": {
-   "games": 12,
-   "wins": 5,
+   "games": 13,
+   "wins": 6,
    "losses": 7,
    "ties": 0,
-   "streak": "KC W1",
+   "streak": "SEA W1",
    "splits": {
     "all": {
-     "w": 5,
+     "w": 6,
      "l": 7,
      "t": 0
     },
     "regular": {
-     "w": 5,
+     "w": 6,
      "l": 7,
      "t": 0
     },
@@ -1675,7 +1675,7 @@
      "t": 0
     },
     "home": {
-     "w": 4,
+     "w": 5,
      "l": 2,
      "t": 0
     },
@@ -1685,18 +1685,30 @@
      "t": 0
     },
     "last5": {
-     "w": 1,
-     "l": 4,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
-     "w": 3,
-     "l": 7,
+     "w": 4,
+     "l": 6,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-25",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "SEA",
+     "away": "KC",
+     "home_score": 20,
+     "away_score": 3,
+     "winner": "SEA",
+     "neutral": false
+    },
     {
      "date": "2022-12-24",
      "season": 2022,
@@ -1826,18 +1838,6 @@
      "away": "KC",
      "home_score": 23,
      "away_score": 14,
-     "winner": "SEA",
-     "neutral": false
-    },
-    {
-     "date": "1999-11-21",
-     "season": 1999,
-     "week": 11,
-     "type": "REG",
-     "home": "KC",
-     "away": "SEA",
-     "home_score": 19,
-     "away_score": 31,
      "winner": "SEA",
      "neutral": false
     }

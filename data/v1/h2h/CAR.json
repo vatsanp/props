@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-10-26T17:16:49Z",
  "team": "CAR",
  "since": 1999,
  "opponents": {
@@ -3992,20 +3992,20 @@
    ]
   },
   "TB": {
-   "games": 48,
+   "games": 49,
    "wins": 25,
-   "losses": 23,
+   "losses": 24,
    "ties": 0,
-   "streak": "TB W1",
+   "streak": "TB W2",
    "splits": {
     "all": {
      "w": 25,
-     "l": 23,
+     "l": 24,
      "t": 0
     },
     "regular": {
      "w": 25,
-     "l": 23,
+     "l": 24,
      "t": 0
     },
     "postseason": {
@@ -4015,7 +4015,7 @@
     },
     "home": {
      "w": 13,
-     "l": 11,
+     "l": 12,
      "t": 0
     },
     "away": {
@@ -4036,6 +4036,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-25",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "CAR",
+     "away": "TB",
+     "home_score": 13,
+     "away_score": 43,
+     "winner": "TB",
+     "neutral": false
+    },
     {
      "date": "2026-01-03",
      "season": 2025,
@@ -4165,18 +4177,6 @@
      "away": "TB",
      "home_score": 23,
      "away_score": 46,
-     "winner": "TB",
-     "neutral": false
-    },
-    {
-     "date": "2020-09-20",
-     "season": 2020,
-     "week": 2,
-     "type": "REG",
-     "home": "TB",
-     "away": "CAR",
-     "home_score": 31,
-     "away_score": 17,
      "winner": "TB",
      "neutral": false
     }

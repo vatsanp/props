@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-10-26T17:16:49Z",
  "team": "LV",
  "since": 1999,
  "opponents": {
@@ -4757,20 +4757,20 @@
    ]
   },
   "LAR": {
-   "games": 7,
+   "games": 8,
    "wins": 1,
-   "losses": 6,
+   "losses": 7,
    "ties": 0,
-   "streak": "LAR W4",
+   "streak": "LAR W5",
    "splits": {
     "all": {
      "w": 1,
-     "l": 6,
+     "l": 7,
      "t": 0
     },
     "regular": {
      "w": 1,
-     "l": 6,
+     "l": 7,
      "t": 0
     },
     "postseason": {
@@ -4780,7 +4780,7 @@
     },
     "home": {
      "w": 1,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "away": {
@@ -4789,13 +4789,13 @@
      "t": 0
     },
     "last5": {
-     "w": 1,
-     "l": 4,
+     "w": 0,
+     "l": 5,
      "t": 0
     },
     "last10": {
      "w": 1,
-     "l": 6,
+     "l": 7,
      "t": 0
     }
    },
@@ -4829,13 +4829,25 @@
       "LV"
      ],
      "wins": {
-      "LA": 2
+      "LA": 3
      },
      "ties": 0,
-     "games": 2
+     "games": 3
     }
    ],
    "recent": [
+    {
+     "date": "2026-10-25",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "LV",
+     "away": "LAR",
+     "home_score": 21,
+     "away_score": 35,
+     "winner": "LAR",
+     "neutral": false
+    },
     {
      "date": "2024-10-20",
      "season": 2024,

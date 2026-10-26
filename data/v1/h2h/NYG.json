@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-10-26T17:16:49Z",
  "team": "NYG",
  "since": 1999,
  "opponents": {
@@ -4373,19 +4373,19 @@
    ]
   },
   "HOU": {
-   "games": 6,
-   "wins": 5,
+   "games": 7,
+   "wins": 6,
    "losses": 1,
    "ties": 0,
-   "streak": "NYG W5",
+   "streak": "NYG W6",
    "splits": {
     "all": {
-     "w": 5,
+     "w": 6,
      "l": 1,
      "t": 0
     },
     "regular": {
-     "w": 5,
+     "w": 6,
      "l": 1,
      "t": 0
     },
@@ -4400,7 +4400,7 @@
      "t": 0
     },
     "away": {
-     "w": 2,
+     "w": 3,
      "l": 1,
      "t": 0
     },
@@ -4410,13 +4410,25 @@
      "t": 0
     },
     "last10": {
-     "w": 5,
+     "w": 6,
      "l": 1,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-25",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "HOU",
+     "away": "NYG",
+     "home_score": 21,
+     "away_score": 27,
+     "winner": "NYG",
+     "neutral": false
+    },
     {
      "date": "2022-11-13",
      "season": 2022,

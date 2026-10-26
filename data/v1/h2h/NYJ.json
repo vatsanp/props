@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-10-26T17:16:49Z",
  "team": "NYJ",
  "since": 1999,
  "opponents": {
@@ -1568,20 +1568,20 @@
    ]
   },
   "MIA": {
-   "games": 54,
+   "games": 55,
    "wins": 26,
-   "losses": 28,
+   "losses": 29,
    "ties": 0,
-   "streak": "MIA W2",
+   "streak": "MIA W3",
    "splits": {
     "all": {
      "w": 26,
-     "l": 28,
+     "l": 29,
      "t": 0
     },
     "regular": {
      "w": 26,
-     "l": 28,
+     "l": 29,
      "t": 0
     },
     "postseason": {
@@ -1591,7 +1591,7 @@
     },
     "home": {
      "w": 14,
-     "l": 13,
+     "l": 14,
      "t": 0
     },
     "away": {
@@ -1612,6 +1612,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-25",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "NYJ",
+     "away": "MIA",
+     "home_score": 25,
+     "away_score": 28,
+     "winner": "MIA",
+     "neutral": false
+    },
     {
      "date": "2025-12-07",
      "season": 2025,
@@ -1741,18 +1753,6 @@
      "away": "MIA",
      "home_score": 3,
      "away_score": 20,
-     "winner": "MIA",
-     "neutral": false
-    },
-    {
-     "date": "2020-10-18",
-     "season": 2020,
-     "week": 6,
-     "type": "REG",
-     "home": "MIA",
-     "away": "NYJ",
-     "home_score": 24,
-     "away_score": 0,
      "winner": "MIA",
      "neutral": false
     }

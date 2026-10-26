@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-10-26T17:16:49Z",
  "team": "NO",
  "since": 1999,
  "opponents": {
@@ -4470,20 +4470,20 @@
    ]
   },
   "PIT": {
-   "games": 6,
+   "games": 7,
    "wins": 4,
-   "losses": 2,
+   "losses": 3,
    "ties": 0,
-   "streak": "PIT W1",
+   "streak": "PIT W2",
    "splits": {
     "all": {
      "w": 4,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "regular": {
      "w": 4,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "postseason": {
@@ -4508,12 +4508,24 @@
     },
     "last10": {
      "w": 4,
-     "l": 2,
+     "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-25",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "NO",
+     "away": "PIT",
+     "home_score": 10,
+     "away_score": 16,
+     "winner": "PIT",
+     "neutral": true
+    },
     {
      "date": "2022-11-13",
      "season": 2022,

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:06Z",
+ "generated_at": "2026-10-26T17:16:49Z",
  "team": "MIN",
  "since": 1999,
  "opponents": {
@@ -3133,19 +3133,19 @@
    ]
   },
   "IND": {
-   "games": 8,
-   "wins": 2,
+   "games": 9,
+   "wins": 3,
    "losses": 6,
    "ties": 0,
-   "streak": "MIN W2",
+   "streak": "MIN W3",
    "splits": {
     "all": {
-     "w": 2,
+     "w": 3,
      "l": 6,
      "t": 0
     },
     "regular": {
-     "w": 2,
+     "w": 3,
      "l": 6,
      "t": 0
     },
@@ -3155,7 +3155,7 @@
      "t": 0
     },
     "home": {
-     "w": 2,
+     "w": 3,
      "l": 2,
      "t": 0
     },
@@ -3165,18 +3165,30 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
-     "w": 2,
+     "w": 3,
      "l": 6,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-25",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "MIN",
+     "away": "IND",
+     "home_score": 16,
+     "away_score": 10,
+     "winner": "MIN",
+     "neutral": false
+    },
     {
      "date": "2024-11-03",
      "season": 2024,

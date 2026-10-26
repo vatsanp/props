@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-10-26T17:16:49Z",
  "team": "ATL",
  "since": 1999,
  "opponents": {
@@ -1617,19 +1617,19 @@
    ]
   },
   "SF": {
-   "games": 18,
-   "wins": 9,
+   "games": 19,
+   "wins": 10,
    "losses": 9,
    "ties": 0,
-   "streak": "SF W1",
+   "streak": "ATL W1",
    "splits": {
     "all": {
-     "w": 9,
+     "w": 10,
      "l": 9,
      "t": 0
     },
     "regular": {
-     "w": 9,
+     "w": 10,
      "l": 8,
      "t": 0
     },
@@ -1639,7 +1639,7 @@
      "t": 0
     },
     "home": {
-     "w": 6,
+     "w": 7,
      "l": 2,
      "t": 0
     },
@@ -1661,6 +1661,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-25",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "ATL",
+     "away": "SF",
+     "home_score": 29,
+     "away_score": 20,
+     "winner": "ATL",
+     "neutral": false
+    },
     {
      "date": "2025-10-19",
      "season": 2025,
@@ -1790,18 +1802,6 @@
      "away": "SF",
      "home_score": 20,
      "away_score": 16,
-     "winner": "ATL",
-     "neutral": false
-    },
-    {
-     "date": "2004-09-12",
-     "season": 2004,
-     "week": 1,
-     "type": "REG",
-     "home": "SF",
-     "away": "ATL",
-     "home_score": 19,
-     "away_score": 21,
      "winner": "ATL",
      "neutral": false
     }

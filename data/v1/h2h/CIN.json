@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-12T20:14:07Z",
+ "generated_at": "2026-10-26T17:16:49Z",
  "team": "CIN",
  "since": 1999,
  "opponents": {
@@ -1617,19 +1617,19 @@
    ]
   },
   "BAL": {
-   "games": 55,
-   "wins": 25,
+   "games": 56,
+   "wins": 26,
    "losses": 30,
    "ties": 0,
-   "streak": "BAL W1",
+   "streak": "CIN W1",
    "splits": {
     "all": {
-     "w": 25,
+     "w": 26,
      "l": 30,
      "t": 0
     },
     "regular": {
-     "w": 24,
+     "w": 25,
      "l": 30,
      "t": 0
     },
@@ -1644,13 +1644,13 @@
      "t": 0
     },
     "away": {
-     "w": 9,
+     "w": 10,
      "l": 18,
      "t": 0
     },
     "last5": {
-     "w": 1,
-     "l": 4,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
@@ -1661,6 +1661,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-25",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "BAL",
+     "away": "CIN",
+     "home_score": 13,
+     "away_score": 35,
+     "winner": "CIN",
+     "neutral": false
+    },
     {
      "date": "2025-12-14",
      "season": 2025,
@@ -1791,18 +1803,6 @@
      "home_score": 17,
      "away_score": 41,
      "winner": "CIN",
-     "neutral": false
-    },
-    {
-     "date": "2021-01-03",
-     "season": 2020,
-     "week": 17,
-     "type": "REG",
-     "home": "CIN",
-     "away": "BAL",
-     "home_score": 3,
-     "away_score": 38,
-     "winner": "BAL",
      "neutral": false
     }
    ]

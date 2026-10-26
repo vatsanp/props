@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-10-26T17:16:49Z",
  "team": "TEN",
  "since": 1999,
  "opponents": {
@@ -196,20 +196,20 @@
    ]
   },
   "CLE": {
-   "games": 18,
+   "games": 19,
    "wins": 11,
-   "losses": 7,
+   "losses": 8,
    "ties": 0,
-   "streak": "TEN W1",
+   "streak": "CLE W1",
    "splits": {
     "all": {
      "w": 11,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "regular": {
      "w": 11,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "postseason": {
@@ -219,7 +219,7 @@
     },
     "home": {
      "w": 4,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "away": {
@@ -228,18 +228,30 @@
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
-     "w": 6,
-     "l": 4,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-25",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "TEN",
+     "away": "CLE",
+     "home_score": 24,
+     "away_score": 27,
+     "winner": "CLE",
+     "neutral": false
+    },
     {
      "date": "2025-12-07",
      "season": 2025,
@@ -369,18 +381,6 @@
      "away": "TEN",
      "home_score": 20,
      "away_score": 14,
-     "winner": "CLE",
-     "neutral": false
-    },
-    {
-     "date": "2002-09-22",
-     "season": 2002,
-     "week": 3,
-     "type": "REG",
-     "home": "TEN",
-     "away": "CLE",
-     "home_score": 28,
-     "away_score": 31,
      "winner": "CLE",
      "neutral": false
     }
