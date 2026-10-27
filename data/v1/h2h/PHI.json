@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-10-27T16:26:37Z",
  "team": "PHI",
  "since": 1999,
  "opponents": {
@@ -721,20 +721,20 @@
    ]
   },
   "DAL": {
-   "games": 55,
+   "games": 56,
    "wins": 29,
-   "losses": 26,
+   "losses": 27,
    "ties": 0,
-   "streak": "DAL W1",
+   "streak": "DAL W2",
    "splits": {
     "all": {
      "w": 29,
-     "l": 26,
+     "l": 27,
      "t": 0
     },
     "regular": {
      "w": 29,
-     "l": 25,
+     "l": 26,
      "t": 0
     },
     "postseason": {
@@ -744,7 +744,7 @@
     },
     "home": {
      "w": 16,
-     "l": 11,
+     "l": 12,
      "t": 0
     },
     "away": {
@@ -765,6 +765,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-26",
+     "season": 2026,
+     "week": 7,
+     "type": "REG",
+     "home": "PHI",
+     "away": "DAL",
+     "home_score": 21,
+     "away_score": 38,
+     "winner": "DAL",
+     "neutral": false
+    },
     {
      "date": "2025-11-23",
      "season": 2025,
@@ -895,18 +907,6 @@
      "home_score": 37,
      "away_score": 17,
      "winner": "DAL",
-     "neutral": false
-    },
-    {
-     "date": "2020-11-01",
-     "season": 2020,
-     "week": 8,
-     "type": "REG",
-     "home": "PHI",
-     "away": "DAL",
-     "home_score": 23,
-     "away_score": 9,
-     "winner": "PHI",
      "neutral": false
     }
    ]
