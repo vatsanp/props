@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-10-27T03:44:13Z",
  "season": 2026,
- "current_week": 7,
+ "current_week": 8,
  "games": [
   {
    "id": "2026_01_NE_SEA",
@@ -1814,13 +1814,13 @@
    "kickoff": "2026-10-27T00:15:00Z",
    "away": "DAL",
    "home": "PHI",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 38,
+   "home_score": 21,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": -4.5,
-   "total": 44.5,
+   "total": 43.5,
    "venue": "Lincoln Financial Field"
   },
   {
@@ -1853,8 +1853,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 6.5,
-   "total": 53.5,
+   "spread": null,
+   "total": null,
    "venue": "AT&T Stadium"
   },
   {
@@ -1905,7 +1905,7 @@
    "neutral": false,
    "div_game": true,
    "spread": 3.5,
-   "total": 38.5,
+   "total": 39.5,
    "venue": "Acrisure Stadium"
   },
   {
@@ -1938,8 +1938,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -1.5,
-   "total": 44.5,
+   "spread": 1.5,
+   "total": 45.5,
    "venue": "MetLife Stadium"
   },
   {
@@ -1990,7 +1990,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 6.5,
-   "total": 43.5,
+   "total": 44.5,
    "venue": "SoFi Stadium"
   },
   {
@@ -2023,7 +2023,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -7.0,
+   "spread": -7.5,
    "total": 44.5,
    "venue": "Hard Rock Stadium"
   },
@@ -2040,8 +2040,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 3.5,
-   "total": 40.5,
+   "spread": null,
+   "total": null,
    "venue": "Northwest Stadium"
   },
   {
