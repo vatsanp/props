@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-29T17:23:11Z",
+ "generated_at": "2026-10-30T03:48:03Z",
  "season": 2026,
  "current_week": 8,
  "games": [
@@ -1831,13 +1831,13 @@
    "kickoff": "2026-10-30T00:15:00Z",
    "away": "CAR",
    "home": "GB",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 19,
+   "home_score": 27,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 3.5,
-   "total": 46.5,
+   "total": 47.5,
    "venue": "Lambeau Field"
   },
   {
@@ -2142,8 +2142,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -2.5,
-   "total": 44.5,
+   "spread": null,
+   "total": null,
    "venue": "Bank of America Stadium"
   },
   {
@@ -2278,8 +2278,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
-   "total": 47.5,
+   "spread": null,
+   "total": null,
    "venue": "Gillette Stadium"
   },
   {
