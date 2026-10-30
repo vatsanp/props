@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-30T03:48:05Z",
+ "generated_at": "2026-10-30T10:39:12Z",
  "season": 2026,
  "current_week": 8,
  "season_type": "REG",
@@ -18,18 +18,18 @@
    "changed": false
   },
   "props.json": {
-   "hash": "0ee0504205d5",
-   "bytes": 118629,
-   "changed": false
+   "hash": "f02524398e97",
+   "bytes": 121525,
+   "changed": true
   },
   "records.json": {
    "hash": "fdf3c9a8dcf3",
    "bytes": 6504,
-   "changed": true
+   "changed": false
   },
   "schedule.json": {
-   "hash": "34d33b1ade85",
-   "bytes": 95632,
+   "hash": "642861e1d954",
+   "bytes": 95631,
    "changed": true
   },
   "stats.json": {
@@ -46,16 +46,16 @@
  "sources": {
   "nflverse_games": {
    "ok": true,
-   "fetched_at": "2026-10-30T03:48:03Z",
+   "fetched_at": "2026-10-30T10:39:10Z",
    "games": 7548,
    "season": 2026
   },
   "nflverse_players": {
    "ok": true,
-   "fetched_at": "2026-10-30T03:48:04Z",
-   "player_weeks": 7447,
+   "fetched_at": "2026-10-30T10:39:12Z",
+   "player_weeks": 7521,
    "prior_player_weeks": 19422,
-   "injuries": 2388
+   "injuries": 2417
   }
  }
 }
