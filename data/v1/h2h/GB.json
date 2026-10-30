@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-10-30T16:59:09Z",
  "team": "GB",
  "since": 1999,
  "opponents": {
@@ -1794,19 +1794,19 @@
    ]
   },
   "CAR": {
-   "games": 16,
-   "wins": 9,
+   "games": 17,
+   "wins": 10,
    "losses": 7,
    "ties": 0,
-   "streak": "CAR W1",
+   "streak": "GB W1",
    "splits": {
     "all": {
-     "w": 9,
+     "w": 10,
      "l": 7,
      "t": 0
     },
     "regular": {
-     "w": 9,
+     "w": 10,
      "l": 7,
      "t": 0
     },
@@ -1816,7 +1816,7 @@
      "t": 0
     },
     "home": {
-     "w": 5,
+     "w": 6,
      "l": 3,
      "t": 0
     },
@@ -1826,8 +1826,8 @@
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 4,
+     "l": 1,
      "t": 0
     },
     "last10": {
@@ -1838,6 +1838,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-10-29",
+     "season": 2026,
+     "week": 8,
+     "type": "REG",
+     "home": "GB",
+     "away": "CAR",
+     "home_score": 27,
+     "away_score": 19,
+     "winner": "GB",
+     "neutral": false
+    },
     {
      "date": "2025-11-02",
      "season": 2025,
@@ -1968,18 +1980,6 @@
      "home_score": 32,
      "away_score": 29,
      "winner": "CAR",
-     "neutral": false
-    },
-    {
-     "date": "2004-09-13",
-     "season": 2004,
-     "week": 1,
-     "type": "REG",
-     "home": "CAR",
-     "away": "GB",
-     "home_score": 14,
-     "away_score": 24,
-     "winner": "GB",
      "neutral": false
     }
    ]
