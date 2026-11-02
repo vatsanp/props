@@ -1,24 +1,24 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-11-02T20:43:33Z",
  "team": "CLE",
  "since": 1999,
  "opponents": {
   "PIT": {
-   "games": 57,
+   "games": 58,
    "wins": 14,
-   "losses": 42,
+   "losses": 43,
    "ties": 1,
-   "streak": "CLE W2",
+   "streak": "PIT W1",
    "splits": {
     "all": {
      "w": 14,
-     "l": 42,
+     "l": 43,
      "t": 1
     },
     "regular": {
      "w": 13,
-     "l": 41,
+     "l": 42,
      "t": 1
     },
     "postseason": {
@@ -33,12 +33,12 @@
     },
     "away": {
      "w": 3,
-     "l": 26,
+     "l": 27,
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
@@ -49,6 +49,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-01",
+     "season": 2026,
+     "week": 8,
+     "type": "REG",
+     "home": "PIT",
+     "away": "CLE",
+     "home_score": 27,
+     "away_score": 6,
+     "winner": "PIT",
+     "neutral": false
+    },
     {
      "date": "2026-10-01",
      "season": 2026,
@@ -179,18 +191,6 @@
      "home_score": 10,
      "away_score": 15,
      "winner": "PIT",
-     "neutral": false
-    },
-    {
-     "date": "2021-01-10",
-     "season": 2020,
-     "week": 18,
-     "type": "WC",
-     "home": "PIT",
-     "away": "CLE",
-     "home_score": 37,
-     "away_score": 48,
-     "winner": "CLE",
      "neutral": false
     }
    ]

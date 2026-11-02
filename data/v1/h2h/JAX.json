@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-11-02T20:43:33Z",
  "team": "JAX",
  "since": 1999,
  "opponents": {
@@ -2081,19 +2081,19 @@
    ]
   },
   "IND": {
-   "games": 49,
-   "wins": 22,
+   "games": 50,
+   "wins": 23,
    "losses": 27,
    "ties": 0,
-   "streak": "JAX W2",
+   "streak": "JAX W3",
    "splits": {
     "all": {
-     "w": 22,
+     "w": 23,
      "l": 27,
      "t": 0
     },
     "regular": {
-     "w": 22,
+     "w": 23,
      "l": 27,
      "t": 0
     },
@@ -2103,7 +2103,7 @@
      "t": 0
     },
     "home": {
-     "w": 14,
+     "w": 15,
      "l": 9,
      "t": 0
     },
@@ -2118,13 +2118,25 @@
      "t": 0
     },
     "last10": {
-     "w": 7,
-     "l": 3,
+     "w": 8,
+     "l": 2,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-01",
+     "season": 2026,
+     "week": 8,
+     "type": "REG",
+     "home": "JAX",
+     "away": "IND",
+     "home_score": 42,
+     "away_score": 7,
+     "winner": "JAX",
+     "neutral": false
+    },
     {
      "date": "2025-12-28",
      "season": 2025,
@@ -2255,18 +2267,6 @@
      "home_score": 28,
      "away_score": 14,
      "winner": "IND",
-     "neutral": false
-    },
-    {
-     "date": "2020-09-13",
-     "season": 2020,
-     "week": 1,
-     "type": "REG",
-     "home": "JAX",
-     "away": "IND",
-     "home_score": 27,
-     "away_score": 20,
-     "winner": "JAX",
      "neutral": false
     }
    ]

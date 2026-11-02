@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-11-02T20:43:33Z",
  "team": "DEN",
  "since": 1999,
  "opponents": {
@@ -184,19 +184,19 @@
    ]
   },
   "KC": {
-   "games": 55,
-   "wins": 24,
+   "games": 56,
+   "wins": 25,
    "losses": 31,
    "ties": 0,
-   "streak": "KC W1",
+   "streak": "DEN W1",
    "splits": {
     "all": {
-     "w": 24,
+     "w": 25,
      "l": 31,
      "t": 0
     },
     "regular": {
-     "w": 24,
+     "w": 25,
      "l": 31,
      "t": 0
     },
@@ -206,7 +206,7 @@
      "t": 0
     },
     "home": {
-     "w": 15,
+     "w": 16,
      "l": 12,
      "t": 0
     },
@@ -216,18 +216,30 @@
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 4,
+     "l": 1,
      "t": 0
     },
     "last10": {
-     "w": 4,
-     "l": 6,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-01",
+     "season": 2026,
+     "week": 8,
+     "type": "REG",
+     "home": "DEN",
+     "away": "KC",
+     "home_score": 28,
+     "away_score": 24,
+     "winner": "DEN",
+     "neutral": false
+    },
     {
      "date": "2026-09-14",
      "season": 2026,
@@ -357,18 +369,6 @@
      "away": "DEN",
      "home_score": 22,
      "away_score": 9,
-     "winner": "KC",
-     "neutral": false
-    },
-    {
-     "date": "2020-12-06",
-     "season": 2020,
-     "week": 13,
-     "type": "REG",
-     "home": "KC",
-     "away": "DEN",
-     "home_score": 22,
-     "away_score": 16,
      "winner": "KC",
      "neutral": false
     }

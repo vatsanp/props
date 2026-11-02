@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-11-02T20:43:33Z",
  "team": "TB",
  "since": 1999,
  "opponents": {
@@ -1628,19 +1628,19 @@
    ]
   },
   "ATL": {
-   "games": 50,
-   "wins": 25,
+   "games": 51,
+   "wins": 26,
    "losses": 25,
    "ties": 0,
-   "streak": "ATL W1",
+   "streak": "TB W1",
    "splits": {
     "all": {
-     "w": 25,
+     "w": 26,
      "l": 25,
      "t": 0
     },
     "regular": {
-     "w": 25,
+     "w": 26,
      "l": 25,
      "t": 0
     },
@@ -1650,7 +1650,7 @@
      "t": 0
     },
     "home": {
-     "w": 12,
+     "w": 13,
      "l": 13,
      "t": 0
     },
@@ -1672,6 +1672,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-01",
+     "season": 2026,
+     "week": 8,
+     "type": "REG",
+     "home": "TB",
+     "away": "ATL",
+     "home_score": 16,
+     "away_score": 0,
+     "winner": "TB",
+     "neutral": false
+    },
     {
      "date": "2025-12-11",
      "season": 2025,
@@ -1801,18 +1813,6 @@
      "away": "ATL",
      "home_score": 44,
      "away_score": 27,
-     "winner": "TB",
-     "neutral": false
-    },
-    {
-     "date": "2020-12-20",
-     "season": 2020,
-     "week": 15,
-     "type": "REG",
-     "home": "ATL",
-     "away": "TB",
-     "home_score": 27,
-     "away_score": 31,
      "winner": "TB",
      "neutral": false
     }

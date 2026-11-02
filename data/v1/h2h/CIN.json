@@ -1,23 +1,23 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-11-02T20:43:33Z",
  "team": "CIN",
  "since": 1999,
  "opponents": {
   "TEN": {
-   "games": 19,
-   "wins": 9,
+   "games": 20,
+   "wins": 10,
    "losses": 10,
    "ties": 0,
-   "streak": "CIN W1",
+   "streak": "CIN W2",
    "splits": {
     "all": {
-     "w": 9,
+     "w": 10,
      "l": 10,
      "t": 0
     },
     "regular": {
-     "w": 8,
+     "w": 9,
      "l": 10,
      "t": 0
     },
@@ -27,7 +27,7 @@
      "t": 0
     },
     "home": {
-     "w": 3,
+     "w": 4,
      "l": 5,
      "t": 0
     },
@@ -49,6 +49,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-01",
+     "season": 2026,
+     "week": 8,
+     "type": "REG",
+     "home": "CIN",
+     "away": "TEN",
+     "home_score": 43,
+     "away_score": 36,
+     "winner": "CIN",
+     "neutral": false
+    },
     {
      "date": "2024-12-15",
      "season": 2024,
@@ -179,18 +191,6 @@
      "home_score": 23,
      "away_score": 31,
      "winner": "CIN",
-     "neutral": false
-    },
-    {
-     "date": "2004-10-31",
-     "season": 2004,
-     "week": 8,
-     "type": "REG",
-     "home": "TEN",
-     "away": "CIN",
-     "home_score": 27,
-     "away_score": 20,
-     "winner": "TEN",
      "neutral": false
     }
    ]

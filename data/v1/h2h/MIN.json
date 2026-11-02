@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-11-02T20:43:33Z",
  "team": "MIN",
  "since": 1999,
  "opponents": {
@@ -924,20 +924,20 @@
    ]
   },
   "DET": {
-   "games": 54,
+   "games": 55,
    "wins": 36,
-   "losses": 18,
+   "losses": 19,
    "ties": 0,
-   "streak": "MIN W2",
+   "streak": "DET W1",
    "splits": {
     "all": {
      "w": 36,
-     "l": 18,
+     "l": 19,
      "t": 0
     },
     "regular": {
      "w": 36,
-     "l": 18,
+     "l": 19,
      "t": 0
     },
     "postseason": {
@@ -952,7 +952,7 @@
     },
     "away": {
      "w": 15,
-     "l": 12,
+     "l": 13,
      "t": 0
     },
     "last5": {
@@ -961,13 +961,25 @@
      "t": 0
     },
     "last10": {
-     "w": 4,
-     "l": 6,
+     "w": 3,
+     "l": 7,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-01",
+     "season": 2026,
+     "week": 8,
+     "type": "REG",
+     "home": "DET",
+     "away": "MIN",
+     "home_score": 19,
+     "away_score": 15,
+     "winner": "DET",
+     "neutral": false
+    },
     {
      "date": "2025-12-25",
      "season": 2025,
@@ -1097,18 +1109,6 @@
      "away": "MIN",
      "home_score": 35,
      "away_score": 37,
-     "winner": "MIN",
-     "neutral": false
-    },
-    {
-     "date": "2020-11-08",
-     "season": 2020,
-     "week": 9,
-     "type": "REG",
-     "home": "MIN",
-     "away": "DET",
-     "home_score": 34,
-     "away_score": 20,
      "winner": "MIN",
      "neutral": false
     }

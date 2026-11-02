@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T17:25:42Z",
+ "generated_at": "2026-11-02T20:43:33Z",
  "team": "BUF",
  "since": 1999,
  "opponents": {
@@ -1282,19 +1282,19 @@
    ]
   },
   "BAL": {
-   "games": 14,
-   "wins": 7,
+   "games": 15,
+   "wins": 8,
    "losses": 7,
    "ties": 0,
-   "streak": "BUF W2",
+   "streak": "BUF W3",
    "splits": {
     "all": {
-     "w": 7,
+     "w": 8,
      "l": 7,
      "t": 0
     },
     "regular": {
-     "w": 5,
+     "w": 6,
      "l": 7,
      "t": 0
     },
@@ -1304,7 +1304,7 @@
      "t": 0
     },
     "home": {
-     "w": 5,
+     "w": 6,
      "l": 1,
      "t": 0
     },
@@ -1319,13 +1319,25 @@
      "t": 0
     },
     "last10": {
-     "w": 5,
-     "l": 5,
+     "w": 6,
+     "l": 4,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-01",
+     "season": 2026,
+     "week": 8,
+     "type": "REG",
+     "home": "BUF",
+     "away": "BAL",
+     "home_score": 36,
+     "away_score": 10,
+     "winner": "BUF",
+     "neutral": false
+    },
     {
      "date": "2025-09-07",
      "season": 2025,
@@ -1456,18 +1468,6 @@
      "home_score": 19,
      "away_score": 14,
      "winner": "BUF",
-     "neutral": false
-    },
-    {
-     "date": "2006-12-31",
-     "season": 2006,
-     "week": 17,
-     "type": "REG",
-     "home": "BAL",
-     "away": "BUF",
-     "home_score": 19,
-     "away_score": 7,
-     "winner": "BAL",
      "neutral": false
     }
    ]

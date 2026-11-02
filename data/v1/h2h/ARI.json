@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-11-02T20:43:33Z",
  "team": "ARI",
  "since": 1999,
  "opponents": {
@@ -518,19 +518,19 @@
    ]
   },
   "DAL": {
-   "games": 19,
-   "wins": 12,
+   "games": 20,
+   "wins": 13,
    "losses": 7,
    "ties": 0,
-   "streak": "ARI W4",
+   "streak": "ARI W5",
    "splits": {
     "all": {
-     "w": 12,
+     "w": 13,
      "l": 7,
      "t": 0
     },
     "regular": {
-     "w": 12,
+     "w": 13,
      "l": 7,
      "t": 0
     },
@@ -545,23 +545,35 @@
      "t": 0
     },
     "away": {
-     "w": 4,
+     "w": 5,
      "l": 5,
      "t": 0
     },
     "last5": {
-     "w": 4,
-     "l": 1,
+     "w": 5,
+     "l": 0,
      "t": 0
     },
     "last10": {
-     "w": 8,
-     "l": 2,
+     "w": 9,
+     "l": 1,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-01",
+     "season": 2026,
+     "week": 8,
+     "type": "REG",
+     "home": "DAL",
+     "away": "ARI",
+     "home_score": 30,
+     "away_score": 33,
+     "winner": "ARI",
+     "neutral": false
+    },
     {
      "date": "2025-11-03",
      "season": 2025,
@@ -691,18 +703,6 @@
      "away": "ARI",
      "home_score": 34,
      "away_score": 13,
-     "winner": "DAL",
-     "neutral": false
-    },
-    {
-     "date": "2003-10-05",
-     "season": 2003,
-     "week": 5,
-     "type": "REG",
-     "home": "DAL",
-     "away": "ARI",
-     "home_score": 24,
-     "away_score": 7,
      "winner": "DAL",
      "neutral": false
     }
