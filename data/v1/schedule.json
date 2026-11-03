@@ -1,8 +1,8 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T20:43:33Z",
+ "generated_at": "2026-11-03T05:22:49Z",
  "season": 2026,
- "current_week": 8,
+ "current_week": 9,
  "games": [
   {
    "id": "2026_01_NE_SEA",
@@ -2052,12 +2052,12 @@
    "kickoff": "2026-11-03T01:15:00Z",
    "away": "CHI",
    "home": "SEA",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 34,
+   "home_score": 17,
+   "status": "final",
    "neutral": false,
    "div_game": false,
-   "spread": 3.5,
+   "spread": 3.0,
    "total": 46.5,
    "venue": "Lumen Field"
   },
@@ -2075,7 +2075,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -8.5,
-   "total": 43.5,
+   "total": 42.5,
    "venue": "M&T Bank Stadium"
   },
   {
@@ -2092,7 +2092,7 @@
    "neutral": true,
    "div_game": false,
    "spread": -3.0,
-   "total": 51.5,
+   "total": 52.5,
    "venue": "Bernabeu"
   },
   {
@@ -2194,7 +2194,7 @@
    "neutral": false,
    "div_game": true,
    "spread": -3.5,
-   "total": 39.5,
+   "total": 40.5,
    "venue": "Lincoln Financial Field"
   },
   {
@@ -2244,7 +2244,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 9.5,
+   "spread": 10.0,
    "total": 51.5,
    "venue": "Levi's Stadium"
   },
@@ -2279,7 +2279,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 3.0,
-   "total": 47.5,
+   "total": 46.5,
    "venue": "Gillette Stadium"
   },
   {
@@ -2295,8 +2295,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 5.5,
-   "total": 47.5,
+   "spread": 6.0,
+   "total": 46.5,
    "venue": "Soldier Field"
   },
   {
