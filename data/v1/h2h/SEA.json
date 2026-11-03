@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-11-03T18:22:11Z",
  "team": "SEA",
  "since": 1999,
  "opponents": {
@@ -196,20 +196,20 @@
    ]
   },
   "CHI": {
-   "games": 14,
+   "games": 15,
    "wins": 8,
-   "losses": 6,
+   "losses": 7,
    "ties": 0,
-   "streak": "SEA W1",
+   "streak": "CHI W1",
    "splits": {
     "all": {
      "w": 8,
-     "l": 6,
+     "l": 7,
      "t": 0
     },
     "regular": {
      "w": 8,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "postseason": {
@@ -219,7 +219,7 @@
     },
     "home": {
      "w": 3,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "away": {
@@ -228,18 +228,30 @@
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
-     "w": 6,
-     "l": 4,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-02",
+     "season": 2026,
+     "week": 8,
+     "type": "REG",
+     "home": "SEA",
+     "away": "CHI",
+     "home_score": 17,
+     "away_score": 34,
+     "winner": "CHI",
+     "neutral": false
+    },
     {
      "date": "2024-12-26",
      "season": 2024,
@@ -369,18 +381,6 @@
      "away": "SEA",
      "home_score": 27,
      "away_score": 24,
-     "winner": "CHI",
-     "neutral": false
-    },
-    {
-     "date": "2006-10-01",
-     "season": 2006,
-     "week": 4,
-     "type": "REG",
-     "home": "CHI",
-     "away": "SEA",
-     "home_score": 37,
-     "away_score": 6,
      "winner": "CHI",
      "neutral": false
     }
