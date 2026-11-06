@@ -2,7 +2,7 @@
  "schema_version": 1,
  "season": 2026,
  "prev_season": 2025,
- "generated_at": "2026-11-03T18:22:52Z",
+ "generated_at": "2026-11-06T17:54:12Z",
  "stats": [
   {
    "id": "passing_yards_per_game",
@@ -40,13 +40,13 @@
      "prev_rank": 18
     },
     "BAL": {
-     "rank": 21,
+     "rank": 23,
      "tied": false,
-     "pct": 0.3548,
-     "season": 205.125,
-     "last3": 164.0,
-     "last1": 68.0,
-     "home": 250.667,
+     "pct": 0.2903,
+     "season": 188.444,
+     "last3": 133.0,
+     "last1": 55.0,
+     "home": 201.75,
      "away": 177.8,
      "prev_season": 175.588,
      "prev_rank": 27
@@ -100,9 +100,9 @@
      "prev_rank": 6
     },
     "CLE": {
-     "rank": 22,
+     "rank": 21,
      "tied": false,
-     "pct": 0.3226,
+     "pct": 0.3548,
      "season": 204.25,
      "last3": 245.667,
      "last1": 285.0,
@@ -187,11 +187,11 @@
      "rank": 16,
      "tied": false,
      "pct": 0.5161,
-     "season": 227.429,
-     "last3": 265.0,
-     "last1": 183.0,
+     "season": 229.25,
+     "last3": 243.667,
+     "last1": 242.0,
      "home": 198.333,
-     "away": 249.25,
+     "away": 247.8,
      "prev_season": 221.333,
      "prev_rank": 12
     },
@@ -388,9 +388,9 @@
      "prev_rank": 30
     },
     "WAS": {
-     "rank": 23,
+     "rank": 22,
      "tied": false,
-     "pct": 0.2903,
+     "pct": 0.3226,
      "season": 200.571,
      "last3": 213.667,
      "last1": 204.0,
@@ -437,13 +437,13 @@
      "prev_rank": 11
     },
     "BAL": {
-     "rank": 21,
+     "rank": 22,
      "tied": false,
-     "pct": 0.3548,
-     "season": 228.25,
-     "last3": 236.0,
-     "last1": 280.0,
-     "home": 243.0,
+     "pct": 0.3226,
+     "season": 229.778,
+     "last3": 268.667,
+     "last1": 242.0,
+     "home": 242.75,
      "away": 219.4,
      "prev_season": 247.882,
      "prev_rank": 30
@@ -485,9 +485,9 @@
      "prev_rank": 25
     },
     "CIN": {
-     "rank": 26,
+     "rank": 27,
      "tied": false,
-     "pct": 0.1935,
+     "pct": 0.1613,
      "season": 237.714,
      "last3": 224.0,
      "last1": 282.0,
@@ -509,9 +509,9 @@
      "prev_rank": 3
     },
     "DAL": {
-     "rank": 22,
+     "rank": 23,
      "tied": false,
-     "pct": 0.3226,
+     "pct": 0.2903,
      "season": 232.625,
      "last3": 242.0,
      "last1": 265.0,
@@ -557,9 +557,9 @@
      "prev_rank": 14
     },
     "HOU": {
-     "rank": 28,
+     "rank": 29,
      "tied": false,
-     "pct": 0.129,
+     "pct": 0.0968,
      "season": 244.0,
      "last3": 222.667,
      "last1": 232.0,
@@ -581,14 +581,14 @@
      "prev_rank": 31
     },
     "JAX": {
-     "rank": 29,
+     "rank": 21,
      "tied": false,
-     "pct": 0.0968,
-     "season": 253.857,
-     "last3": 218.667,
-     "last1": 134.0,
+     "pct": 0.3548,
+     "season": 229.0,
+     "last3": 167.0,
+     "last1": 55.0,
      "home": 184.333,
-     "away": 306.0,
+     "away": 255.8,
      "prev_season": 220.444,
      "prev_rank": 20
     },
@@ -629,9 +629,9 @@
      "prev_rank": 22
     },
     "LV": {
-     "rank": 25,
+     "rank": 26,
      "tied": false,
-     "pct": 0.2258,
+     "pct": 0.1935,
      "season": 235.5,
      "last3": 234.0,
      "last1": 273.0,
@@ -677,9 +677,9 @@
      "prev_rank": 8
     },
     "NO": {
-     "rank": 23,
+     "rank": 24,
      "tied": false,
-     "pct": 0.2903,
+     "pct": 0.2581,
      "season": 233.286,
      "last3": 261.0,
      "last1": 195.0,
@@ -713,9 +713,9 @@
      "prev_rank": 17
     },
     "PHI": {
-     "rank": 24,
+     "rank": 25,
      "tied": false,
-     "pct": 0.2581,
+     "pct": 0.2258,
      "season": 235.375,
      "last3": 229.667,
      "last1": 204.0,
@@ -785,9 +785,9 @@
      "prev_rank": 23
     },
     "WAS": {
-     "rank": 27,
+     "rank": 28,
      "tied": false,
-     "pct": 0.1613,
+     "pct": 0.129,
      "season": 243.0,
      "last3": 243.667,
      "last1": 177.0,
@@ -834,13 +834,13 @@
      "prev_rank": 26
     },
     "BAL": {
-     "rank": 21,
-     "tied": true,
-     "pct": 0.3548,
-     "season": 1.25,
-     "last3": 0.666667,
+     "rank": 25,
+     "tied": false,
+     "pct": 0.2258,
+     "season": 1.11111,
+     "last3": 0.333333,
      "last1": 0.0,
-     "home": 1.33333,
+     "home": 1.0,
      "away": 1.2,
      "prev_season": 1.35294,
      "prev_rank": 21
@@ -918,9 +918,9 @@
      "prev_rank": 5
     },
     "DEN": {
-     "rank": 25,
+     "rank": 24,
      "tied": false,
-     "pct": 0.2258,
+     "pct": 0.2581,
      "season": 1.125,
      "last3": 1.0,
      "last1": 2.0,
@@ -978,14 +978,14 @@
      "prev_rank": 16
     },
     "JAX": {
-     "rank": 2,
+     "rank": 3,
      "tied": false,
-     "pct": 0.9677,
-     "season": 2.42857,
-     "last3": 3.0,
-     "last1": 3.0,
+     "pct": 0.9355,
+     "season": 2.25,
+     "last3": 2.66667,
+     "last1": 1.0,
      "home": 3.33333,
-     "away": 1.75,
+     "away": 1.6,
      "prev_season": 1.77778,
      "prev_rank": 6
     },
@@ -1026,9 +1026,9 @@
      "prev_rank": 1
     },
     "LV": {
-     "rank": 3,
+     "rank": 2,
      "tied": false,
-     "pct": 0.9355,
+     "pct": 0.9677,
      "season": 2.375,
      "last3": 2.33333,
      "last1": 3.0,
@@ -1050,9 +1050,9 @@
      "prev_rank": 21
     },
     "MIN": {
-     "rank": 24,
+     "rank": 23,
      "tied": false,
-     "pct": 0.2581,
+     "pct": 0.2903,
      "season": 1.14286,
      "last3": 1.33333,
      "last1": 2.0,
@@ -1219,9 +1219,9 @@
      "prev_rank": 26
     },
     "ATL": {
-     "rank": 11,
+     "rank": 12,
      "tied": true,
-     "pct": 0.6774,
+     "pct": 0.6452,
      "season": 1.375,
      "last3": 0.666667,
      "last1": 0.0,
@@ -1232,12 +1232,12 @@
     },
     "BAL": {
      "rank": 11,
-     "tied": true,
+     "tied": false,
      "pct": 0.6774,
-     "season": 1.375,
-     "last3": 2.0,
-     "last1": 2.0,
-     "home": 2.0,
+     "season": 1.33333,
+     "last3": 2.33333,
+     "last1": 1.0,
+     "home": 1.75,
      "away": 1.0,
      "prev_season": 1.35294,
      "prev_rank": 11
@@ -1279,9 +1279,9 @@
      "prev_rank": 28
     },
     "CIN": {
-     "rank": 5,
+     "rank": 6,
      "tied": true,
-     "pct": 0.871,
+     "pct": 0.8387,
      "season": 1.14286,
      "last3": 1.33333,
      "last1": 2.0,
@@ -1291,9 +1291,9 @@
      "prev_rank": 29
     },
     "CLE": {
-     "rank": 11,
+     "rank": 12,
      "tied": true,
-     "pct": 0.6774,
+     "pct": 0.6452,
      "season": 1.375,
      "last3": 0.333333,
      "last1": 0.0,
@@ -1315,9 +1315,9 @@
      "prev_rank": 31
     },
     "DEN": {
-     "rank": 11,
+     "rank": 12,
      "tied": true,
-     "pct": 0.6774,
+     "pct": 0.6452,
      "season": 1.375,
      "last3": 1.33333,
      "last1": 3.0,
@@ -1375,20 +1375,20 @@
      "prev_rank": 13
     },
     "JAX": {
-     "rank": 5,
+     "rank": 3,
      "tied": true,
-     "pct": 0.871,
-     "season": 1.14286,
-     "last3": 1.66667,
-     "last1": 1.0,
+     "pct": 0.9355,
+     "season": 1.0,
+     "last3": 1.33333,
+     "last1": 0.0,
      "home": 0.666667,
-     "away": 1.5,
+     "away": 1.2,
      "prev_season": 1.44444,
      "prev_rank": 14
     },
     "KC": {
      "rank": 3,
-     "tied": false,
+     "tied": true,
      "pct": 0.9355,
      "season": 1.0,
      "last3": 1.0,
@@ -1399,9 +1399,9 @@
      "prev_rank": 4
     },
     "LAC": {
-     "rank": 5,
+     "rank": 6,
      "tied": true,
-     "pct": 0.871,
+     "pct": 0.8387,
      "season": 1.14286,
      "last3": 0.666667,
      "last1": 1.0,
@@ -1459,9 +1459,9 @@
      "prev_rank": 1
     },
     "NE": {
-     "rank": 11,
+     "rank": 12,
      "tied": true,
-     "pct": 0.6774,
+     "pct": 0.6452,
      "season": 1.375,
      "last3": 1.66667,
      "last1": 2.0,
@@ -1531,9 +1531,9 @@
      "prev_rank": 23
     },
     "SEA": {
-     "rank": 4,
+     "rank": 5,
      "tied": false,
-     "pct": 0.9032,
+     "pct": 0.871,
      "season": 1.125,
      "last3": 0.333333,
      "last1": 1.0,
@@ -1567,9 +1567,9 @@
      "prev_rank": 24
     },
     "TEN": {
-     "rank": 11,
+     "rank": 12,
      "tied": true,
-     "pct": 0.6774,
+     "pct": 0.6452,
      "season": 1.375,
      "last3": 2.0,
      "last1": 5.0,
@@ -1616,9 +1616,9 @@
      "prev_rank": 31
     },
     "ATL": {
-     "rank": 4,
+     "rank": 5,
      "tied": false,
-     "pct": 0.9032,
+     "pct": 0.871,
      "season": 134.75,
      "last3": 81.3333,
      "last1": 99.0,
@@ -1628,13 +1628,13 @@
      "prev_rank": 7
     },
     "BAL": {
-     "rank": 6,
+     "rank": 4,
      "tied": false,
-     "pct": 0.8387,
-     "season": 133.5,
-     "last3": 82.0,
-     "last1": 76.0,
-     "home": 101.0,
+     "pct": 0.9032,
+     "season": 137.778,
+     "last3": 110.333,
+     "last1": 172.0,
+     "home": 118.75,
      "away": 153.0,
      "prev_season": 156.588,
      "prev_rank": 2
@@ -1772,21 +1772,21 @@
      "prev_rank": 17
     },
     "JAX": {
-     "rank": 13,
+     "rank": 14,
      "tied": false,
-     "pct": 0.6129,
-     "season": 122.857,
-     "last3": 130.333,
-     "last1": 183.0,
+     "pct": 0.5806,
+     "season": 117.125,
+     "last3": 122.0,
+     "last1": 77.0,
      "home": 148.667,
-     "away": 103.5,
+     "away": 98.2,
      "prev_season": 117.222,
      "prev_rank": 18
     },
     "KC": {
-     "rank": 5,
+     "rank": 6,
      "tied": false,
-     "pct": 0.871,
+     "pct": 0.8387,
      "season": 134.143,
      "last3": 96.6667,
      "last1": 90.0,
@@ -1916,9 +1916,9 @@
      "prev_rank": 16
     },
     "PIT": {
-     "rank": 14,
+     "rank": 13,
      "tied": false,
-     "pct": 0.5806,
+     "pct": 0.6129,
      "season": 117.875,
      "last3": 145.667,
      "last1": 200.0,
@@ -2028,10 +2028,10 @@
      "rank": 13,
      "tied": false,
      "pct": 0.6129,
-     "season": 102.75,
-     "last3": 104.0,
-     "last1": 146.0,
-     "home": 74.3333,
+     "season": 99.8889,
+     "last3": 98.6667,
+     "last1": 77.0,
+     "home": 75.0,
      "away": 119.8,
      "prev_season": 106.647,
      "prev_rank": 9
@@ -2061,9 +2061,9 @@
      "prev_rank": 21
     },
     "CHI": {
-     "rank": 4,
+     "rank": 3,
      "tied": false,
-     "pct": 0.9032,
+     "pct": 0.9355,
      "season": 86.75,
      "last3": 71.3333,
      "last1": 81.0,
@@ -2169,14 +2169,14 @@
      "prev_rank": 7
     },
     "JAX": {
-     "rank": 1,
+     "rank": 5,
      "tied": false,
-     "pct": 1.0,
-     "season": 77.4286,
-     "last3": 81.6667,
-     "last1": 109.0,
+     "pct": 0.871,
+     "season": 89.25,
+     "last3": 131.667,
+     "last1": 172.0,
      "home": 93.0,
-     "away": 65.75,
+     "away": 87.0,
      "prev_season": 85.2222,
      "prev_rank": 1
     },
@@ -2313,9 +2313,9 @@
      "prev_rank": 20
     },
     "PIT": {
-     "rank": 3,
+     "rank": 2,
      "tied": false,
-     "pct": 0.9355,
+     "pct": 0.9677,
      "season": 83.875,
      "last3": 51.3333,
      "last1": 34.0,
@@ -2337,9 +2337,9 @@
      "prev_rank": 3
     },
     "SF": {
-     "rank": 5,
+     "rank": 4,
      "tied": false,
-     "pct": 0.871,
+     "pct": 0.9032,
      "season": 89.0,
      "last3": 74.6667,
      "last1": 82.0,
@@ -2349,9 +2349,9 @@
      "prev_rank": 12
     },
     "TB": {
-     "rank": 2,
+     "rank": 1,
      "tied": false,
-     "pct": 0.9677,
+     "pct": 1.0,
      "season": 80.0,
      "last3": 92.0,
      "last1": 99.0,
@@ -2422,13 +2422,13 @@
      "prev_rank": 12
     },
     "BAL": {
-     "rank": 5,
-     "tied": true,
-     "pct": 0.871,
-     "season": 1.25,
-     "last3": 0.333333,
+     "rank": 8,
+     "tied": false,
+     "pct": 0.7742,
+     "season": 1.22222,
+     "last3": 0.666667,
      "last1": 1.0,
-     "home": 0.666667,
+     "home": 0.75,
      "away": 1.6,
      "prev_season": 1.35294,
      "prev_rank": 3
@@ -2542,9 +2542,9 @@
      "prev_rank": 12
     },
     "HOU": {
-     "rank": 17,
+     "rank": 18,
      "tied": true,
-     "pct": 0.4839,
+     "pct": 0.4516,
      "season": 0.857143,
      "last3": 0.666667,
      "last1": 0.0,
@@ -2566,14 +2566,14 @@
      "prev_rank": 2
     },
     "JAX": {
-     "rank": 17,
+     "rank": 10,
      "tied": true,
-     "pct": 0.4839,
-     "season": 0.857143,
-     "last3": 0.666667,
+     "pct": 0.7097,
+     "season": 1.0,
+     "last3": 1.33333,
      "last1": 2.0,
      "home": 1.33333,
-     "away": 0.5,
+     "away": 0.8,
      "prev_season": 1.22222,
      "prev_rank": 6
     },
@@ -2662,9 +2662,9 @@
      "prev_rank": 9
     },
     "NO": {
-     "rank": 17,
+     "rank": 18,
      "tied": true,
-     "pct": 0.4839,
+     "pct": 0.4516,
      "season": 0.857143,
      "last3": 0.666667,
      "last1": 0.0,
@@ -2674,9 +2674,9 @@
      "prev_rank": 28
     },
     "NYG": {
-     "rank": 17,
+     "rank": 18,
      "tied": true,
-     "pct": 0.4839,
+     "pct": 0.4516,
      "season": 0.857143,
      "last3": 1.66667,
      "last1": 4.0,
@@ -2698,9 +2698,9 @@
      "prev_rank": 24
     },
     "PHI": {
-     "rank": 16,
+     "rank": 17,
      "tied": false,
-     "pct": 0.5161,
+     "pct": 0.4839,
      "season": 0.875,
      "last3": 1.33333,
      "last1": 1.0,
@@ -2819,13 +2819,13 @@
      "prev_rank": 7
     },
     "BAL": {
-     "rank": 23,
-     "tied": true,
-     "pct": 0.2903,
-     "season": 1.25,
-     "last3": 1.33333,
+     "rank": 29,
+     "tied": false,
+     "pct": 0.0968,
+     "season": 1.33333,
+     "last3": 1.66667,
      "last1": 2.0,
-     "home": 1.0,
+     "home": 1.25,
      "away": 1.4,
      "prev_season": 1.05882,
      "prev_rank": 20
@@ -2939,9 +2939,9 @@
      "prev_rank": 13
     },
     "HOU": {
-     "rank": 29,
+     "rank": 28,
      "tied": false,
-     "pct": 0.0968,
+     "pct": 0.129,
      "season": 1.28571,
      "last3": 1.33333,
      "last1": 4.0,
@@ -2963,12 +2963,12 @@
      "prev_rank": 17
     },
     "JAX": {
-     "rank": 5,
-     "tied": true,
-     "pct": 0.871,
-     "season": 0.571429,
+     "rank": 6,
+     "tied": false,
+     "pct": 0.8387,
+     "season": 0.625,
      "last3": 0.666667,
-     "last1": 0.0,
+     "last1": 1.0,
      "home": 0.0,
      "away": 1.0,
      "prev_season": 0.833333,
@@ -3036,7 +3036,7 @@
     },
     "MIN": {
      "rank": 5,
-     "tied": true,
+     "tied": false,
      "pct": 0.871,
      "season": 0.571429,
      "last3": 1.0,
@@ -3192,9 +3192,9 @@
    "max_rank": 32,
    "teams": {
     "ARI": {
-     "rank": 21,
+     "rank": 20,
      "tied": false,
-     "pct": 0.3548,
+     "pct": 0.3871,
      "season": 21.875,
      "last3": 22.3333,
      "last1": 33.0,
@@ -3204,9 +3204,9 @@
      "prev_rank": 22
     },
     "ATL": {
-     "rank": 23,
+     "rank": 22,
      "tied": true,
-     "pct": 0.2903,
+     "pct": 0.3226,
      "season": 21.375,
      "last3": 17.3333,
      "last1": 0.0,
@@ -3216,13 +3216,13 @@
      "prev_rank": 23
     },
     "BAL": {
-     "rank": 19,
+     "rank": 25,
      "tied": false,
-     "pct": 0.4194,
-     "season": 22.375,
+     "pct": 0.2258,
+     "season": 21.0,
      "last3": 11.0,
      "last1": 10.0,
-     "home": 18.0,
+     "home": 16.0,
      "away": 25.0,
      "prev_season": 24.9412,
      "prev_rank": 10
@@ -3300,9 +3300,9 @@
      "prev_rank": 5
     },
     "DEN": {
-     "rank": 22,
+     "rank": 21,
      "tied": false,
-     "pct": 0.3226,
+     "pct": 0.3548,
      "season": 21.5,
      "last3": 25.0,
      "last1": 28.0,
@@ -3324,9 +3324,9 @@
      "prev_rank": 4
     },
     "GB": {
-     "rank": 23,
+     "rank": 22,
      "tied": true,
-     "pct": 0.2903,
+     "pct": 0.3226,
      "season": 21.375,
      "last3": 22.3333,
      "last1": 27.0,
@@ -3360,14 +3360,14 @@
      "prev_rank": 7
     },
     "JAX": {
-     "rank": 5,
+     "rank": 4,
      "tied": false,
-     "pct": 0.871,
-     "season": 28.0,
-     "last3": 30.6667,
-     "last1": 42.0,
+     "pct": 0.9032,
+     "season": 28.625,
+     "last3": 35.3333,
+     "last1": 33.0,
      "home": 37.0,
-     "away": 21.25,
+     "away": 23.6,
      "prev_season": 27.6667,
      "prev_rank": 6
     },
@@ -3480,9 +3480,9 @@
      "prev_rank": 16
     },
     "NYJ": {
-     "rank": 25,
+     "rank": 24,
      "tied": false,
-     "pct": 0.2258,
+     "pct": 0.2581,
      "season": 21.25,
      "last3": 25.6667,
      "last1": 33.0,
@@ -3528,9 +3528,9 @@
      "prev_rank": 2
     },
     "SF": {
-     "rank": 4,
+     "rank": 5,
      "tied": false,
-     "pct": 0.9032,
+     "pct": 0.871,
      "season": 28.1429,
      "last3": 25.0,
      "last1": 20.0,
@@ -3540,9 +3540,9 @@
      "prev_rank": 11
     },
     "TB": {
-     "rank": 20,
+     "rank": 19,
      "tied": false,
-     "pct": 0.3871,
+     "pct": 0.4194,
      "season": 22.25,
      "last3": 26.0,
      "last1": 16.0,
@@ -3613,21 +3613,21 @@
      "prev_rank": 19
     },
     "BAL": {
-     "rank": 22,
+     "rank": 26,
      "tied": false,
-     "pct": 0.3226,
-     "season": 25.375,
-     "last3": 28.0,
-     "last1": 36.0,
-     "home": 25.6667,
+     "pct": 0.1935,
+     "season": 26.2222,
+     "last3": 34.6667,
+     "last1": 33.0,
+     "home": 27.5,
      "away": 25.2,
      "prev_season": 23.4118,
      "prev_rank": 18
     },
     "BUF": {
-     "rank": 24,
+     "rank": 23,
      "tied": true,
-     "pct": 0.2581,
+     "pct": 0.2903,
      "season": 25.8571,
      "last3": 24.6667,
      "last1": 10.0,
@@ -3709,9 +3709,9 @@
      "prev_rank": 4
     },
     "DET": {
-     "rank": 23,
+     "rank": 22,
      "tied": false,
-     "pct": 0.2903,
+     "pct": 0.3226,
      "season": 25.7143,
      "last3": 17.6667,
      "last1": 15.0,
@@ -3760,11 +3760,11 @@
      "rank": 2,
      "tied": false,
      "pct": 0.9677,
-     "season": 15.8571,
-     "last3": 19.3333,
-     "last1": 7.0,
+     "season": 15.125,
+     "last3": 17.0,
+     "last1": 10.0,
      "home": 7.66667,
-     "away": 22.0,
+     "away": 19.6,
      "prev_season": 20.1667,
      "prev_rank": 9
     },
@@ -3817,9 +3817,9 @@
      "prev_rank": 25
     },
     "MIA": {
-     "rank": 24,
+     "rank": 23,
      "tied": true,
-     "pct": 0.2581,
+     "pct": 0.2903,
      "season": 25.8571,
      "last3": 26.6667,
      "last1": 24.0,
@@ -3961,9 +3961,9 @@
      "prev_rank": 28
     },
     "WAS": {
-     "rank": 26,
+     "rank": 25,
      "tied": false,
-     "pct": 0.1935,
+     "pct": 0.2258,
      "season": 26.0,
      "last3": 20.0,
      "last1": 10.0,
@@ -3998,9 +3998,9 @@
      "prev_rank": 17
     },
     "ATL": {
-     "rank": 11,
+     "rank": 12,
      "tied": true,
-     "pct": 0.6774,
+     "pct": 0.6452,
      "season": 4.75,
      "last3": 1.0,
      "last1": 0.0,
@@ -4010,13 +4010,13 @@
      "prev_rank": 13
     },
     "BAL": {
-     "rank": 1,
-     "tied": true,
-     "pct": 1.0,
-     "season": 7.75,
-     "last3": 8.0,
-     "last1": 7.0,
-     "home": 7.0,
+     "rank": 2,
+     "tied": false,
+     "pct": 0.9677,
+     "season": 7.22222,
+     "last3": 5.66667,
+     "last1": 3.0,
+     "home": 6.0,
      "away": 8.2,
      "prev_season": 4.11765,
      "prev_rank": 24
@@ -4047,7 +4047,7 @@
     },
     "CHI": {
      "rank": 1,
-     "tied": true,
+     "tied": false,
      "pct": 1.0,
      "season": 7.75,
      "last3": 10.3333,
@@ -4154,14 +4154,14 @@
      "prev_rank": 3
     },
     "JAX": {
-     "rank": 13,
+     "rank": 9,
      "tied": true,
-     "pct": 0.6129,
-     "season": 4.42857,
-     "last3": 4.66667,
-     "last1": 7.0,
+     "pct": 0.7419,
+     "season": 5.125,
+     "last3": 5.66667,
+     "last1": 10.0,
      "home": 7.0,
-     "away": 2.5,
+     "away": 4.0,
      "prev_season": 5.33333,
      "prev_rank": 8
     },
@@ -4214,9 +4214,9 @@
      "prev_rank": 30
     },
     "MIA": {
-     "rank": 13,
-     "tied": true,
-     "pct": 0.6129,
+     "rank": 14,
+     "tied": false,
+     "pct": 0.5806,
      "season": 4.42857,
      "last3": 8.0,
      "last1": 3.0,
@@ -4238,9 +4238,9 @@
      "prev_rank": 13
     },
     "NE": {
-     "rank": 11,
+     "rank": 12,
      "tied": true,
-     "pct": 0.6774,
+     "pct": 0.6452,
      "season": 4.75,
      "last3": 3.33333,
      "last1": 3.0,
@@ -4407,21 +4407,21 @@
      "prev_rank": 11
     },
     "BAL": {
-     "rank": 19,
-     "tied": true,
-     "pct": 0.4194,
-     "season": 5.0,
-     "last3": 3.33333,
+     "rank": 27,
+     "tied": false,
+     "pct": 0.1613,
+     "season": 5.55556,
+     "last3": 6.66667,
      "last1": 10.0,
-     "home": 2.33333,
+     "home": 4.25,
      "away": 6.6,
      "prev_season": 3.52941,
      "prev_rank": 3
     },
     "BUF": {
-     "rank": 26,
+     "rank": 25,
      "tied": false,
-     "pct": 0.1935,
+     "pct": 0.2258,
      "season": 5.42857,
      "last3": 4.66667,
      "last1": 7.0,
@@ -4539,9 +4539,9 @@
      "prev_rank": 5
     },
     "IND": {
-     "rank": 27,
+     "rank": 26,
      "tied": false,
-     "pct": 0.1613,
+     "pct": 0.1935,
      "season": 5.5,
      "last3": 2.33333,
      "last1": 7.0,
@@ -4554,11 +4554,11 @@
      "rank": 1,
      "tied": false,
      "pct": 1.0,
-     "season": 1.0,
-     "last3": 2.33333,
-     "last1": 0.0,
+     "season": 1.25,
+     "last3": 3.33333,
+     "last1": 3.0,
      "home": 0.0,
-     "away": 1.75,
+     "away": 2.0,
      "prev_season": 4.11111,
      "prev_rank": 13
     },
@@ -4599,9 +4599,9 @@
      "prev_rank": 12
     },
     "LV": {
-     "rank": 24,
+     "rank": 23,
      "tied": true,
-     "pct": 0.2581,
+     "pct": 0.2903,
      "season": 5.375,
      "last3": 5.33333,
      "last1": 6.0,
@@ -4671,9 +4671,9 @@
      "prev_rank": 19
     },
     "NYJ": {
-     "rank": 22,
+     "rank": 21,
      "tied": false,
-     "pct": 0.3226,
+     "pct": 0.3548,
      "season": 5.125,
      "last3": 9.33333,
      "last1": 7.0,
@@ -4683,9 +4683,9 @@
      "prev_rank": 30
     },
     "PHI": {
-     "rank": 24,
+     "rank": 23,
      "tied": true,
-     "pct": 0.2581,
+     "pct": 0.2903,
      "season": 5.375,
      "last3": 5.33333,
      "last1": 3.0,
@@ -4755,9 +4755,9 @@
      "prev_rank": 26
     },
     "WAS": {
-     "rank": 23,
+     "rank": 22,
      "tied": false,
-     "pct": 0.2903,
+     "pct": 0.3226,
      "season": 5.14286,
      "last3": 8.66667,
      "last1": 10.0,
@@ -4792,9 +4792,9 @@
      "prev_rank": 23
     },
     "ATL": {
-     "rank": 22,
+     "rank": 23,
      "tied": true,
-     "pct": 0.3226,
+     "pct": 0.2903,
      "season": 1.5,
      "last3": 1.0,
      "last1": 0.0,
@@ -4804,13 +4804,13 @@
      "prev_rank": 10
     },
     "BAL": {
-     "rank": 20,
-     "tied": true,
-     "pct": 0.3871,
-     "season": 1.625,
+     "rank": 22,
+     "tied": false,
+     "pct": 0.3226,
+     "season": 1.55556,
      "last3": 1.33333,
      "last1": 1.0,
-     "home": 1.33333,
+     "home": 1.25,
      "away": 1.8,
      "prev_season": 1.76471,
      "prev_rank": 12
@@ -4840,9 +4840,9 @@
      "prev_rank": 27
     },
     "CHI": {
-     "rank": 20,
-     "tied": true,
-     "pct": 0.3871,
+     "rank": 21,
+     "tied": false,
+     "pct": 0.3548,
      "season": 1.625,
      "last3": 2.0,
      "last1": 2.0,
@@ -4852,9 +4852,9 @@
      "prev_rank": 6
     },
     "CIN": {
-     "rank": 24,
-     "tied": true,
-     "pct": 0.2581,
+     "rank": 25,
+     "tied": false,
+     "pct": 0.2258,
      "season": 1.42857,
      "last3": 0.333333,
      "last1": 0.0,
@@ -4889,7 +4889,7 @@
     },
     "DEN": {
      "rank": 16,
-     "tied": false,
+     "tied": true,
      "pct": 0.5161,
      "season": 1.75,
      "last3": 2.0,
@@ -4900,9 +4900,9 @@
      "prev_rank": 16
     },
     "DET": {
-     "rank": 17,
+     "rank": 18,
      "tied": true,
-     "pct": 0.4839,
+     "pct": 0.4516,
      "season": 1.71429,
      "last3": 1.66667,
      "last1": 2.0,
@@ -4948,21 +4948,21 @@
      "prev_rank": 5
     },
     "JAX": {
-     "rank": 24,
+     "rank": 16,
      "tied": true,
-     "pct": 0.2581,
-     "season": 1.42857,
-     "last3": 1.0,
-     "last1": 0.0,
+     "pct": 0.5161,
+     "season": 1.75,
+     "last3": 1.66667,
+     "last1": 4.0,
      "home": 0.666667,
-     "away": 2.0,
+     "away": 2.4,
      "prev_season": 1.72222,
      "prev_rank": 14
     },
     "KC": {
-     "rank": 17,
+     "rank": 18,
      "tied": true,
-     "pct": 0.4839,
+     "pct": 0.4516,
      "season": 1.71429,
      "last3": 1.66667,
      "last1": 1.0,
@@ -4972,9 +4972,9 @@
      "prev_rank": 7
     },
     "LAC": {
-     "rank": 17,
+     "rank": 18,
      "tied": true,
-     "pct": 0.4839,
+     "pct": 0.4516,
      "season": 1.71429,
      "last3": 2.0,
      "last1": 3.0,
@@ -5140,9 +5140,9 @@
      "prev_rank": 10
     },
     "TEN": {
-     "rank": 22,
+     "rank": 23,
      "tied": true,
-     "pct": 0.3226,
+     "pct": 0.2903,
      "season": 1.5,
      "last3": 2.33333,
      "last1": 2.0,
@@ -5201,13 +5201,13 @@
      "prev_rank": 30
     },
     "BAL": {
-     "rank": 18,
-     "tied": true,
-     "pct": 0.4516,
-     "season": 2.25,
-     "last3": 2.0,
-     "last1": 3.0,
-     "home": 1.33333,
+     "rank": 25,
+     "tied": false,
+     "pct": 0.2258,
+     "season": 2.44444,
+     "last3": 2.33333,
+     "last1": 4.0,
+     "home": 2.0,
      "away": 2.8,
      "prev_season": 2.41176,
      "prev_rank": 28
@@ -5249,9 +5249,9 @@
      "prev_rank": 11
     },
     "CIN": {
-     "rank": 20,
+     "rank": 19,
      "tied": true,
-     "pct": 0.3871,
+     "pct": 0.4194,
      "season": 2.28571,
      "last3": 1.66667,
      "last1": 2.0,
@@ -5261,9 +5261,9 @@
      "prev_rank": 2
     },
     "CLE": {
-     "rank": 22,
+     "rank": 21,
      "tied": true,
-     "pct": 0.3226,
+     "pct": 0.3548,
      "season": 2.375,
      "last3": 2.0,
      "last1": 3.0,
@@ -5285,9 +5285,9 @@
      "prev_rank": 17
     },
     "DEN": {
-     "rank": 22,
+     "rank": 21,
      "tied": true,
-     "pct": 0.3226,
+     "pct": 0.3548,
      "season": 2.375,
      "last3": 2.66667,
      "last1": 2.0,
@@ -5297,9 +5297,9 @@
      "prev_rank": 27
     },
     "DET": {
-     "rank": 2,
+     "rank": 3,
      "tied": true,
-     "pct": 0.9677,
+     "pct": 0.9355,
      "season": 1.42857,
      "last3": 1.66667,
      "last1": 1.0,
@@ -5321,9 +5321,9 @@
      "prev_rank": 17
     },
     "HOU": {
-     "rank": 24,
+     "rank": 23,
      "tied": true,
-     "pct": 0.2581,
+     "pct": 0.2903,
      "season": 2.42857,
      "last3": 1.33333,
      "last1": 2.0,
@@ -5346,13 +5346,13 @@
     },
     "JAX": {
      "rank": 2,
-     "tied": true,
+     "tied": false,
      "pct": 0.9677,
-     "season": 1.42857,
+     "season": 1.375,
      "last3": 1.0,
-     "last1": 0.0,
+     "last1": 1.0,
      "home": 1.33333,
-     "away": 1.5,
+     "away": 1.4,
      "prev_season": 1.44444,
      "prev_rank": 1
     },
@@ -5369,9 +5369,9 @@
      "prev_rank": 12
     },
     "LAC": {
-     "rank": 24,
+     "rank": 23,
      "tied": true,
-     "pct": 0.2581,
+     "pct": 0.2903,
      "season": 2.42857,
      "last3": 3.0,
      "last1": 1.0,
@@ -5453,9 +5453,9 @@
      "prev_rank": 25
     },
     "NYG": {
-     "rank": 2,
+     "rank": 3,
      "tied": true,
-     "pct": 0.9677,
+     "pct": 0.9355,
      "season": 1.42857,
      "last3": 2.33333,
      "last1": 2.0,
@@ -5526,7 +5526,7 @@
     },
     "TB": {
      "rank": 18,
-     "tied": true,
+     "tied": false,
      "pct": 0.4516,
      "season": 2.25,
      "last3": 2.0,
@@ -5549,9 +5549,9 @@
      "prev_rank": 21
     },
     "WAS": {
-     "rank": 20,
+     "rank": 19,
      "tied": true,
-     "pct": 0.3871,
+     "pct": 0.4194,
      "season": 2.28571,
      "last3": 2.66667,
      "last1": 2.0,
@@ -5598,13 +5598,13 @@
      "prev_rank": 4
     },
     "BAL": {
-     "rank": 4,
-     "tied": true,
-     "pct": 0.9032,
-     "season": 0.375,
-     "last3": 0.666667,
-     "last1": 1.0,
-     "home": 0.666667,
+     "rank": 9,
+     "tied": false,
+     "pct": 0.7419,
+     "season": 0.555556,
+     "last3": 1.33333,
+     "last1": 2.0,
+     "home": 1.0,
      "away": 0.2,
      "prev_season": 0.647059,
      "prev_rank": 12
@@ -5742,21 +5742,21 @@
      "prev_rank": 26
     },
     "JAX": {
-     "rank": 9,
-     "tied": true,
-     "pct": 0.7419,
-     "season": 0.571429,
-     "last3": 0.666667,
+     "rank": 8,
+     "tied": false,
+     "pct": 0.7742,
+     "season": 0.5,
+     "last3": 0.333333,
      "last1": 0.0,
      "home": 0.333333,
-     "away": 0.75,
+     "away": 0.6,
      "prev_season": 0.777778,
      "prev_rank": 24
     },
     "KC": {
-     "rank": 9,
+     "rank": 10,
      "tied": true,
-     "pct": 0.7419,
+     "pct": 0.7097,
      "season": 0.571429,
      "last3": 0.666667,
      "last1": 0.0,
@@ -5814,9 +5814,9 @@
      "prev_rank": 29
     },
     "MIN": {
-     "rank": 8,
+     "rank": 7,
      "tied": false,
-     "pct": 0.7742,
+     "pct": 0.8065,
      "season": 0.428571,
      "last3": 0.333333,
      "last1": 1.0,
@@ -5910,9 +5910,9 @@
      "prev_rank": 22
     },
     "SF": {
-     "rank": 9,
+     "rank": 10,
      "tied": true,
-     "pct": 0.7419,
+     "pct": 0.7097,
      "season": 0.571429,
      "last3": 1.0,
      "last1": 2.0,
@@ -5998,10 +5998,10 @@
      "rank": 24,
      "tied": false,
      "pct": 0.2581,
-     "season": 0.5,
+     "season": 0.444444,
      "last3": 0.333333,
-     "last1": 1.0,
-     "home": 0.333333,
+     "last1": 0.0,
+     "home": 0.25,
      "away": 0.6,
      "prev_season": 0.647059,
      "prev_rank": 17
@@ -6142,11 +6142,11 @@
      "rank": 2,
      "tied": false,
      "pct": 0.9677,
-     "season": 1.28571,
-     "last3": 1.0,
+     "season": 1.375,
+     "last3": 1.66667,
      "last1": 2.0,
      "home": 1.66667,
-     "away": 1.0,
+     "away": 1.2,
      "prev_season": 1.22222,
      "prev_rank": 1
     },
@@ -6392,13 +6392,13 @@
      "prev_rank": 2
     },
     "BAL": {
-     "rank": 22,
+     "rank": 24,
      "tied": false,
-     "pct": 0.3226,
-     "season": 2.125,
-     "last3": 2.33333,
-     "last1": 1.0,
-     "home": 1.66667,
+     "pct": 0.2581,
+     "season": 1.88889,
+     "last3": 0.666667,
+     "last1": 0.0,
+     "home": 1.25,
      "away": 2.4,
      "prev_season": 1.76471,
      "prev_rank": 28
@@ -6524,9 +6524,9 @@
      "prev_rank": 4
     },
     "IND": {
-     "rank": 23,
+     "rank": 21,
      "tied": true,
-     "pct": 0.2903,
+     "pct": 0.3548,
      "season": 2.0,
      "last3": 2.0,
      "last1": 3.0,
@@ -6536,14 +6536,14 @@
      "prev_rank": 15
     },
     "JAX": {
-     "rank": 19,
+     "rank": 21,
      "tied": true,
-     "pct": 0.4194,
-     "season": 2.14286,
+     "pct": 0.3548,
+     "season": 2.0,
      "last3": 1.66667,
-     "last1": 4.0,
+     "last1": 1.0,
      "home": 4.0,
-     "away": 0.75,
+     "away": 0.8,
      "prev_season": 1.83333,
      "prev_rank": 27
     },
@@ -6716,9 +6716,9 @@
      "prev_rank": 32
     },
     "TB": {
-     "rank": 23,
+     "rank": 21,
      "tied": true,
-     "pct": 0.2903,
+     "pct": 0.3548,
      "season": 2.0,
      "last3": 3.33333,
      "last1": 0.0,
@@ -6792,18 +6792,18 @@
      "rank": 21,
      "tied": false,
      "pct": 0.3548,
-     "season": 2.75,
-     "last3": 3.66667,
-     "last1": 4.0,
-     "home": 3.0,
+     "season": 2.55556,
+     "last3": 3.0,
+     "last1": 1.0,
+     "home": 2.5,
      "away": 2.6,
      "prev_season": 2.64706,
      "prev_rank": 21
     },
     "BUF": {
-     "rank": 9,
+     "rank": 10,
      "tied": true,
-     "pct": 0.7419,
+     "pct": 0.7097,
      "season": 1.85714,
      "last3": 1.33333,
      "last1": 1.0,
@@ -6837,9 +6837,9 @@
      "prev_rank": 1
     },
     "CIN": {
-     "rank": 9,
+     "rank": 10,
      "tied": true,
-     "pct": 0.7419,
+     "pct": 0.7097,
      "season": 1.85714,
      "last3": 1.33333,
      "last1": 3.0,
@@ -6897,9 +6897,9 @@
      "prev_rank": 18
     },
     "GB": {
-     "rank": 8,
+     "rank": 9,
      "tied": false,
-     "pct": 0.7742,
+     "pct": 0.7419,
      "season": 1.75,
      "last3": 1.33333,
      "last1": 0.0,
@@ -6933,14 +6933,14 @@
      "prev_rank": 8
     },
     "JAX": {
-     "rank": 9,
+     "rank": 7,
      "tied": true,
-     "pct": 0.7419,
-     "season": 1.85714,
-     "last3": 1.66667,
-     "last1": 3.0,
+     "pct": 0.8065,
+     "season": 1.625,
+     "last3": 1.0,
+     "last1": 0.0,
      "home": 1.66667,
-     "away": 2.0,
+     "away": 1.6,
      "prev_season": 2.33333,
      "prev_rank": 20
     },
@@ -7126,7 +7126,7 @@
     },
     "TEN": {
      "rank": 7,
-     "tied": false,
+     "tied": true,
      "pct": 0.8065,
      "season": 1.625,
      "last3": 1.0,
@@ -7174,9 +7174,9 @@
      "prev_rank": 7
     },
     "ATL": {
-     "rank": 9,
+     "rank": 8,
      "tied": true,
-     "pct": 0.7419,
+     "pct": 0.7742,
      "season": 0.125,
      "last3": 0.0,
      "last1": 0.0,
@@ -7258,9 +7258,9 @@
      "prev_rank": 2
     },
     "DAL": {
-     "rank": 9,
+     "rank": 8,
      "tied": true,
-     "pct": 0.7419,
+     "pct": 0.7742,
      "season": 0.125,
      "last3": 0.333333,
      "last1": 1.0,
@@ -7270,9 +7270,9 @@
      "prev_rank": 16
     },
     "DEN": {
-     "rank": 9,
+     "rank": 8,
      "tied": true,
-     "pct": 0.7419,
+     "pct": 0.7742,
      "season": 0.125,
      "last3": 0.0,
      "last1": 0.0,
@@ -7330,12 +7330,12 @@
      "prev_rank": 16
     },
     "JAX": {
-     "rank": 2,
+     "rank": 8,
      "tied": true,
-     "pct": 0.9677,
-     "season": 0.142857,
+     "pct": 0.7742,
+     "season": 0.125,
      "last3": 0.333333,
-     "last1": 1.0,
+     "last1": 0.0,
      "home": 0.333333,
      "away": 0.0,
      "prev_season": 0.111111,
@@ -7414,9 +7414,9 @@
      "prev_rank": 7
     },
     "NE": {
-     "rank": 9,
+     "rank": 8,
      "tied": true,
-     "pct": 0.7419,
+     "pct": 0.7742,
      "season": 0.125,
      "last3": 0.0,
      "last1": 0.0,
@@ -7474,9 +7474,9 @@
      "prev_rank": 21
     },
     "PIT": {
-     "rank": 9,
+     "rank": 8,
      "tied": true,
-     "pct": 0.7419,
+     "pct": 0.7742,
      "season": 0.125,
      "last3": 0.0,
      "last1": 0.0,
@@ -7584,9 +7584,9 @@
     },
     "BAL": {
      "rank": 22,
-     "tied": true,
+     "tied": false,
      "pct": 0.3226,
-     "season": 0.125,
+     "season": 0.111111,
      "last3": 0.0,
      "last1": 0.0,
      "home": 0.0,
@@ -7715,9 +7715,9 @@
      "prev_rank": 8
     },
     "IND": {
-     "rank": 22,
+     "rank": 23,
      "tied": true,
-     "pct": 0.3226,
+     "pct": 0.2903,
      "season": 0.125,
      "last3": 0.333333,
      "last1": 1.0,
@@ -7763,9 +7763,9 @@
      "prev_rank": 24
     },
     "LAR": {
-     "rank": 22,
+     "rank": 23,
      "tied": true,
-     "pct": 0.3226,
+     "pct": 0.2903,
      "season": 0.125,
      "last3": 0.0,
      "last1": 0.0,
@@ -7871,9 +7871,9 @@
      "prev_rank": 1
     },
     "PIT": {
-     "rank": 22,
+     "rank": 23,
      "tied": true,
-     "pct": 0.3226,
+     "pct": 0.2903,
      "season": 0.125,
      "last3": 0.0,
      "last1": 0.0,
@@ -7907,9 +7907,9 @@
      "prev_rank": 8
     },
     "TB": {
-     "rank": 22,
+     "rank": 23,
      "tied": true,
-     "pct": 0.3226,
+     "pct": 0.2903,
      "season": 0.125,
      "last3": 0.0,
      "last1": 0.0,

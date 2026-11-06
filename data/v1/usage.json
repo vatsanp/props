@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-05T18:40:39Z",
+ "generated_at": "2026-11-06T17:54:13Z",
  "season": 2026,
  "week": 9,
  "teams": {
@@ -823,16 +823,16 @@
      "name": "Zay Flowers",
      "team": "BAL",
      "position": "WR",
-     "games": 7,
+     "games": 8,
      "shares": {
-      "targets": 0.4715
+      "targets": 0.4848
      },
      "per_game": {
-      "receiving_tds": 0.43,
-      "receiving_yards": 86.86,
-      "receptions": 5.71,
+      "receiving_tds": 0.38,
+      "receiving_yards": 76.75,
+      "receptions": 5.38,
       "rushing_tds": 0.0,
-      "targets": 8.29
+      "targets": 8.0
      },
      "status": "active",
      "depth": {
@@ -847,16 +847,16 @@
      "name": "Rashod Bateman",
      "team": "BAL",
      "position": "WR",
-     "games": 8,
+     "games": 9,
      "shares": {
-      "targets": 0.2358
+      "targets": 0.2348
      },
      "per_game": {
-      "receiving_tds": 0.12,
-      "receiving_yards": 36.0,
-      "receptions": 2.38,
+      "receiving_tds": 0.11,
+      "receiving_yards": 32.67,
+      "receptions": 2.22,
       "rushing_tds": 0.0,
-      "targets": 3.62
+      "targets": 3.44
      },
      "status": "active",
      "depth": {
@@ -871,16 +871,16 @@
      "name": "Ja'Kobi Lane",
      "team": "BAL",
      "position": "WR",
-     "games": 4,
+     "games": 5,
      "shares": {
-      "targets": 0.1138
+      "targets": 0.1061
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 22.25,
-      "receptions": 2.25,
+      "receiving_yards": 17.8,
+      "receptions": 1.8,
       "rushing_tds": 0.0,
-      "targets": 3.5
+      "targets": 2.8
      },
      "status": "Questionable",
      "depth": {
@@ -897,7 +897,7 @@
      "position": "WR",
      "games": 5,
      "shares": {
-      "targets": 0.0732
+      "targets": 0.0682
      },
      "per_game": {
       "receiving_tds": 0.2,
@@ -921,7 +921,7 @@
      "position": "WR",
      "games": 3,
      "shares": {
-      "targets": 0.0488
+      "targets": 0.0455
      },
      "per_game": {
       "receiving_tds": 0.33,
@@ -932,7 +932,7 @@
      },
      "status": "active",
      "depth": {
-      "targets": 5
+      "targets": 6
      },
      "roles": {
       "targets": "committee"
@@ -943,20 +943,20 @@
      "name": "LaJohntay Wester",
      "team": "BAL",
      "position": "WR",
-     "games": 8,
+     "games": 9,
      "shares": {
-      "targets": 0.0407
+      "targets": 0.0455
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 5.5,
-      "receptions": 0.5,
+      "receiving_yards": 6.44,
+      "receptions": 0.56,
       "rushing_tds": 0.0,
-      "targets": 0.62
+      "targets": 0.67
      },
      "status": "active",
      "depth": {
-      "targets": 6
+      "targets": 5
      },
      "roles": {
       "targets": "committee"
@@ -969,7 +969,7 @@
      "position": "WR",
      "games": 1,
      "shares": {
-      "targets": 0.0163
+      "targets": 0.0152
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -993,19 +993,19 @@
      "name": "Derrick Henry",
      "team": "BAL",
      "position": "RB",
-     "games": 8,
+     "games": 9,
      "shares": {
-      "carries": 0.8404,
-      "targets": 0.359
+      "carries": 0.8178,
+      "targets": 0.3333
      },
      "per_game": {
-      "carries": 19.75,
-      "receiving_tds": 0.12,
-      "receiving_yards": 9.38,
-      "receptions": 1.5,
-      "rushing_tds": 1.0,
-      "rushing_yards": 79.0,
-      "targets": 1.75
+      "carries": 19.44,
+      "receiving_tds": 0.11,
+      "receiving_yards": 8.33,
+      "receptions": 1.33,
+      "rushing_tds": 0.89,
+      "rushing_yards": 76.56,
+      "targets": 1.56
      },
      "status": "active",
      "depth": {
@@ -1022,19 +1022,19 @@
      "name": "Justice Hill",
      "team": "BAL",
      "position": "RB",
-     "games": 8,
+     "games": 9,
      "shares": {
-      "carries": 0.1277,
-      "targets": 0.641
+      "carries": 0.1542,
+      "targets": 0.6667
      },
      "per_game": {
-      "carries": 3.0,
+      "carries": 3.67,
       "receiving_tds": 0.0,
-      "receiving_yards": 13.0,
-      "receptions": 2.12,
-      "rushing_tds": 0.0,
-      "rushing_yards": 19.38,
-      "targets": 3.12
+      "receiving_yards": 12.33,
+      "receptions": 2.22,
+      "rushing_tds": 0.11,
+      "rushing_yards": 26.67,
+      "targets": 3.11
      },
      "status": "active",
      "depth": {
@@ -1042,7 +1042,7 @@
       "targets": 1
      },
      "roles": {
-      "carries": "committee",
+      "carries": "secondary",
       "targets": "primary"
      }
     },
@@ -1051,18 +1051,18 @@
      "name": "Rasheen Ali",
      "team": "BAL",
      "position": "RB",
-     "games": 7,
+     "games": 8,
      "shares": {
-      "carries": 0.0319,
+      "carries": 0.028,
       "targets": 0.0
      },
      "per_game": {
-      "carries": 0.86,
+      "carries": 0.75,
       "receiving_tds": 0.0,
       "receiving_yards": 0.0,
       "receptions": 0.0,
       "rushing_tds": 0.0,
-      "rushing_yards": 3.43,
+      "rushing_yards": 3.0,
       "targets": 0.0
      },
      "status": "active",
@@ -1082,16 +1082,16 @@
      "name": "Mark Andrews",
      "team": "BAL",
      "position": "TE",
-     "games": 8,
+     "games": 9,
      "shares": {
-      "targets": 0.6613
+      "targets": 0.6515
      },
      "per_game": {
-      "receiving_tds": 0.12,
-      "receiving_yards": 27.25,
-      "receptions": 3.62,
+      "receiving_tds": 0.11,
+      "receiving_yards": 26.33,
+      "receptions": 3.44,
       "rushing_tds": 0.0,
-      "targets": 5.12
+      "targets": 4.78
      },
      "status": "active",
      "depth": {
@@ -1106,16 +1106,16 @@
      "name": "Josh Cuevas",
      "team": "BAL",
      "position": "TE",
-     "games": 6,
+     "games": 7,
      "shares": {
-      "targets": 0.2097
+      "targets": 0.197
      },
      "per_game": {
-      "receiving_tds": 0.17,
-      "receiving_yards": 22.33,
-      "receptions": 1.67,
+      "receiving_tds": 0.14,
+      "receiving_yards": 19.14,
+      "receptions": 1.43,
       "rushing_tds": 0.0,
-      "targets": 2.17
+      "targets": 1.86
      },
      "status": "active",
      "depth": {
@@ -1130,16 +1130,16 @@
      "name": "Matthew Hibner",
      "team": "BAL",
      "position": "TE",
-     "games": 5,
+     "games": 6,
      "shares": {
-      "targets": 0.0968
+      "targets": 0.1212
      },
      "per_game": {
-      "receiving_tds": 0.2,
-      "receiving_yards": 14.0,
+      "receiving_tds": 0.17,
+      "receiving_yards": 12.5,
       "receptions": 1.0,
       "rushing_tds": 0.0,
-      "targets": 1.2
+      "targets": 1.33
      },
      "status": "active",
      "depth": {
@@ -1156,7 +1156,7 @@
      "position": "TE",
      "games": 3,
      "shares": {
-      "targets": 0.0323
+      "targets": 0.0303
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -1182,7 +1182,7 @@
      "position": "QB",
      "games": 5,
      "shares": {
-      "attempts": 0.4825
+      "attempts": 0.4472
      },
      "per_game": {
       "attempts": 22.0,
@@ -1205,7 +1205,7 @@
      "position": "QB",
      "games": 5,
      "shares": {
-      "attempts": 0.4254
+      "attempts": 0.3943
      },
      "per_game": {
       "attempts": 19.4,
@@ -1226,15 +1226,15 @@
      "name": "Joe Fagnano",
      "team": "BAL",
      "position": "QB",
-     "games": 1,
+     "games": 2,
      "shares": {
-      "attempts": 0.0921
+      "attempts": 0.1585
      },
      "per_game": {
-      "attempts": 21.0,
+      "attempts": 19.5,
       "passing_tds": 0.0,
-      "passing_yards": 91.0,
-      "rushing_yards": 3.0
+      "passing_yards": 75.5,
+      "rushing_yards": 8.0
      },
      "status": "active",
      "depth": {
@@ -1288,7 +1288,7 @@
       "rushing_tds": 0.0,
       "targets": 5.4
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 3
      },
@@ -1336,7 +1336,7 @@
       "rushing_tds": 0.0,
       "targets": 2.4
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 4
      },
@@ -1482,7 +1482,7 @@
       "rushing_tds": 0.0,
       "targets": 5.0
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 1
      },
@@ -2367,7 +2367,7 @@
       "rushing_yards": 81.0,
       "targets": 1.25
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "carries": 2,
       "targets": 3
@@ -5967,19 +5967,19 @@
      "name": "Bhayshul Tuten",
      "team": "JAX",
      "position": "RB",
-     "games": 7,
+     "games": 8,
      "shares": {
-      "carries": 0.6395,
-      "targets": 0.5714
+      "carries": 0.607,
+      "targets": 0.5
      },
      "per_game": {
-      "carries": 15.71,
-      "receiving_tds": 0.43,
-      "receiving_yards": 25.86,
-      "receptions": 2.14,
-      "rushing_tds": 0.43,
-      "rushing_yards": 70.29,
-      "targets": 2.29
+      "carries": 15.25,
+      "receiving_tds": 0.38,
+      "receiving_yards": 22.62,
+      "receptions": 1.88,
+      "rushing_tds": 0.5,
+      "rushing_yards": 65.12,
+      "targets": 2.0
      },
      "status": "Questionable",
      "depth": {
@@ -5996,24 +5996,24 @@
      "name": "Chris Rodriguez Jr.",
      "team": "JAX",
      "position": "RB",
-     "games": 7,
+     "games": 8,
      "shares": {
-      "carries": 0.2616,
-      "targets": 0.1071
+      "carries": 0.2736,
+      "targets": 0.1562
      },
      "per_game": {
-      "carries": 6.43,
+      "carries": 6.88,
       "receiving_tds": 0.0,
-      "receiving_yards": 3.29,
-      "receptions": 0.29,
-      "rushing_tds": 0.43,
-      "rushing_yards": 29.86,
-      "targets": 0.43
+      "receiving_yards": 4.5,
+      "receptions": 0.5,
+      "rushing_tds": 0.5,
+      "rushing_yards": 28.5,
+      "targets": 0.62
      },
      "status": "active",
      "depth": {
       "carries": 2,
-      "targets": 4
+      "targets": 3
      },
      "roles": {
       "carries": "secondary",
@@ -6025,19 +6025,19 @@
      "name": "LeQuint Allen Jr.",
      "team": "JAX",
      "position": "RB",
-     "games": 6,
+     "games": 7,
      "shares": {
-      "carries": 0.0058,
-      "targets": 0.2143
+      "carries": 0.005,
+      "targets": 0.25
      },
      "per_game": {
-      "carries": 0.17,
+      "carries": 0.14,
       "receiving_tds": 0.0,
-      "receiving_yards": 1.5,
-      "receptions": 0.33,
+      "receiving_yards": 1.29,
+      "receptions": 0.29,
       "rushing_tds": 0.0,
-      "rushing_yards": 0.17,
-      "targets": 1.0
+      "rushing_yards": 0.14,
+      "targets": 1.14
      },
      "status": "active",
      "depth": {
@@ -6054,24 +6054,24 @@
      "name": "Ameer Abdullah",
      "team": "JAX",
      "position": "RB",
-     "games": 7,
+     "games": 8,
      "shares": {
-      "carries": 0.093,
-      "targets": 0.1071
+      "carries": 0.1144,
+      "targets": 0.0938
      },
      "per_game": {
-      "carries": 2.29,
+      "carries": 2.88,
       "receiving_tds": 0.0,
-      "receiving_yards": 0.29,
-      "receptions": 0.29,
+      "receiving_yards": 0.25,
+      "receptions": 0.25,
       "rushing_tds": 0.0,
-      "rushing_yards": 8.29,
-      "targets": 0.43
+      "rushing_yards": 11.0,
+      "targets": 0.38
      },
      "status": "active",
      "depth": {
       "carries": 3,
-      "targets": 3
+      "targets": 4
      },
      "roles": {
       "carries": "committee",
@@ -6085,15 +6085,15 @@
      "name": "Trevor Lawrence",
      "team": "JAX",
      "position": "QB",
-     "games": 7,
+     "games": 8,
      "shares": {
-      "attempts": 0.9851
+      "attempts": 0.9868
      },
      "per_game": {
-      "attempts": 28.29,
-      "passing_tds": 2.43,
-      "passing_yards": 241.43,
-      "rushing_yards": 11.43
+      "attempts": 28.0,
+      "passing_tds": 2.25,
+      "passing_yards": 241.5,
+      "rushing_yards": 9.88
      },
      "status": "active",
      "depth": {
@@ -6110,7 +6110,7 @@
      "position": "QB",
      "games": 1,
      "shares": {
-      "attempts": 0.0149
+      "attempts": 0.0132
      },
      "per_game": {
       "attempts": 3.0,
@@ -6156,16 +6156,16 @@
      "name": "Parker Washington",
      "team": "JAX",
      "position": "WR",
-     "games": 7,
+     "games": 8,
      "shares": {
-      "targets": 0.4248
+      "targets": 0.4331
      },
      "per_game": {
-      "receiving_tds": 0.57,
-      "receiving_yards": 61.71,
-      "receptions": 3.86,
+      "receiving_tds": 0.62,
+      "receiving_yards": 61.62,
+      "receptions": 3.62,
       "rushing_tds": 0.0,
-      "targets": 6.86
+      "targets": 6.88
      },
      "status": "active",
      "depth": {
@@ -6180,16 +6180,16 @@
      "name": "Jakobi Meyers",
      "team": "JAX",
      "position": "WR",
-     "games": 7,
+     "games": 8,
      "shares": {
-      "targets": 0.2743
+      "targets": 0.2913
      },
      "per_game": {
-      "receiving_tds": 0.29,
-      "receiving_yards": 44.14,
-      "receptions": 3.14,
+      "receiving_tds": 0.25,
+      "receiving_yards": 46.75,
+      "receptions": 3.25,
       "rushing_tds": 0.0,
-      "targets": 4.43
+      "targets": 4.62
      },
      "status": "active",
      "depth": {
@@ -6206,7 +6206,7 @@
      "position": "WR",
      "games": 7,
      "shares": {
-      "targets": 0.1858
+      "targets": 0.1654
      },
      "per_game": {
       "receiving_tds": 0.29,
@@ -6228,16 +6228,16 @@
      "name": "Josh Cameron",
      "team": "JAX",
      "position": "WR",
-     "games": 7,
+     "games": 8,
      "shares": {
-      "targets": 0.115
+      "targets": 0.1102
      },
      "per_game": {
-      "receiving_tds": 0.29,
-      "receiving_yards": 16.71,
-      "receptions": 1.14,
+      "receiving_tds": 0.25,
+      "receiving_yards": 15.38,
+      "receptions": 1.12,
       "rushing_tds": 0.0,
-      "targets": 1.86
+      "targets": 1.75
      },
      "status": "active",
      "depth": {
@@ -6254,16 +6254,16 @@
      "name": "Brenton Strange",
      "team": "JAX",
      "position": "TE",
-     "games": 7,
+     "games": 8,
      "shares": {
-      "targets": 0.7447
+      "targets": 0.6852
      },
      "per_game": {
-      "receiving_tds": 0.14,
-      "receiving_yards": 47.71,
-      "receptions": 4.0,
+      "receiving_tds": 0.12,
+      "receiving_yards": 44.5,
+      "receptions": 3.75,
       "rushing_tds": 0.0,
-      "targets": 5.0
+      "targets": 4.62
      },
      "status": "active",
      "depth": {
@@ -6278,16 +6278,16 @@
      "name": "Nate Boerkircher",
      "team": "JAX",
      "position": "TE",
-     "games": 6,
+     "games": 7,
      "shares": {
-      "targets": 0.1915
+      "targets": 0.2222
      },
      "per_game": {
-      "receiving_tds": 0.33,
-      "receiving_yards": 13.83,
-      "receptions": 1.17,
+      "receiving_tds": 0.29,
+      "receiving_yards": 20.57,
+      "receptions": 1.29,
       "rushing_tds": 0.0,
-      "targets": 1.5
+      "targets": 1.71
      },
      "status": "active",
      "depth": {
@@ -6298,20 +6298,20 @@
      }
     },
     {
-     "id": "00-0036590",
-     "name": "Quintin Morris",
+     "id": "00-0041084",
+     "name": "Tanner Koziol",
      "team": "JAX",
      "position": "TE",
-     "games": 5,
+     "games": 2,
      "shares": {
-      "targets": 0.0426
+      "targets": 0.0556
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 1.4,
-      "receptions": 0.2,
+      "receiving_yards": 11.5,
+      "receptions": 1.5,
       "rushing_tds": 0.0,
-      "targets": 0.4
+      "targets": 1.5
      },
      "status": "active",
      "depth": {
@@ -6322,20 +6322,20 @@
      }
     },
     {
-     "id": "00-0041084",
-     "name": "Tanner Koziol",
+     "id": "00-0036590",
+     "name": "Quintin Morris",
      "team": "JAX",
      "position": "TE",
-     "games": 1,
+     "games": 6,
      "shares": {
-      "targets": 0.0213
+      "targets": 0.037
      },
      "per_game": {
       "receiving_tds": 0.0,
-      "receiving_yards": 8.0,
-      "receptions": 1.0,
+      "receiving_yards": 1.17,
+      "receptions": 0.17,
       "rushing_tds": 0.0,
-      "targets": 1.0
+      "targets": 0.33
      },
      "status": "active",
      "depth": {
@@ -8480,7 +8480,7 @@
       "passing_yards": 170.33,
       "rushing_yards": 27.83
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "attempts": 1
      },
@@ -8822,7 +8822,7 @@
       "rushing_tds": 0.0,
       "targets": 1.67
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 3
      },
@@ -11858,7 +11858,7 @@
       "rushing_tds": 0.14,
       "targets": 4.29
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 3
      },
@@ -11978,7 +11978,7 @@
       "passing_yards": 211.0,
       "rushing_yards": 6.5
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "attempts": 2
      },
@@ -12152,7 +12152,7 @@
       "rushing_yards": 9.33,
       "targets": 0.33
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "carries": 4,
       "targets": 6

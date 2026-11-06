@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T20:43:33Z",
+ "generated_at": "2026-11-06T17:53:28Z",
  "team": "BAL",
  "since": 1999,
  "opponents": {
@@ -1283,20 +1283,20 @@
    ]
   },
   "JAX": {
-   "games": 18,
+   "games": 19,
    "wins": 11,
-   "losses": 7,
+   "losses": 8,
    "ties": 0,
-   "streak": "BAL W1",
+   "streak": "JAX W1",
    "splits": {
     "all": {
      "w": 11,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "regular": {
      "w": 11,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "postseason": {
@@ -1306,7 +1306,7 @@
     },
     "home": {
      "w": 7,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "away": {
@@ -1315,8 +1315,8 @@
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
@@ -1327,6 +1327,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-05",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "BAL",
+     "away": "JAX",
+     "home_score": 10,
+     "away_score": 33,
+     "winner": "JAX",
+     "neutral": false
+    },
     {
      "date": "2023-12-17",
      "season": 2023,
@@ -1456,18 +1468,6 @@
      "away": "JAX",
      "home_score": 24,
      "away_score": 17,
-     "winner": "BAL",
-     "neutral": false
-    },
-    {
-     "date": "2002-10-20",
-     "season": 2002,
-     "week": 7,
-     "type": "REG",
-     "home": "BAL",
-     "away": "JAX",
-     "home_score": 17,
-     "away_score": 10,
      "winner": "BAL",
      "neutral": false
     }
