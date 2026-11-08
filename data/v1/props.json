@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T16:49:05Z",
+ "generated_at": "2026-11-08T17:00:19Z",
  "week": 9,
  "max_softness_rank": 10,
  "weights": {
@@ -4049,46 +4049,6 @@
     "confidence": 1.0
    },
    "rationale": "Houston allows 11.93 receptions per game to WRs (23rd of 32). Tre Harris: 3 rec per game, 27% target share."
-  },
-  {
-   "id": "2026_09_HOU_LAC~rb_anytime_td~00-0035685",
-   "game_id": "2026_09_HOU_LAC",
-   "week": 9,
-   "kickoff": "2026-11-08T21:05:00Z",
-   "market": "rb_anytime_td",
-   "market_label": "Anytime TD",
-   "metric": "rushing_tds_receiving_tds",
-   "position": "RB",
-   "player": {
-    "id": "00-0035685",
-    "name": "David Montgomery",
-    "team": "HOU",
-    "position": "RB",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 5,
-    "share": 0.3852,
-    "share_of": "carries",
-    "per_game": 0.6,
-    "unit": "TD"
-   },
-   "defense": {
-    "team": "LAC",
-    "allowed_per_game": 1.07,
-    "softness_rank": 8,
-    "games": 7,
-    "blend_weight": 0.636,
-    "current": 1.29,
-    "prior": 0.71
-   },
-   "score": 0.7814,
-   "components": {
-    "softness": 0.7742,
-    "usage": 0.7609,
-    "confidence": 0.8333
-   },
-   "rationale": "Los Angeles allows 1.07 touchdowns per game to RBs (25th of 32). David Montgomery: 0.6 TD per game, 39% carry share."
   },
   {
    "id": "2026_09_LA_WAS~qb_rushing_yards~00-0039910",

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-07T16:48:23Z",
+ "generated_at": "2026-11-08T16:59:38Z",
  "season": 2026,
  "current_week": 9,
  "games": [
@@ -2091,7 +2091,7 @@
    "status": "scheduled",
    "neutral": true,
    "div_game": false,
-   "spread": -3.5,
+   "spread": -3.0,
    "total": 52.5,
    "venue": "Bernabeu"
   },
@@ -2210,7 +2210,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 8.5,
+   "spread": 9.5,
    "total": 47.5,
    "venue": "GEHA Field at Arrowhead Stadium"
   },
@@ -2227,7 +2227,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -6.0,
+   "spread": -5.5,
    "total": 40.5,
    "venue": "SoFi Stadium"
   },
@@ -2244,7 +2244,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 10.0,
+   "spread": 9.5,
    "total": 51.5,
    "venue": "Levi's Stadium"
   },
@@ -2431,8 +2431,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -3.0,
-   "total": 46.5,
+   "spread": null,
+   "total": null,
    "venue": "Mercedes-Benz Stadium"
   },
   {
@@ -2482,7 +2482,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -7.5,
+   "spread": -8.5,
    "total": 47.5,
    "venue": "State Farm Stadium"
   },
@@ -2533,8 +2533,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 3.5,
-   "total": 47.5,
+   "spread": null,
+   "total": null,
    "venue": "Paycor Stadium"
   },
   {
@@ -2550,7 +2550,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 1.5,
+   "spread": 2.5,
    "total": 37.5,
    "venue": "M&T Bank Stadium"
   },
