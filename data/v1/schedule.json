@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-08T20:54:03Z",
+ "generated_at": "2026-11-09T00:21:32Z",
  "season": 2026,
  "current_week": 9,
  "games": [
@@ -2103,9 +2103,9 @@
    "kickoff": "2026-11-08T18:00:00Z",
    "away": "CLE",
    "home": "NO",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 22,
+   "home_score": 23,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 4.5,
@@ -2120,9 +2120,9 @@
    "kickoff": "2026-11-08T18:00:00Z",
    "away": "DAL",
    "home": "IND",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 27,
+   "home_score": 23,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -4.5,
@@ -2137,9 +2137,9 @@
    "kickoff": "2026-11-08T18:00:00Z",
    "away": "DEN",
    "home": "CAR",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 26,
+   "home_score": 21,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -3.0,
@@ -2154,9 +2154,9 @@
    "kickoff": "2026-11-08T18:00:00Z",
    "away": "DET",
    "home": "MIA",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 19,
+   "home_score": 9,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -6.5,
@@ -2171,9 +2171,9 @@
    "kickoff": "2026-11-08T18:00:00Z",
    "away": "LAR",
    "home": "WAS",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 20,
+   "home_score": 13,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": -4.5,
@@ -2188,9 +2188,9 @@
    "kickoff": "2026-11-08T18:00:00Z",
    "away": "NYG",
    "home": "PHI",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 19,
+   "home_score": 11,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": -3.0,
@@ -2205,9 +2205,9 @@
    "kickoff": "2026-11-08T18:00:00Z",
    "away": "NYJ",
    "home": "KC",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 12,
+   "home_score": 35,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 9.5,
@@ -2239,9 +2239,9 @@
    "kickoff": "2026-11-08T21:05:00Z",
    "away": "LV",
    "home": "SF",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 17,
+   "home_score": 38,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 8.5,
@@ -2329,8 +2329,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 1.5,
+   "total": 42.5,
    "venue": "MetLife Stadium"
   },
   {
@@ -2346,8 +2346,8 @@
    "status": "scheduled",
    "neutral": true,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 1.5,
+   "total": 49.5,
    "venue": "FC Bayern Munich Stadium"
   },
   {
@@ -2363,8 +2363,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -8.5,
+   "total": 50.5,
    "venue": "MetLife Stadium"
   },
   {
@@ -2380,8 +2380,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -1.5,
+   "total": 47.5,
    "venue": "Caesars Superdome"
   },
   {
@@ -2397,8 +2397,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -3.5,
+   "total": 38.5,
    "venue": "Huntington Bank Field"
   },
   {
@@ -2414,8 +2414,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -10.0,
+   "total": 45.5,
    "venue": "Nissan Stadium"
   },
   {
@@ -2431,8 +2431,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -3.0,
+   "total": 46.5,
    "venue": "Mercedes-Benz Stadium"
   },
   {
@@ -2448,8 +2448,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 2.5,
+   "total": 42.5,
    "venue": "Lucas Oil Stadium"
   },
   {
@@ -2465,8 +2465,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 42.5,
    "venue": "Lambeau Field"
   },
   {
@@ -2482,8 +2482,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": -8.5,
+   "total": 47.5,
    "venue": "State Farm Stadium"
   },
   {
@@ -2499,8 +2499,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -3.5,
+   "total": 43.5,
    "venue": "Allegiant Stadium"
   },
   {
@@ -2516,8 +2516,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -4.5,
+   "total": 55.5,
    "venue": "AT&T Stadium"
   },
   {
@@ -2533,8 +2533,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 3.5,
+   "total": 48.5,
    "venue": "Paycor Stadium"
   },
   {
@@ -2550,8 +2550,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 38.5,
    "venue": "M&T Bank Stadium"
   },
   {
