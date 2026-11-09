@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-11-09T21:23:48Z",
  "team": "HOU",
  "since": 1999,
  "opponents": {
@@ -148,19 +148,19 @@
    ]
   },
   "LAC": {
-   "games": 11,
-   "wins": 5,
+   "games": 12,
+   "wins": 6,
    "losses": 6,
    "ties": 0,
-   "streak": "HOU W2",
+   "streak": "HOU W3",
    "splits": {
     "all": {
-     "w": 5,
+     "w": 6,
      "l": 6,
      "t": 0
     },
     "regular": {
-     "w": 4,
+     "w": 5,
      "l": 6,
      "t": 0
     },
@@ -175,7 +175,7 @@
      "t": 0
     },
     "away": {
-     "w": 3,
+     "w": 4,
      "l": 2,
      "t": 0
     },
@@ -185,8 +185,8 @@
      "t": 0
     },
     "last10": {
-     "w": 5,
-     "l": 5,
+     "w": 6,
+     "l": 4,
      "t": 0
     }
    },
@@ -209,14 +209,26 @@
       "LAC"
      ],
      "wins": {
-      "HOU": 4,
+      "HOU": 5,
       "LAC": 1
      },
      "ties": 0,
-     "games": 5
+     "games": 6
     }
    ],
    "recent": [
+    {
+     "date": "2026-11-08",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "LAC",
+     "away": "HOU",
+     "home_score": 22,
+     "away_score": 44,
+     "winner": "HOU",
+     "neutral": false
+    },
     {
      "date": "2025-12-27",
      "season": 2025,

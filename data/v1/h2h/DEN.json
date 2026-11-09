@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T20:43:33Z",
+ "generated_at": "2026-11-09T21:23:48Z",
  "team": "DEN",
  "since": 1999,
  "opponents": {
@@ -4505,19 +4505,19 @@
    ]
   },
   "CAR": {
-   "games": 8,
-   "wins": 6,
+   "games": 9,
+   "wins": 7,
    "losses": 2,
    "ties": 0,
-   "streak": "DEN W1",
+   "streak": "DEN W2",
    "splits": {
     "all": {
-     "w": 6,
+     "w": 7,
      "l": 2,
      "t": 0
     },
     "regular": {
-     "w": 5,
+     "w": 6,
      "l": 2,
      "t": 0
     },
@@ -4532,7 +4532,7 @@
      "t": 0
     },
     "away": {
-     "w": 2,
+     "w": 3,
      "l": 2,
      "t": 0
     },
@@ -4542,13 +4542,25 @@
      "t": 0
     },
     "last10": {
-     "w": 6,
+     "w": 7,
      "l": 2,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-08",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "CAR",
+     "away": "DEN",
+     "home_score": 21,
+     "away_score": 26,
+     "winner": "DEN",
+     "neutral": false
+    },
     {
      "date": "2024-10-27",
      "season": 2024,

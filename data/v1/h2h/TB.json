@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T20:43:33Z",
+ "generated_at": "2026-11-09T21:23:48Z",
  "team": "TB",
  "since": 1999,
  "opponents": {
@@ -900,20 +900,20 @@
    ]
   },
   "CHI": {
-   "games": 20,
+   "games": 21,
    "wins": 10,
-   "losses": 10,
+   "losses": 11,
    "ties": 0,
-   "streak": "TB W2",
+   "streak": "CHI W1",
    "splits": {
     "all": {
      "w": 10,
-     "l": 10,
+     "l": 11,
      "t": 0
     },
     "regular": {
      "w": 10,
-     "l": 10,
+     "l": 11,
      "t": 0
     },
     "postseason": {
@@ -928,22 +928,34 @@
     },
     "away": {
      "w": 3,
-     "l": 6,
+     "l": 7,
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     "last10": {
-     "w": 5,
-     "l": 5,
+     "w": 4,
+     "l": 6,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-08",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "CHI",
+     "away": "TB",
+     "home_score": 27,
+     "away_score": 24,
+     "winner": "CHI",
+     "neutral": false
+    },
     {
      "date": "2023-09-17",
      "season": 2023,
@@ -1073,18 +1085,6 @@
      "away": "TB",
      "home_score": 34,
      "away_score": 31,
-     "winner": "CHI",
-     "neutral": false
-    },
-    {
-     "date": "2005-11-27",
-     "season": 2005,
-     "week": 12,
-     "type": "REG",
-     "home": "TB",
-     "away": "CHI",
-     "home_score": 10,
-     "away_score": 13,
      "winner": "CHI",
      "neutral": false
     }

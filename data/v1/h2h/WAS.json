@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T20:43:33Z",
+ "generated_at": "2026-11-09T21:23:48Z",
  "team": "WAS",
  "since": 1999,
  "opponents": {
@@ -2689,20 +2689,20 @@
    ]
   },
   "LAR": {
-   "games": 14,
+   "games": 15,
    "wins": 7,
-   "losses": 7,
+   "losses": 8,
    "ties": 0,
-   "streak": "LAR W2",
+   "streak": "LAR W3",
    "splits": {
     "all": {
      "w": 7,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "regular": {
      "w": 7,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "postseason": {
@@ -2712,7 +2712,7 @@
     },
     "home": {
      "w": 3,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "away": {
@@ -2751,13 +2751,25 @@
      ],
      "wins": {
       "WAS": 1,
-      "LA": 2
+      "LA": 3
      },
      "ties": 0,
-     "games": 3
+     "games": 4
     }
    ],
    "recent": [
+    {
+     "date": "2026-11-08",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "WAS",
+     "away": "LAR",
+     "home_score": 13,
+     "away_score": 20,
+     "winner": "LAR",
+     "neutral": false
+    },
     {
      "date": "2023-12-17",
      "season": 2023,
@@ -2888,18 +2900,6 @@
      "home_score": 37,
      "away_score": 31,
      "winner": "LAR",
-     "neutral": false
-    },
-    {
-     "date": "2005-12-04",
-     "season": 2005,
-     "week": 13,
-     "type": "REG",
-     "home": "LAR",
-     "away": "WAS",
-     "home_score": 9,
-     "away_score": 24,
-     "winner": "WAS",
      "neutral": false
     }
    ]

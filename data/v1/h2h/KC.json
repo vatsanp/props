@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T20:43:33Z",
+ "generated_at": "2026-11-09T21:23:48Z",
  "team": "KC",
  "since": 1999,
  "opponents": {
@@ -3502,19 +3502,19 @@
    ]
   },
   "NYJ": {
-   "games": 11,
-   "wins": 6,
+   "games": 12,
+   "wins": 7,
    "losses": 5,
    "ties": 0,
-   "streak": "KC W2",
+   "streak": "KC W3",
    "splits": {
     "all": {
-     "w": 6,
+     "w": 7,
      "l": 5,
      "t": 0
     },
     "regular": {
-     "w": 6,
+     "w": 7,
      "l": 5,
      "t": 0
     },
@@ -3524,7 +3524,7 @@
      "t": 0
     },
     "home": {
-     "w": 4,
+     "w": 5,
      "l": 0,
      "t": 0
     },
@@ -3546,6 +3546,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-08",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "KC",
+     "away": "NYJ",
+     "home_score": 35,
+     "away_score": 12,
+     "winner": "KC",
+     "neutral": false
+    },
     {
      "date": "2023-10-01",
      "season": 2023,

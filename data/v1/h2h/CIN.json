@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T20:43:33Z",
+ "generated_at": "2026-11-09T21:23:48Z",
  "team": "CIN",
  "since": 1999,
  "opponents": {
@@ -3537,19 +3537,19 @@
    ]
   },
   "ATL": {
-   "games": 6,
-   "wins": 3,
+   "games": 7,
+   "wins": 4,
    "losses": 3,
    "ties": 0,
-   "streak": "CIN W3",
+   "streak": "CIN W4",
    "splits": {
     "all": {
-     "w": 3,
+     "w": 4,
      "l": 3,
      "t": 0
     },
     "regular": {
-     "w": 3,
+     "w": 4,
      "l": 3,
      "t": 0
     },
@@ -3569,18 +3569,30 @@
      "t": 0
     },
     "last5": {
-     "w": 3,
-     "l": 2,
+     "w": 4,
+     "l": 1,
      "t": 0
     },
     "last10": {
-     "w": 3,
+     "w": 4,
      "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-08",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "ATL",
+     "away": "CIN",
+     "home_score": 17,
+     "away_score": 34,
+     "winner": "CIN",
+     "neutral": true
+    },
     {
      "date": "2022-10-23",
      "season": 2022,

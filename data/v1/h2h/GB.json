@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-30T16:59:09Z",
+ "generated_at": "2026-11-09T21:23:48Z",
  "team": "GB",
  "since": 1999,
  "opponents": {
@@ -4431,19 +4431,19 @@
    ]
   },
   "NE": {
-   "games": 6,
-   "wins": 3,
+   "games": 7,
+   "wins": 4,
    "losses": 3,
    "ties": 0,
-   "streak": "GB W1",
+   "streak": "GB W2",
    "splits": {
     "all": {
-     "w": 3,
+     "w": 4,
      "l": 3,
      "t": 0
     },
     "regular": {
-     "w": 3,
+     "w": 4,
      "l": 3,
      "t": 0
     },
@@ -4458,23 +4458,35 @@
      "t": 0
     },
     "away": {
-     "w": 1,
+     "w": 2,
      "l": 2,
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
-     "w": 3,
+     "w": 4,
      "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-08",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "NE",
+     "away": "GB",
+     "home_score": 27,
+     "away_score": 45,
+     "winner": "GB",
+     "neutral": false
+    },
     {
      "date": "2022-10-02",
      "season": 2022,

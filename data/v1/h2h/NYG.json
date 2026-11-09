@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T17:16:49Z",
+ "generated_at": "2026-11-09T21:23:48Z",
  "team": "NYG",
  "since": 1999,
  "opponents": {
@@ -554,19 +554,19 @@
    ]
   },
   "PHI": {
-   "games": 58,
-   "wins": 20,
+   "games": 59,
+   "wins": 21,
    "losses": 38,
    "ties": 0,
-   "streak": "PHI W1",
+   "streak": "NYG W1",
    "splits": {
     "all": {
-     "w": 20,
+     "w": 21,
      "l": 38,
      "t": 0
     },
     "regular": {
-     "w": 19,
+     "w": 20,
      "l": 35,
      "t": 0
     },
@@ -581,7 +581,7 @@
      "t": 0
     },
     "away": {
-     "w": 8,
+     "w": 9,
      "l": 21,
      "t": 0
     },
@@ -591,13 +591,25 @@
      "t": 0
     },
     "last10": {
-     "w": 2,
-     "l": 8,
+     "w": 3,
+     "l": 7,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-08",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "PHI",
+     "away": "NYG",
+     "home_score": 11,
+     "away_score": 19,
+     "winner": "NYG",
+     "neutral": false
+    },
     {
      "date": "2025-10-26",
      "season": 2025,
@@ -727,18 +739,6 @@
      "away": "PHI",
      "home_score": 13,
      "away_score": 7,
-     "winner": "NYG",
-     "neutral": false
-    },
-    {
-     "date": "2020-11-15",
-     "season": 2020,
-     "week": 10,
-     "type": "REG",
-     "home": "NYG",
-     "away": "PHI",
-     "home_score": 27,
-     "away_score": 17,
      "winner": "NYG",
      "neutral": false
     }

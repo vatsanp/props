@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T20:43:33Z",
+ "generated_at": "2026-11-09T21:23:48Z",
  "team": "LV",
  "since": 1999,
  "opponents": {
@@ -2829,20 +2829,20 @@
    ]
   },
   "SF": {
-   "games": 7,
+   "games": 8,
    "wins": 2,
-   "losses": 5,
+   "losses": 6,
    "ties": 0,
-   "streak": "SF W2",
+   "streak": "SF W3",
    "splits": {
     "all": {
      "w": 2,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "regular": {
      "w": 2,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "postseason": {
@@ -2857,7 +2857,7 @@
     },
     "away": {
      "w": 1,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "last5": {
@@ -2867,7 +2867,7 @@
     },
     "last10": {
      "w": 2,
-     "l": 5,
+     "l": 6,
      "t": 0
     }
    },
@@ -2890,13 +2890,25 @@
       "SF"
      ],
      "wins": {
-      "SF": 1
+      "SF": 2
      },
      "ties": 0,
-     "games": 1
+     "games": 2
     }
    ],
    "recent": [
+    {
+     "date": "2026-11-08",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "SF",
+     "away": "LV",
+     "home_score": 38,
+     "away_score": 17,
+     "winner": "SF",
+     "neutral": false
+    },
     {
      "date": "2023-01-01",
      "season": 2022,

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-02T20:43:33Z",
+ "generated_at": "2026-11-09T21:23:48Z",
  "team": "DAL",
  "since": 1999,
  "opponents": {
@@ -960,19 +960,19 @@
    ]
   },
   "IND": {
-   "games": 7,
-   "wins": 4,
+   "games": 8,
+   "wins": 5,
    "losses": 3,
    "ties": 0,
-   "streak": "DAL W1",
+   "streak": "DAL W2",
    "splits": {
     "all": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     },
     "regular": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     },
@@ -987,7 +987,7 @@
      "t": 0
     },
     "away": {
-     "w": 1,
+     "w": 2,
      "l": 3,
      "t": 0
     },
@@ -997,13 +997,25 @@
      "t": 0
     },
     "last10": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-08",
+     "season": 2026,
+     "week": 9,
+     "type": "REG",
+     "home": "IND",
+     "away": "DAL",
+     "home_score": 23,
+     "away_score": 27,
+     "winner": "DAL",
+     "neutral": false
+    },
     {
      "date": "2022-12-04",
      "season": 2022,
