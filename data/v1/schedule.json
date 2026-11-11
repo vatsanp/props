@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T18:37:18Z",
+ "generated_at": "2026-11-11T18:36:04Z",
  "season": 2026,
  "current_week": 10,
  "games": [
@@ -2232,23 +2232,6 @@
    "venue": "SoFi Stadium"
   },
   {
-   "id": "2026_09_LV_SF",
-   "espn_id": "401873047",
-   "type": "REG",
-   "week": 9,
-   "kickoff": "2026-11-08T21:05:00Z",
-   "away": "LV",
-   "home": "SF",
-   "away_score": 17,
-   "home_score": 38,
-   "status": "final",
-   "neutral": false,
-   "div_game": false,
-   "spread": 8.5,
-   "total": 51.5,
-   "venue": "Levi's Stadium"
-  },
-  {
    "id": "2026_09_ARI_SEA",
    "espn_id": "401873048",
    "type": "REG",
@@ -2281,6 +2264,23 @@
    "spread": 3.0,
    "total": 44.5,
    "venue": "Gillette Stadium"
+  },
+  {
+   "id": "2026_09_LV_SF",
+   "espn_id": "401873047",
+   "type": "REG",
+   "week": 9,
+   "kickoff": "2026-11-08T21:25:00Z",
+   "away": "LV",
+   "home": "SF",
+   "away_score": 17,
+   "home_score": 38,
+   "status": "final",
+   "neutral": false,
+   "div_game": false,
+   "spread": 8.5,
+   "total": 51.5,
+   "venue": "Levi's Stadium"
   },
   {
    "id": "2026_09_TB_CHI",
@@ -2380,7 +2380,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 1.5,
+   "spread": 2.5,
    "total": 48.5,
    "venue": "Caesars Superdome"
   },
@@ -2398,7 +2398,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -4.5,
-   "total": 39.5,
+   "total": 40.5,
    "venue": "Huntington Bank Field"
   },
   {
@@ -2448,8 +2448,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 2.5,
-   "total": 40.5,
+   "spread": 3.5,
+   "total": 38.5,
    "venue": "Lucas Oil Stadium"
   },
   {
@@ -2465,8 +2465,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 5.5,
-   "total": 40.5,
+   "spread": 3.5,
+   "total": 42.5,
    "venue": "Lambeau Field"
   },
   {
@@ -2483,7 +2483,7 @@
    "neutral": false,
    "div_game": true,
    "spread": -9.5,
-   "total": 40.5,
+   "total": 39.5,
    "venue": "State Farm Stadium"
   },
   {
@@ -2499,8 +2499,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -3.5,
-   "total": 43.5,
+   "spread": -6.5,
+   "total": 40.5,
    "venue": "Allegiant Stadium"
   },
   {
@@ -2516,7 +2516,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -4.5,
+   "spread": -3.5,
    "total": 55.5,
    "venue": "AT&T Stadium"
   },
@@ -2534,7 +2534,7 @@
    "neutral": false,
    "div_game": true,
    "spread": 3.5,
-   "total": 48.5,
+   "total": 49.5,
    "venue": "Paycor Stadium"
   },
   {
@@ -2550,7 +2550,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 5.5,
+   "spread": 4.5,
    "total": 38.5,
    "venue": "M&T Bank Stadium"
   },
@@ -2567,8 +2567,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 10.0,
+   "total": 44.5,
    "venue": "Reliant Stadium"
   },
   {
@@ -2584,8 +2584,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 14.0,
+   "total": 42.5,
    "venue": "GEHA Field at Arrowhead Stadium"
   },
   {
@@ -2601,8 +2601,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 1.5,
+   "total": 44.5,
    "venue": "Bank of America Stadium"
   },
   {
@@ -2618,8 +2618,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -6.0,
+   "total": 44.5,
    "venue": "MetLife Stadium"
   },
   {
@@ -2635,8 +2635,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 16.5,
+   "total": 46.5,
    "venue": "Highmark Stadium"
   },
   {
@@ -2652,8 +2652,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 9.5,
+   "total": 48.5,
    "venue": "Soldier Field"
   },
   {
@@ -2669,8 +2669,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 3.5,
+   "total": 47.5,
    "venue": "Ford Field"
   },
   {
@@ -2686,8 +2686,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 7.5,
+   "total": 51.5,
    "venue": "AT&T Stadium"
   },
   {
@@ -2703,8 +2703,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 2.5,
+   "total": 42.5,
    "venue": "SoFi Stadium"
   },
   {
@@ -2720,8 +2720,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 8.5,
+   "total": 41.5,
    "venue": "Empower Field at Mile High"
   },
   {
@@ -2737,8 +2737,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -4.5,
+   "total": 38.5,
    "venue": "Lincoln Financial Field"
   },
   {
@@ -2754,8 +2754,8 @@
    "status": "scheduled",
    "neutral": true,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 3.5,
+   "total": 46.5,
    "venue": "Estadio Banorte"
   },
   {
@@ -2771,8 +2771,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -3.5,
+   "total": 51.5,
    "venue": "Northwest Stadium"
   },
   {

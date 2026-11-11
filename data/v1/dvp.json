@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T18:38:02Z",
+ "generated_at": "2026-11-11T18:36:44Z",
  "season": 2026,
  "prior_season": 2025,
  "blend_prior_games": 4.0,
@@ -2168,8 +2168,8 @@
      "prior": 205.12,
      "games": 8,
      "blend_weight": 0.667,
-     "softness_rank": 27,
-     "softness_pct": 0.1613
+     "softness_rank": 28,
+     "softness_pct": 0.129
     },
     "passing_tds": {
      "allowed_per_game": 0.94,
@@ -2397,8 +2397,8 @@
    },
    "TE": {
     "receiving_yards": {
-     "allowed_per_game": 46.8,
-     "current": 47.33,
+     "allowed_per_game": 46.87,
+     "current": 47.44,
      "prior": 45.59,
      "games": 9,
      "blend_weight": 0.692,
@@ -2435,8 +2435,8 @@
      "softness_pct": 0.9032
     },
     "passing_yards": {
-     "allowed_per_game": 215.37,
-     "current": 207.56,
+     "allowed_per_game": 215.44,
+     "current": 207.67,
      "prior": 232.94,
      "games": 9,
      "blend_weight": 0.692,
