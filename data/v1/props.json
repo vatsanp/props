@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T12:27:22Z",
+ "generated_at": "2026-11-14T16:59:03Z",
  "week": 10,
  "max_softness_rank": 10,
  "weights": {
@@ -26,7 +26,7 @@
     "position": "WR",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 8,
     "share": 0.5478,
     "share_of": "targets",
@@ -48,7 +48,7 @@
     "usage": 1.0,
     "confidence": 1.0
    },
-   "rationale": "New England allows 1.25 touchdowns per game to WRs (32nd of 32). Amon-Ra St. Brown: 0.62 TD per game, 55% target share."
+   "rationale": "New England allows 1.25 touchdowns per game to WRs (32nd of 32). Amon-Ra St. Brown: 0.62 TD per game, 55% target share. Listed questionable."
   },
   {
    "id": "2026_10_BUF_NYJ~rb_anytime_td~00-0037248",
@@ -691,46 +691,6 @@
    "rationale": "Washington allows 12.65 receptions per game to WRs (29th of 32). Malik Nabers: 6.44 rec per game, 53% target share."
   },
   {
-   "id": "2026_10_SF_DAL~wr_anytime_td~00-0031408",
-   "game_id": "2026_10_SF_DAL",
-   "week": 10,
-   "kickoff": "2026-11-15T21:25:00Z",
-   "market": "wr_anytime_td",
-   "market_label": "Anytime TD",
-   "metric": "rushing_tds_receiving_tds",
-   "position": "WR",
-   "player": {
-    "id": "00-0031408",
-    "name": "Mike Evans",
-    "team": "SF",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 6,
-    "share": 0.3714,
-    "share_of": "targets",
-    "per_game": 0.5,
-    "unit": "TD"
-   },
-   "defense": {
-    "team": "DAL",
-    "allowed_per_game": 1.24,
-    "softness_rank": 2,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 1.11,
-    "prior": 1.53
-   },
-   "score": 0.9506,
-   "components": {
-    "softness": 0.9677,
-    "usage": 0.9005,
-    "confidence": 1.0
-   },
-   "rationale": "Dallas allows 1.24 touchdowns per game to WRs (31st of 32). Mike Evans: 0.5 TD per game, 37% target share."
-  },
-  {
    "id": "2026_10_SEA_LV~rb_receptions~00-0040122",
    "game_id": "2026_10_SEA_LV",
    "week": 10,
@@ -866,7 +826,7 @@
     "position": "WR",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 8,
     "share": 0.4345,
     "share_of": "targets",
@@ -888,7 +848,7 @@
     "usage": 0.9502,
     "confidence": 1.0
    },
-   "rationale": "Buffalo allows 1.17 touchdowns per game to WRs (29th of 32). Garrett Wilson: 0.38 TD per game, 43% target share."
+   "rationale": "Buffalo allows 1.17 touchdowns per game to WRs (29th of 32). Garrett Wilson: 0.38 TD per game, 43% target share. Listed questionable."
   },
   {
    "id": "2026_10_SEA_LV~rb_rushing_yards~00-0038797",
@@ -1371,46 +1331,6 @@
    "rationale": "Dallas allows 1.86 passing touchdowns per game to QBs (27th of 32). Brock Purdy: 2.12 TD per game, 100% of the team's pass attempts."
   },
   {
-   "id": "2026_10_SF_DAL~wr_receiving_yards~00-0031408",
-   "game_id": "2026_10_SF_DAL",
-   "week": 10,
-   "kickoff": "2026-11-15T21:25:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0031408",
-    "name": "Mike Evans",
-    "team": "SF",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 6,
-    "share": 0.3714,
-    "share_of": "targets",
-    "per_game": 70.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "DAL",
-    "allowed_per_game": 162.92,
-    "softness_rank": 4,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 159.33,
-    "prior": 171.0
-   },
-   "score": 0.9216,
-   "components": {
-    "softness": 0.9032,
-    "usage": 0.9005,
-    "confidence": 1.0
-   },
-   "rationale": "Dallas allows 162.92 receiving yards per game to WRs (29th of 32). Mike Evans: 70 yds per game, 37% target share."
-  },
-  {
    "id": "2026_10_NE_DET~te_receiving_yards~00-0033090",
    "game_id": "2026_10_NE_DET",
    "week": 10,
@@ -1546,7 +1466,7 @@
     "position": "WR",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 9,
     "share": 0.3846,
     "share_of": "targets",
@@ -1568,7 +1488,7 @@
     "usage": 0.9186,
     "confidence": 1.0
    },
-   "rationale": "Houston allows 162.48 receiving yards per game to WRs (28th of 32). Denzel Boston: 56.33 yds per game, 38% target share."
+   "rationale": "Houston allows 162.48 receiving yards per game to WRs (28th of 32). Denzel Boston: 56.33 yds per game, 38% target share. Listed questionable."
   },
   {
    "id": "2026_10_PIT_CIN~te_receiving_yards~00-0038558",
@@ -1826,7 +1746,7 @@
     "position": "RB",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 8,
     "share": 0.8457,
     "share_of": "carries",
@@ -1848,7 +1768,7 @@
     "usage": 0.9862,
     "confidence": 1.0
    },
-   "rationale": "Atlanta allows 106.25 rushing yards per game to RBs (26th of 32). Kenneth Walker III: 109 yds per game, 85% carry share."
+   "rationale": "Atlanta allows 106.25 rushing yards per game to RBs (26th of 32). Kenneth Walker III: 109 yds per game, 85% carry share. Listed questionable."
   },
   {
    "id": "2026_10_NE_DET~te_anytime_td~00-0041395",
@@ -2306,7 +2226,7 @@
     "position": "WR",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 8,
     "share": 0.5478,
     "share_of": "targets",
@@ -2328,7 +2248,7 @@
     "usage": 1.0,
     "confidence": 1.0
    },
-   "rationale": "New England allows 157.76 receiving yards per game to WRs (25th of 32). Amon-Ra St. Brown: 82.12 yds per game, 55% target share."
+   "rationale": "New England allows 157.76 receiving yards per game to WRs (25th of 32). Amon-Ra St. Brown: 82.12 yds per game, 55% target share. Listed questionable."
   },
   {
    "id": "2026_10_SF_DAL~rb_receptions~00-0033280",
@@ -2409,46 +2329,6 @@
     "confidence": 1.0
    },
    "rationale": "Detroit allows 2.09 passing touchdowns per game to QBs (32nd of 32). Drake Maye: 2 TD per game, 97% of the team's pass attempts."
-  },
-  {
-   "id": "2026_10_JAX_TEN~wr_receptions~00-0041438",
-   "game_id": "2026_10_JAX_TEN",
-   "week": 10,
-   "kickoff": "2026-11-15T18:00:00Z",
-   "market": "wr_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "WR",
-   "player": {
-    "id": "00-0041438",
-    "name": "Carnell Tate",
-    "team": "TEN",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 7,
-    "share": 0.3333,
-    "share_of": "targets",
-    "per_game": 4.86,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "JAX",
-    "allowed_per_game": 12.45,
-    "softness_rank": 5,
-    "games": 8,
-    "blend_weight": 0.667,
-    "current": 12.5,
-    "prior": 12.35
-   },
-   "score": 0.896,
-   "components": {
-    "softness": 0.871,
-    "usage": 0.8688,
-    "confidence": 1.0
-   },
-   "rationale": "Jacksonville allows 12.45 receptions per game to WRs (28th of 32). Carnell Tate: 4.86 rec per game, 33% target share."
   },
   {
    "id": "2026_10_SEA_LV~rb_carries~00-0038797",
@@ -2666,7 +2546,7 @@
     "position": "WR",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 8,
     "share": 0.5478,
     "share_of": "targets",
@@ -2688,7 +2568,7 @@
     "usage": 1.0,
     "confidence": 1.0
    },
-   "rationale": "New England allows 11.96 receptions per game to WRs (24th of 32). Amon-Ra St. Brown: 7.62 rec per game, 55% target share."
+   "rationale": "New England allows 11.96 receptions per game to WRs (24th of 32). Amon-Ra St. Brown: 7.62 rec per game, 55% target share. Listed questionable."
   },
   {
    "id": "2026_10_MIA_IND~rb_carries~00-0036223",
@@ -2851,46 +2731,6 @@
    "rationale": "Las Vegas allows 156.61 receiving yards per game to WRs (24th of 32). Jaxon Smith-Njigba: 115.11 yds per game, 54% target share."
   },
   {
-   "id": "2026_10_JAX_TEN~wr_receiving_yards~00-0041438",
-   "game_id": "2026_10_JAX_TEN",
-   "week": 10,
-   "kickoff": "2026-11-15T18:00:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0041438",
-    "name": "Carnell Tate",
-    "team": "TEN",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 7,
-    "share": 0.3333,
-    "share_of": "targets",
-    "per_game": 59.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "JAX",
-    "allowed_per_game": 162.28,
-    "softness_rank": 6,
-    "games": 8,
-    "blend_weight": 0.667,
-    "current": 174.5,
-    "prior": 137.82
-   },
-   "score": 0.8815,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.8688,
-    "confidence": 1.0
-   },
-   "rationale": "Jacksonville allows 162.28 receiving yards per game to WRs (27th of 32). Carnell Tate: 59 yds per game, 33% target share."
-  },
-  {
    "id": "2026_10_KC_ATL~wr_receptions~00-0039894",
    "game_id": "2026_10_KC_ATL",
    "week": 10,
@@ -2986,7 +2826,7 @@
     "position": "RB",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 8,
     "share": 0.8457,
     "share_of": "carries",
@@ -3008,7 +2848,7 @@
     "usage": 0.9862,
     "confidence": 1.0
    },
-   "rationale": "Atlanta allows 1 touchdowns per game to RBs (24th of 32). Kenneth Walker III: 1.38 TD per game, 85% carry share."
+   "rationale": "Atlanta allows 1 touchdowns per game to RBs (24th of 32). Kenneth Walker III: 1.38 TD per game, 85% carry share. Listed questionable."
   },
   {
    "id": "2026_10_PIT_CIN~qb_passing_yards~00-0023459",
@@ -3306,7 +3146,7 @@
     "position": "RB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 6,
     "share": 0.4359,
     "share_of": "targets",
@@ -3328,7 +3168,7 @@
     "usage": 0.8276,
     "confidence": 1.0
    },
-   "rationale": "Jacksonville allows 4.8 receptions per game to RBs (27th of 32). Tyjae Spears: 2.5 rec per game, 44% target share."
+   "rationale": "Jacksonville allows 4.8 receptions per game to RBs (27th of 32). Tyjae Spears: 2.5 rec per game, 44% target share. Listed questionable."
   },
   {
    "id": "2026_10_MIA_IND~rb_receiving_yards~00-0036223",
@@ -3969,46 +3809,6 @@
     "confidence": 1.0
    },
    "rationale": "Tennessee allows 23.23 carries per game to RBs (24th of 32). Bhayshul Tuten: 15.25 att per game, 61% carry share."
-  },
-  {
-   "id": "2026_10_SEA_LV~qb_passing_tds~00-0034869",
-   "game_id": "2026_10_SEA_LV",
-   "week": 10,
-   "kickoff": "2026-11-15T21:05:00Z",
-   "market": "qb_passing_tds",
-   "market_label": "Passing TDs",
-   "metric": "passing_tds",
-   "position": "QB",
-   "player": {
-    "id": "00-0034869",
-    "name": "Sam Darnold",
-    "team": "SEA",
-    "position": "QB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 7,
-    "share": 0.7352,
-    "share_of": "attempts",
-    "per_game": 1.43,
-    "unit": "TD"
-   },
-   "defense": {
-    "team": "LV",
-    "allowed_per_game": 1.95,
-    "softness_rank": 3,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 2.22,
-    "prior": 1.35
-   },
-   "score": 0.8418,
-   "components": {
-    "softness": 0.9355,
-    "usage": 0.6308,
-    "confidence": 1.0
-   },
-   "rationale": "Las Vegas allows 1.95 passing touchdowns per game to QBs (30th of 32). Sam Darnold: 1.43 TD per game, 74% of the team's pass attempts."
   },
   {
    "id": "2026_10_LA_ARI~wr_anytime_td~00-0031381",
@@ -5266,7 +5066,7 @@
     "position": "RB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 5,
     "share": 0.327,
     "share_of": "carries",
@@ -5288,7 +5088,7 @@
     "usage": 0.7448,
     "confidence": 0.8333
    },
-   "rationale": "Cleveland allows 23.22 carries per game to RBs (23rd of 32). David Montgomery: 10.4 att per game, 33% carry share."
+   "rationale": "Cleveland allows 23.22 carries per game to RBs (23rd of 32). David Montgomery: 10.4 att per game, 33% carry share. Listed questionable."
   },
   {
    "id": "2026_10_HOU_CLE~te_anytime_td~00-0034981",
