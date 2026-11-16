@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T21:23:48Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "NYJ",
  "since": 1999,
  "opponents": {
@@ -196,20 +196,20 @@
    ]
   },
   "BUF": {
-   "games": 54,
+   "games": 55,
    "wins": 25,
-   "losses": 29,
+   "losses": 30,
    "ties": 0,
-   "streak": "BUF W5",
+   "streak": "BUF W6",
    "splits": {
     "all": {
      "w": 25,
-     "l": 29,
+     "l": 30,
      "t": 0
     },
     "regular": {
      "w": 25,
-     "l": 29,
+     "l": 30,
      "t": 0
     },
     "postseason": {
@@ -219,7 +219,7 @@
     },
     "home": {
      "w": 15,
-     "l": 12,
+     "l": 13,
      "t": 0
     },
     "away": {
@@ -240,6 +240,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "NYJ",
+     "away": "BUF",
+     "home_score": 12,
+     "away_score": 31,
+     "winner": "BUF",
+     "neutral": false
+    },
     {
      "date": "2026-01-04",
      "season": 2025,
@@ -369,18 +381,6 @@
      "away": "BUF",
      "home_score": 10,
      "away_score": 18,
-     "winner": "BUF",
-     "neutral": false
-    },
-    {
-     "date": "2020-09-13",
-     "season": 2020,
-     "week": 1,
-     "type": "REG",
-     "home": "BUF",
-     "away": "NYJ",
-     "home_score": 27,
-     "away_score": 17,
      "winner": "BUF",
      "neutral": false
     }

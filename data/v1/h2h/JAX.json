@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T17:53:28Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "JAX",
  "since": 1999,
  "opponents": {
@@ -291,19 +291,19 @@
    ]
   },
   "TEN": {
-   "games": 55,
-   "wins": 23,
+   "games": 56,
+   "wins": 24,
    "losses": 32,
    "ties": 0,
-   "streak": "JAX W4",
+   "streak": "JAX W5",
    "splits": {
     "all": {
-     "w": 23,
+     "w": 24,
      "l": 32,
      "t": 0
     },
     "regular": {
-     "w": 23,
+     "w": 24,
      "l": 31,
      "t": 0
     },
@@ -318,23 +318,35 @@
      "t": 0
     },
     "away": {
-     "w": 8,
+     "w": 9,
      "l": 19,
      "t": 0
     },
     "last5": {
-     "w": 4,
-     "l": 1,
+     "w": 5,
+     "l": 0,
      "t": 0
     },
     "last10": {
-     "w": 7,
-     "l": 3,
+     "w": 8,
+     "l": 2,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "TEN",
+     "away": "JAX",
+     "home_score": 23,
+     "away_score": 40,
+     "winner": "JAX",
+     "neutral": false
+    },
     {
      "date": "2026-01-04",
      "season": 2025,
@@ -464,18 +476,6 @@
      "away": "TEN",
      "home_score": 10,
      "away_score": 31,
-     "winner": "TEN",
-     "neutral": false
-    },
-    {
-     "date": "2020-09-20",
-     "season": 2020,
-     "week": 2,
-     "type": "REG",
-     "home": "TEN",
-     "away": "JAX",
-     "home_score": 33,
-     "away_score": 30,
      "winner": "TEN",
      "neutral": false
     }

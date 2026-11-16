@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T21:23:48Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "LV",
  "since": 1999,
  "opponents": {
@@ -493,20 +493,20 @@
    ]
   },
   "SEA": {
-   "games": 12,
+   "games": 13,
    "wins": 6,
-   "losses": 6,
+   "losses": 7,
    "ties": 0,
-   "streak": "LV W1",
+   "streak": "SEA W1",
    "splits": {
     "all": {
      "w": 6,
-     "l": 6,
+     "l": 7,
      "t": 0
     },
     "regular": {
      "w": 6,
-     "l": 6,
+     "l": 7,
      "t": 0
     },
     "postseason": {
@@ -516,7 +516,7 @@
     },
     "home": {
      "w": 5,
-     "l": 0,
+     "l": 1,
      "t": 0
     },
     "away": {
@@ -530,8 +530,8 @@
      "t": 0
     },
     "last10": {
-     "w": 5,
-     "l": 5,
+     "w": 4,
+     "l": 6,
      "t": 0
     }
    },
@@ -554,13 +554,26 @@
       "SEA"
      ],
      "wins": {
-      "LV": 1
+      "LV": 1,
+      "SEA": 1
      },
      "ties": 0,
-     "games": 1
+     "games": 2
     }
    ],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "LV",
+     "away": "SEA",
+     "home_score": 13,
+     "away_score": 21,
+     "winner": "SEA",
+     "neutral": false
+    },
     {
      "date": "2022-11-27",
      "season": 2022,
@@ -691,18 +704,6 @@
      "home_score": 30,
      "away_score": 21,
      "winner": "LV",
-     "neutral": false
-    },
-    {
-     "date": "1999-10-03",
-     "season": 1999,
-     "week": 4,
-     "type": "REG",
-     "home": "SEA",
-     "away": "LV",
-     "home_score": 22,
-     "away_score": 21,
-     "winner": "SEA",
      "neutral": false
     }
    ]

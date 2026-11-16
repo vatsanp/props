@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T21:23:48Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "NE",
  "since": 1999,
  "opponents": {
@@ -2594,20 +2594,20 @@
    ]
   },
   "DET": {
-   "games": 7,
+   "games": 8,
    "wins": 5,
-   "losses": 2,
+   "losses": 3,
    "ties": 0,
-   "streak": "NE W1",
+   "streak": "DET W1",
    "splits": {
     "all": {
      "w": 5,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "regular": {
      "w": 5,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "postseason": {
@@ -2626,18 +2626,30 @@
      "t": 0
     },
     "last5": {
-     "w": 4,
-     "l": 1,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
      "w": 5,
-     "l": 2,
+     "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "DET",
+     "away": "NE",
+     "home_score": 35,
+     "away_score": 10,
+     "winner": "DET",
+     "neutral": true
+    },
     {
      "date": "2022-10-09",
      "season": 2022,

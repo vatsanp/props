@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T21:23:48Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "ATL",
  "since": 1999,
  "opponents": {
@@ -3180,20 +3180,20 @@
    ]
   },
   "KC": {
-   "games": 7,
+   "games": 8,
    "wins": 3,
-   "losses": 4,
+   "losses": 5,
    "ties": 0,
-   "streak": "KC W3",
+   "streak": "KC W4",
    "splits": {
     "all": {
      "w": 3,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "regular": {
      "w": 3,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "postseason": {
@@ -3203,7 +3203,7 @@
     },
     "home": {
      "w": 2,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     "away": {
@@ -3212,18 +3212,30 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
      "w": 3,
-     "l": 4,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "ATL",
+     "away": "KC",
+     "home_score": 13,
+     "away_score": 35,
+     "winner": "KC",
+     "neutral": false
+    },
     {
      "date": "2024-09-22",
      "season": 2024,

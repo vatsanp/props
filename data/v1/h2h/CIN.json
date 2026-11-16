@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T21:23:48Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "CIN",
  "since": 1999,
  "opponents": {
@@ -913,19 +913,19 @@
    ]
   },
   "PIT": {
-   "games": 57,
-   "wins": 16,
+   "games": 58,
+   "wins": 17,
    "losses": 41,
    "ties": 0,
-   "streak": "PIT W2",
+   "streak": "CIN W1",
    "splits": {
     "all": {
-     "w": 16,
+     "w": 17,
      "l": 41,
      "t": 0
     },
     "regular": {
-     "w": 16,
+     "w": 17,
      "l": 39,
      "t": 0
     },
@@ -935,7 +935,7 @@
      "t": 0
     },
     "home": {
-     "w": 6,
+     "w": 7,
      "l": 23,
      "t": 0
     },
@@ -945,8 +945,8 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
@@ -957,6 +957,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "CIN",
+     "away": "PIT",
+     "home_score": 38,
+     "away_score": 18,
+     "winner": "CIN",
+     "neutral": false
+    },
     {
      "date": "2026-09-27",
      "season": 2026,
@@ -1086,18 +1098,6 @@
      "away": "CIN",
      "home_score": 10,
      "away_score": 24,
-     "winner": "CIN",
-     "neutral": false
-    },
-    {
-     "date": "2020-12-21",
-     "season": 2020,
-     "week": 15,
-     "type": "REG",
-     "home": "CIN",
-     "away": "PIT",
-     "home_score": 27,
-     "away_score": 17,
      "winner": "CIN",
      "neutral": false
     }

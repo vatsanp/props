@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T21:23:48Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "GB",
  "since": 1999,
  "opponents": {
@@ -350,20 +350,20 @@
    ]
   },
   "MIN": {
-   "games": 57,
+   "games": 58,
    "wins": 31,
-   "losses": 24,
+   "losses": 25,
    "ties": 2,
-   "streak": "MIN W2",
+   "streak": "MIN W3",
    "splits": {
     "all": {
      "w": 31,
-     "l": 24,
+     "l": 25,
      "t": 2
     },
     "regular": {
      "w": 30,
-     "l": 23,
+     "l": 24,
      "t": 2
     },
     "postseason": {
@@ -373,7 +373,7 @@
     },
     "home": {
      "w": 18,
-     "l": 9,
+     "l": 10,
      "t": 2
     },
     "away": {
@@ -387,13 +387,25 @@
      "t": 0
     },
     "last10": {
-     "w": 4,
-     "l": 6,
+     "w": 3,
+     "l": 7,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "GB",
+     "away": "MIN",
+     "home_score": 10,
+     "away_score": 30,
+     "winner": "MIN",
+     "neutral": false
+    },
     {
      "date": "2026-09-13",
      "season": 2026,
@@ -523,18 +535,6 @@
      "away": "GB",
      "home_score": 34,
      "away_score": 31,
-     "winner": "MIN",
-     "neutral": false
-    },
-    {
-     "date": "2020-11-01",
-     "season": 2020,
-     "week": 8,
-     "type": "REG",
-     "home": "GB",
-     "away": "MIN",
-     "home_score": 22,
-     "away_score": 28,
      "winner": "MIN",
      "neutral": false
     }

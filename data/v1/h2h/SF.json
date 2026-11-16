@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T21:23:48Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "SF",
  "since": 1999,
  "opponents": {
@@ -2106,19 +2106,19 @@
    ]
   },
   "DAL": {
-   "games": 14,
-   "wins": 7,
+   "games": 15,
+   "wins": 8,
    "losses": 7,
    "ties": 0,
-   "streak": "SF W4",
+   "streak": "SF W5",
    "splits": {
     "all": {
-     "w": 7,
+     "w": 8,
      "l": 7,
      "t": 0
     },
     "regular": {
-     "w": 5,
+     "w": 6,
      "l": 7,
      "t": 0
     },
@@ -2133,23 +2133,35 @@
      "t": 0
     },
     "away": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     },
     "last5": {
-     "w": 4,
-     "l": 1,
+     "w": 5,
+     "l": 0,
      "t": 0
     },
     "last10": {
-     "w": 5,
-     "l": 5,
+     "w": 6,
+     "l": 4,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "DAL",
+     "away": "SF",
+     "home_score": 40,
+     "away_score": 46,
+     "winner": "SF",
+     "neutral": false
+    },
     {
      "date": "2024-10-27",
      "season": 2024,
@@ -2280,18 +2292,6 @@
      "home_score": 31,
      "away_score": 34,
      "winner": "DAL",
-     "neutral": false
-    },
-    {
-     "date": "2002-12-08",
-     "season": 2002,
-     "week": 14,
-     "type": "REG",
-     "home": "DAL",
-     "away": "SF",
-     "home_score": 27,
-     "away_score": 31,
-     "winner": "SF",
      "neutral": false
     }
    ]

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T21:23:48Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "MIA",
  "since": 1999,
  "opponents": {
@@ -506,20 +506,20 @@
    ]
   },
   "IND": {
-   "games": 19,
+   "games": 20,
    "wins": 8,
-   "losses": 11,
+   "losses": 12,
    "ties": 0,
-   "streak": "IND W3",
+   "streak": "IND W4",
    "splits": {
     "all": {
      "w": 8,
-     "l": 11,
+     "l": 12,
      "t": 0
     },
     "regular": {
      "w": 7,
-     "l": 11,
+     "l": 12,
      "t": 0
     },
     "postseason": {
@@ -534,7 +534,7 @@
     },
     "away": {
      "w": 6,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "last5": {
@@ -550,6 +550,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "IND",
+     "away": "MIA",
+     "home_score": 24,
+     "away_score": 22,
+     "winner": "IND",
+     "neutral": false
+    },
     {
      "date": "2025-09-07",
      "season": 2025,
@@ -680,18 +692,6 @@
      "home_score": 17,
      "away_score": 23,
      "winner": "IND",
-     "neutral": false
-    },
-    {
-     "date": "2002-09-15",
-     "season": 2002,
-     "week": 2,
-     "type": "REG",
-     "home": "IND",
-     "away": "MIA",
-     "home_score": 13,
-     "away_score": 21,
-     "winner": "MIA",
      "neutral": false
     }
    ]

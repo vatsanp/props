@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T21:23:48Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "HOU",
  "since": 1999,
  "opponents": {
@@ -865,20 +865,20 @@
    ]
   },
   "CLE": {
-   "games": 15,
+   "games": 16,
    "wins": 8,
-   "losses": 7,
+   "losses": 8,
    "ties": 0,
-   "streak": "HOU W1",
+   "streak": "CLE W1",
    "splits": {
     "all": {
      "w": 8,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "regular": {
      "w": 7,
-     "l": 7,
+     "l": 8,
      "t": 0
     },
     "postseason": {
@@ -893,7 +893,7 @@
     },
     "away": {
      "w": 2,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "last5": {
@@ -902,13 +902,25 @@
      "t": 0
     },
     "last10": {
-     "w": 6,
-     "l": 4,
+     "w": 5,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "CLE",
+     "away": "HOU",
+     "home_score": 27,
+     "away_score": 24,
+     "winner": "CLE",
+     "neutral": false
+    },
     {
      "date": "2024-01-13",
      "season": 2023,
@@ -1039,18 +1051,6 @@
      "home_score": 27,
      "away_score": 17,
      "winner": "CLE",
-     "neutral": false
-    },
-    {
-     "date": "2006-12-31",
-     "season": 2006,
-     "week": 17,
-     "type": "REG",
-     "home": "HOU",
-     "away": "CLE",
-     "home_score": 14,
-     "away_score": 6,
-     "winner": "HOU",
      "neutral": false
     }
    ]

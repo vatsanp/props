@@ -1,24 +1,24 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-09T21:23:48Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "team": "NO",
  "since": 1999,
  "opponents": {
   "CAR": {
-   "games": 55,
+   "games": 56,
    "wins": 31,
-   "losses": 24,
+   "losses": 25,
    "ties": 0,
-   "streak": "NO W2",
+   "streak": "CAR W1",
    "splits": {
     "all": {
      "w": 31,
-     "l": 24,
+     "l": 25,
      "t": 0
     },
     "regular": {
      "w": 30,
-     "l": 24,
+     "l": 25,
      "t": 0
     },
     "postseason": {
@@ -28,7 +28,7 @@
     },
     "home": {
      "w": 16,
-     "l": 12,
+     "l": 13,
      "t": 0
     },
     "away": {
@@ -37,8 +37,8 @@
      "t": 0
     },
     "last5": {
-     "w": 4,
-     "l": 1,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
@@ -49,6 +49,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-15",
+     "season": 2026,
+     "week": 10,
+     "type": "REG",
+     "home": "NO",
+     "away": "CAR",
+     "home_score": 17,
+     "away_score": 20,
+     "winner": "CAR",
+     "neutral": false
+    },
     {
      "date": "2025-12-14",
      "season": 2025,
@@ -178,18 +190,6 @@
      "away": "NO",
      "home_score": 7,
      "away_score": 33,
-     "winner": "NO",
-     "neutral": false
-    },
-    {
-     "date": "2020-10-25",
-     "season": 2020,
-     "week": 7,
-     "type": "REG",
-     "home": "NO",
-     "away": "CAR",
-     "home_score": 27,
-     "away_score": 24,
      "winner": "NO",
      "neutral": false
     }

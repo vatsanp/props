@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T18:28:56Z",
+ "generated_at": "2026-11-16T20:55:51Z",
  "since": 1999,
  "include_relocations": true,
  "pairs": {
@@ -87,13 +87,13 @@
     "CAR",
     "NO"
    ],
-   "games": 55,
+   "games": 56,
    "wins": {
-    "CAR": 24,
+    "CAR": 25,
     "NO": 31
    },
    "ties": 0,
-   "streak": "NO W2"
+   "streak": "CAR W1"
   },
   "NE_NYJ": {
    "teams": [
@@ -217,13 +217,13 @@
     "BUF",
     "NYJ"
    ],
-   "games": 54,
+   "games": 55,
    "wins": {
-    "BUF": 29,
+    "BUF": 30,
     "NYJ": 25
    },
    "ties": 0,
-   "streak": "BUF W5"
+   "streak": "BUF W6"
   },
   "CAR_JAX": {
    "teams": [
@@ -438,26 +438,26 @@
     "GB",
     "MIN"
    ],
-   "games": 57,
+   "games": 58,
    "wins": {
     "GB": 31,
-    "MIN": 24
+    "MIN": 25
    },
    "ties": 2,
-   "streak": "MIN W2"
+   "streak": "MIN W3"
   },
   "JAX_TEN": {
    "teams": [
     "JAX",
     "TEN"
    ],
-   "games": 55,
+   "games": 56,
    "wins": {
-    "JAX": 23,
+    "JAX": 24,
     "TEN": 32
    },
    "ties": 0,
-   "streak": "JAX W4"
+   "streak": "JAX W5"
   },
   "DET_KC": {
    "teams": [
@@ -711,13 +711,13 @@
     "LV",
     "SEA"
    ],
-   "games": 12,
+   "games": 13,
    "wins": {
     "LV": 6,
-    "SEA": 6
+    "SEA": 7
    },
    "ties": 0,
-   "streak": "LV W1"
+   "streak": "SEA W1"
   },
   "SF_TEN": {
    "teams": [
@@ -828,13 +828,13 @@
     "IND",
     "MIA"
    ],
-   "games": 19,
+   "games": 20,
    "wins": {
-    "IND": 11,
+    "IND": 12,
     "MIA": 8
    },
    "ties": 0,
-   "streak": "IND W3"
+   "streak": "IND W4"
   },
   "KC_NE": {
    "teams": [
@@ -984,13 +984,13 @@
     "CIN",
     "PIT"
    ],
-   "games": 57,
+   "games": 58,
    "wins": {
-    "CIN": 16,
+    "CIN": 17,
     "PIT": 41
    },
    "ties": 0,
-   "streak": "PIT W2"
+   "streak": "CIN W1"
   },
   "DEN_GB": {
    "teams": [
@@ -2687,13 +2687,13 @@
     "DAL",
     "SF"
    ],
-   "games": 14,
+   "games": 15,
    "wins": {
     "DAL": 7,
-    "SF": 7
+    "SF": 8
    },
    "ties": 0,
-   "streak": "SF W4"
+   "streak": "SF W5"
   },
   "NO_PHI": {
    "teams": [
@@ -3285,13 +3285,13 @@
     "DET",
     "NE"
    ],
-   "games": 7,
+   "games": 8,
    "wins": {
-    "DET": 2,
+    "DET": 3,
     "NE": 5
    },
    "ties": 0,
-   "streak": "NE W1"
+   "streak": "DET W1"
   },
   "CHI_NYJ": {
    "teams": [
@@ -3610,13 +3610,13 @@
     "ATL",
     "KC"
    ],
-   "games": 7,
+   "games": 8,
    "wins": {
     "ATL": 3,
-    "KC": 4
+    "KC": 5
    },
    "ties": 0,
-   "streak": "KC W3"
+   "streak": "KC W4"
   },
   "BAL_NYJ": {
    "teams": [
@@ -5105,13 +5105,13 @@
     "CLE",
     "HOU"
    ],
-   "games": 15,
+   "games": 16,
    "wins": {
-    "CLE": 7,
+    "CLE": 8,
     "HOU": 8
    },
    "ties": 0,
-   "streak": "HOU W1"
+   "streak": "CLE W1"
   },
   "IND_PIT": {
    "teams": [
@@ -5209,13 +5209,13 @@
     "ARI",
     "LAR"
    ],
-   "games": 50,
+   "games": 51,
    "wins": {
     "ARI": 21,
-    "LAR": 29
+    "LAR": 30
    },
    "ties": 0,
-   "streak": "ARI W1"
+   "streak": "LAR W1"
   },
   "HOU_TEN": {
    "teams": [
