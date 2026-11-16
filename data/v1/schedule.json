@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T03:35:10Z",
+ "generated_at": "2026-11-16T12:10:46Z",
  "season": 2026,
  "current_week": 10,
  "games": [
@@ -2528,9 +2528,9 @@
    "kickoff": "2026-11-16T01:20:00Z",
    "away": "PIT",
    "home": "CIN",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 18,
+   "home_score": 38,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": 4.5,
@@ -2567,7 +2567,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 10.0,
+   "spread": 10.5,
    "total": 44.5,
    "venue": "Reliant Stadium"
   },
@@ -2618,7 +2618,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -6.0,
+   "spread": -6.5,
    "total": 46.5,
    "venue": "MetLife Stadium"
   },
@@ -2720,7 +2720,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 9.5,
+   "spread": 10.0,
    "total": 40.5,
    "venue": "Empower Field at Mile High"
   },
@@ -2737,8 +2737,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -4.5,
+   "total": 38.5,
    "venue": "Lincoln Financial Field"
   },
   {
@@ -2755,7 +2755,7 @@
    "neutral": true,
    "div_game": false,
    "spread": 3.0,
-   "total": 45.5,
+   "total": 46.5,
    "venue": "Estadio Banorte"
   },
   {
@@ -2771,8 +2771,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -4.5,
+   "total": 51.5,
    "venue": "Northwest Stadium"
   },
   {
