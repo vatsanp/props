@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-17T06:34:31Z",
+ "generated_at": "2026-11-18T19:22:20Z",
  "week": 11,
  "max_softness_rank": 10,
  "weights": {
@@ -2171,46 +2171,6 @@
    "rationale": "Buffalo allows 1.13 touchdowns per game to RBs (27th of 32). Ollie Gordon II: 0.5 TD per game, 68% carry share."
   },
   {
-   "id": "2026_11_TB_DET~wr_receptions~00-0040129",
-   "game_id": "2026_11_TB_DET",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "wr_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "WR",
-   "player": {
-    "id": "00-0040129",
-    "name": "Emeka Egbuka",
-    "team": "TB",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "Questionable",
-    "games": 7,
-    "share": 0.3857,
-    "share_of": "targets",
-    "per_game": 4.43,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "DET",
-    "allowed_per_game": 12.34,
-    "softness_rank": 6,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 12.78,
-    "prior": 11.35
-   },
-   "score": 0.8983,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.9167,
-    "confidence": 1.0
-   },
-   "rationale": "Detroit allows 12.34 receptions per game to WRs (27th of 32). Emeka Egbuka: 4.43 rec per game, 39% target share. Listed questionable."
-  },
-  {
    "id": "2026_11_MIA_BUF~te_receptions~00-0038933",
    "game_id": "2026_11_MIA_BUF",
    "week": 11,
@@ -2249,6 +2209,46 @@
     "confidence": 1.0
    },
    "rationale": "Miami allows 6.2 receptions per game to TEs (29th of 32). Dalton Kincaid: 3.56 rec per game, 62% target share."
+  },
+  {
+   "id": "2026_11_TB_DET~wr_receptions~00-0040129",
+   "game_id": "2026_11_TB_DET",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "wr_receptions",
+   "market_label": "Receptions",
+   "metric": "receptions",
+   "position": "WR",
+   "player": {
+    "id": "00-0040129",
+    "name": "Emeka Egbuka",
+    "team": "TB",
+    "position": "WR",
+    "role": "primary",
+    "depth": 1,
+    "status": "Questionable",
+    "games": 7,
+    "share": 0.3857,
+    "share_of": "targets",
+    "per_game": 4.43,
+    "unit": "rec"
+   },
+   "defense": {
+    "team": "DET",
+    "allowed_per_game": 12.34,
+    "softness_rank": 6,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 12.78,
+    "prior": 11.35
+   },
+   "score": 0.8967,
+   "components": {
+    "softness": 0.8387,
+    "usage": 0.9123,
+    "confidence": 1.0
+   },
+   "rationale": "Detroit allows 12.34 receptions per game to WRs (27th of 32). Emeka Egbuka: 4.43 rec per game, 39% target share. Listed questionable."
   },
   {
    "id": "2026_11_TB_DET~rb_receiving_yards~00-0039139",
@@ -3771,6 +3771,46 @@
    "rationale": "Indianapolis allows 243.13 passing yards per game to QBs (25th of 32). C.J. Stroud: 273.56 yds per game, 99% of the team's pass attempts."
   },
   {
+   "id": "2026_11_JAX_NYG~wr_receiving_yards~00-0041042",
+   "game_id": "2026_11_JAX_NYG",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "wr_receiving_yards",
+   "market_label": "Receiving Yards",
+   "metric": "receiving_yards",
+   "position": "WR",
+   "player": {
+    "id": "00-0041042",
+    "name": "Malachi Fields",
+    "team": "NYG",
+    "position": "WR",
+    "role": "secondary",
+    "depth": 2,
+    "status": "active",
+    "games": 9,
+    "share": 0.2422,
+    "share_of": "targets",
+    "per_game": 38.89,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "JAX",
+    "allowed_per_game": 160.25,
+    "softness_rank": 7,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 170.22,
+    "prior": 137.82
+   },
+   "score": 0.8316,
+   "components": {
+    "softness": 0.8065,
+    "usage": 0.7675,
+    "confidence": 1.0
+   },
+   "rationale": "Jacksonville allows 160.25 receiving yards per game to WRs (26th of 32). Malachi Fields: 38.89 yds per game, 24% target share."
+  },
+  {
    "id": "2026_11_PIT_PHI~te_receiving_yards~00-0034351",
    "game_id": "2026_11_PIT_PHI",
    "week": 11,
@@ -3809,46 +3849,6 @@
     "confidence": 1.0
    },
    "rationale": "Pittsburgh allows 57.52 receiving yards per game to TEs (23rd of 32). Dallas Goedert: 44 yds per game, 67% target share."
-  },
-  {
-   "id": "2026_11_JAX_NYG~wr_receiving_yards~00-0041042",
-   "game_id": "2026_11_JAX_NYG",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0041042",
-    "name": "Malachi Fields",
-    "team": "NYG",
-    "position": "WR",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 9,
-    "share": 0.2422,
-    "share_of": "targets",
-    "per_game": 38.89,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "JAX",
-    "allowed_per_game": 160.25,
-    "softness_rank": 7,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 170.22,
-    "prior": 137.82
-   },
-   "score": 0.83,
-   "components": {
-    "softness": 0.8065,
-    "usage": 0.7632,
-    "confidence": 1.0
-   },
-   "rationale": "Jacksonville allows 160.25 receiving yards per game to WRs (26th of 32). Malachi Fields: 38.89 yds per game, 24% target share."
   },
   {
    "id": "2026_11_PIT_PHI~wr_receptions~00-0041489",

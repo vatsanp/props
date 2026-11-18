@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-17T19:45:57Z",
+ "generated_at": "2026-11-18T19:22:20Z",
  "season": 2026,
  "current_week": 11,
  "season_type": "REG",
@@ -10,17 +10,17 @@
   "dvp.json": {
    "hash": "bfeb573e5e51",
    "bytes": 94668,
-   "changed": true
+   "changed": false
   },
   "h2h.json": {
    "hash": "8e6beb855a7d",
    "bytes": 78169,
-   "changed": true
+   "changed": false
   },
   "props.json": {
-   "hash": "366cf4dc9b59",
-   "bytes": 115910,
-   "changed": false
+   "hash": "a3dc29605adc",
+   "bytes": 115912,
+   "changed": true
   },
   "records.json": {
    "hash": "f223d2ce14ec",
@@ -28,40 +28,40 @@
    "changed": false
   },
   "schedule.json": {
-   "hash": "4c5b6e14f18f",
+   "hash": "43b1e93c933d",
    "bytes": 95268,
    "changed": true
   },
   "stats.json": {
    "hash": "b380ff3f6e5c",
    "bytes": 152386,
-   "changed": true
+   "changed": false
   },
   "usage.json": {
-   "hash": "24d4137f27a2",
-   "bytes": 281406,
+   "hash": "08d9b561af5b",
+   "bytes": 281397,
    "changed": true
   }
  },
  "sources": {
   "nflverse_games": {
    "ok": true,
-   "fetched_at": "2026-11-17T19:45:14Z",
+   "fetched_at": "2026-11-18T19:21:43Z",
    "games": 7548,
    "season": 2026
   },
   "teamrankings": {
    "ok": true,
-   "fetched_at": "2026-11-17T19:45:55Z",
+   "fetched_at": "2026-11-18T19:22:19Z",
    "stats": 20,
    "season": 2026
   },
   "nflverse_players": {
    "ok": true,
-   "fetched_at": "2026-11-17T19:45:57Z",
+   "fetched_at": "2026-11-18T19:22:20Z",
    "player_weeks": 10446,
    "prior_player_weeks": 19422,
-   "injuries": 3168
+   "injuries": 3194
   }
  }
 }

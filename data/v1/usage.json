@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-17T19:45:57Z",
+ "generated_at": "2026-11-18T19:22:20Z",
  "season": 2026,
  "week": 11,
  "teams": {
@@ -2304,14 +2304,14 @@
      "position": "WR",
      "games": 9,
      "shares": {
-      "targets": 0.3846
+      "targets": 0.3882
      },
      "per_game": {
       "receiving_tds": 0.44,
       "receiving_yards": 71.56,
       "receptions": 5.44,
       "rushing_tds": 0.0,
-      "targets": 7.22
+      "targets": 7.33
      },
      "status": "active",
      "depth": {
@@ -2328,7 +2328,7 @@
      "position": "WR",
      "games": 9,
      "shares": {
-      "targets": 0.3018
+      "targets": 0.3
      },
      "per_game": {
       "receiving_tds": 0.11,
@@ -2352,7 +2352,7 @@
      "position": "WR",
      "games": 9,
      "shares": {
-      "targets": 0.2426
+      "targets": 0.2412
      },
      "per_game": {
       "receiving_tds": 0.11,
@@ -2376,7 +2376,7 @@
      "position": "WR",
      "games": 8,
      "shares": {
-      "targets": 0.0592
+      "targets": 0.0588
      },
      "per_game": {
       "receiving_tds": 0.0,
@@ -5377,7 +5377,7 @@
       "rushing_tds": 0.0,
       "targets": 0.4
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 4
      },
@@ -5459,7 +5459,7 @@
       "rushing_yards": 27.6,
       "targets": 1.4
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "carries": 2,
       "targets": 2
@@ -5675,7 +5675,7 @@
       "rushing_tds": 0.0,
       "targets": 3.43
      },
-     "status": "Out",
+     "status": "active",
      "depth": {
       "targets": 4
      },
@@ -6154,7 +6154,7 @@
       "rushing_tds": 0.0,
       "targets": 4.5
      },
-     "status": "Questionable",
+     "status": "active",
      "depth": {
       "targets": 2
      },
