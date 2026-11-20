@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T20:55:51Z",
+ "generated_at": "2026-11-20T19:03:21Z",
  "team": "HOU",
  "since": 1999,
  "opponents": {
@@ -364,19 +364,19 @@
    ]
   },
   "IND": {
-   "games": 50,
-   "wins": 15,
+   "games": 51,
+   "wins": 16,
    "losses": 34,
    "ties": 1,
-   "streak": "IND W1",
+   "streak": "HOU W1",
    "splits": {
     "all": {
-     "w": 15,
+     "w": 16,
      "l": 34,
      "t": 1
     },
     "regular": {
-     "w": 15,
+     "w": 16,
      "l": 33,
      "t": 1
     },
@@ -386,7 +386,7 @@
      "t": 0
     },
     "home": {
-     "w": 8,
+     "w": 9,
      "l": 16,
      "t": 1
     },
@@ -401,13 +401,25 @@
      "t": 0
     },
     "last10": {
-     "w": 6,
-     "l": 3,
+     "w": 7,
+     "l": 2,
      "t": 1
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-19",
+     "season": 2026,
+     "week": 11,
+     "type": "REG",
+     "home": "HOU",
+     "away": "IND",
+     "home_score": 26,
+     "away_score": 3,
+     "winner": "HOU",
+     "neutral": false
+    },
     {
      "date": "2026-09-27",
      "season": 2026,
@@ -537,18 +549,6 @@
      "away": "HOU",
      "home_score": 31,
      "away_score": 3,
-     "winner": "IND",
-     "neutral": false
-    },
-    {
-     "date": "2020-12-20",
-     "season": 2020,
-     "week": 15,
-     "type": "REG",
-     "home": "IND",
-     "away": "HOU",
-     "home_score": 27,
-     "away_score": 20,
      "winner": "IND",
      "neutral": false
     }

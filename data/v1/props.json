@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-19T19:28:04Z",
+ "generated_at": "2026-11-20T19:04:05Z",
  "week": 11,
  "max_softness_rank": 10,
  "weights": {
@@ -202,10 +202,10 @@
     "current": 204.56,
     "prior": 165.53
    },
-   "score": 0.9816,
+   "score": 0.9817,
    "components": {
     "softness": 1.0,
-    "usage": 0.9474,
+    "usage": 0.9476,
     "confidence": 1.0
    },
    "rationale": "Tennessee allows 192.55 receiving yards per game to WRs (32nd of 32). CeeDee Lamb: 97.6 yds per game, 44% target share."
@@ -242,10 +242,10 @@
     "current": 15.33,
     "prior": 12.06
    },
-   "score": 0.9816,
+   "score": 0.9817,
    "components": {
     "softness": 1.0,
-    "usage": 0.9474,
+    "usage": 0.9476,
     "confidence": 1.0
    },
    "rationale": "Tennessee allows 14.33 receptions per game to WRs (32nd of 32). CeeDee Lamb: 7.7 rec per game, 44% target share."
@@ -371,46 +371,6 @@
    "rationale": "Arizona allows 2.09 passing touchdowns per game to QBs (32nd of 32). Patrick Mahomes: 2.11 TD per game, 100% of the team's pass attempts."
   },
   {
-   "id": "2026_11_BAL_CAR~wr_receiving_yards~00-0040124",
-   "game_id": "2026_11_BAL_CAR",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0040124",
-    "name": "Tetairoa McMillan",
-    "team": "CAR",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 9,
-    "share": 0.4382,
-    "share_of": "targets",
-    "per_game": 73.33,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "BAL",
-    "allowed_per_game": 165.95,
-    "softness_rank": 2,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 164.5,
-    "prior": 169.59
-   },
-   "score": 0.9686,
-   "components": {
-    "softness": 0.9677,
-    "usage": 0.9518,
-    "confidence": 1.0
-   },
-   "rationale": "Baltimore allows 165.95 receiving yards per game to WRs (31st of 32). Tetairoa McMillan: 73.33 yds per game, 44% target share."
-  },
-  {
    "id": "2026_11_CIN_WAS~te_receiving_yards~00-0037809",
    "game_id": "2026_11_CIN_WAS",
    "week": 11,
@@ -442,13 +402,53 @@
     "current": 76.11,
     "prior": 84.94
    },
-   "score": 0.9667,
+   "score": 0.9694,
    "components": {
     "softness": 1.0,
-    "usage": 0.9048,
+    "usage": 0.9127,
     "confidence": 1.0
    },
    "rationale": "Cincinnati allows 78.83 receiving yards per game to TEs (32nd of 32). Chig Okonkwo: 37.57 yds per game, 70% target share."
+  },
+  {
+   "id": "2026_11_BAL_CAR~wr_receiving_yards~00-0040124",
+   "game_id": "2026_11_BAL_CAR",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "wr_receiving_yards",
+   "market_label": "Receiving Yards",
+   "metric": "receiving_yards",
+   "position": "WR",
+   "player": {
+    "id": "00-0040124",
+    "name": "Tetairoa McMillan",
+    "team": "CAR",
+    "position": "WR",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 9,
+    "share": 0.4382,
+    "share_of": "targets",
+    "per_game": 73.33,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "BAL",
+    "allowed_per_game": 165.95,
+    "softness_rank": 2,
+    "games": 10,
+    "blend_weight": 0.714,
+    "current": 164.5,
+    "prior": 169.59
+   },
+   "score": 0.9687,
+   "components": {
+    "softness": 0.9677,
+    "usage": 0.952,
+    "confidence": 1.0
+   },
+   "rationale": "Baltimore allows 165.95 receiving yards per game to WRs (31st of 32). Tetairoa McMillan: 73.33 yds per game, 44% target share."
   },
   {
    "id": "2026_11_TEN_DAL~qb_passing_yards~00-0033077",
@@ -611,46 +611,6 @@
    "rationale": "Arizona allows 110.94 rushing yards per game to RBs (30th of 32). Kenneth Walker III: 109 yds per game, 75% carry share."
   },
   {
-   "id": "2026_11_PIT_PHI~wr_receiving_yards~00-0035640",
-   "game_id": "2026_11_PIT_PHI",
-   "week": 11,
-   "kickoff": "2026-11-22T21:25:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0035640",
-    "name": "DK Metcalf",
-    "team": "PIT",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 9,
-    "share": 0.4294,
-    "share_of": "targets",
-    "per_game": 48.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "PHI",
-    "allowed_per_game": 165.09,
-    "softness_rank": 3,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 177.56,
-    "prior": 137.06
-   },
-   "score": 0.9479,
-   "components": {
-    "softness": 0.9355,
-    "usage": 0.9342,
-    "confidence": 1.0
-   },
-   "rationale": "Philadelphia allows 165.09 receiving yards per game to WRs (30th of 32). DK Metcalf: 48 yds per game, 43% target share."
-  },
-  {
    "id": "2026_11_LV_DEN~rb_rushing_yards~00-0036158",
    "game_id": "2026_11_LV_DEN",
    "week": 11,
@@ -682,13 +642,53 @@
     "current": 131.5,
     "prior": 97.71
    },
-   "score": 0.9476,
+   "score": 0.95,
    "components": {
     "softness": 1.0,
-    "usage": 0.8503,
+    "usage": 0.8571,
     "confidence": 1.0
    },
    "rationale": "Las Vegas allows 121.85 rushing yards per game to RBs (32nd of 32). J.K. Dobbins: 36 yds per game, 56% carry share."
+  },
+  {
+   "id": "2026_11_PIT_PHI~wr_receiving_yards~00-0035640",
+   "game_id": "2026_11_PIT_PHI",
+   "week": 11,
+   "kickoff": "2026-11-22T21:25:00Z",
+   "market": "wr_receiving_yards",
+   "market_label": "Receiving Yards",
+   "metric": "receiving_yards",
+   "position": "WR",
+   "player": {
+    "id": "00-0035640",
+    "name": "DK Metcalf",
+    "team": "PIT",
+    "position": "WR",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 9,
+    "share": 0.4294,
+    "share_of": "targets",
+    "per_game": 48.0,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "PHI",
+    "allowed_per_game": 165.09,
+    "softness_rank": 3,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 177.56,
+    "prior": 137.06
+   },
+   "score": 0.9481,
+   "components": {
+    "softness": 0.9355,
+    "usage": 0.9345,
+    "confidence": 1.0
+   },
+   "rationale": "Philadelphia allows 165.09 receiving yards per game to WRs (30th of 32). DK Metcalf: 48 yds per game, 43% target share."
   },
   {
    "id": "2026_11_CIN_WAS~wr_receptions~00-0036900",
@@ -722,10 +722,10 @@
     "current": 12.89,
     "prior": 12.12
    },
-   "score": 0.9464,
+   "score": 0.9465,
    "components": {
     "softness": 0.9355,
-    "usage": 0.9298,
+    "usage": 0.9301,
     "confidence": 1.0
    },
    "rationale": "Washington allows 12.65 receptions per game to WRs (30th of 32). Ja'Marr Chase: 7.11 rec per game, 43% target share."
@@ -771,6 +771,86 @@
    "rationale": "Dallas allows 256.13 passing yards per game to QBs (29th of 32). Cam Ward: 190.44 yds per game, 100% of the team's pass attempts."
   },
   {
+   "id": "2026_11_NYJ_LAC~rb_carries~00-0040666",
+   "game_id": "2026_11_NYJ_LAC",
+   "week": 11,
+   "kickoff": "2026-11-22T21:05:00Z",
+   "market": "rb_carries",
+   "market_label": "Carries",
+   "metric": "carries",
+   "position": "RB",
+   "player": {
+    "id": "00-0040666",
+    "name": "Omarion Hampton",
+    "team": "LAC",
+    "position": "RB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 9,
+    "share": 0.5877,
+    "share_of": "carries",
+    "per_game": 13.78,
+    "unit": "att"
+   },
+   "defense": {
+    "team": "NYJ",
+    "allowed_per_game": 25.64,
+    "softness_rank": 2,
+    "games": 10,
+    "blend_weight": 0.714,
+    "current": 25.8,
+    "prior": 25.24
+   },
+   "score": 0.9426,
+   "components": {
+    "softness": 0.9677,
+    "usage": 0.8776,
+    "confidence": 1.0
+   },
+   "rationale": "New York allows 25.64 carries per game to RBs (31st of 32). Omarion Hampton: 13.78 att per game, 59% carry share."
+  },
+  {
+   "id": "2026_11_NYJ_LAC~rb_rushing_yards~00-0040666",
+   "game_id": "2026_11_NYJ_LAC",
+   "week": 11,
+   "kickoff": "2026-11-22T21:05:00Z",
+   "market": "rb_rushing_yards",
+   "market_label": "Rushing Yards",
+   "metric": "rushing_yards",
+   "position": "RB",
+   "player": {
+    "id": "00-0040666",
+    "name": "Omarion Hampton",
+    "team": "LAC",
+    "position": "RB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 9,
+    "share": 0.5877,
+    "share_of": "carries",
+    "per_game": 52.67,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "NYJ",
+    "allowed_per_game": 114.14,
+    "softness_rank": 2,
+    "games": 10,
+    "blend_weight": 0.714,
+    "current": 115.8,
+    "prior": 110.0
+   },
+   "score": 0.9426,
+   "components": {
+    "softness": 0.9677,
+    "usage": 0.8776,
+    "confidence": 1.0
+   },
+   "rationale": "New York allows 114.14 rushing yards per game to RBs (31st of 32). Omarion Hampton: 52.67 yds per game, 59% carry share."
+  },
+  {
    "id": "2026_11_LV_DEN~qb_passing_tds~00-0039732",
    "game_id": "2026_11_LV_DEN",
    "week": 11,
@@ -811,84 +891,44 @@
    "rationale": "Las Vegas allows 1.96 passing touchdowns per game to QBs (30th of 32). Bo Nix: 1.22 TD per game, 100% of the team's pass attempts."
   },
   {
-   "id": "2026_11_NYJ_LAC~rb_carries~00-0040666",
-   "game_id": "2026_11_NYJ_LAC",
+   "id": "2026_11_CIN_WAS~te_receptions~00-0037809",
+   "game_id": "2026_11_CIN_WAS",
    "week": 11,
-   "kickoff": "2026-11-22T21:05:00Z",
-   "market": "rb_carries",
-   "market_label": "Carries",
-   "metric": "carries",
-   "position": "RB",
+   "kickoff": "2026-11-24T01:15:00Z",
+   "market": "te_receptions",
+   "market_label": "Receptions",
+   "metric": "receptions",
+   "position": "TE",
    "player": {
-    "id": "00-0040666",
-    "name": "Omarion Hampton",
-    "team": "LAC",
-    "position": "RB",
+    "id": "00-0037809",
+    "name": "Chig Okonkwo",
+    "team": "WAS",
+    "position": "TE",
     "role": "primary",
     "depth": 1,
     "status": "active",
-    "games": 9,
-    "share": 0.5877,
-    "share_of": "carries",
-    "per_game": 13.78,
-    "unit": "att"
+    "games": 7,
+    "share": 0.6964,
+    "share_of": "targets",
+    "per_game": 3.86,
+    "unit": "rec"
    },
    "defense": {
-    "team": "NYJ",
-    "allowed_per_game": 25.64,
-    "softness_rank": 2,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 25.8,
-    "prior": 25.24
-   },
-   "score": 0.9402,
-   "components": {
-    "softness": 0.9677,
-    "usage": 0.8707,
-    "confidence": 1.0
-   },
-   "rationale": "New York allows 25.64 carries per game to RBs (31st of 32). Omarion Hampton: 13.78 att per game, 59% carry share."
-  },
-  {
-   "id": "2026_11_NYJ_LAC~rb_rushing_yards~00-0040666",
-   "game_id": "2026_11_NYJ_LAC",
-   "week": 11,
-   "kickoff": "2026-11-22T21:05:00Z",
-   "market": "rb_rushing_yards",
-   "market_label": "Rushing Yards",
-   "metric": "rushing_yards",
-   "position": "RB",
-   "player": {
-    "id": "00-0040666",
-    "name": "Omarion Hampton",
-    "team": "LAC",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
+    "team": "CIN",
+    "allowed_per_game": 6.41,
+    "softness_rank": 3,
     "games": 9,
-    "share": 0.5877,
-    "share_of": "carries",
-    "per_game": 52.67,
-    "unit": "yds"
+    "blend_weight": 0.692,
+    "current": 6.22,
+    "prior": 6.82
    },
-   "defense": {
-    "team": "NYJ",
-    "allowed_per_game": 114.14,
-    "softness_rank": 2,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 115.8,
-    "prior": 110.0
-   },
-   "score": 0.9402,
+   "score": 0.9404,
    "components": {
-    "softness": 0.9677,
-    "usage": 0.8707,
+    "softness": 0.9355,
+    "usage": 0.9127,
     "confidence": 1.0
    },
-   "rationale": "New York allows 114.14 rushing yards per game to RBs (31st of 32). Omarion Hampton: 52.67 yds per game, 59% carry share."
+   "rationale": "Cincinnati allows 6.41 receptions per game to TEs (30th of 32). Chig Okonkwo: 3.86 rec per game, 70% target share."
   },
   {
    "id": "2026_11_TEN_DAL~wr_receiving_yards~00-0037247",
@@ -922,10 +962,10 @@
     "current": 204.56,
     "prior": 165.53
    },
-   "score": 0.9401,
+   "score": 0.9404,
    "components": {
     "softness": 1.0,
-    "usage": 0.8289,
+    "usage": 0.8297,
     "confidence": 1.0
    },
    "rationale": "Tennessee allows 192.55 receiving yards per game to WRs (32nd of 32). George Pickens: 75.33 yds per game, 29% target share."
@@ -962,10 +1002,10 @@
     "current": 15.33,
     "prior": 12.06
    },
-   "score": 0.9401,
+   "score": 0.9404,
    "components": {
     "softness": 1.0,
-    "usage": 0.8289,
+    "usage": 0.8297,
     "confidence": 1.0
    },
    "rationale": "Tennessee allows 14.33 receptions per game to WRs (32nd of 32). George Pickens: 5.56 rec per game, 29% target share."
@@ -1045,50 +1085,10 @@
    "score": 0.9389,
    "components": {
     "softness": 0.871,
-    "usage": 0.9912,
+    "usage": 0.9913,
     "confidence": 1.0
    },
    "rationale": "Jacksonville allows 12.49 receptions per game to WRs (28th of 32). Malik Nabers: 6.44 rec per game, 53% target share."
-  },
-  {
-   "id": "2026_11_CIN_WAS~te_receptions~00-0037809",
-   "game_id": "2026_11_CIN_WAS",
-   "week": 11,
-   "kickoff": "2026-11-24T01:15:00Z",
-   "market": "te_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "TE",
-   "player": {
-    "id": "00-0037809",
-    "name": "Chig Okonkwo",
-    "team": "WAS",
-    "position": "TE",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 7,
-    "share": 0.6964,
-    "share_of": "targets",
-    "per_game": 3.86,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "CIN",
-    "allowed_per_game": 6.41,
-    "softness_rank": 3,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 6.22,
-    "prior": 6.82
-   },
-   "score": 0.9377,
-   "components": {
-    "softness": 0.9355,
-    "usage": 0.9048,
-    "confidence": 1.0
-   },
-   "rationale": "Cincinnati allows 6.41 receptions per game to TEs (30th of 32). Chig Okonkwo: 3.86 rec per game, 70% target share."
   },
   {
    "id": "2026_11_CIN_WAS~wr_receptions~00-0036410",
@@ -1106,7 +1106,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "Questionable",
+    "status": "active",
     "games": 9,
     "share": 0.3596,
     "share_of": "targets",
@@ -1122,13 +1122,13 @@
     "current": 12.89,
     "prior": 12.12
    },
-   "score": 0.9372,
+   "score": 0.9373,
    "components": {
     "softness": 0.9355,
-    "usage": 0.9035,
+    "usage": 0.9039,
     "confidence": 1.0
    },
-   "rationale": "Washington allows 12.65 receptions per game to WRs (30th of 32). Tee Higgins: 5.89 rec per game, 36% target share. Listed questionable."
+   "rationale": "Washington allows 12.65 receptions per game to WRs (30th of 32). Tee Higgins: 5.89 rec per game, 36% target share."
   },
   {
    "id": "2026_11_TEN_DAL~wr_anytime_td~00-0038117",
@@ -1162,10 +1162,10 @@
     "current": 1.2,
     "prior": 1.53
    },
-   "score": 0.9363,
+   "score": 0.9366,
    "components": {
     "softness": 0.9677,
-    "usage": 0.8596,
+    "usage": 0.8603,
     "confidence": 1.0
    },
    "rationale": "Dallas allows 1.29 touchdowns per game to WRs (31st of 32). Wan'Dale Robinson: 0.33 TD per game, 31% target share."
@@ -1202,10 +1202,10 @@
     "current": 1.22,
     "prior": 1.0
    },
-   "score": 0.9349,
+   "score": 0.9351,
    "components": {
     "softness": 0.9032,
-    "usage": 0.9386,
+    "usage": 0.9389,
     "confidence": 1.0
    },
    "rationale": "New York allows 1.15 touchdowns per game to WRs (29th of 32). Parker Washington: 0.67 TD per game, 43% target share."
@@ -1285,7 +1285,7 @@
    "score": 0.9312,
    "components": {
     "softness": 0.871,
-    "usage": 0.9693,
+    "usage": 0.9694,
     "confidence": 1.0
    },
    "rationale": "San Francisco allows 1.12 touchdowns per game to WRs (28th of 32). Justin Jefferson: 0.5 TD per game, 46% target share."
@@ -1306,7 +1306,7 @@
     "position": "QB",
     "role": "primary",
     "depth": 1,
-    "status": "Questionable",
+    "status": "active",
     "games": 9,
     "share": 1.0,
     "share_of": "attempts",
@@ -1328,7 +1328,7 @@
     "usage": 0.8841,
     "confidence": 1.0
    },
-   "rationale": "Washington allows 258.11 passing yards per game to QBs (30th of 32). Joe Burrow: 310.56 yds per game, 100% of the team's pass attempts. Listed questionable."
+   "rationale": "Washington allows 258.11 passing yards per game to QBs (30th of 32). Joe Burrow: 310.56 yds per game, 100% of the team's pass attempts."
   },
   {
    "id": "2026_11_BAL_CAR~wr_receiving_yards~00-0039491",
@@ -1362,10 +1362,10 @@
     "current": 164.5,
     "prior": 169.59
    },
-   "score": 0.9287,
+   "score": 0.9289,
    "components": {
     "softness": 0.9677,
-    "usage": 0.8377,
+    "usage": 0.8384,
     "confidence": 1.0
    },
    "rationale": "Baltimore allows 165.95 receiving yards per game to WRs (31st of 32). Jalen Coker: 49.12 yds per game, 30% target share."
@@ -1402,13 +1402,93 @@
     "current": 1.2,
     "prior": 1.65
    },
-   "score": 0.9257,
+   "score": 0.9281,
    "components": {
     "softness": 0.9355,
-    "usage": 0.8707,
+    "usage": 0.8776,
     "confidence": 1.0
    },
    "rationale": "New York allows 1.33 touchdowns per game to RBs (30th of 32). Omarion Hampton: 0.44 TD per game, 59% carry share."
+  },
+  {
+   "id": "2026_11_IND_HOU~rb_receptions~00-0036223",
+   "game_id": "2026_11_IND_HOU",
+   "week": 11,
+   "kickoff": "2026-11-20T01:15:00Z",
+   "market": "rb_receptions",
+   "market_label": "Receptions",
+   "metric": "receptions",
+   "position": "RB",
+   "player": {
+    "id": "00-0036223",
+    "name": "Jonathan Taylor",
+    "team": "IND",
+    "position": "RB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 11,
+    "share": 0.8491,
+    "share_of": "targets",
+    "per_game": 2.91,
+    "unit": "rec"
+   },
+   "defense": {
+    "team": "HOU",
+    "allowed_per_game": 4.76,
+    "softness_rank": 6,
+    "games": 10,
+    "blend_weight": 0.714,
+    "current": 5.0,
+    "prior": 4.18
+   },
+   "score": 0.925,
+   "components": {
+    "softness": 0.8387,
+    "usage": 0.9932,
+    "confidence": 1.0
+   },
+   "rationale": "Houston allows 4.76 receptions per game to RBs (27th of 32). Jonathan Taylor: 2.91 rec per game, 85% target share."
+  },
+  {
+   "id": "2026_11_JAX_NYG~wr_receiving_yards~00-0039337",
+   "game_id": "2026_11_JAX_NYG",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "wr_receiving_yards",
+   "market_label": "Receiving Yards",
+   "metric": "receiving_yards",
+   "position": "WR",
+   "player": {
+    "id": "00-0039337",
+    "name": "Malik Nabers",
+    "team": "NYG",
+    "position": "WR",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 9,
+    "share": 0.528,
+    "share_of": "targets",
+    "per_game": 76.89,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "JAX",
+    "allowed_per_game": 160.25,
+    "softness_rank": 6,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 170.22,
+    "prior": 137.82
+   },
+   "score": 0.9244,
+   "components": {
+    "softness": 0.8387,
+    "usage": 0.9913,
+    "confidence": 1.0
+   },
+   "rationale": "Jacksonville allows 160.25 receiving yards per game to WRs (27th of 32). Malik Nabers: 76.89 yds per game, 53% target share."
   },
   {
    "id": "2026_11_ARI_KC~te_anytime_td~00-0030506",
@@ -1571,6 +1651,46 @@
    "rationale": "New Orleans allows 61.34 receiving yards per game to TEs (28th of 32). Colston Loveland: 40.33 yds per game, 73% target share."
   },
   {
+   "id": "2026_11_NO_CHI~rb_receiving_yards~00-0036275",
+   "game_id": "2026_11_NO_CHI",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "rb_receiving_yards",
+   "market_label": "Receiving Yards",
+   "metric": "receiving_yards",
+   "position": "RB",
+   "player": {
+    "id": "00-0036275",
+    "name": "D'Andre Swift",
+    "team": "CHI",
+    "position": "RB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 9,
+    "share": 0.6444,
+    "share_of": "targets",
+    "per_game": 18.0,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "NO",
+    "allowed_per_game": 36.55,
+    "softness_rank": 5,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 42.44,
+    "prior": 23.29
+   },
+   "score": 0.9158,
+   "components": {
+    "softness": 0.871,
+    "usage": 0.9252,
+    "confidence": 1.0
+   },
+   "rationale": "New Orleans allows 36.55 receiving yards per game to RBs (28th of 32). D'Andre Swift: 18 yds per game, 64% target share."
+  },
+  {
    "id": "2026_11_MIA_BUF~rb_carries~00-0037248",
    "game_id": "2026_11_MIA_BUF",
    "week": 11,
@@ -1645,50 +1765,10 @@
    "score": 0.9121,
    "components": {
     "softness": 0.8387,
-    "usage": 0.9561,
+    "usage": 0.9563,
     "confidence": 1.0
    },
    "rationale": "Los Angeles allows 1.1 touchdowns per game to WRs (27th of 32). Garrett Wilson: 0.33 TD per game, 44% target share. Listed questionable."
-  },
-  {
-   "id": "2026_11_JAX_NYG~wr_receiving_yards~00-0039337",
-   "game_id": "2026_11_JAX_NYG",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0039337",
-    "name": "Malik Nabers",
-    "team": "NYG",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 9,
-    "share": 0.528,
-    "share_of": "targets",
-    "per_game": 76.89,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "JAX",
-    "allowed_per_game": 160.25,
-    "softness_rank": 7,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 170.22,
-    "prior": 137.82
-   },
-   "score": 0.9098,
-   "components": {
-    "softness": 0.8065,
-    "usage": 0.9912,
-    "confidence": 1.0
-   },
-   "rationale": "Jacksonville allows 160.25 receiving yards per game to WRs (26th of 32). Malik Nabers: 76.89 yds per game, 53% target share."
   },
   {
    "id": "2026_11_ARI_KC~te_receptions~00-0037744",
@@ -1811,46 +1891,6 @@
    "rationale": "Jacksonville allows 5.12 receptions per game to RBs (30th of 32). Cam Skattebo: 2 rec per game, 42% target share."
   },
   {
-   "id": "2026_11_PIT_PHI~wr_receptions~00-0040867",
-   "game_id": "2026_11_PIT_PHI",
-   "week": 11,
-   "kickoff": "2026-11-22T21:25:00Z",
-   "market": "wr_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "WR",
-   "player": {
-    "id": "00-0040867",
-    "name": "Makai Lemon",
-    "team": "PHI",
-    "position": "WR",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 9,
-    "share": 0.3121,
-    "share_of": "targets",
-    "per_game": 4.11,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "PIT",
-    "allowed_per_game": 12.62,
-    "softness_rank": 4,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 12.67,
-    "prior": 12.53
-   },
-   "score": 0.9058,
-   "components": {
-    "softness": 0.9032,
-    "usage": 0.8553,
-    "confidence": 1.0
-   },
-   "rationale": "Pittsburgh allows 12.62 receptions per game to WRs (29th of 32). Makai Lemon: 4.11 rec per game, 31% target share."
-  },
-  {
    "id": "2026_11_LV_DEN~rb_carries~00-0036158",
    "game_id": "2026_11_LV_DEN",
    "week": 11,
@@ -1882,13 +1922,53 @@
     "current": 25.6,
     "prior": 24.24
    },
-   "score": 0.904,
+   "score": 0.9064,
    "components": {
     "softness": 0.9032,
-    "usage": 0.8503,
+    "usage": 0.8571,
     "confidence": 1.0
    },
    "rationale": "Las Vegas allows 25.21 carries per game to RBs (29th of 32). J.K. Dobbins: 10.89 att per game, 56% carry share."
+  },
+  {
+   "id": "2026_11_PIT_PHI~wr_receptions~00-0040867",
+   "game_id": "2026_11_PIT_PHI",
+   "week": 11,
+   "kickoff": "2026-11-22T21:25:00Z",
+   "market": "wr_receptions",
+   "market_label": "Receptions",
+   "metric": "receptions",
+   "position": "WR",
+   "player": {
+    "id": "00-0040867",
+    "name": "Makai Lemon",
+    "team": "PHI",
+    "position": "WR",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 9,
+    "share": 0.3121,
+    "share_of": "targets",
+    "per_game": 4.11,
+    "unit": "rec"
+   },
+   "defense": {
+    "team": "PIT",
+    "allowed_per_game": 12.62,
+    "softness_rank": 4,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 12.67,
+    "prior": 12.53
+   },
+   "score": 0.906,
+   "components": {
+    "softness": 0.9032,
+    "usage": 0.8559,
+    "confidence": 1.0
+   },
+   "rationale": "Pittsburgh allows 12.62 receptions per game to WRs (29th of 32). Makai Lemon: 4.11 rec per game, 31% target share."
   },
   {
    "id": "2026_11_NO_CHI~rb_carries~00-0036275",
@@ -1971,44 +2051,44 @@
    "rationale": "New Orleans allows 108.52 rushing yards per game to RBs (28th of 32). D'Andre Swift: 64 yds per game, 62% carry share."
   },
   {
-   "id": "2026_11_BAL_CAR~rb_receptions~00-0034975",
-   "game_id": "2026_11_BAL_CAR",
+   "id": "2026_11_LV_DEN~wr_receiving_yards~00-0036613",
+   "game_id": "2026_11_LV_DEN",
    "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "rb_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "RB",
+   "kickoff": "2026-11-22T21:25:00Z",
+   "market": "wr_receiving_yards",
+   "market_label": "Receiving Yards",
+   "metric": "receiving_yards",
+   "position": "WR",
    "player": {
-    "id": "00-0034975",
-    "name": "Justice Hill",
-    "team": "BAL",
-    "position": "RB",
+    "id": "00-0036613",
+    "name": "Jaylen Waddle",
+    "team": "DEN",
+    "position": "WR",
     "role": "primary",
     "depth": 1,
     "status": "active",
-    "games": 10,
-    "share": 0.6481,
+    "games": 9,
+    "share": 0.3444,
     "share_of": "targets",
-    "per_game": 2.5,
-    "unit": "rec"
+    "per_game": 37.44,
+    "unit": "yds"
    },
    "defense": {
-    "team": "CAR",
-    "allowed_per_game": 4.74,
-    "softness_rank": 6,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 4.89,
-    "prior": 4.41
+    "team": "LV",
+    "allowed_per_game": 160.64,
+    "softness_rank": 5,
+    "games": 10,
+    "blend_weight": 0.714,
+    "current": 166.0,
+    "prior": 147.24
    },
-   "score": 0.9036,
+   "score": 0.9037,
    "components": {
-    "softness": 0.8387,
-    "usage": 0.932,
+    "softness": 0.871,
+    "usage": 0.8908,
     "confidence": 1.0
    },
-   "rationale": "Carolina allows 4.74 receptions per game to RBs (27th of 32). Justice Hill: 2.5 rec per game, 65% target share."
+   "rationale": "Las Vegas allows 160.64 receiving yards per game to WRs (28th of 32). Jaylen Waddle: 37.44 yds per game, 34% target share."
   },
   {
    "id": "2026_11_PIT_PHI~wr_receiving_yards~00-0041489",
@@ -2042,10 +2122,10 @@
     "current": 177.56,
     "prior": 137.06
    },
-   "score": 0.9019,
+   "score": 0.9022,
    "components": {
     "softness": 0.9355,
-    "usage": 0.8026,
+    "usage": 0.8035,
     "confidence": 1.0
    },
    "rationale": "Philadelphia allows 165.09 receiving yards per game to WRs (30th of 32). Germie Bernard: 35.5 yds per game, 28% target share."
@@ -2066,7 +2146,7 @@
     "position": "QB",
     "role": "primary",
     "depth": 1,
-    "status": "Questionable",
+    "status": "active",
     "games": 9,
     "share": 1.0,
     "share_of": "attempts",
@@ -2088,47 +2168,7 @@
     "usage": 0.8841,
     "confidence": 1.0
    },
-   "rationale": "Washington allows 1.9 passing touchdowns per game to QBs (28th of 32). Joe Burrow: 3 TD per game, 100% of the team's pass attempts. Listed questionable."
-  },
-  {
-   "id": "2026_11_NO_CHI~rb_receiving_yards~00-0036275",
-   "game_id": "2026_11_NO_CHI",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "rb_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "RB",
-   "player": {
-    "id": "00-0036275",
-    "name": "D'Andre Swift",
-    "team": "CHI",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 9,
-    "share": 0.6444,
-    "share_of": "targets",
-    "per_game": 18.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "NO",
-    "allowed_per_game": 36.55,
-    "softness_rank": 6,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 42.44,
-    "prior": 23.29
-   },
-   "score": 0.9012,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.9252,
-    "confidence": 1.0
-   },
-   "rationale": "New Orleans allows 36.55 receiving yards per game to RBs (27th of 32). D'Andre Swift: 18 yds per game, 64% target share."
+   "rationale": "Washington allows 1.9 passing touchdowns per game to QBs (28th of 32). Joe Burrow: 3 TD per game, 100% of the team's pass attempts."
   },
   {
    "id": "2026_11_MIA_BUF~rb_anytime_td~00-0040198",
@@ -2169,6 +2209,86 @@
     "confidence": 1.0
    },
    "rationale": "Buffalo allows 1.13 touchdowns per game to RBs (27th of 32). Ollie Gordon II: 0.5 TD per game, 68% carry share."
+  },
+  {
+   "id": "2026_11_TEN_DAL~wr_receiving_yards~00-0041438",
+   "game_id": "2026_11_TEN_DAL",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "wr_receiving_yards",
+   "market_label": "Receiving Yards",
+   "metric": "receiving_yards",
+   "position": "WR",
+   "player": {
+    "id": "00-0041438",
+    "name": "Carnell Tate",
+    "team": "TEN",
+    "position": "WR",
+    "role": "secondary",
+    "depth": 2,
+    "status": "active",
+    "games": 7,
+    "share": 0.2948,
+    "share_of": "targets",
+    "per_game": 59.0,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "DAL",
+    "allowed_per_game": 161.36,
+    "softness_rank": 4,
+    "games": 10,
+    "blend_weight": 0.714,
+    "current": 157.5,
+    "prior": 171.0
+   },
+   "score": 0.8984,
+   "components": {
+    "softness": 0.9032,
+    "usage": 0.8341,
+    "confidence": 1.0
+   },
+   "rationale": "Dallas allows 161.36 receiving yards per game to WRs (29th of 32). Carnell Tate: 59 yds per game, 29% target share."
+  },
+  {
+   "id": "2026_11_TB_DET~rb_receiving_yards~00-0039139",
+   "game_id": "2026_11_TB_DET",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "rb_receiving_yards",
+   "market_label": "Receiving Yards",
+   "metric": "receiving_yards",
+   "position": "RB",
+   "player": {
+    "id": "00-0039139",
+    "name": "Jahmyr Gibbs",
+    "team": "DET",
+    "position": "RB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 9,
+    "share": 0.8548,
+    "share_of": "targets",
+    "per_game": 42.67,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "TB",
+    "allowed_per_game": 35.56,
+    "softness_rank": 8,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 29.11,
+    "prior": 50.06
+   },
+   "score": 0.8984,
+   "components": {
+    "softness": 0.7742,
+    "usage": 1.0,
+    "confidence": 1.0
+   },
+   "rationale": "Tampa Bay allows 35.56 receiving yards per game to RBs (25th of 32). Jahmyr Gibbs: 42.67 yds per game, 85% target share."
   },
   {
    "id": "2026_11_MIA_BUF~te_receptions~00-0038933",
@@ -2242,53 +2362,53 @@
     "current": 12.78,
     "prior": 11.35
    },
-   "score": 0.8967,
+   "score": 0.8969,
    "components": {
     "softness": 0.8387,
-    "usage": 0.9123,
+    "usage": 0.9127,
     "confidence": 1.0
    },
    "rationale": "Detroit allows 12.34 receptions per game to WRs (27th of 32). Emeka Egbuka: 4.43 rec per game, 39% target share. Listed questionable."
   },
   {
-   "id": "2026_11_TB_DET~rb_receiving_yards~00-0039139",
-   "game_id": "2026_11_TB_DET",
+   "id": "2026_11_MIN_SF~te_receptions~00-0035229",
+   "game_id": "2026_11_MIN_SF",
    "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "rb_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "RB",
+   "kickoff": "2026-11-23T01:20:00Z",
+   "market": "te_receptions",
+   "market_label": "Receptions",
+   "metric": "receptions",
+   "position": "TE",
    "player": {
-    "id": "00-0039139",
-    "name": "Jahmyr Gibbs",
-    "team": "DET",
-    "position": "RB",
+    "id": "00-0035229",
+    "name": "T.J. Hockenson",
+    "team": "MIN",
+    "position": "TE",
     "role": "primary",
     "depth": 1,
     "status": "active",
-    "games": 9,
-    "share": 0.8548,
+    "games": 8,
+    "share": 0.6769,
     "share_of": "targets",
-    "per_game": 42.67,
-    "unit": "yds"
+    "per_game": 4.38,
+    "unit": "rec"
    },
    "defense": {
-    "team": "TB",
-    "allowed_per_game": 35.56,
-    "softness_rank": 8,
+    "team": "SF",
+    "allowed_per_game": 5.95,
+    "softness_rank": 6,
     "games": 9,
     "blend_weight": 0.692,
-    "current": 29.11,
-    "prior": 50.06
+    "current": 6.0,
+    "prior": 5.82
    },
-   "score": 0.896,
+   "score": 0.8941,
    "components": {
-    "softness": 0.7742,
-    "usage": 0.9932,
+    "softness": 0.8387,
+    "usage": 0.9048,
     "confidence": 1.0
    },
-   "rationale": "Tampa Bay allows 35.56 receiving yards per game to RBs (25th of 32). Jahmyr Gibbs: 42.67 yds per game, 85% target share."
+   "rationale": "San Francisco allows 5.95 receptions per game to TEs (27th of 32). T.J. Hockenson: 4.38 rec per game, 68% target share."
   },
   {
    "id": "2026_11_CIN_WAS~te_receiving_yards~00-0034829",
@@ -2331,46 +2451,6 @@
    "rationale": "Washington allows 71.52 receiving yards per game to TEs (30th of 32). Mike Gesicki: 32.62 yds per game, 47% target share."
   },
   {
-   "id": "2026_11_MIN_SF~te_receptions~00-0035229",
-   "game_id": "2026_11_MIN_SF",
-   "week": 11,
-   "kickoff": "2026-11-23T01:20:00Z",
-   "market": "te_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "TE",
-   "player": {
-    "id": "00-0035229",
-    "name": "T.J. Hockenson",
-    "team": "MIN",
-    "position": "TE",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 8,
-    "share": 0.6769,
-    "share_of": "targets",
-    "per_game": 4.38,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "SF",
-    "allowed_per_game": 5.95,
-    "softness_rank": 6,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 6.0,
-    "prior": 5.82
-   },
-   "score": 0.8913,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.8968,
-    "confidence": 1.0
-   },
-   "rationale": "San Francisco allows 5.95 receptions per game to TEs (27th of 32). T.J. Hockenson: 4.38 rec per game, 68% target share."
-  },
-  {
    "id": "2026_11_LV_DEN~te_receiving_yards~00-0039338",
    "game_id": "2026_11_LV_DEN",
    "week": 11,
@@ -2411,44 +2491,44 @@
    "rationale": "Denver allows 70.6 receiving yards per game to TEs (29th of 32). Brock Bowers: 84.5 yds per game, 56% target share."
   },
   {
-   "id": "2026_11_LV_DEN~wr_receiving_yards~00-0036613",
-   "game_id": "2026_11_LV_DEN",
+   "id": "2026_11_BAL_CAR~rb_receptions~00-0034975",
+   "game_id": "2026_11_BAL_CAR",
    "week": 11,
-   "kickoff": "2026-11-22T21:25:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "rb_receptions",
+   "market_label": "Receptions",
+   "metric": "receptions",
+   "position": "RB",
    "player": {
-    "id": "00-0036613",
-    "name": "Jaylen Waddle",
-    "team": "DEN",
-    "position": "WR",
+    "id": "00-0034975",
+    "name": "Justice Hill",
+    "team": "BAL",
+    "position": "RB",
     "role": "primary",
     "depth": 1,
     "status": "active",
-    "games": 9,
-    "share": 0.3444,
+    "games": 10,
+    "share": 0.6481,
     "share_of": "targets",
-    "per_game": 37.44,
-    "unit": "yds"
+    "per_game": 2.5,
+    "unit": "rec"
    },
    "defense": {
-    "team": "LV",
-    "allowed_per_game": 160.64,
-    "softness_rank": 6,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 166.0,
-    "prior": 147.24
+    "team": "CAR",
+    "allowed_per_game": 4.74,
+    "softness_rank": 7,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 4.89,
+    "prior": 4.41
    },
    "score": 0.8891,
    "components": {
-    "softness": 0.8387,
-    "usage": 0.8904,
+    "softness": 0.8065,
+    "usage": 0.932,
     "confidence": 1.0
    },
-   "rationale": "Las Vegas allows 160.64 receiving yards per game to WRs (27th of 32). Jaylen Waddle: 37.44 yds per game, 34% target share."
+   "rationale": "Carolina allows 4.74 receptions per game to RBs (26th of 32). Justice Hill: 2.5 rec per game, 65% target share."
   },
   {
    "id": "2026_11_TEN_DAL~rb_carries~00-0036997",
@@ -2531,46 +2611,6 @@
    "rationale": "Denver allows 6.72 receptions per game to TEs (31st of 32). Michael Mayer: 4.1 rec per game, 39% target share."
   },
   {
-   "id": "2026_11_IND_HOU~rb_receptions~00-0036223",
-   "game_id": "2026_11_IND_HOU",
-   "week": 11,
-   "kickoff": "2026-11-20T01:15:00Z",
-   "market": "rb_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "RB",
-   "player": {
-    "id": "00-0036223",
-    "name": "Jonathan Taylor",
-    "team": "IND",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 10,
-    "share": 0.8696,
-    "share_of": "targets",
-    "per_game": 2.8,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "HOU",
-    "allowed_per_game": 4.67,
-    "softness_rank": 9,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 4.89,
-    "prior": 4.18
-   },
-   "score": 0.8839,
-   "components": {
-    "softness": 0.7419,
-    "usage": 1.0,
-    "confidence": 1.0
-   },
-   "rationale": "Houston allows 4.67 receptions per game to RBs (24th of 32). Jonathan Taylor: 2.8 rec per game, 87% target share."
-  },
-  {
    "id": "2026_11_MIN_SF~qb_passing_tds~00-0029604",
    "game_id": "2026_11_MIN_SF",
    "week": 11,
@@ -2609,86 +2649,6 @@
     "confidence": 1.0
    },
    "rationale": "San Francisco allows 1.76 passing touchdowns per game to QBs (24th of 32). Kirk Cousins: 2.2 TD per game, 135% of the team's pass attempts."
-  },
-  {
-   "id": "2026_11_TEN_DAL~wr_receiving_yards~00-0041438",
-   "game_id": "2026_11_TEN_DAL",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0041438",
-    "name": "Carnell Tate",
-    "team": "TEN",
-    "position": "WR",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 7,
-    "share": 0.2948,
-    "share_of": "targets",
-    "per_game": 59.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "DAL",
-    "allowed_per_game": 161.36,
-    "softness_rank": 5,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 157.5,
-    "prior": 171.0
-   },
-   "score": 0.8836,
-   "components": {
-    "softness": 0.871,
-    "usage": 0.8333,
-    "confidence": 1.0
-   },
-   "rationale": "Dallas allows 161.36 receiving yards per game to WRs (28th of 32). Carnell Tate: 59 yds per game, 29% target share."
-  },
-  {
-   "id": "2026_11_CIN_WAS~rb_receptions~00-0037256",
-   "game_id": "2026_11_CIN_WAS",
-   "week": 11,
-   "kickoff": "2026-11-24T01:15:00Z",
-   "market": "rb_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "RB",
-   "player": {
-    "id": "00-0037256",
-    "name": "Rachaad White",
-    "team": "WAS",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 8,
-    "share": 0.5349,
-    "share_of": "targets",
-    "per_game": 2.38,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "CIN",
-    "allowed_per_game": 4.74,
-    "softness_rank": 6,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 4.78,
-    "prior": 4.65
-   },
-   "score": 0.8822,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.8707,
-    "confidence": 1.0
-   },
-   "rationale": "Cincinnati allows 4.74 receptions per game to RBs (27th of 32). Rachaad White: 2.38 rec per game, 53% target share."
   },
   {
    "id": "2026_11_MIA_BUF~qb_passing_tds~00-0034857",
@@ -2731,46 +2691,6 @@
    "rationale": "Miami allows 1.83 passing touchdowns per game to QBs (27th of 32). Josh Allen: 1.44 TD per game, 100% of the team's pass attempts."
   },
   {
-   "id": "2026_11_TB_DET~te_anytime_td~00-0039065",
-   "game_id": "2026_11_TB_DET",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "te_anytime_td",
-   "market_label": "Anytime TD",
-   "metric": "rushing_tds_receiving_tds",
-   "position": "TE",
-   "player": {
-    "id": "00-0039065",
-    "name": "Sam LaPorta",
-    "team": "DET",
-    "position": "TE",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 9,
-    "share": 0.8154,
-    "share_of": "targets",
-    "per_game": 0.33,
-    "unit": "TD"
-   },
-   "defense": {
-    "team": "TB",
-    "allowed_per_game": 0.6,
-    "softness_rank": 8,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 0.56,
-    "prior": 0.71
-   },
-   "score": 0.8817,
-   "components": {
-    "softness": 0.7742,
-    "usage": 0.9524,
-    "confidence": 1.0
-   },
-   "rationale": "Tampa Bay allows 0.6 touchdowns per game to TEs (25th of 32). Sam LaPorta: 0.33 TD per game, 82% target share."
-  },
-  {
    "id": "2026_11_BAL_CAR~wr_receptions~00-0040124",
    "game_id": "2026_11_BAL_CAR",
    "week": 11,
@@ -2802,13 +2722,53 @@
     "current": 11.5,
     "prior": 13.0
    },
-   "score": 0.8815,
+   "score": 0.8816,
    "components": {
     "softness": 0.7742,
-    "usage": 0.9518,
+    "usage": 0.952,
     "confidence": 1.0
    },
    "rationale": "Baltimore allows 11.93 receptions per game to WRs (25th of 32). Tetairoa McMillan: 5.44 rec per game, 44% target share."
+  },
+  {
+   "id": "2026_11_MIN_SF~rb_carries~00-0033280",
+   "game_id": "2026_11_MIN_SF",
+   "week": 11,
+   "kickoff": "2026-11-23T01:20:00Z",
+   "market": "rb_carries",
+   "market_label": "Carries",
+   "metric": "carries",
+   "position": "RB",
+   "player": {
+    "id": "00-0033280",
+    "name": "Christian McCaffrey",
+    "team": "SF",
+    "position": "RB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 9,
+    "share": 0.5693,
+    "share_of": "carries",
+    "per_game": 12.78,
+    "unit": "att"
+   },
+   "defense": {
+    "team": "MIN",
+    "allowed_per_game": 24.27,
+    "softness_rank": 6,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 23.11,
+    "prior": 26.88
+   },
+   "score": 0.8798,
+   "components": {
+    "softness": 0.8387,
+    "usage": 0.8639,
+    "confidence": 1.0
+   },
+   "rationale": "Minnesota allows 24.27 carries per game to RBs (27th of 32). Christian McCaffrey: 12.78 att per game, 57% carry share."
   },
   {
    "id": "2026_11_ARI_KC~te_receiving_yards~00-0037744",
@@ -2851,46 +2811,6 @@
    "rationale": "Kansas City allows 59.03 receiving yards per game to TEs (25th of 32). Trey McBride: 63.5 yds per game, 79% target share."
   },
   {
-   "id": "2026_11_MIN_SF~rb_carries~00-0033280",
-   "game_id": "2026_11_MIN_SF",
-   "week": 11,
-   "kickoff": "2026-11-23T01:20:00Z",
-   "market": "rb_carries",
-   "market_label": "Carries",
-   "metric": "carries",
-   "position": "RB",
-   "player": {
-    "id": "00-0033280",
-    "name": "Christian McCaffrey",
-    "team": "SF",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 9,
-    "share": 0.5693,
-    "share_of": "carries",
-    "per_game": 12.78,
-    "unit": "att"
-   },
-   "defense": {
-    "team": "MIN",
-    "allowed_per_game": 24.27,
-    "softness_rank": 6,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 23.11,
-    "prior": 26.88
-   },
-   "score": 0.8774,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.8571,
-    "confidence": 1.0
-   },
-   "rationale": "Minnesota allows 24.27 carries per game to RBs (27th of 32). Christian McCaffrey: 12.78 att per game, 57% carry share."
-  },
-  {
    "id": "2026_11_PIT_PHI~wr_receptions~00-0035640",
    "game_id": "2026_11_PIT_PHI",
    "week": 11,
@@ -2922,10 +2842,10 @@
     "current": 12.56,
     "prior": 10.53
    },
-   "score": 0.8754,
+   "score": 0.8755,
    "components": {
     "softness": 0.7742,
-    "usage": 0.9342,
+    "usage": 0.9345,
     "confidence": 1.0
    },
    "rationale": "Philadelphia allows 11.93 receptions per game to WRs (25th of 32). DK Metcalf: 3.89 rec per game, 43% target share."
@@ -3011,6 +2931,46 @@
    "rationale": "New Orleans allows 5.69 receptions per game to TEs (25th of 32). Colston Loveland: 4.11 rec per game, 73% target share."
   },
   {
+   "id": "2026_11_CIN_WAS~rb_receptions~00-0037256",
+   "game_id": "2026_11_CIN_WAS",
+   "week": 11,
+   "kickoff": "2026-11-24T01:15:00Z",
+   "market": "rb_receptions",
+   "market_label": "Receptions",
+   "metric": "receptions",
+   "position": "RB",
+   "player": {
+    "id": "00-0037256",
+    "name": "Rachaad White",
+    "team": "WAS",
+    "position": "RB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 8,
+    "share": 0.5349,
+    "share_of": "targets",
+    "per_game": 2.38,
+    "unit": "rec"
+   },
+   "defense": {
+    "team": "CIN",
+    "allowed_per_game": 4.74,
+    "softness_rank": 7,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 4.78,
+    "prior": 4.65
+   },
+   "score": 0.8701,
+   "components": {
+    "softness": 0.8065,
+    "usage": 0.8776,
+    "confidence": 1.0
+   },
+   "rationale": "Cincinnati allows 4.74 receptions per game to RBs (26th of 32). Rachaad White: 2.38 rec per game, 53% target share."
+  },
+  {
    "id": "2026_11_MIA_BUF~rb_anytime_td~00-0037248",
    "game_id": "2026_11_MIA_BUF",
    "week": 11,
@@ -3051,44 +3011,44 @@
    "rationale": "Miami allows 0.98 touchdowns per game to RBs (23rd of 32). James Cook: 1 TD per game, 89% carry share."
   },
   {
-   "id": "2026_11_TEN_DAL~rb_receptions~00-0035261",
-   "game_id": "2026_11_TEN_DAL",
+   "id": "2026_11_TB_DET~te_anytime_td~00-0039065",
+   "game_id": "2026_11_TB_DET",
    "week": 11,
    "kickoff": "2026-11-22T18:00:00Z",
-   "market": "rb_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "RB",
+   "market": "te_anytime_td",
+   "market_label": "Anytime TD",
+   "metric": "rushing_tds_receiving_tds",
+   "position": "TE",
    "player": {
-    "id": "00-0035261",
-    "name": "Tony Pollard",
-    "team": "TEN",
-    "position": "RB",
+    "id": "00-0039065",
+    "name": "Sam LaPorta",
+    "team": "DET",
+    "position": "TE",
     "role": "primary",
     "depth": 1,
     "status": "active",
     "games": 9,
-    "share": 0.6122,
+    "share": 0.8154,
     "share_of": "targets",
-    "per_game": 2.44,
-    "unit": "rec"
+    "per_game": 0.33,
+    "unit": "TD"
    },
    "defense": {
-    "team": "DAL",
-    "allowed_per_game": 4.7,
-    "softness_rank": 8,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 4.6,
-    "prior": 4.94
+    "team": "TB",
+    "allowed_per_game": 0.6,
+    "softness_rank": 9,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 0.56,
+    "prior": 0.71
    },
-   "score": 0.8675,
+   "score": 0.8672,
    "components": {
-    "softness": 0.7742,
-    "usage": 0.9116,
+    "softness": 0.7419,
+    "usage": 0.9524,
     "confidence": 1.0
    },
-   "rationale": "Dallas allows 4.7 receptions per game to RBs (25th of 32). Tony Pollard: 2.44 rec per game, 61% target share."
+   "rationale": "Tampa Bay allows 0.6 touchdowns per game to TEs (24th of 32). Sam LaPorta: 0.33 TD per game, 82% target share."
   },
   {
    "id": "2026_11_TB_DET~te_receiving_yards~00-0039065",
@@ -3171,46 +3131,6 @@
    "rationale": "Las Vegas allows 121.85 rushing yards per game to RBs (32nd of 32). Jonah Coleman: 38.2 yds per game, 27% carry share. Listed questionable."
   },
   {
-   "id": "2026_11_IND_HOU~qb_passing_yards~00-0035710",
-   "game_id": "2026_11_IND_HOU",
-   "week": 11,
-   "kickoff": "2026-11-20T01:15:00Z",
-   "market": "qb_passing_yards",
-   "market_label": "Passing Yards",
-   "metric": "passing_yards",
-   "position": "QB",
-   "player": {
-    "id": "00-0035710",
-    "name": "Daniel Jones",
-    "team": "IND",
-    "position": "QB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 10,
-    "share": 0.9939,
-    "share_of": "attempts",
-    "per_game": 183.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "HOU",
-    "allowed_per_game": 244.96,
-    "softness_rank": 6,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 263.11,
-    "prior": 204.12
-   },
-   "score": 0.8665,
-   "components": {
-    "softness": 0.8387,
-    "usage": 0.8261,
-    "confidence": 1.0
-   },
-   "rationale": "Houston allows 244.96 passing yards per game to QBs (27th of 32). Daniel Jones: 183 yds per game, 99% of the team's pass attempts."
-  },
-  {
    "id": "2026_11_PIT_PHI~rb_carries~00-0036139",
    "game_id": "2026_11_PIT_PHI",
    "week": 11,
@@ -3249,86 +3169,6 @@
     "confidence": 1.0
    },
    "rationale": "Philadelphia allows 25.56 carries per game to RBs (30th of 32). Rico Dowdle: 8.5 att per game, 27% carry share. Listed questionable."
-  },
-  {
-   "id": "2026_11_BAL_CAR~rb_carries~00-0032764",
-   "game_id": "2026_11_BAL_CAR",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "rb_carries",
-   "market_label": "Carries",
-   "metric": "carries",
-   "position": "RB",
-   "player": {
-    "id": "00-0032764",
-    "name": "Derrick Henry",
-    "team": "BAL",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 10,
-    "share": 0.815,
-    "share_of": "carries",
-    "per_game": 18.5,
-    "unit": "att"
-   },
-   "defense": {
-    "team": "CAR",
-    "allowed_per_game": 23.21,
-    "softness_rank": 10,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 23.22,
-    "prior": 23.18
-   },
-   "score": 0.8646,
-   "components": {
-    "softness": 0.7097,
-    "usage": 0.9864,
-    "confidence": 1.0
-   },
-   "rationale": "Carolina allows 23.21 carries per game to RBs (23rd of 32). Derrick Henry: 18.5 att per game, 82% carry share."
-  },
-  {
-   "id": "2026_11_BAL_CAR~rb_rushing_yards~00-0032764",
-   "game_id": "2026_11_BAL_CAR",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "rb_rushing_yards",
-   "market_label": "Rushing Yards",
-   "metric": "rushing_yards",
-   "position": "RB",
-   "player": {
-    "id": "00-0032764",
-    "name": "Derrick Henry",
-    "team": "BAL",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 10,
-    "share": 0.815,
-    "share_of": "carries",
-    "per_game": 69.9,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "CAR",
-    "allowed_per_game": 102.57,
-    "softness_rank": 10,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 100.89,
-    "prior": 106.35
-   },
-   "score": 0.8646,
-   "components": {
-    "softness": 0.7097,
-    "usage": 0.9864,
-    "confidence": 1.0
-   },
-   "rationale": "Carolina allows 102.57 rushing yards per game to RBs (23rd of 32). Derrick Henry: 69.9 yds per game, 82% carry share."
   },
   {
    "id": "2026_11_CIN_WAS~te_receptions~00-0034829",
@@ -3442,10 +3282,10 @@
     "current": 12.78,
     "prior": 11.35
    },
-   "score": 0.8568,
+   "score": 0.8571,
    "components": {
     "softness": 0.8387,
-    "usage": 0.7982,
+    "usage": 0.7991,
     "confidence": 1.0
    },
    "rationale": "Detroit allows 12.34 receptions per game to WRs (27th of 32). Chris Godwin Jr.: 3.22 rec per game, 27% target share."
@@ -3562,10 +3402,10 @@
     "current": 12.78,
     "prior": 9.88
    },
-   "score": 0.8555,
+   "score": 0.8556,
    "components": {
     "softness": 0.7097,
-    "usage": 0.9605,
+    "usage": 0.9607,
     "confidence": 1.0
    },
    "rationale": "Carolina allows 11.89 receptions per game to WRs (23rd of 32). Zay Flowers: 5.44 rec per game, 46% target share."
@@ -3651,44 +3491,44 @@
    "rationale": "Philadelphia allows 104.96 rushing yards per game to RBs (24th of 32). Jaylen Warren: 79.89 yds per game, 66% carry share. Listed questionable."
   },
   {
-   "id": "2026_11_TEN_DAL~te_anytime_td~00-0038041",
+   "id": "2026_11_TEN_DAL~rb_receptions~00-0035261",
    "game_id": "2026_11_TEN_DAL",
    "week": 11,
    "kickoff": "2026-11-22T18:00:00Z",
-   "market": "te_anytime_td",
-   "market_label": "Anytime TD",
-   "metric": "rushing_tds_receiving_tds",
-   "position": "TE",
+   "market": "rb_receptions",
+   "market_label": "Receptions",
+   "metric": "receptions",
+   "position": "RB",
    "player": {
-    "id": "00-0038041",
-    "name": "Jake Ferguson",
-    "team": "DAL",
-    "position": "TE",
+    "id": "00-0035261",
+    "name": "Tony Pollard",
+    "team": "TEN",
+    "position": "RB",
     "role": "primary",
     "depth": 1,
     "status": "active",
-    "games": 8,
-    "share": 0.4821,
+    "games": 9,
+    "share": 0.6122,
     "share_of": "targets",
-    "per_game": 0.5,
-    "unit": "TD"
+    "per_game": 2.44,
+    "unit": "rec"
    },
    "defense": {
-    "team": "TEN",
-    "allowed_per_game": 0.62,
-    "softness_rank": 6,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 0.67,
-    "prior": 0.53
+    "team": "DAL",
+    "allowed_per_game": 4.7,
+    "softness_rank": 9,
+    "games": 10,
+    "blend_weight": 0.714,
+    "current": 4.6,
+    "prior": 4.94
    },
-   "score": 0.8524,
+   "score": 0.8529,
    "components": {
-    "softness": 0.8387,
-    "usage": 0.7857,
+    "softness": 0.7419,
+    "usage": 0.9116,
     "confidence": 1.0
    },
-   "rationale": "Tennessee allows 0.62 touchdowns per game to TEs (27th of 32). Jake Ferguson: 0.5 TD per game, 48% target share."
+   "rationale": "Dallas allows 4.7 receptions per game to RBs (24th of 32). Tony Pollard: 2.44 rec per game, 61% target share."
   },
   {
    "id": "2026_11_TEN_DAL~wr_anytime_td~00-0036358",
@@ -3725,7 +3565,7 @@
    "score": 0.851,
    "components": {
     "softness": 0.7097,
-    "usage": 0.9474,
+    "usage": 0.9476,
     "confidence": 1.0
    },
    "rationale": "Tennessee allows 1.04 touchdowns per game to WRs (23rd of 32). CeeDee Lamb: 0.8 TD per game, 44% target share."
@@ -3771,6 +3611,46 @@
    "rationale": "Cincinnati allows 25.38 rushing yards per game to QBs (30th of 32). Jayden Daniels: 40 yds per game, 72% of the team's pass attempts."
   },
   {
+   "id": "2026_11_JAX_NYG~wr_receiving_yards~00-0041042",
+   "game_id": "2026_11_JAX_NYG",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "wr_receiving_yards",
+   "market_label": "Receiving Yards",
+   "metric": "receiving_yards",
+   "position": "WR",
+   "player": {
+    "id": "00-0041042",
+    "name": "Malachi Fields",
+    "team": "NYG",
+    "position": "WR",
+    "role": "secondary",
+    "depth": 2,
+    "status": "active",
+    "games": 9,
+    "share": 0.2422,
+    "share_of": "targets",
+    "per_game": 38.89,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "JAX",
+    "allowed_per_game": 160.25,
+    "softness_rank": 6,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 170.22,
+    "prior": 137.82
+   },
+   "score": 0.8464,
+   "components": {
+    "softness": 0.8387,
+    "usage": 0.7686,
+    "confidence": 1.0
+   },
+   "rationale": "Jacksonville allows 160.25 receiving yards per game to WRs (27th of 32). Malachi Fields: 38.89 yds per game, 24% target share."
+  },
+  {
    "id": "2026_11_BAL_CAR~wr_receptions~00-0039491",
    "game_id": "2026_11_BAL_CAR",
    "week": 11,
@@ -3802,10 +3682,10 @@
     "current": 11.5,
     "prior": 13.0
    },
-   "score": 0.8416,
+   "score": 0.8418,
    "components": {
     "softness": 0.7742,
-    "usage": 0.8377,
+    "usage": 0.8384,
     "confidence": 1.0
    },
    "rationale": "Baltimore allows 11.93 receptions per game to WRs (25th of 32). Jalen Coker: 3.88 rec per game, 30% target share."
@@ -3842,13 +3722,53 @@
     "current": 32.67,
     "prior": 41.82
    },
-   "score": 0.8386,
+   "score": 0.841,
    "components": {
     "softness": 0.7419,
-    "usage": 0.8707,
+    "usage": 0.8776,
     "confidence": 1.0
    },
    "rationale": "Cincinnati allows 35.48 receiving yards per game to RBs (24th of 32). Rachaad White: 16.75 yds per game, 53% target share."
+  },
+  {
+   "id": "2026_11_TEN_DAL~te_anytime_td~00-0038041",
+   "game_id": "2026_11_TEN_DAL",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "te_anytime_td",
+   "market_label": "Anytime TD",
+   "metric": "rushing_tds_receiving_tds",
+   "position": "TE",
+   "player": {
+    "id": "00-0038041",
+    "name": "Jake Ferguson",
+    "team": "DAL",
+    "position": "TE",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 8,
+    "share": 0.4821,
+    "share_of": "targets",
+    "per_game": 0.5,
+    "unit": "TD"
+   },
+   "defense": {
+    "team": "TEN",
+    "allowed_per_game": 0.62,
+    "softness_rank": 7,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 0.67,
+    "prior": 0.53
+   },
+   "score": 0.8379,
+   "components": {
+    "softness": 0.8065,
+    "usage": 0.7857,
+    "confidence": 1.0
+   },
+   "rationale": "Tennessee allows 0.62 touchdowns per game to TEs (26th of 32). Jake Ferguson: 0.5 TD per game, 48% target share."
   },
   {
    "id": "2026_11_IND_HOU~qb_passing_yards~00-0039163",
@@ -3867,68 +3787,28 @@
     "role": "primary",
     "depth": 1,
     "status": "active",
-    "games": 9,
-    "share": 0.9938,
+    "games": 10,
+    "share": 0.9943,
     "share_of": "attempts",
-    "per_game": 273.56,
+    "per_game": 265.6,
     "unit": "yds"
    },
    "defense": {
     "team": "IND",
-    "allowed_per_game": 243.13,
+    "allowed_per_game": 239.86,
     "softness_rank": 8,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 235.4,
+    "games": 11,
+    "blend_weight": 0.733,
+    "current": 231.64,
     "prior": 262.47
    },
-   "score": 0.8324,
+   "score": 0.8375,
    "components": {
     "softness": 0.7742,
-    "usage": 0.8116,
+    "usage": 0.8261,
     "confidence": 1.0
    },
-   "rationale": "Indianapolis allows 243.13 passing yards per game to QBs (25th of 32). C.J. Stroud: 273.56 yds per game, 99% of the team's pass attempts."
-  },
-  {
-   "id": "2026_11_JAX_NYG~wr_receiving_yards~00-0041042",
-   "game_id": "2026_11_JAX_NYG",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0041042",
-    "name": "Malachi Fields",
-    "team": "NYG",
-    "position": "WR",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 9,
-    "share": 0.2422,
-    "share_of": "targets",
-    "per_game": 38.89,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "JAX",
-    "allowed_per_game": 160.25,
-    "softness_rank": 7,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 170.22,
-    "prior": 137.82
-   },
-   "score": 0.8316,
-   "components": {
-    "softness": 0.8065,
-    "usage": 0.7675,
-    "confidence": 1.0
-   },
-   "rationale": "Jacksonville allows 160.25 receiving yards per game to WRs (26th of 32). Malachi Fields: 38.89 yds per game, 24% target share."
+   "rationale": "Indianapolis allows 239.86 passing yards per game to QBs (25th of 32). C.J. Stroud: 265.6 yds per game, 99% of the team's pass attempts."
   },
   {
    "id": "2026_11_PIT_PHI~te_receiving_yards~00-0034351",
@@ -3962,53 +3842,13 @@
     "current": 53.78,
     "prior": 65.94
    },
-   "score": 0.8305,
+   "score": 0.8332,
    "components": {
     "softness": 0.7097,
-    "usage": 0.8889,
+    "usage": 0.8968,
     "confidence": 1.0
    },
    "rationale": "Pittsburgh allows 57.52 receiving yards per game to TEs (23rd of 32). Dallas Goedert: 44 yds per game, 67% target share."
-  },
-  {
-   "id": "2026_11_PIT_PHI~wr_receptions~00-0041489",
-   "game_id": "2026_11_PIT_PHI",
-   "week": 11,
-   "kickoff": "2026-11-22T21:25:00Z",
-   "market": "wr_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "WR",
-   "player": {
-    "id": "00-0041489",
-    "name": "Germie Bernard",
-    "team": "PIT",
-    "position": "WR",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 8,
-    "share": 0.2761,
-    "share_of": "targets",
-    "per_game": 4.0,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "PHI",
-    "allowed_per_game": 11.93,
-    "softness_rank": 8,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 12.56,
-    "prior": 10.53
-   },
-   "score": 0.8293,
-   "components": {
-    "softness": 0.7742,
-    "usage": 0.8026,
-    "confidence": 1.0
-   },
-   "rationale": "Philadelphia allows 11.93 receptions per game to WRs (25th of 32). Germie Bernard: 4 rec per game, 28% target share."
   },
   {
    "id": "2026_11_JAX_NYG~te_receptions~00-0038935",
@@ -4042,13 +3882,53 @@
     "current": 6.0,
     "prior": 4.82
    },
-   "score": 0.8277,
+   "score": 0.8305,
    "components": {
     "softness": 0.7097,
-    "usage": 0.881,
+    "usage": 0.8889,
     "confidence": 1.0
    },
    "rationale": "New York allows 5.64 receptions per game to TEs (23rd of 32). Brenton Strange: 3.56 rec per game, 67% target share."
+  },
+  {
+   "id": "2026_11_PIT_PHI~wr_receptions~00-0041489",
+   "game_id": "2026_11_PIT_PHI",
+   "week": 11,
+   "kickoff": "2026-11-22T21:25:00Z",
+   "market": "wr_receptions",
+   "market_label": "Receptions",
+   "metric": "receptions",
+   "position": "WR",
+   "player": {
+    "id": "00-0041489",
+    "name": "Germie Bernard",
+    "team": "PIT",
+    "position": "WR",
+    "role": "secondary",
+    "depth": 2,
+    "status": "active",
+    "games": 8,
+    "share": 0.2761,
+    "share_of": "targets",
+    "per_game": 4.0,
+    "unit": "rec"
+   },
+   "defense": {
+    "team": "PHI",
+    "allowed_per_game": 11.93,
+    "softness_rank": 8,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 12.56,
+    "prior": 10.53
+   },
+   "score": 0.8296,
+   "components": {
+    "softness": 0.7742,
+    "usage": 0.8035,
+    "confidence": 1.0
+   },
+   "rationale": "Philadelphia allows 11.93 receptions per game to WRs (25th of 32). Germie Bernard: 4 rec per game, 28% target share."
   },
   {
    "id": "2026_11_LV_DEN~rb_carries~00-0041496",
@@ -4089,46 +3969,6 @@
     "confidence": 0.8333
    },
    "rationale": "Las Vegas allows 25.21 carries per game to RBs (29th of 32). Jonah Coleman: 9.4 att per game, 27% carry share. Listed questionable."
-  },
-  {
-   "id": "2026_11_TEN_DAL~rb_receptions~00-0039032",
-   "game_id": "2026_11_TEN_DAL",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "rb_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "RB",
-   "player": {
-    "id": "00-0039032",
-    "name": "Tyjae Spears",
-    "team": "TEN",
-    "position": "RB",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 7,
-    "share": 0.3673,
-    "share_of": "targets",
-    "per_game": 2.29,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "DAL",
-    "allowed_per_game": 4.7,
-    "softness_rank": 8,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 4.6,
-    "prior": 4.94
-   },
-   "score": 0.8198,
-   "components": {
-    "softness": 0.7742,
-    "usage": 0.7755,
-    "confidence": 1.0
-   },
-   "rationale": "Dallas allows 4.7 receptions per game to RBs (25th of 32). Tyjae Spears: 2.29 rec per game, 37% target share."
   },
   {
    "id": "2026_11_CIN_WAS~te_anytime_td~00-0035631",
@@ -4202,10 +4042,10 @@
     "current": 1.0,
     "prior": 1.12
    },
-   "score": 0.8095,
+   "score": 0.8098,
    "components": {
     "softness": 0.7097,
-    "usage": 0.8289,
+    "usage": 0.8297,
     "confidence": 1.0
    },
    "rationale": "Tennessee allows 1.04 touchdowns per game to WRs (23rd of 32). George Pickens: 0.56 TD per game, 29% target share."
@@ -4242,10 +4082,10 @@
     "current": 1.22,
     "prior": 0.76
    },
-   "score": 0.8094,
+   "score": 0.8097,
    "components": {
     "softness": 0.7742,
-    "usage": 0.7456,
+    "usage": 0.7467,
     "confidence": 1.0
    },
    "rationale": "Buffalo allows 1.08 touchdowns per game to WRs (25th of 32). Caleb Douglas: 0.33 TD per game, 23% target share."
@@ -4291,6 +4131,86 @@
    "rationale": "New York allows 1.76 passing touchdowns per game to QBs (24th of 32). Trevor Lawrence: 2.33 TD per game, 99% of the team's pass attempts."
   },
   {
+   "id": "2026_11_IND_HOU~rb_carries~00-0035685",
+   "game_id": "2026_11_IND_HOU",
+   "week": 11,
+   "kickoff": "2026-11-20T01:15:00Z",
+   "market": "rb_carries",
+   "market_label": "Carries",
+   "metric": "carries",
+   "position": "RB",
+   "player": {
+    "id": "00-0035685",
+    "name": "David Montgomery",
+    "team": "HOU",
+    "position": "RB",
+    "role": "secondary",
+    "depth": 2,
+    "status": "active",
+    "games": 6,
+    "share": 0.3714,
+    "share_of": "carries",
+    "per_game": 13.0,
+    "unit": "att"
+   },
+   "defense": {
+    "team": "IND",
+    "allowed_per_game": 23.39,
+    "softness_rank": 9,
+    "games": 11,
+    "blend_weight": 0.733,
+    "current": 24.0,
+    "prior": 21.71
+   },
+   "score": 0.8053,
+   "components": {
+    "softness": 0.7419,
+    "usage": 0.7755,
+    "confidence": 1.0
+   },
+   "rationale": "Indianapolis allows 23.39 carries per game to RBs (24th of 32). David Montgomery: 13 att per game, 37% carry share."
+  },
+  {
+   "id": "2026_11_TEN_DAL~rb_receptions~00-0039032",
+   "game_id": "2026_11_TEN_DAL",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "rb_receptions",
+   "market_label": "Receptions",
+   "metric": "receptions",
+   "position": "RB",
+   "player": {
+    "id": "00-0039032",
+    "name": "Tyjae Spears",
+    "team": "TEN",
+    "position": "RB",
+    "role": "secondary",
+    "depth": 2,
+    "status": "active",
+    "games": 7,
+    "share": 0.3673,
+    "share_of": "targets",
+    "per_game": 2.29,
+    "unit": "rec"
+   },
+   "defense": {
+    "team": "DAL",
+    "allowed_per_game": 4.7,
+    "softness_rank": 9,
+    "games": 10,
+    "blend_weight": 0.714,
+    "current": 4.6,
+    "prior": 4.94
+   },
+   "score": 0.8053,
+   "components": {
+    "softness": 0.7419,
+    "usage": 0.7755,
+    "confidence": 1.0
+   },
+   "rationale": "Dallas allows 4.7 receptions per game to RBs (24th of 32). Tyjae Spears: 2.29 rec per game, 37% target share."
+  },
+  {
    "id": "2026_11_PIT_PHI~wr_receptions~00-0036912",
    "game_id": "2026_11_PIT_PHI",
    "week": 11,
@@ -4322,13 +4242,53 @@
     "current": 12.67,
     "prior": 12.53
    },
-   "score": 0.8023,
+   "score": 0.8027,
    "components": {
     "softness": 0.9032,
-    "usage": 0.75,
+    "usage": 0.7511,
     "confidence": 0.6667
    },
    "rationale": "Pittsburgh allows 12.62 receptions per game to WRs (29th of 32). DeVonta Smith: 6.5 rec per game, 24% target share."
+  },
+  {
+   "id": "2026_11_IND_HOU~te_anytime_td~00-0034981",
+   "game_id": "2026_11_IND_HOU",
+   "week": 11,
+   "kickoff": "2026-11-20T01:15:00Z",
+   "market": "te_anytime_td",
+   "market_label": "Anytime TD",
+   "metric": "rushing_tds_receiving_tds",
+   "position": "TE",
+   "player": {
+    "id": "00-0034981",
+    "name": "Foster Moreau",
+    "team": "HOU",
+    "position": "TE",
+    "role": "secondary",
+    "depth": 2,
+    "status": "active",
+    "games": 7,
+    "share": 0.2,
+    "share_of": "targets",
+    "per_game": 0.43,
+    "unit": "TD"
+   },
+   "defense": {
+    "team": "IND",
+    "allowed_per_game": 0.63,
+    "softness_rank": 6,
+    "games": 11,
+    "blend_weight": 0.733,
+    "current": 0.73,
+    "prior": 0.35
+   },
+   "score": 0.7941,
+   "components": {
+    "softness": 0.8387,
+    "usage": 0.619,
+    "confidence": 1.0
+   },
+   "rationale": "Indianapolis allows 0.63 touchdowns per game to TEs (27th of 32). Foster Moreau: 0.43 TD per game, 20% target share."
   },
   {
    "id": "2026_11_PIT_PHI~rb_receiving_yards~00-0036567",
@@ -4371,6 +4331,46 @@
    "rationale": "Pittsburgh allows 43.36 receiving yards per game to RBs (32nd of 32). Elijah Mitchell: 15.33 yds per game, 27% target share."
   },
   {
+   "id": "2026_11_IND_HOU~rb_rushing_yards~00-0035685",
+   "game_id": "2026_11_IND_HOU",
+   "week": 11,
+   "kickoff": "2026-11-20T01:15:00Z",
+   "market": "rb_rushing_yards",
+   "market_label": "Rushing Yards",
+   "metric": "rushing_yards",
+   "position": "RB",
+   "player": {
+    "id": "00-0035685",
+    "name": "David Montgomery",
+    "team": "HOU",
+    "position": "RB",
+    "role": "secondary",
+    "depth": 2,
+    "status": "active",
+    "games": 6,
+    "share": 0.3714,
+    "share_of": "carries",
+    "per_game": 40.83,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "IND",
+    "allowed_per_game": 104.4,
+    "softness_rank": 10,
+    "games": 11,
+    "blend_weight": 0.733,
+    "current": 110.82,
+    "prior": 86.76
+   },
+   "score": 0.7908,
+   "components": {
+    "softness": 0.7097,
+    "usage": 0.7755,
+    "confidence": 1.0
+   },
+   "rationale": "Indianapolis allows 104.4 rushing yards per game to RBs (23rd of 32). David Montgomery: 40.83 yds per game, 37% carry share."
+  },
+  {
    "id": "2026_11_NO_CHI~rb_anytime_td~00-0040236",
    "game_id": "2026_11_NO_CHI",
    "week": 11,
@@ -4409,6 +4409,46 @@
     "confidence": 0.6667
    },
    "rationale": "New Orleans allows 1.33 touchdowns per game to RBs (30th of 32). Kyle Monangai: 0.75 TD per game, 24% carry share."
+  },
+  {
+   "id": "2026_11_BAL_CAR~qb_passing_yards~00-0039150",
+   "game_id": "2026_11_BAL_CAR",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "market": "qb_passing_yards",
+   "market_label": "Passing Yards",
+   "metric": "passing_yards",
+   "position": "QB",
+   "player": {
+    "id": "00-0039150",
+    "name": "Bryce Young",
+    "team": "CAR",
+    "position": "QB",
+    "role": "primary",
+    "depth": 1,
+    "status": "active",
+    "games": 9,
+    "share": 0.9854,
+    "share_of": "attempts",
+    "per_game": 266.33,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "BAL",
+    "allowed_per_game": 238.71,
+    "softness_rank": 10,
+    "games": 10,
+    "blend_weight": 0.714,
+    "current": 230.6,
+    "prior": 259.0
+   },
+   "score": 0.7831,
+   "components": {
+    "softness": 0.7097,
+    "usage": 0.7536,
+    "confidence": 1.0
+   },
+   "rationale": "Baltimore allows 238.71 passing yards per game to QBs (23rd of 32). Bryce Young: 266.33 yds per game, 99% of the team's pass attempts."
   },
   {
    "id": "2026_11_PIT_PHI~rb_receptions~00-0036567",
@@ -4491,44 +4531,44 @@
    "rationale": "Las Vegas allows 1.07 touchdowns per game to RBs (25th of 32). Jonah Coleman: 0.6 TD per game, 27% carry share. Listed questionable."
   },
   {
-   "id": "2026_11_IND_HOU~te_anytime_td~00-0034981",
-   "game_id": "2026_11_IND_HOU",
+   "id": "2026_11_CIN_WAS~qb_passing_yards~00-0039910",
+   "game_id": "2026_11_CIN_WAS",
    "week": 11,
-   "kickoff": "2026-11-20T01:15:00Z",
-   "market": "te_anytime_td",
-   "market_label": "Anytime TD",
-   "metric": "rushing_tds_receiving_tds",
-   "position": "TE",
+   "kickoff": "2026-11-24T01:15:00Z",
+   "market": "qb_passing_yards",
+   "market_label": "Passing Yards",
+   "metric": "passing_yards",
+   "position": "QB",
    "player": {
-    "id": "00-0034981",
-    "name": "Foster Moreau",
-    "team": "HOU",
-    "position": "TE",
-    "role": "secondary",
-    "depth": 2,
+    "id": "00-0039910",
+    "name": "Jayden Daniels",
+    "team": "WAS",
+    "position": "QB",
+    "role": "primary",
+    "depth": 1,
     "status": "active",
-    "games": 6,
-    "share": 0.2029,
-    "share_of": "targets",
-    "per_game": 0.5,
-    "unit": "TD"
+    "games": 7,
+    "share": 0.7172,
+    "share_of": "attempts",
+    "per_game": 214.14,
+    "unit": "yds"
    },
    "defense": {
-    "team": "IND",
-    "allowed_per_game": 0.6,
-    "softness_rank": 8,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 0.7,
-    "prior": 0.35
+    "team": "CIN",
+    "allowed_per_game": 239.56,
+    "softness_rank": 9,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 237.11,
+    "prior": 245.06
    },
-   "score": 0.765,
+   "score": 0.7621,
    "components": {
-    "softness": 0.7742,
-    "usage": 0.619,
+    "softness": 0.7419,
+    "usage": 0.6522,
     "confidence": 1.0
    },
-   "rationale": "Indianapolis allows 0.6 touchdowns per game to TEs (25th of 32). Foster Moreau: 0.5 TD per game, 20% target share."
+   "rationale": "Cincinnati allows 239.56 passing yards per game to QBs (24th of 32). Jayden Daniels: 214.14 yds per game, 72% of the team's pass attempts."
   },
   {
    "id": "2026_11_NO_CHI~rb_carries~00-0040236",
@@ -4611,6 +4651,46 @@
    "rationale": "New Orleans allows 108.52 rushing yards per game to RBs (28th of 32). Kyle Monangai: 81 yds per game, 24% carry share."
   },
   {
+   "id": "2026_11_PIT_PHI~wr_receiving_yards~00-0036912",
+   "game_id": "2026_11_PIT_PHI",
+   "week": 11,
+   "kickoff": "2026-11-22T21:25:00Z",
+   "market": "wr_receiving_yards",
+   "market_label": "Receiving Yards",
+   "metric": "receiving_yards",
+   "position": "WR",
+   "player": {
+    "id": "00-0036912",
+    "name": "DeVonta Smith",
+    "team": "PHI",
+    "position": "WR",
+    "role": "secondary",
+    "depth": 2,
+    "status": "active",
+    "games": 4,
+    "share": 0.237,
+    "share_of": "targets",
+    "per_game": 77.5,
+    "unit": "yds"
+   },
+   "defense": {
+    "team": "PIT",
+    "allowed_per_game": 159.97,
+    "softness_rank": 7,
+    "games": 9,
+    "blend_weight": 0.692,
+    "current": 158.33,
+    "prior": 163.65
+   },
+   "score": 0.7591,
+   "components": {
+    "softness": 0.8065,
+    "usage": 0.7511,
+    "confidence": 0.6667
+   },
+   "rationale": "Pittsburgh allows 159.97 receiving yards per game to WRs (26th of 32). DeVonta Smith: 77.5 yds per game, 24% target share."
+  },
+  {
    "id": "2026_11_MIA_BUF~rb_receptions~00-0039040",
    "game_id": "2026_11_MIA_BUF",
    "week": 11,
@@ -4649,86 +4729,6 @@
     "confidence": 0.5
    },
    "rationale": "Buffalo allows 4.89 receptions per game to RBs (28th of 32). De'Von Achane: 2.33 rec per game, 32% target share."
-  },
-  {
-   "id": "2026_11_CIN_WAS~qb_passing_yards~00-0039910",
-   "game_id": "2026_11_CIN_WAS",
-   "week": 11,
-   "kickoff": "2026-11-24T01:15:00Z",
-   "market": "qb_passing_yards",
-   "market_label": "Passing Yards",
-   "metric": "passing_yards",
-   "position": "QB",
-   "player": {
-    "id": "00-0039910",
-    "name": "Jayden Daniels",
-    "team": "WAS",
-    "position": "QB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 7,
-    "share": 0.7172,
-    "share_of": "attempts",
-    "per_game": 214.14,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "CIN",
-    "allowed_per_game": 239.56,
-    "softness_rank": 10,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 237.11,
-    "prior": 245.06
-   },
-   "score": 0.7476,
-   "components": {
-    "softness": 0.7097,
-    "usage": 0.6522,
-    "confidence": 1.0
-   },
-   "rationale": "Cincinnati allows 239.56 passing yards per game to QBs (23rd of 32). Jayden Daniels: 214.14 yds per game, 72% of the team's pass attempts."
-  },
-  {
-   "id": "2026_11_PIT_PHI~wr_receiving_yards~00-0036912",
-   "game_id": "2026_11_PIT_PHI",
-   "week": 11,
-   "kickoff": "2026-11-22T21:25:00Z",
-   "market": "wr_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "WR",
-   "player": {
-    "id": "00-0036912",
-    "name": "DeVonta Smith",
-    "team": "PHI",
-    "position": "WR",
-    "role": "secondary",
-    "depth": 2,
-    "status": "active",
-    "games": 4,
-    "share": 0.237,
-    "share_of": "targets",
-    "per_game": 77.5,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "PIT",
-    "allowed_per_game": 159.97,
-    "softness_rank": 8,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 158.33,
-    "prior": 163.65
-   },
-   "score": 0.7442,
-   "components": {
-    "softness": 0.7742,
-    "usage": 0.75,
-    "confidence": 0.6667
-   },
-   "rationale": "Pittsburgh allows 159.97 receiving yards per game to WRs (25th of 32). DeVonta Smith: 77.5 yds per game, 24% target share."
   },
   {
    "id": "2026_11_PIT_PHI~qb_passing_yards~00-0038400",
