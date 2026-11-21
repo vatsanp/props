@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-20T19:04:05Z",
+ "generated_at": "2026-11-21T17:56:52Z",
  "week": 11,
  "max_softness_rank": 10,
  "weights": {
@@ -129,46 +129,6 @@
     "confidence": 1.0
    },
    "rationale": "Detroit allows 73.18 receiving yards per game to TEs (31st of 32). Cade Otton: 26.38 yds per game, 93% target share."
-  },
-  {
-   "id": "2026_11_ARI_KC~rb_carries~00-0038134",
-   "game_id": "2026_11_ARI_KC",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "rb_carries",
-   "market_label": "Carries",
-   "metric": "carries",
-   "position": "RB",
-   "player": {
-    "id": "00-0038134",
-    "name": "Kenneth Walker III",
-    "team": "KC",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 8,
-    "share": 0.75,
-    "share_of": "carries",
-    "per_game": 19.88,
-    "unit": "att"
-   },
-   "defense": {
-    "team": "ARI",
-    "allowed_per_game": 26.02,
-    "softness_rank": 1,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 26.9,
-    "prior": 23.82
-   },
-   "score": 0.9833,
-   "components": {
-    "softness": 1.0,
-    "usage": 0.9524,
-    "confidence": 1.0
-   },
-   "rationale": "Arizona allows 26.02 carries per game to RBs (32nd of 32). Kenneth Walker III: 19.88 att per game, 75% carry share."
   },
   {
    "id": "2026_11_TEN_DAL~wr_receiving_yards~00-0036358",
@@ -569,46 +529,6 @@
     "confidence": 1.0
    },
    "rationale": "Dallas allows 42.41 receiving yards per game to RBs (31st of 32). Tony Pollard: 15.11 yds per game, 61% target share."
-  },
-  {
-   "id": "2026_11_ARI_KC~rb_rushing_yards~00-0038134",
-   "game_id": "2026_11_ARI_KC",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "rb_rushing_yards",
-   "market_label": "Rushing Yards",
-   "metric": "rushing_yards",
-   "position": "RB",
-   "player": {
-    "id": "00-0038134",
-    "name": "Kenneth Walker III",
-    "team": "KC",
-    "position": "RB",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 8,
-    "share": 0.75,
-    "share_of": "carries",
-    "per_game": 109.0,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "ARI",
-    "allowed_per_game": 110.94,
-    "softness_rank": 3,
-    "games": 10,
-    "blend_weight": 0.714,
-    "current": 110.0,
-    "prior": 113.29
-   },
-   "score": 0.9543,
-   "components": {
-    "softness": 0.9355,
-    "usage": 0.9524,
-    "confidence": 1.0
-   },
-   "rationale": "Arizona allows 110.94 rushing yards per game to RBs (30th of 32). Kenneth Walker III: 109 yds per game, 75% carry share."
   },
   {
    "id": "2026_11_LV_DEN~rb_rushing_yards~00-0036158",
@@ -1586,7 +1506,7 @@
     "position": "TE",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 8,
     "share": 0.5635,
     "share_of": "targets",
@@ -1608,7 +1528,7 @@
     "usage": 0.8095,
     "confidence": 1.0
    },
-   "rationale": "Denver allows 6.72 receptions per game to TEs (31st of 32). Brock Bowers: 6.25 rec per game, 56% target share."
+   "rationale": "Denver allows 6.72 receptions per game to TEs (31st of 32). Brock Bowers: 6.25 rec per game, 56% target share. Listed questionable."
   },
   {
    "id": "2026_11_NO_CHI~te_receiving_yards~00-0040126",
@@ -2226,7 +2146,7 @@
     "position": "WR",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 7,
     "share": 0.2948,
     "share_of": "targets",
@@ -2248,7 +2168,7 @@
     "usage": 0.8341,
     "confidence": 1.0
    },
-   "rationale": "Dallas allows 161.36 receiving yards per game to WRs (29th of 32). Carnell Tate: 59 yds per game, 29% target share."
+   "rationale": "Dallas allows 161.36 receiving yards per game to WRs (29th of 32). Carnell Tate: 59 yds per game, 29% target share. Listed questionable."
   },
   {
    "id": "2026_11_TB_DET~rb_receiving_yards~00-0039139",
@@ -2289,46 +2209,6 @@
     "confidence": 1.0
    },
    "rationale": "Tampa Bay allows 35.56 receiving yards per game to RBs (25th of 32). Jahmyr Gibbs: 42.67 yds per game, 85% target share."
-  },
-  {
-   "id": "2026_11_MIA_BUF~te_receptions~00-0038933",
-   "game_id": "2026_11_MIA_BUF",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "te_receptions",
-   "market_label": "Receptions",
-   "metric": "receptions",
-   "position": "TE",
-   "player": {
-    "id": "00-0038933",
-    "name": "Dalton Kincaid",
-    "team": "BUF",
-    "position": "TE",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 9,
-    "share": 0.6212,
-    "share_of": "targets",
-    "per_game": 3.56,
-    "unit": "rec"
-   },
-   "defense": {
-    "team": "MIA",
-    "allowed_per_game": 6.2,
-    "softness_rank": 4,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 6.11,
-    "prior": 6.41
-   },
-   "score": 0.8981,
-   "components": {
-    "softness": 0.9032,
-    "usage": 0.8333,
-    "confidence": 1.0
-   },
-   "rationale": "Miami allows 6.2 receptions per game to TEs (29th of 32). Dalton Kincaid: 3.56 rec per game, 62% target share."
   },
   {
    "id": "2026_11_TB_DET~wr_receptions~00-0040129",
@@ -2466,7 +2346,7 @@
     "position": "TE",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 8,
     "share": 0.5635,
     "share_of": "targets",
@@ -2488,7 +2368,7 @@
     "usage": 0.8095,
     "confidence": 1.0
    },
-   "rationale": "Denver allows 70.6 receiving yards per game to TEs (29th of 32). Brock Bowers: 84.5 yds per game, 56% target share."
+   "rationale": "Denver allows 70.6 receiving yards per game to TEs (29th of 32). Brock Bowers: 84.5 yds per game, 56% target share. Listed questionable."
   },
   {
    "id": "2026_11_BAL_CAR~rb_receptions~00-0034975",
@@ -2866,7 +2746,7 @@
     "position": "TE",
     "role": "primary",
     "depth": 1,
-    "status": "active",
+    "status": "Questionable",
     "games": 8,
     "share": 0.5635,
     "share_of": "targets",
@@ -2888,7 +2768,7 @@
     "usage": 0.8095,
     "confidence": 1.0
    },
-   "rationale": "Denver allows 0.65 touchdowns per game to TEs (28th of 32). Brock Bowers: 0.75 TD per game, 56% target share."
+   "rationale": "Denver allows 0.65 touchdowns per game to TEs (28th of 32). Brock Bowers: 0.75 TD per game, 56% target share. Listed questionable."
   },
   {
    "id": "2026_11_NO_CHI~te_receptions~00-0040126",
@@ -3411,46 +3291,6 @@
    "rationale": "Carolina allows 11.89 receptions per game to WRs (23rd of 32). Zay Flowers: 5.44 rec per game, 46% target share."
   },
   {
-   "id": "2026_11_MIA_BUF~te_receiving_yards~00-0038933",
-   "game_id": "2026_11_MIA_BUF",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "te_receiving_yards",
-   "market_label": "Receiving Yards",
-   "metric": "receiving_yards",
-   "position": "TE",
-   "player": {
-    "id": "00-0038933",
-    "name": "Dalton Kincaid",
-    "team": "BUF",
-    "position": "TE",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 9,
-    "share": 0.6212,
-    "share_of": "targets",
-    "per_game": 54.11,
-    "unit": "yds"
-   },
-   "defense": {
-    "team": "MIA",
-    "allowed_per_game": 60.6,
-    "softness_rank": 7,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 57.89,
-    "prior": 66.71
-   },
-   "score": 0.8546,
-   "components": {
-    "softness": 0.8065,
-    "usage": 0.8333,
-    "confidence": 1.0
-   },
-   "rationale": "Miami allows 60.6 receiving yards per game to TEs (26th of 32). Dalton Kincaid: 54.11 yds per game, 62% target share."
-  },
-  {
    "id": "2026_11_PIT_PHI~rb_rushing_yards~00-0037228",
    "game_id": "2026_11_PIT_PHI",
    "week": 11,
@@ -3729,46 +3569,6 @@
     "confidence": 1.0
    },
    "rationale": "Cincinnati allows 35.48 receiving yards per game to RBs (24th of 32). Rachaad White: 16.75 yds per game, 53% target share."
-  },
-  {
-   "id": "2026_11_TEN_DAL~te_anytime_td~00-0038041",
-   "game_id": "2026_11_TEN_DAL",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "market": "te_anytime_td",
-   "market_label": "Anytime TD",
-   "metric": "rushing_tds_receiving_tds",
-   "position": "TE",
-   "player": {
-    "id": "00-0038041",
-    "name": "Jake Ferguson",
-    "team": "DAL",
-    "position": "TE",
-    "role": "primary",
-    "depth": 1,
-    "status": "active",
-    "games": 8,
-    "share": 0.4821,
-    "share_of": "targets",
-    "per_game": 0.5,
-    "unit": "TD"
-   },
-   "defense": {
-    "team": "TEN",
-    "allowed_per_game": 0.62,
-    "softness_rank": 7,
-    "games": 9,
-    "blend_weight": 0.692,
-    "current": 0.67,
-    "prior": 0.53
-   },
-   "score": 0.8379,
-   "components": {
-    "softness": 0.8065,
-    "usage": 0.7857,
-    "confidence": 1.0
-   },
-   "rationale": "Tennessee allows 0.62 touchdowns per game to TEs (26th of 32). Jake Ferguson: 0.5 TD per game, 48% target share."
   },
   {
    "id": "2026_11_IND_HOU~qb_passing_yards~00-0039163",
@@ -4186,7 +3986,7 @@
     "position": "RB",
     "role": "secondary",
     "depth": 2,
-    "status": "active",
+    "status": "Questionable",
     "games": 7,
     "share": 0.3673,
     "share_of": "targets",
@@ -4208,7 +4008,7 @@
     "usage": 0.7755,
     "confidence": 1.0
    },
-   "rationale": "Dallas allows 4.7 receptions per game to RBs (24th of 32). Tyjae Spears: 2.29 rec per game, 37% target share."
+   "rationale": "Dallas allows 4.7 receptions per game to RBs (24th of 32). Tyjae Spears: 2.29 rec per game, 37% target share. Listed questionable."
   },
   {
    "id": "2026_11_PIT_PHI~wr_receptions~00-0036912",
