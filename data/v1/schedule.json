@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-21T17:56:06Z",
+ "generated_at": "2026-11-22T18:25:23Z",
  "season": 2026,
  "current_week": 11,
  "games": [
@@ -2601,26 +2601,9 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
-   "total": 43.5,
+   "spread": 2.5,
+   "total": 44.5,
    "venue": "Bank of America Stadium"
-  },
-  {
-   "id": "2026_11_JAX_NYG",
-   "espn_id": "401873069",
-   "type": "REG",
-   "week": 11,
-   "kickoff": "2026-11-22T18:00:00Z",
-   "away": "JAX",
-   "home": "NYG",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
-   "neutral": false,
-   "div_game": false,
-   "spread": -6.0,
-   "total": 46.5,
-   "venue": "MetLife Stadium"
   },
   {
    "id": "2026_11_MIA_BUF",
@@ -2636,7 +2619,7 @@
    "neutral": false,
    "div_game": true,
    "spread": 16.5,
-   "total": 44.5,
+   "total": 45.5,
    "venue": "Highmark Stadium"
   },
   {
@@ -2653,8 +2636,25 @@
    "neutral": false,
    "div_game": false,
    "spread": 11.5,
-   "total": 48.5,
+   "total": 47.5,
    "venue": "Soldier Field"
+  },
+  {
+   "id": "2026_11_PIT_PHI",
+   "espn_id": "401873076",
+   "type": "REG",
+   "week": 11,
+   "kickoff": "2026-11-22T18:00:00Z",
+   "away": "PIT",
+   "home": "PHI",
+   "away_score": null,
+   "home_score": null,
+   "status": "scheduled",
+   "neutral": false,
+   "div_game": false,
+   "spread": -3.5,
+   "total": 37.5,
+   "venue": "Lincoln Financial Field"
   },
   {
    "id": "2026_11_TB_DET",
@@ -2669,8 +2669,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 4.5,
-   "total": 46.5,
+   "spread": 3.5,
+   "total": 48.5,
    "venue": "Ford Field"
   },
   {
@@ -2687,7 +2687,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 7.5,
-   "total": 54.5,
+   "total": 55.5,
    "venue": "AT&T Stadium"
   },
   {
@@ -2704,8 +2704,25 @@
    "neutral": false,
    "div_game": false,
    "spread": 3.0,
-   "total": 42.5,
+   "total": 43.5,
    "venue": "SoFi Stadium"
+  },
+  {
+   "id": "2026_11_JAX_NYG",
+   "espn_id": "401873069",
+   "type": "REG",
+   "week": 11,
+   "kickoff": "2026-11-22T21:25:00Z",
+   "away": "JAX",
+   "home": "NYG",
+   "away_score": null,
+   "home_score": null,
+   "status": "scheduled",
+   "neutral": false,
+   "div_game": false,
+   "spread": -6.0,
+   "total": 45.5,
+   "venue": "MetLife Stadium"
   },
   {
    "id": "2026_11_LV_DEN",
@@ -2723,23 +2740,6 @@
    "spread": 10.5,
    "total": 40.5,
    "venue": "Empower Field at Mile High"
-  },
-  {
-   "id": "2026_11_PIT_PHI",
-   "espn_id": "401873076",
-   "type": "REG",
-   "week": 11,
-   "kickoff": "2026-11-22T21:25:00Z",
-   "away": "PIT",
-   "home": "PHI",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
-   "neutral": false,
-   "div_game": false,
-   "spread": -3.5,
-   "total": 37.5,
-   "venue": "Lincoln Financial Field"
   },
   {
    "id": "2026_11_MIN_SF",
@@ -2772,7 +2772,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -6.0,
-   "total": 53.5,
+   "total": 54.5,
    "venue": "Northwest Stadium"
   },
   {
@@ -2788,8 +2788,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
-   "total": 45.5,
+   "spread": null,
+   "total": null,
    "venue": "SoFi Stadium"
   },
   {
@@ -2805,8 +2805,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -2.5,
-   "total": 55.5,
+   "spread": null,
+   "total": null,
    "venue": "Ford Field"
   },
   {
@@ -2822,8 +2822,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 8.5,
-   "total": 47.5,
+   "spread": null,
+   "total": null,
    "venue": "AT&T Stadium"
   },
   {
@@ -2839,8 +2839,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
-   "total": 51.5,
+   "spread": null,
+   "total": null,
    "venue": "Highmark Stadium"
   },
   {
@@ -2856,8 +2856,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -2.5,
-   "total": 40.5,
+   "spread": null,
+   "total": null,
    "venue": "Acrisure Stadium"
   },
   {
@@ -2873,8 +2873,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 7.0,
-   "total": 42.5,
+   "spread": null,
+   "total": null,
    "venue": "U.S. Bank Stadium"
   },
   {
@@ -2890,8 +2890,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 6.5,
-   "total": 44.5,
+   "spread": null,
+   "total": null,
    "venue": "Reliant Stadium"
   },
   {
@@ -2907,8 +2907,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 10.0,
-   "total": 52.5,
+   "spread": null,
+   "total": null,
    "venue": "Paycor Stadium"
   },
   {
@@ -2924,8 +2924,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -6.5,
-   "total": 43.5,
+   "spread": null,
+   "total": null,
    "venue": "Lucas Oil Stadium"
   },
   {
@@ -2941,8 +2941,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -3.0,
-   "total": 41.5,
+   "spread": null,
+   "total": null,
    "venue": "Hard Rock Stadium"
   },
   {
@@ -2958,8 +2958,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 14.5,
-   "total": 47.5,
+   "spread": null,
+   "total": null,
    "venue": "EverBank Stadium"
   },
   {
@@ -2975,8 +2975,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 4.5,
-   "total": 39.5,
+   "spread": null,
+   "total": null,
    "venue": "SoFi Stadium"
   },
   {
@@ -2992,8 +2992,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 2.5,
-   "total": 46.5,
+   "spread": null,
+   "total": null,
    "venue": "Levi's Stadium"
   },
   {
@@ -3009,8 +3009,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": -6.5,
-   "total": 42.5,
+   "spread": null,
+   "total": null,
    "venue": "State Farm Stadium"
   },
   {
@@ -3026,8 +3026,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 4.5,
-   "total": 40.5,
+   "spread": null,
+   "total": null,
    "venue": "Huntington Bank Field"
   },
   {
@@ -3043,8 +3043,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": 2.5,
-   "total": 43.5,
+   "spread": null,
+   "total": null,
    "venue": "Raymond James Stadium"
   },
   {
