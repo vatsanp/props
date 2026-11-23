@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-23T04:31:29Z",
+ "generated_at": "2026-11-23T22:33:22Z",
  "season": 2026,
  "current_week": 11,
  "games": [
@@ -2749,9 +2749,9 @@
    "kickoff": "2026-11-23T01:20:00Z",
    "away": "MIN",
    "home": "SF",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 10,
+   "home_score": 35,
+   "status": "final",
    "neutral": true,
    "div_game": false,
    "spread": 4.5,
@@ -2788,7 +2788,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": 3.0,
+   "spread": 2.5,
    "total": 44.5,
    "venue": "SoFi Stadium"
   },
@@ -2840,7 +2840,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 3.0,
-   "total": 50.5,
+   "total": 49.5,
    "venue": "Highmark Stadium"
   },
   {
@@ -2857,7 +2857,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -3.0,
-   "total": 39.5,
+   "total": 38.5,
    "venue": "Acrisure Stadium"
   },
   {
@@ -2873,8 +2873,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 7.0,
+   "total": 42.5,
    "venue": "U.S. Bank Stadium"
   },
   {
@@ -2942,7 +2942,7 @@
    "neutral": false,
    "div_game": true,
    "spread": -3.5,
-   "total": 41.5,
+   "total": 40.5,
    "venue": "Hard Rock Stadium"
   },
   {
@@ -2976,7 +2976,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 1.5,
-   "total": 37.5,
+   "total": 35.5,
    "venue": "SoFi Stadium"
   },
   {
@@ -2992,8 +2992,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 46.5,
    "venue": "Levi's Stadium"
   },
   {
@@ -3010,7 +3010,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -7.0,
-   "total": 41.5,
+   "total": 40.5,
    "venue": "State Farm Stadium"
   },
   {
@@ -3027,7 +3027,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 4.5,
-   "total": 40.5,
+   "total": 41.5,
    "venue": "Huntington Bank Field"
   },
   {

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-13T18:28:56Z",
+ "generated_at": "2026-11-23T22:33:22Z",
  "team": "NYG",
  "since": 1999,
  "opponents": {
@@ -3096,19 +3096,19 @@
    ]
   },
   "JAX": {
-   "games": 7,
-   "wins": 4,
+   "games": 8,
+   "wins": 5,
    "losses": 3,
    "ties": 0,
-   "streak": "NYG W1",
+   "streak": "NYG W2",
    "splits": {
     "all": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     },
     "regular": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     },
@@ -3118,7 +3118,7 @@
      "t": 0
     },
     "home": {
-     "w": 3,
+     "w": 4,
      "l": 1,
      "t": 0
     },
@@ -3128,18 +3128,30 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-22",
+     "season": 2026,
+     "week": 11,
+     "type": "REG",
+     "home": "NYG",
+     "away": "JAX",
+     "home_score": 23,
+     "away_score": 18,
+     "winner": "NYG",
+     "neutral": false
+    },
     {
      "date": "2022-10-23",
      "season": 2022,

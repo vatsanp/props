@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T20:55:51Z",
+ "generated_at": "2026-11-23T22:33:22Z",
  "team": "NYJ",
  "since": 1999,
  "opponents": {
@@ -4228,19 +4228,19 @@
    ]
   },
   "LAC": {
-   "games": 12,
-   "wins": 5,
+   "games": 13,
+   "wins": 6,
    "losses": 7,
    "ties": 0,
-   "streak": "LAC W5",
+   "streak": "NYJ W1",
    "splits": {
     "all": {
-     "w": 5,
+     "w": 6,
      "l": 7,
      "t": 0
     },
     "regular": {
-     "w": 3,
+     "w": 4,
      "l": 7,
      "t": 0
     },
@@ -4255,13 +4255,13 @@
      "t": 0
     },
     "away": {
-     "w": 4,
+     "w": 5,
      "l": 3,
      "t": 0
     },
     "last5": {
-     "w": 0,
-     "l": 5,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
@@ -4289,13 +4289,26 @@
       "NYJ"
      ],
      "wins": {
-      "LAC": 3
+      "LAC": 3,
+      "NYJ": 1
      },
      "ties": 0,
-     "games": 3
+     "games": 4
     }
    ],
    "recent": [
+    {
+     "date": "2026-11-22",
+     "season": 2026,
+     "week": 11,
+     "type": "REG",
+     "home": "LAC",
+     "away": "NYJ",
+     "home_score": 24,
+     "away_score": 27,
+     "winner": "NYJ",
+     "neutral": false
+    },
     {
      "date": "2023-11-06",
      "season": 2023,
@@ -4425,18 +4438,6 @@
      "away": "NYJ",
      "home_score": 28,
      "away_score": 34,
-     "winner": "NYJ",
-     "neutral": false
-    },
-    {
-     "date": "2002-11-03",
-     "season": 2002,
-     "week": 9,
-     "type": "REG",
-     "home": "LAC",
-     "away": "NYJ",
-     "home_score": 13,
-     "away_score": 44,
      "winner": "NYJ",
      "neutral": false
     }

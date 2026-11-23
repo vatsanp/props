@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T20:55:51Z",
+ "generated_at": "2026-11-23T22:33:22Z",
  "team": "PIT",
  "since": 1999,
  "opponents": {
@@ -2117,20 +2117,20 @@
    ]
   },
   "PHI": {
-   "games": 8,
+   "games": 9,
    "wins": 3,
-   "losses": 5,
+   "losses": 6,
    "ties": 0,
-   "streak": "PHI W2",
+   "streak": "PHI W3",
    "splits": {
     "all": {
      "w": 3,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "regular": {
      "w": 3,
-     "l": 5,
+     "l": 6,
      "t": 0
     },
     "postseason": {
@@ -2145,22 +2145,34 @@
     },
     "away": {
      "w": 0,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     "last10": {
      "w": 3,
-     "l": 5,
+     "l": 6,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-22",
+     "season": 2026,
+     "week": 11,
+     "type": "REG",
+     "home": "PHI",
+     "away": "PIT",
+     "home_score": 19,
+     "away_score": 16,
+     "winner": "PHI",
+     "neutral": false
+    },
     {
      "date": "2024-12-15",
      "season": 2024,

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T20:55:51Z",
+ "generated_at": "2026-11-23T22:33:22Z",
  "team": "SF",
  "since": 1999,
  "opponents": {
@@ -1068,19 +1068,19 @@
    ]
   },
   "MIN": {
-   "games": 12,
-   "wins": 4,
+   "games": 13,
+   "wins": 5,
    "losses": 8,
    "ties": 0,
-   "streak": "MIN W2",
+   "streak": "SF W1",
    "splits": {
     "all": {
-     "w": 4,
+     "w": 5,
      "l": 8,
      "t": 0
     },
     "regular": {
-     "w": 3,
+     "w": 4,
      "l": 8,
      "t": 0
     },
@@ -1100,8 +1100,8 @@
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 3,
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     "last10": {
@@ -1112,6 +1112,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-22",
+     "season": 2026,
+     "week": 11,
+     "type": "REG",
+     "home": "SF",
+     "away": "MIN",
+     "home_score": 35,
+     "away_score": 10,
+     "winner": "SF",
+     "neutral": true
+    },
     {
      "date": "2024-09-15",
      "season": 2024,
@@ -1241,18 +1253,6 @@
      "away": "SF",
      "home_score": 35,
      "away_score": 7,
-     "winner": "MIN",
-     "neutral": false
-    },
-    {
-     "date": "1999-10-24",
-     "season": 1999,
-     "week": 7,
-     "type": "REG",
-     "home": "MIN",
-     "away": "SF",
-     "home_score": 40,
-     "away_score": 16,
      "winner": "MIN",
      "neutral": false
     }

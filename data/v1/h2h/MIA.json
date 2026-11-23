@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T20:55:51Z",
+ "generated_at": "2026-11-23T22:33:22Z",
  "team": "MIA",
  "since": 1999,
  "opponents": {
@@ -315,20 +315,20 @@
    ]
   },
   "BUF": {
-   "games": 55,
+   "games": 56,
    "wins": 20,
-   "losses": 35,
+   "losses": 36,
    "ties": 0,
-   "streak": "MIA W1",
+   "streak": "BUF W1",
    "splits": {
     "all": {
      "w": 20,
-     "l": 35,
+     "l": 36,
      "t": 0
     },
     "regular": {
      "w": 20,
-     "l": 34,
+     "l": 35,
      "t": 0
     },
     "postseason": {
@@ -343,7 +343,7 @@
     },
     "away": {
      "w": 6,
-     "l": 21,
+     "l": 22,
      "t": 0
     },
     "last5": {
@@ -359,6 +359,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-22",
+     "season": 2026,
+     "week": 11,
+     "type": "REG",
+     "home": "BUF",
+     "away": "MIA",
+     "home_score": 26,
+     "away_score": 9,
+     "winner": "BUF",
+     "neutral": false
+    },
     {
      "date": "2025-11-09",
      "season": 2025,
@@ -488,18 +500,6 @@
      "away": "BUF",
      "home_score": 0,
      "away_score": 35,
-     "winner": "BUF",
-     "neutral": false
-    },
-    {
-     "date": "2021-01-03",
-     "season": 2020,
-     "week": 17,
-     "type": "REG",
-     "home": "BUF",
-     "away": "MIA",
-     "home_score": 56,
-     "away_score": 26,
      "winner": "BUF",
      "neutral": false
     }

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T20:55:51Z",
+ "generated_at": "2026-11-23T22:33:22Z",
  "team": "TEN",
  "since": 1999,
  "opponents": {
@@ -2954,20 +2954,20 @@
    ]
   },
   "DAL": {
-   "games": 7,
+   "games": 8,
    "wins": 3,
-   "losses": 4,
+   "losses": 5,
    "ties": 0,
-   "streak": "DAL W1",
+   "streak": "DAL W2",
    "splits": {
     "all": {
      "w": 3,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "regular": {
      "w": 3,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "postseason": {
@@ -2982,7 +2982,7 @@
     },
     "away": {
      "w": 2,
-     "l": 1,
+     "l": 2,
      "t": 0
     },
     "last5": {
@@ -2992,12 +2992,24 @@
     },
     "last10": {
      "w": 3,
-     "l": 4,
+     "l": 5,
      "t": 0
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-22",
+     "season": 2026,
+     "week": 11,
+     "type": "REG",
+     "home": "DAL",
+     "away": "TEN",
+     "home_score": 51,
+     "away_score": 30,
+     "winner": "DAL",
+     "neutral": false
+    },
     {
      "date": "2022-12-29",
      "season": 2022,
