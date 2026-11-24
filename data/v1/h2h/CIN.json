@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T20:55:51Z",
+ "generated_at": "2026-11-24T21:05:18Z",
  "team": "CIN",
  "since": 1999,
  "opponents": {
@@ -4551,20 +4551,20 @@
    ]
   },
   "WAS": {
-   "games": 6,
+   "games": 7,
    "wins": 3,
-   "losses": 2,
+   "losses": 3,
    "ties": 1,
-   "streak": "WAS W2",
+   "streak": "WAS W3",
    "splits": {
     "all": {
      "w": 3,
-     "l": 2,
+     "l": 3,
      "t": 1
     },
     "regular": {
      "w": 3,
-     "l": 2,
+     "l": 3,
      "t": 1
     },
     "postseason": {
@@ -4579,22 +4579,34 @@
     },
     "away": {
      "w": 2,
-     "l": 1,
+     "l": 2,
      "t": 0
     },
     "last5": {
-     "w": 2,
-     "l": 2,
+     "w": 1,
+     "l": 3,
      "t": 1
     },
     "last10": {
      "w": 3,
-     "l": 2,
+     "l": 3,
      "t": 1
     }
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-23",
+     "season": 2026,
+     "week": 11,
+     "type": "REG",
+     "home": "WAS",
+     "away": "CIN",
+     "home_score": 22,
+     "away_score": 20,
+     "winner": "WAS",
+     "neutral": false
+    },
     {
      "date": "2024-09-23",
      "season": 2024,
