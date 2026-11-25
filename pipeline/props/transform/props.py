@@ -10,13 +10,19 @@ model, because every card has to be explainable in one sentence:
 
     score = 0.45*softness + 0.35*usage + 0.20*confidence
 
-No sportsbook lines are involved. The output says who to look at and why; the
-number in your app is still the number you have to beat.
+Sportsbook lines are not known here: they move every few minutes and arrive
+through the Worker, not the pipeline. Instead each card carries a `projection`
+(and, for touchdown markets, a `td_prob`), and the payload publishes
+`line_weight` and `value_scale`. The app adjusts the score on-device by how far
+the projection sits from the live line -- see app/src/domain/score.ts. A line
+right at the projection, or no line at all, leaves this score unchanged, so
+cards with and without lines stay on one scale.
 """
 
 from __future__ import annotations
 
-from typing import Dict, List, Optional
+import math
+from typing import Dict, List, Optional, Tuple
 
 from .. import teams as registry
 from ..markets import MARKETS, MARKET_ORDER, Market, share_column_for
@@ -30,6 +36,45 @@ MAX_SOFTNESS_RANK = 10
 CONFIDENCE_GAMES = 6.0
 
 WEIGHTS = {"softness": 0.45, "usage": 0.35, "confidence": 0.20}
+
+#: The most a sportsbook line can move a score, either way (0.20 = 20 points
+#: of 100). Applied on-device as an adjustment, not a re-weighting: a fair line
+#: leaves the score alone, so a card does not drop just because a book posted.
+LINE_WEIGHT = 0.20
+
+#: Relative edge (projection vs line) at which `value` saturates at 0 or 1.
+#: For touchdown markets the same number is read as probability points.
+VALUE_SCALE = 0.25
+
+#: How far a matchup may stretch a player's average, either way. Keeps one
+#: freak early-season game from projecting a receiver to 200 yards.
+MATCHUP_FACTOR_BOUNDS = (0.6, 1.6)
+
+
+def league_averages(dvp_payload: dict) -> Dict[Tuple[str, str], float]:
+    """Mean allowed per game across every defense, per (position, metric)."""
+    sums: Dict[Tuple[str, str], List[float]] = {}
+    for positions in dvp_payload["defenses"].values():
+        for position, metrics in positions.items():
+            for metric, cell in metrics.items():
+                value = cell.get("allowed_per_game")
+                if value is not None:
+                    sums.setdefault((position, metric), []).append(value)
+    return {key: sum(values) / len(values) for key, values in sums.items() if values}
+
+
+def projection(produced: float, allowed: float, league_avg: Optional[float]) -> float:
+    """The player's average, stretched by how generous this defense is."""
+    if not league_avg or league_avg <= 0:
+        return round(produced, 2)
+    low, high = MATCHUP_FACTOR_BOUNDS
+    factor = min(max(allowed / league_avg, low), high)
+    return round(produced * factor, 2)
+
+
+def td_probability(expected_tds: float) -> float:
+    """P(at least one touchdown), treating touchdowns as Poisson."""
+    return round(1.0 - math.exp(-max(expected_tds, 0.0)), 4)
 
 
 def confidence(defense_games: int, player_games: int) -> float:
@@ -67,6 +112,7 @@ def build(
     threshold = (32 - max_rank) / 31
 
     usage_pcts = _usage_percentiles(usage_payload)
+    averages = league_averages(dvp_payload)
     recommendations: List[dict] = []
 
     for game in games:
@@ -88,7 +134,10 @@ def build(
                 for player in usage_module.players_for(
                     usage_payload, offense, market.position
                 ):
-                    card = _card(game, market, offense, defense, cell, player, usage_pcts)
+                    card = _card(
+                        game, market, offense, defense, cell, player, usage_pcts,
+                        averages.get((market.position, market.metric)),
+                    )
                     if card is not None:
                         recommendations.append(card)
 
@@ -97,7 +146,12 @@ def build(
         "week": week,
         "max_softness_rank": max_rank,
         "weights": WEIGHTS,
-        "note": "informational: matchup and usage evidence, not betting lines",
+        "line_weight": LINE_WEIGHT,
+        "value_scale": VALUE_SCALE,
+        "note": (
+            "informational: matchup and usage evidence; when a sportsbook line is"
+            " available the app adds a value component on-device"
+        ),
         "recommendations": recommendations,
     }
 
@@ -110,6 +164,7 @@ def _card(
     cell: dict,
     player: dict,
     usage_pcts: Dict[str, Dict[str, float]],
+    league_avg: Optional[float] = None,
 ) -> Optional[dict]:
     if not usage_module.available(player):
         return None
@@ -131,6 +186,7 @@ def _card(
     )
     conf = confidence(cell["games"], player["games"])
     total = score(cell["softness_pct"], usage_pct, conf)
+    projected = projection(produced, cell["allowed_per_game"], league_avg)
 
     return {
         # Stable across rebuilds, so the app can link to one card and still
@@ -168,6 +224,9 @@ def _card(
             "current": cell["current"],
             "prior": cell["prior"],
         },
+        "projection": projected,
+        # Only the anytime-TD markets are priced as yes/no rather than a line.
+        "td_prob": td_probability(projected) if market.odds_market == "player_anytime_td" else None,
         "score": total,
         "components": {
             "softness": cell["softness_pct"],

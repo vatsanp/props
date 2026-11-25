@@ -50,6 +50,7 @@ KV writes are capped at 1,000/day on the free plan. A steady hour writes
 | `/v1/manifest.json` | the manifest, always `no-store` |
 | `/v1/stats.json` etc. | the payloads, `max-age=300` with an ETag |
 | `/v1/h2h/<TEAM>.json` | per-team head-to-head, lazily cached |
+| `/v1/odds.json` | sportsbook lines, polled from The Odds API, `max-age=30` with an ETag |
 
 The URL layout mirrors `data/v1/` exactly, so the app only ever changes its base
 URL. There is no `/api/mismatches`: edges are not computed server-side.
@@ -80,9 +81,16 @@ curl -s https://props-data.<your-subdomain>.workers.dev/v1/manifest.json
 npx wrangler tail
 ```
 
-There is **no `wrangler secret put`**. This project has no API key: the pipeline
-scrapes TeamRankings and reads public nflverse CSVs, and the Worker only reads
-public GitHub content. Nothing here is secret.
+There is **one secret**: the Odds API key for sportsbook lines (below). The
+pipeline itself needs no key; it scrapes TeamRankings and reads public nflverse
+CSVs.
+
+```sh
+npx wrangler secret put ODDS_API_KEY     # free key at the-odds-api.com
+```
+
+Without it the Worker still serves everything else; `/v1/odds.json` stays empty
+and the app shows no lines.
 
 Then point the app at it — `extra.dataBase` in `app/app.json`:
 
@@ -90,11 +98,72 @@ Then point the app at it — `extra.dataBase` in `app/app.json`:
 "dataBase": "https://props-data.<your-subdomain>.workers.dev/v1"
 ```
 
+## Sportsbook lines
+
+`/v1/odds.json` is the one payload this Worker builds itself. A second cron
+(`*/5 * * * *`) runs `pollOdds()` in `src/odds.ts`:
+
+1. Every 6 hours, re-read The Odds API's event list. **Free:** it costs no credits.
+2. Work out which games are *due* (see the vars below) and fetch up to
+   `ODDS_EVENTS_PER_TICK` of them: `/v4/sports/americanfootball_nfl/events/{id}/odds`
+   for the 7 markets in `ODDS_MARKETS` (generated from `pipeline/props/markets.py`)
+   and the books in `ODDS_BOOKS`.
+3. Reshape the results to `[line, over, under]` per book, market and player.
+   Drop games that have kicked off: lines are pregame only.
+4. Write the whole set back to the single KV key `odds/current`. The write only
+   happens if something changed. An unchanged error is never rewritten, so a bad
+   key costs no writes.
+
+**Credits.** One refresh of one game costs about 7 credits: unique markets
+returned × 1 region, since every 10 books bill as one region. A response with no
+data costs nothing. `x-requests-remaining` is stored with every write and shown
+at `/`.
+
+| Var | Default (free tier) | $30 (20K) | $59 (100K) |
+|---|---|---|---|
+| `ODDS_FAR_MIN` | `0` (never) | `180` | `60` |
+| `ODDS_NEAR_WINDOW_MIN` | `90` | `120` | `180` |
+| `ODDS_NEAR_MIN` | `0` (once, on entry) | `20` | `5` |
+| `ODDS_CREDIT_RESERVE` | `0` | `500` | `2000` |
+| `ODDS_EVENTS_PER_TICK` | `3` | `3` | `3`, or more on Workers Paid |
+
+On the defaults, each game is fetched once, when it enters the 90 minutes before
+kickoff. That is about 16 games × 7 = 112 credits a week, inside 500 a month.
+Below `ODDS_CREDIT_RESERVE`, only games inside the window are fetched. With less
+than one refresh left, nothing is fetched.
+
+**Books.** `fanduel,draftkings,espnbet,betmgm`. `espnbet` is theScore Bet,
+formerly ESPN BET. Bet365 has no US coverage on The Odds API, and PointsBet US
+was delisted after Fanatics bought it. `fanatics` and `williamhill_us` (Caesars)
+need a paid plan, so add them to `ODDS_BOOKS` after upgrading.
+
+**Why every 5 minutes, not every minute.** KV can take ~60 s to show a write in
+every location. A faster tick could read the previous state and pay for the same
+game twice.
+
+**Free-plan limits.** One tick costs 1 KV get, at most 1 events fetch,
+`ODDS_EVENTS_PER_TICK` odds fetches and at most 1 put. CPU is the tight one
+(10 ms): parsing a props response is the cost. After the first real poll, check
+`npx wrangler tail` and lower `ODDS_EVENTS_PER_TICK` if a tick goes over.
+
+Locally, `make worker` runs `scripts/mock-odds.mjs` in place of the real API, so
+nothing costs credits. It also widens the window to a week, so every game with
+cards gets lines:
+
+```sh
+curl localhost:8787/__scheduled          # one sync + one odds tick
+curl localhost:8787/v1/odds.json
+```
+
+The app reads odds only from the Worker: `extra.dataBase` in `app.json`, or
+`EXPO_PUBLIC_ODDS_BASE=http://<lan-ip>:8787/v1` alongside `make phone`.
+
 ## Developing
 
 ```sh
 make worker        # from the repo root: serves data/ as origin, worker on :8787
 make worker-check  # typecheck, then validate what it serves against app schemas
+npm test           # (in worker/) the odds poller's scheduling and credit guard
 ```
 
 `make worker` points `ORIGIN_BASE` at a local `http.server` over `data/`, so you

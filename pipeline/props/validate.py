@@ -176,8 +176,17 @@ def _check_props(out: pathlib.Path, problems: List[str]) -> None:
     if payload is None:
         return
 
+    line_weight = payload.get("line_weight")
+    if line_weight is not None and not 0.0 < line_weight <= 0.5:
+        problems.append(f"props: line_weight {line_weight} out of range")
+
     for card in payload.get("recommendations", []):
         player = card["player"]
+        if card.get("projection") is None or card["projection"] < 0:
+            problems.append(f"props: {player['name']} has no projection")
+        td_prob = card.get("td_prob")
+        if td_prob is not None and not 0.0 <= td_prob <= 1.0:
+            problems.append(f"props: {player['name']} td_prob {td_prob} out of range")
         if player["status"] in {"Out", "Doubtful"}:
             problems.append(f"props: {player['name']} is {player['status']}")
         if player["role"] == "committee":

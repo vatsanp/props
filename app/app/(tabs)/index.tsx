@@ -2,13 +2,14 @@ import { useMemo, useState } from 'react';
 import { RefreshControl, ScrollView, Text, View } from 'react-native';
 
 import { failedSources, isStale, useManifest, useProps, useSchedule } from '../../src/api/queries';
-import type { Recommendation } from '../../src/api/schemas';
 import { Card, Chip, Empty, ErrorNote, Loading } from '../../src/components/common';
 import { FilterButton, PickerSheet, type PickerOption } from '../../src/components/PickerSheet';
 import { PropRow } from '../../src/components/PropRow';
 import { POSITIONS } from '../../src/domain/markets';
+import { ago, bookName } from '../../src/domain/odds';
 import { formatKickoff } from '../../src/format';
 import { useTheme } from '../../src/theme';
+import { useLiveCards, type LiveCard } from '../../src/useLines';
 
 /**
  * The home screen: this week's recommendations, strongest first.
@@ -18,6 +19,7 @@ export default function PropsScreen() {
   const manifest = useManifest();
   const picks = useProps();
   const schedule = useSchedule();
+  const { cards: live, odds, withLines } = useLiveCards(picks.data);
   const [position, setPosition] = useState<string | null>(null);
   const [pickedGame, setPickedGame] = useState<string | null>(null);
   const [sheet, setSheet] = useState<'position' | 'game' | null>(null);
@@ -45,13 +47,17 @@ export default function PropsScreen() {
   // A pick from last week's slate quietly falls back to every game.
   const gameId = games.some((g) => g.id === pickedGame) ? pickedGame : null;
 
-  const cards = useMemo(() => {
-    const all = picks.data?.recommendations ?? [];
-    return all.filter(
-      (card) =>
-        (!position || card.position === position) && (!gameId || card.game_id === gameId),
-    );
-  }, [picks.data, position, gameId]);
+  // Strongest first by the line-aware score, which moves as the lines do.
+  const cards = useMemo(
+    () =>
+      live
+        .filter(
+          ({ card }) =>
+            (!position || card.position === position) && (!gameId || card.game_id === gameId),
+        )
+        .sort((a, b) => b.live.score - a.live.score || a.card.player.name.localeCompare(b.card.player.name)),
+    [live, position, gameId],
+  );
 
   const positionOptions: PickerOption<string | null>[] = [
     { value: null, label: 'All positions' },
@@ -77,6 +83,7 @@ export default function PropsScreen() {
           onRefresh={() => {
             manifest.refetch();
             picks.refetch();
+            if (odds.isEnabled) odds.refetch();
           }}
           tintColor={theme.muted}
         />
@@ -91,6 +98,12 @@ export default function PropsScreen() {
         <Text style={{ color: theme.muted, marginTop: 2 }}>
           {cards.length} matchup{cards.length === 1 ? '' : 's'} worth a look
         </Text>
+        {withLines && odds.data ? (
+          <Text style={{ color: theme.faint, fontSize: 12, marginTop: 2 }}>
+            Lines from {odds.data.books.map(bookName).join(', ')}
+            {odds.data.updated_at ? ` · updated ${ago(odds.data.updated_at)}` : ''}
+          </Text>
+        ) : null}
       </View>
 
       {stale ? (
@@ -164,7 +177,9 @@ export default function PropsScreen() {
           }
         />
       ) : (
-        cards.map((card: Recommendation) => <PropRow key={card.id} card={card} />)
+        cards.map(({ card, lines, live: score }: LiveCard) => (
+          <PropRow key={card.id} card={card} lines={lines} live={score} />
+        ))
       )}
 
       <Text
@@ -177,7 +192,8 @@ export default function PropsScreen() {
           lineHeight: 16,
         }}
       >
-        Matchup and usage evidence only — no betting lines. Check the number in your book.
+        Scores weigh matchup and usage, plus the sportsbook line when one is posted. Lines are
+        pregame, from the books listed, and can move — confirm the number in your book.
       </Text>
     </ScrollView>
   );

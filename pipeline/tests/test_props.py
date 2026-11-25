@@ -252,3 +252,34 @@ def test_a_defense_that_has_allowed_nothing_is_not_a_soft_matchup():
     )["recommendations"]
     assert cards, "fixture should still produce receiving cards"
     assert all(c["market"] != "te_anytime_td" for c in cards)
+
+
+# --------------------------------------------------------------------------
+# what the app needs to fold a sportsbook line in
+
+
+def test_projection_stretches_the_average_by_the_matchup():
+    assert recommender.projection(60.0, allowed=80.0, league_avg=40.0) == 96.0, "capped at 1.6x"
+    assert recommender.projection(60.0, allowed=50.0, league_avg=40.0) == 75.0
+    assert recommender.projection(60.0, allowed=10.0, league_avg=40.0) == 36.0, "floored at 0.6x"
+    assert recommender.projection(60.0, allowed=50.0, league_avg=None) == 60.0
+
+
+def test_td_probability_is_poisson():
+    assert recommender.td_probability(0.0) == 0.0
+    assert 0.39 < recommender.td_probability(0.5) < 0.40
+    assert recommender.td_probability(-1.0) == 0.0
+
+
+def test_cards_carry_a_projection_and_the_payload_carries_the_line_weight():
+    schedule_payload, dvp_payload, usage_payload = _fixture_payloads()
+    result = recommender.build(schedule_payload, dvp_payload, usage_payload, week=7)
+    assert 0 < result["line_weight"] <= 0.5
+    assert result["value_scale"] > 0
+    for card in result["recommendations"]:
+        # DEN is the softest defense in the fixture, so the matchup can only help.
+        assert card["projection"] >= card["player"]["per_game"]
+        if card["market"].endswith("anytime_td"):
+            assert 0.0 <= card["td_prob"] <= 1.0
+        else:
+            assert card["td_prob"] is None

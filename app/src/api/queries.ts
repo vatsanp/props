@@ -1,11 +1,15 @@
 import { useQuery, type UseQueryResult } from '@tanstack/react-query';
+import { useIsFocused } from 'expo-router';
+import { useEffect, useState } from 'react';
+import { AppState } from 'react-native';
 
-import { getJson } from './client';
+import { ODDS_BASE, getJson } from './client';
 import {
   dvpSchema,
   h2hSummarySchema,
   h2hTeamSchema,
   manifestSchema,
+  oddsSchema,
   propsSchema,
   recordsSchema,
   scheduleSchema,
@@ -15,6 +19,7 @@ import {
   type H2HSummary,
   type H2HTeam,
   type Manifest,
+  type Odds,
   type PropsPayload,
   type Records,
   type Schedule,
@@ -87,6 +92,39 @@ export function useH2HTeam(team: string | undefined): UseQueryResult<H2HTeam> {
     queryFn: () => getJson(`h2h/${team}.json`, h2hTeamSchema, { version: hash }),
     enabled: Boolean(team),
     staleTime: Infinity, // as above: a new hash is a new key, which is the refresh
+  });
+}
+
+function useAppActive(): boolean {
+  const [active, setActive] = useState(AppState.currentState === 'active');
+  useEffect(() => {
+    const sub = AppState.addEventListener('change', (state) => setActive(state === 'active'));
+    return () => sub.remove();
+  }, []);
+  return active;
+}
+
+/**
+ * Sportsbook lines. Not manifest-versioned: they move on their own clock, so
+ * this polls every minute -- but only while the screen using it is in front
+ * and the app is open. Tab screens stay mounted when you leave them, and an
+ * interval on a hidden screen would poll all day.
+ *
+ * Disabled (data stays undefined) when no Worker is configured; callers treat
+ * that the same as "no lines yet".
+ */
+export function useOdds(): UseQueryResult<Odds> {
+  const focused = useIsFocused();
+  const active = useAppActive();
+  const live = focused && active;
+  return useQuery({
+    queryKey: ['odds'],
+    queryFn: () => getJson('odds.json', oddsSchema, { base: ODDS_BASE, noStore: true }),
+    enabled: Boolean(ODDS_BASE),
+    staleTime: 30 * 1000,
+    refetchInterval: live ? MINUTE : false,
+    refetchOnMount: true,
+    retry: 1,
   });
 }
 

@@ -29,11 +29,18 @@
  * origin on first request and cached in KV under a key that includes h2h.json's
  * content hash, so a new build silently supersedes them with no invalidation
  * pass. The app only asks for one when a matchup is opened.
+ *
+ * ## Sportsbook lines are the one thing this Worker fetches itself
+ *
+ * /v1/odds.json does not come from the pipeline. A second cron polls The Odds
+ * API (see odds.ts) and keeps the result under its own `odds/` key, which the
+ * manifest sync never lists or touches.
  */
 
 import { loadTemplate, serveManifest, serveOpenPage, type ExpoEnv } from './expo';
+import { ODDS_KEY, emptyPayload, pollOdds, readOdds, type OddsEnv, type OddsPayload } from './odds';
 
-export interface Env extends ExpoEnv {
+export interface Env extends ExpoEnv, OddsEnv {
   /** Every payload. Binding name is fixed by wrangler.jsonc. */
   MISMATCH_STORE: KVNamespace;
   /** Base URL the payloads are published at, e.g. the raw.githubusercontent URL. */
@@ -97,6 +104,11 @@ const CORS_HEADERS: Record<string, string> = {
   'access-control-allow-headers': 'content-type, cache-control, if-none-match',
   'access-control-max-age': '86400',
 };
+
+/** Odds move; the app polls every minute and an edge copy may lag by 30 s. */
+const ODDS_CACHE = 'public, max-age=30';
+/** The existing hourly sync. Any other cron is the odds poller. */
+const SYNC_CRON = '17 * * * *';
 
 /** The app cache-busts the manifest itself; never let an edge hold onto it. */
 const MANIFEST_CACHE = 'no-store';
@@ -441,10 +453,26 @@ async function servePayload(
   return respond(body, { cache, etag: isManifest ? undefined : etagFor(hash), method: request.method });
 }
 
+/**
+ * The odds payload as stored. Empty -- never a 404 -- when polling is off or
+ * has not run yet, so the app can tell "no lines yet" from "no Worker".
+ */
+async function serveOdds(request: Request, env: Env): Promise<Response> {
+  const stored = await env.MISMATCH_STORE.get(ODDS_KEY, 'text');
+  const body = stored ?? JSON.stringify(emptyPayload());
+  const updated = stored ? (JSON.parse(stored) as OddsPayload).updated_at : null;
+  const etag = updated ? `"odds-${Date.parse(updated)}"` : undefined;
+  if (etagMatches(request.headers.get('if-none-match'), etag)) {
+    return respond(null, { status: 304, cache: ODDS_CACHE, etag, method: request.method });
+  }
+  return respond(body, { cache: ODDS_CACHE, etag, method: request.method });
+}
+
 /** A quick look at what the Worker is holding, for when something looks stale. */
 async function serveStatus(request: Request, env: Env): Promise<Response> {
   const held = await storedMeta(env);
   const update = await loadTemplate(env, request);
+  const odds = await readOdds(env);
   return respond(
     JSON.stringify(
       {
@@ -455,12 +483,24 @@ async function serveStatus(request: Request, env: Env): Promise<Response> {
         app: update
           ? { id: update.id, createdAt: update.createdAt, runtimeVersion: update.runtimeVersion }
           : null,
+        odds: odds
+          ? {
+              enabled: env.ODDS_ENABLED === 'true',
+              updatedAt: odds.updated_at,
+              eventsListedAt: odds.events_listed_at,
+              events: Object.keys(odds.events).length,
+              withLines: Object.values(odds.events).filter((e) => e.fetched_at).length,
+              creditsRemaining: odds.credits_remaining,
+              lastError: odds.last_error,
+            }
+          : { enabled: env.ODDS_ENABLED === 'true', updatedAt: null },
         note: 'Matchup edges are computed on-device, not here.',
         endpoints: [
           '/open',
           '/expo',
           `/v1/${MANIFEST}`,
           '/v1/props.json',
+          '/v1/odds.json',
           '/v1/stats.json',
           '/v1/h2h/KC.json',
         ],
@@ -510,6 +550,9 @@ export default {
     }
 
     try {
+      if (path === 'odds.json') {
+        return await serveOdds(request, env);
+      }
       const team = H2H_TEAM_PATH.exec(path)?.[1];
       return team
         ? await serveH2HTeam(request, env, ctx, path, team)
@@ -522,7 +565,33 @@ export default {
     }
   },
 
-  async scheduled(_event: ScheduledController, env: Env, ctx: ExecutionContext): Promise<void> {
+  async scheduled(event: ScheduledController, env: Env, ctx: ExecutionContext): Promise<void> {
+    // `wrangler dev --test-scheduled` fires with an empty cron string; treat
+    // that as both, so /__scheduled exercises everything locally.
+    const runSync = event.cron === SYNC_CRON || event.cron === '';
+    const runOdds = event.cron !== SYNC_CRON;
+
+    if (runOdds) {
+      ctx.waitUntil(
+        pollOdds(env)
+          .then((report) => {
+            if (report.skipped) return; // off, quietly: this fires every 5 minutes
+            const fetched = report.fetched.length
+              ? `fetched ${report.fetched.length}`
+              : 'nothing due';
+            const failed = report.failed.length ? ` -- FAILED ${report.failed.join('; ')}` : '';
+            console.log(
+              `odds: ${report.listed ? 'listed events, ' : ''}${fetched}, ` +
+                `credits ${report.credits ?? '?'}${report.wrote ? '' : ', no write'}${failed}`,
+            );
+          })
+          .catch((error: unknown) => {
+            console.error(`odds failed: ${describe(error)}`);
+          }),
+      );
+    }
+    if (!runSync) return;
+
     ctx.waitUntil(
       sync(env)
         .then((report) => {

@@ -163,6 +163,10 @@ export const propsSchema = z.object({
   week: z.number().nullable(),
   max_softness_rank: z.number(),
   weights: z.record(z.string(), z.number()),
+  // Applied on-device once a sportsbook line is known (src/domain/score.ts).
+  // Optional so a payload from before odds existed still parses.
+  line_weight: z.number().nullish(),
+  value_scale: z.number().nullish(),
   note: z.string(),
   recommendations: z.array(
     z.object({
@@ -197,9 +201,40 @@ export const propsSchema = z.object({
         current: nullableNumber,
         prior: nullableNumber,
       }),
+      /** Per-game average stretched by the matchup; what a line is judged against. */
+      projection: nullableNumber.optional(),
+      /** Anytime-TD markets only: P(at least one TD). */
+      td_prob: nullableNumber.optional(),
       score: z.number(),
       components: z.record(z.string(), z.number()),
       rationale: z.string(),
+    }),
+  ),
+});
+
+/**
+ * Sportsbook lines, polled by the Worker (worker/src/odds.ts) -- not part of
+ * the pipeline or the manifest. A quote is [line, over, under] in American
+ * odds; anytime-TD quotes are [null, yes, no].
+ */
+const quoteSchema = z.tuple([nullableNumber, nullableNumber, nullableNumber]);
+
+export const oddsSchema = z.object({
+  schema_version: z.literal(1),
+  updated_at: z.string().nullable(),
+  events_listed_at: z.string().nullable(),
+  credits_remaining: nullableNumber,
+  last_error: z.string().nullable(),
+  books: z.array(z.string()),
+  events: z.record(
+    z.string(),
+    z.object({
+      home: z.string(),
+      away: z.string(),
+      commence: z.string(),
+      fetched_at: z.string().nullable(),
+      // book -> Odds API market -> player (as the book spells it) -> quote
+      books: z.record(z.string(), z.record(z.string(), z.record(z.string(), quoteSchema))),
     }),
   ),
 });
@@ -263,5 +298,8 @@ export type Records = z.infer<typeof recordsSchema>;
 export type H2HSummary = z.infer<typeof h2hSummarySchema>;
 export type H2HTeam = z.infer<typeof h2hTeamSchema>;
 export type PropsPayload = z.infer<typeof propsSchema>;
+export type Odds = z.infer<typeof oddsSchema>;
+export type OddsEvent = Odds['events'][string];
+export type Quote = z.infer<typeof quoteSchema>;
 export type Recommendation = PropsPayload['recommendations'][number];
 export type TeamStat = z.infer<typeof teamStatSchema>;

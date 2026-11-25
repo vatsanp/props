@@ -7,6 +7,7 @@ export interface MarketDef {
   position: string;
   unit: string;
   noun: string;
+  oddsMarket: string;
 }
 
 export const MARKETS: Record<string, MarketDef> = {
@@ -15,98 +16,112 @@ export const MARKETS: Record<string, MarketDef> = {
     "label": "Receiving Yards",
     "position": "WR",
     "unit": "yds",
-    "noun": "receiving yards"
+    "noun": "receiving yards",
+    "oddsMarket": "player_reception_yds"
   },
   "wr_receptions": {
     "id": "wr_receptions",
     "label": "Receptions",
     "position": "WR",
     "unit": "rec",
-    "noun": "receptions"
+    "noun": "receptions",
+    "oddsMarket": "player_receptions"
   },
   "te_receiving_yards": {
     "id": "te_receiving_yards",
     "label": "Receiving Yards",
     "position": "TE",
     "unit": "yds",
-    "noun": "receiving yards"
+    "noun": "receiving yards",
+    "oddsMarket": "player_reception_yds"
   },
   "te_receptions": {
     "id": "te_receptions",
     "label": "Receptions",
     "position": "TE",
     "unit": "rec",
-    "noun": "receptions"
+    "noun": "receptions",
+    "oddsMarket": "player_receptions"
   },
   "rb_receiving_yards": {
     "id": "rb_receiving_yards",
     "label": "Receiving Yards",
     "position": "RB",
     "unit": "yds",
-    "noun": "receiving yards"
+    "noun": "receiving yards",
+    "oddsMarket": "player_reception_yds"
   },
   "rb_receptions": {
     "id": "rb_receptions",
     "label": "Receptions",
     "position": "RB",
     "unit": "rec",
-    "noun": "receptions"
+    "noun": "receptions",
+    "oddsMarket": "player_receptions"
   },
   "rb_rushing_yards": {
     "id": "rb_rushing_yards",
     "label": "Rushing Yards",
     "position": "RB",
     "unit": "yds",
-    "noun": "rushing yards"
+    "noun": "rushing yards",
+    "oddsMarket": "player_rush_yds"
   },
   "rb_carries": {
     "id": "rb_carries",
     "label": "Carries",
     "position": "RB",
     "unit": "att",
-    "noun": "carries"
+    "noun": "carries",
+    "oddsMarket": "player_rush_attempts"
   },
   "qb_rushing_yards": {
     "id": "qb_rushing_yards",
     "label": "Rushing Yards",
     "position": "QB",
     "unit": "yds",
-    "noun": "rushing yards"
+    "noun": "rushing yards",
+    "oddsMarket": "player_rush_yds"
   },
   "qb_passing_yards": {
     "id": "qb_passing_yards",
     "label": "Passing Yards",
     "position": "QB",
     "unit": "yds",
-    "noun": "passing yards"
+    "noun": "passing yards",
+    "oddsMarket": "player_pass_yds"
   },
   "qb_passing_tds": {
     "id": "qb_passing_tds",
     "label": "Passing TDs",
     "position": "QB",
     "unit": "TD",
-    "noun": "passing touchdowns"
+    "noun": "passing touchdowns",
+    "oddsMarket": "player_pass_tds"
   },
   "rb_anytime_td": {
     "id": "rb_anytime_td",
     "label": "Anytime TD",
     "position": "RB",
     "unit": "TD",
-    "noun": "touchdowns"
+    "noun": "touchdowns",
+    "oddsMarket": "player_anytime_td"
   },
   "wr_anytime_td": {
     "id": "wr_anytime_td",
     "label": "Anytime TD",
     "position": "WR",
     "unit": "TD",
-    "noun": "touchdowns"
+    "noun": "touchdowns",
+    "oddsMarket": "player_anytime_td"
   },
   "te_anytime_td": {
     "id": "te_anytime_td",
     "label": "Anytime TD",
     "position": "TE",
     "unit": "TD",
-    "noun": "touchdowns"
+    "noun": "touchdowns",
+    "oddsMarket": "player_anytime_td"
   }
 };
 
@@ -128,3 +143,14 @@ export const MARKET_ORDER: string[] = [
 ];
 
 export const POSITIONS = ['QB', 'RB', 'WR', 'TE'] as const;
+
+/** The Odds API market keys to request, each once. */
+export const ODDS_MARKETS: string[] = [
+  "player_reception_yds",
+  "player_receptions",
+  "player_rush_yds",
+  "player_rush_attempts",
+  "player_pass_yds",
+  "player_pass_tds",
+  "player_anytime_td"
+];

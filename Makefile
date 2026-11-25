@@ -55,13 +55,19 @@ phone:
 serve:
 	$(PY) -m http.server 8000 --directory data
 
-# The worker on :8787, reading data/ as its origin instead of GitHub. Hit
-# http://localhost:8787/__scheduled to force a sync, / for what it is holding.
+# The worker on :8787, reading data/ as its origin instead of GitHub, and a
+# mock Odds API on :8112 instead of the real one (no credits spent). Hit
+# http://localhost:8787/__scheduled to force a sync and an odds poll, / for
+# what it is holding, /v1/odds.json for the lines.
 worker:
 	@$(PY) -m http.server 8111 --directory data > /dev/null 2>&1 & echo $$! > .origin.pid
+	@node worker/scripts/mock-odds.mjs > .mock-odds.log 2>&1 & echo $$! > .mock-odds.pid
 	-cd worker && npx wrangler dev --port 8787 --test-scheduled \
-		--var ORIGIN_BASE:http://127.0.0.1:8111/v1
-	@kill `cat .origin.pid` 2>/dev/null || true; rm -f .origin.pid
+		--var ORIGIN_BASE:http://127.0.0.1:8111/v1 \
+		--var ODDS_API_BASE:http://127.0.0.1:8112 \
+		--var ODDS_API_KEY:mock \
+		--var ODDS_NEAR_WINDOW_MIN:10080
+	@kill `cat .origin.pid` `cat .mock-odds.pid` 2>/dev/null || true; rm -f .origin.pid .mock-odds.pid
 
 # Needs `make worker` running in another terminal (and `make app-bundle` run once).
 worker-check:

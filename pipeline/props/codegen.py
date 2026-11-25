@@ -87,17 +87,21 @@ def markets_ts() -> str:
             "position": MARKETS[market_id].position,
             "unit": MARKETS[market_id].unit,
             "noun": MARKETS[market_id].noun,
+            "oddsMarket": MARKETS[market_id].odds_market,
         }
         for market_id in MARKET_ORDER
     }
+    odds_markets = list(dict.fromkeys(MARKETS[m].odds_market for m in MARKET_ORDER))
     return (
         BANNER
         + "export interface MarketDef {\n"
         "  id: string;\n  label: string;\n  position: string;\n"
-        "  unit: string;\n  noun: string;\n}\n\n"
+        "  unit: string;\n  noun: string;\n  oddsMarket: string;\n}\n\n"
         f"export const MARKETS: Record<string, MarketDef> = {json.dumps(entries, indent=2)};\n\n"
         f"export const MARKET_ORDER: string[] = {json.dumps(list(MARKET_ORDER), indent=2)};\n\n"
-        "export const POSITIONS = ['QB', 'RB', 'WR', 'TE'] as const;\n"
+        "export const POSITIONS = ['QB', 'RB', 'WR', 'TE'] as const;\n\n"
+        "/** The Odds API market keys to request, each once. */\n"
+        f"export const ODDS_MARKETS: string[] = {json.dumps(odds_markets, indent=2)};\n"
     )
 
 

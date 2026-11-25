@@ -30,13 +30,38 @@
   // workflow commits on :00 and :30, so a run at :17 picks up either within the
   // hour. Cron invocations count against the free plan's 100k/day requests;
   // 24 a day is nothing.
+  //
+  // Every 5 minutes: the sportsbook-lines poller (src/odds.ts). It decides for
+  // itself which games are due, so this only sets the finest granularity. Five
+  // minutes, not one, because KV takes up to ~60 s to show a write everywhere:
+  // a faster tick could read stale state and pay for the same game twice.
   "triggers": {
-    "crons": ["17 * * * *"]
+    "crons": ["17 * * * *", "*/5 * * * *"]
   },
 
   "vars": {
     // Where the pipeline publishes. Replace <github-user> with your account
     // once the repo is pushed; the Worker only ever reads from here.
-    "ORIGIN_BASE": "https://raw.githubusercontent.com/vatsanp/props/main/data/v1"
+    "ORIGIN_BASE": "https://raw.githubusercontent.com/vatsanp/props/main/data/v1",
+
+    // Sportsbook lines (src/odds.ts). Needs the secret too:
+    //   npx wrangler secret put ODDS_API_KEY
+    // Defaults fit The Odds API free tier (500 credits/month): each game is
+    // fetched once, as it enters the 90 minutes before kickoff, at ~7 credits.
+    // Suggested values for paid plans (minutes):
+    //   $30, 20K credits:   FAR_MIN 180, NEAR_MIN 20, NEAR_WINDOW_MIN 120
+    //   $59, 100K credits:  FAR_MIN 60,  NEAR_MIN 5,  NEAR_WINDOW_MIN 180
+    // FAR_MIN 0 = never refresh outside the window; NEAR_MIN 0 = once, on entry.
+    "ODDS_ENABLED": "true",
+    // Bet365 has no US coverage and PointsBet US is delisted. Fanatics
+    // ("fanatics") and Caesars ("williamhill_us") need a paid plan.
+    "ODDS_BOOKS": "fanduel,draftkings,espnbet,betmgm",
+    "ODDS_FAR_MIN": "0",
+    "ODDS_NEAR_MIN": "0",
+    "ODDS_NEAR_WINDOW_MIN": "90",
+    // Caps CPU per tick (free plan: 10 ms). Raise it on Workers Paid.
+    "ODDS_EVENTS_PER_TICK": "3",
+    // Below this many credits, only games inside the window are fetched.
+    "ODDS_CREDIT_RESERVE": "0"
   }
 }

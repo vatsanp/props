@@ -45,6 +45,14 @@ jobs:
       - name: Display formatting
         working-directory: app
         run: npm run test:format
+      - name: Odds scoring and matching
+        working-directory: app
+        run: npm run test:odds
+      # The Worker's odds poller, run with the app's tsx so CI needs no second
+      # npm install.
+      - name: Worker odds poller
+        working-directory: app
+        run: npx tsx ../worker/test/odds.test.ts
 
       # The content hash has to reach the URL, or a new build is served from
       # the HTTP cache as the old one.

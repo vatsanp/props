@@ -28,6 +28,7 @@ class Market:
     unit: str             # "yds" / "rec" / "TD" / "att"
     noun: str             # for the generated sentence: "receiving yards"
     min_per_game: float   # below this the player is not worth a card
+    odds_market: str      # The Odds API market key the books quote this as
 
     @property
     def metric(self) -> str:
@@ -45,54 +46,54 @@ MARKETS: Dict[str, Market] = {
         # Receiving — the strongest signal, and the reason this app exists.
         _m(id="wr_receiving_yards", label="Receiving Yards", position="WR",
            columns=("receiving_yards",), unit="yds", noun="receiving yards",
-           min_per_game=35.0),
+           min_per_game=35.0, odds_market="player_reception_yds"),
         _m(id="wr_receptions", label="Receptions", position="WR",
            columns=("receptions",), unit="rec", noun="receptions",
-           min_per_game=3.0),
+           min_per_game=3.0, odds_market="player_receptions"),
         _m(id="te_receiving_yards", label="Receiving Yards", position="TE",
            columns=("receiving_yards",), unit="yds", noun="receiving yards",
-           min_per_game=25.0),
+           min_per_game=25.0, odds_market="player_reception_yds"),
         _m(id="te_receptions", label="Receptions", position="TE",
            columns=("receptions",), unit="rec", noun="receptions",
-           min_per_game=2.5),
+           min_per_game=2.5, odds_market="player_receptions"),
         # Running backs catch passes too — asked for explicitly.
         _m(id="rb_receiving_yards", label="Receiving Yards", position="RB",
            columns=("receiving_yards",), unit="yds", noun="receiving yards",
-           min_per_game=15.0),
+           min_per_game=15.0, odds_market="player_reception_yds"),
         _m(id="rb_receptions", label="Receptions", position="RB",
            columns=("receptions",), unit="rec", noun="receptions",
-           min_per_game=2.0),
+           min_per_game=2.0, odds_market="player_receptions"),
 
         # Rushing.
         _m(id="rb_rushing_yards", label="Rushing Yards", position="RB",
            columns=("rushing_yards",), unit="yds", noun="rushing yards",
-           min_per_game=35.0),
+           min_per_game=35.0, odds_market="player_rush_yds"),
         _m(id="rb_carries", label="Carries", position="RB",
            columns=("carries",), unit="att", noun="carries",
-           min_per_game=8.0),
+           min_per_game=8.0, odds_market="player_rush_attempts"),
         # Mobile quarterbacks, also asked for explicitly.
         _m(id="qb_rushing_yards", label="Rushing Yards", position="QB",
            columns=("rushing_yards",), unit="yds", noun="rushing yards",
-           min_per_game=15.0),
+           min_per_game=15.0, odds_market="player_rush_yds"),
 
         # Passing.
         _m(id="qb_passing_yards", label="Passing Yards", position="QB",
            columns=("passing_yards",), unit="yds", noun="passing yards",
-           min_per_game=180.0),
+           min_per_game=180.0, odds_market="player_pass_yds"),
         _m(id="qb_passing_tds", label="Passing TDs", position="QB",
            columns=("passing_tds",), unit="TD", noun="passing touchdowns",
-           min_per_game=1.0),
+           min_per_game=1.0, odds_market="player_pass_tds"),
 
         # Anytime touchdown: rushing and receiving scores combined.
         _m(id="rb_anytime_td", label="Anytime TD", position="RB",
            columns=("rushing_tds", "receiving_tds"), unit="TD",
-           noun="touchdowns", min_per_game=0.35),
+           noun="touchdowns", min_per_game=0.35, odds_market="player_anytime_td"),
         _m(id="wr_anytime_td", label="Anytime TD", position="WR",
            columns=("rushing_tds", "receiving_tds"), unit="TD",
-           noun="touchdowns", min_per_game=0.3),
+           noun="touchdowns", min_per_game=0.3, odds_market="player_anytime_td"),
         _m(id="te_anytime_td", label="Anytime TD", position="TE",
            columns=("rushing_tds", "receiving_tds"), unit="TD",
-           noun="touchdowns", min_per_game=0.25),
+           noun="touchdowns", min_per_game=0.25, odds_market="player_anytime_td"),
     ]
 }
 

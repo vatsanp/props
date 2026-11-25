@@ -14,6 +14,7 @@ import {
   h2hSummarySchema,
   h2hTeamSchema,
   manifestSchema,
+  oddsSchema,
   propsSchema,
   recordsSchema,
   scheduleSchema,
@@ -123,6 +124,26 @@ async function main(): Promise<void> {
     console.log('  ok  props.json revalidates to 304, strong or weak');
   } catch (error) {
     fail(`ETag revalidation: ${String(error)}`);
+  }
+
+  // Sportsbook lines: polled by the Worker itself, not mirrored from origin.
+  // Always 200 (an empty payload before the first poll), short-cached, and
+  // revalidatable once anything has been fetched.
+  try {
+    const { response, body } = await get('odds.json');
+    const parsed = oddsSchema.safeParse(body);
+    assert.ok(parsed.success, 'odds.json does not match its schema');
+    assert.match(response.headers.get('cache-control') ?? '', /max-age=30/, 'odds.json max-age');
+    const etag = response.headers.get('etag');
+    if (etag) {
+      const again = await fetch(`${BASE}/odds.json`, { headers: { 'if-none-match': etag } });
+      assert.equal(again.status, 304, `odds.json: expected 304, got ${again.status}`);
+    }
+    const events = Object.values(parsed.data!.events);
+    const priced = events.filter((e) => e.fetched_at).length;
+    console.log(`  ok  odds.json (${events.length} games, ${priced} with lines)`);
+  } catch (error) {
+    fail(`odds.json: ${String(error)}`);
   }
 
   if (failures) {

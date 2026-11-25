@@ -2,6 +2,8 @@ import { Pressable, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 
 import type { Recommendation } from '../api/schemas';
+import { formatAmerican, type Lines } from '../domain/odds';
+import type { LiveScore } from '../domain/score';
 import { ordinal, scoreOutOf100, shortName, trim } from '../format';
 import { team as lookupTeam } from '../domain/teams';
 import { rankTone, useTheme } from '../theme';
@@ -10,8 +12,19 @@ import { rankTone, useTheme } from '../theme';
  * A recommendation in a list: who, what prop, and the one number that says why
  * it is here. Everything else — the defense's full profile, his usage, how the
  * score was arrived at — lives on the detail screen a tap away.
+ *
+ * With a sportsbook line, the row shows the consensus number beside his
+ * average, and the score is the line-aware one (src/domain/score.ts).
  */
-export function PropRow({ card }: { card: Recommendation }) {
+export function PropRow({
+  card,
+  lines = null,
+  live,
+}: {
+  card: Recommendation;
+  lines?: Lines | null;
+  live?: LiveScore;
+}) {
   const theme = useTheme();
   const router = useRouter();
   const { player, defense } = card;
@@ -69,6 +82,24 @@ export function PropRow({ card }: { card: Recommendation }) {
           <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '700' }}>
             {trim(player.per_game)}
           </Text>
+          {lines ? (
+            <Text
+              style={{
+                color: theme.muted,
+                fontSize: 12,
+                fontWeight: '600',
+                borderColor: theme.border,
+                borderWidth: 1,
+                borderRadius: 6,
+                paddingHorizontal: 5,
+                paddingVertical: 1,
+              }}
+            >
+              {lines.isTd
+                ? `Yes ${formatAmerican(lines.best?.over ?? null)}`
+                : `O/U ${trim(lines.consensus ?? 0)}`}
+            </Text>
+          ) : null}
           {player.status !== 'active' ? (
             <Text style={{ color: theme.warn, fontSize: 11, fontWeight: '700' }}>
               {player.status.toUpperCase()}
@@ -91,9 +122,11 @@ export function PropRow({ card }: { card: Recommendation }) {
 
       <View style={{ alignItems: 'flex-end' }}>
         <Text style={{ color: theme.text, fontSize: 22, fontWeight: '800' }}>
-          {scoreOutOf100(card.score)}
+          {scoreOutOf100(live?.score ?? card.score)}
         </Text>
-        <Text style={{ color: theme.faint, fontSize: 10 }}>/ 100</Text>
+        <Text style={{ color: live?.withLine ? theme.accent : theme.faint, fontSize: 10 }}>
+          {live?.withLine ? 'w/ line' : '/ 100'}
+        </Text>
       </View>
 
       <Text style={{ color: theme.faint, fontSize: 18 }}>›</Text>

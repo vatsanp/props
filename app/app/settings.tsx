@@ -92,8 +92,9 @@ export default function SettingsScreen() {
           lineHeight: 16,
         }}
       >
-        Props shows matchup and usage evidence. It has no betting lines and makes no
-        prediction about any individual game.
+        Props weighs matchup and usage evidence, plus pregame sportsbook lines (FanDuel,
+        DraftKings, theScore Bet, BetMGM) when they are posted. Lines are shown as the books
+        quote them; it makes no prediction about any individual game.
       </Text>
     </ScrollView>
   );

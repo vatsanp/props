@@ -14,8 +14,11 @@ Two questions, answered from public data:
 > Cincinnati allows 84.9 receiving yards per game to tight ends (32nd of 32).
 > Trey McBride: 72.9 yds per game, 28% target share.
 
-No betting lines are involved. The app tells you where to look and why; the
-number you have to beat is still the one in your sportsbook.
+When the books have posted, each card also shows pregame player-prop lines
+from FanDuel, DraftKings, theScore Bet and BetMGM (via The Odds API). The line
+nudges the score up or down, by at most 20 points, by how far the matchup
+projection sits from it. A fair line changes nothing. With no line posted, the
+score is matchup and usage alone.
 
 ## How it fits together
 
@@ -25,8 +28,14 @@ nflverse games.csv ├─► Python pipeline ─► data/v1/*.json ─► git �
 nflverse players   ┘     (GitHub Actions)                        │
                                                                  ▼
                               Expo app ◄── KV ◄── Cloudflare Worker
-                                                    (hourly cron)
+                                                   (hourly cron, plus
+                     The Odds API ──────────────►   odds every 5 min)
 ```
+
+Sportsbook lines are the one thing that does not go through git: they move
+too fast. The Worker polls The Odds API itself and serves `/v1/odds.json`;
+see [worker/README.md](worker/README.md#sportsbook-lines). The line-aware score
+is computed on the phone (`app/src/domain/score.ts`), like matchup edges.
 
 There is no database, and nothing is computed at request time. The pipeline
 commits static JSON; a Worker mirrors it into KV and serves it from the edge;

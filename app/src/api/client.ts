@@ -34,6 +34,17 @@ export const DATA_BASE: string =
   configured(Constants.expoConfig?.extra?.dataBase as string | undefined) ??
   FALLBACK_BASE;
 
+/**
+ * Sportsbook lines exist only on the Worker, which polls for them itself; the
+ * laptop server and GitHub raw have none. So odds have their own base, and
+ * with no Worker configured the app simply shows no lines.
+ *
+ *   EXPO_PUBLIC_ODDS_BASE=http://<lan-ip>:8787/v1   (with `make worker` running)
+ */
+export const ODDS_BASE: string | undefined =
+  configured(process.env.EXPO_PUBLIC_ODDS_BASE) ??
+  configured(Constants.expoConfig?.extra?.dataBase as string | undefined);
+
 const TIMEOUT_MS = 10_000;
 
 export class DataError extends Error {
@@ -47,10 +58,15 @@ export class DataError extends Error {
   }
 }
 
-async function fetchJson(path: string, options: FetchOptions = {}): Promise<unknown> {
+interface GetOptions extends FetchOptions {
+  /** Defaults to DATA_BASE. */
+  base?: string;
+}
+
+async function fetchJson(path: string, options: GetOptions = {}): Promise<unknown> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
-  const url = dataUrl(DATA_BASE, path, options);
+  const url = dataUrl(options.base ?? DATA_BASE, path, options);
 
   try {
     const response = await fetch(url, {
@@ -77,7 +93,7 @@ async function fetchJson(path: string, options: FetchOptions = {}): Promise<unkn
 export async function getJson<T>(
   path: string,
   schema: z.ZodType<T>,
-  options: FetchOptions = {},
+  options: GetOptions = {},
 ): Promise<T> {
   const raw = await fetchJson(path, options);
   const parsed = schema.safeParse(raw);

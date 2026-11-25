@@ -6,8 +6,11 @@ import type { Recommendation, UsagePlayer } from '../../src/api/schemas';
 import { Card, Chip, Empty, Loading, SectionTitle } from '../../src/components/common';
 import { ordinal, scoreOutOf100, trim } from '../../src/format';
 import { MARKETS } from '../../src/domain/markets';
+import { ago, bookName, formatAmerican, type Lines } from '../../src/domain/odds';
+import type { LiveScore } from '../../src/domain/score';
 import { team as lookupTeam } from '../../src/domain/teams';
 import { rankTone, useTheme } from '../../src/theme';
+import { useLiveCards } from '../../src/useLines';
 
 /**
  * The case for one recommendation: what the defense gives up across every
@@ -19,10 +22,11 @@ export default function PropDetailScreen() {
   const theme = useTheme();
   const { id } = useLocalSearchParams<{ id: string }>();
   const picks = useProps();
+  const { cards } = useLiveCards(picks.data);
 
-  const card = picks.data?.recommendations.find((c) => c.id === decodeURIComponent(String(id)));
+  const entry = cards.find((c) => c.card.id === decodeURIComponent(String(id)));
 
-  if (!card) {
+  if (!entry) {
     return picks.isLoading ? (
       <Loading what="this prop" />
     ) : (
@@ -33,6 +37,7 @@ export default function PropDetailScreen() {
     );
   }
 
+  const { card, lines, live } = entry;
   return (
     <>
       <Stack.Screen options={{ title: card.player.name }} />
@@ -41,10 +46,11 @@ export default function PropDetailScreen() {
         contentContainerStyle={{ paddingBottom: 40 }}
       >
         <Headline card={card} />
+        {lines ? <TheLines card={card} lines={lines} /> : null}
         <TheMatchup card={card} />
         <HisUsage card={card} />
-        <TheScore card={card} />
-        <Caveats card={card} />
+        <TheScore card={card} live={live} lines={lines} />
+        <Caveats card={card} hasLine={Boolean(lines)} />
         <GameLink card={card} />
       </ScrollView>
     </>
@@ -97,6 +103,94 @@ function Headline({ card }: { card: Recommendation }) {
         {player.status !== 'active' ? <Chip text={player.status} tone="warn" /> : null}
       </View>
     </Card>
+  );
+}
+
+/**
+ * Every book's number for this prop, the best one marked, set against what the
+ * pipeline projects. Pregame only: the section disappears at kickoff.
+ */
+function TheLines({ card, lines }: { card: Recommendation; lines: Lines }) {
+  const theme = useTheme();
+  const unit = card.player.unit;
+
+  const verdict = lines.isTd
+    ? card.td_prob != null && lines.impliedYes !== null
+      ? `Projected ${Math.round(card.td_prob * 100)}% to score; the books imply ${Math.round(lines.impliedYes * 100)}%.`
+      : null
+    : card.projection != null && lines.consensus !== null
+      ? `Projected ${trim(card.projection)} ${unit} against a consensus line of ${trim(lines.consensus)}.`
+      : null;
+
+  return (
+    <>
+      <SectionTitle>The lines</SectionTitle>
+      <Card>
+        <View style={{ flexDirection: 'row', paddingBottom: 6 }}>
+          <Text style={{ flex: 1, color: theme.faint, fontSize: 11, fontWeight: '700' }}>BOOK</Text>
+          {lines.isTd ? null : (
+            <Text style={{ width: 56, textAlign: 'right', color: theme.faint, fontSize: 11, fontWeight: '700' }}>
+              LINE
+            </Text>
+          )}
+          <Text style={{ width: 60, textAlign: 'right', color: theme.faint, fontSize: 11, fontWeight: '700' }}>
+            {lines.isTd ? 'YES' : 'OVER'}
+          </Text>
+          <Text style={{ width: 60, textAlign: 'right', color: theme.faint, fontSize: 11, fontWeight: '700' }}>
+            {lines.isTd ? 'NO' : 'UNDER'}
+          </Text>
+        </View>
+        {lines.books.map((b) => {
+          const isBest = lines.best?.book === b.book;
+          return (
+            <View
+              key={b.book}
+              style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+                paddingVertical: 8,
+                borderTopWidth: 1,
+                borderTopColor: theme.border,
+              }}
+            >
+              <Text style={{ flex: 1, color: theme.text, fontWeight: isBest ? '700' : '500' }}>
+                {bookName(b.book)}
+                {isBest ? <Text style={{ color: theme.accent, fontSize: 11 }}>  BEST</Text> : null}
+              </Text>
+              {lines.isTd ? null : (
+                <Text style={{ width: 56, textAlign: 'right', color: theme.text, fontWeight: '700' }}>
+                  {b.line === null ? '—' : trim(b.line)}
+                </Text>
+              )}
+              <Text
+                style={{
+                  width: 60,
+                  textAlign: 'right',
+                  color: isBest ? theme.accent : theme.text,
+                  fontWeight: isBest ? '700' : '500',
+                }}
+              >
+                {formatAmerican(b.over)}
+              </Text>
+              <Text style={{ width: 60, textAlign: 'right', color: theme.muted }}>
+                {formatAmerican(b.under)}
+              </Text>
+            </View>
+          );
+        })}
+        {verdict ? (
+          <Text style={{ color: theme.text, fontSize: 13, lineHeight: 19, marginTop: 10 }}>
+            {verdict}
+          </Text>
+        ) : null}
+        <Text style={{ color: theme.faint, fontSize: 11, marginTop: 8, lineHeight: 16 }}>
+          {lines.isTd
+            ? 'Best = the longest yes price. '
+            : 'Best over = the lowest line, then the best price. '}
+          Updated {ago(lines.fetchedAt) ?? 'recently'}; lines move, so confirm in the app before betting.
+        </Text>
+      </Card>
+    </>
   );
 }
 
@@ -264,10 +358,17 @@ function HisUsage({ card }: { card: Recommendation }) {
 }
 
 /** The score, decomposed, so it is arithmetic rather than an oracle. */
-function TheScore({ card }: { card: Recommendation }) {
+function TheScore({
+  card,
+  live,
+  lines,
+}: {
+  card: Recommendation;
+  live: LiveScore;
+  lines: Lines | null;
+}) {
   const theme = useTheme();
-  const picks = useProps();
-  const weights = picks.data?.weights ?? {};
+  const { weights, components } = live;
 
   const parts = [
     {
@@ -285,10 +386,10 @@ function TheScore({ card }: { card: Recommendation }) {
 
   return (
     <>
-      <SectionTitle>Why it scored {scoreOutOf100(card.score)}</SectionTitle>
+      <SectionTitle>Why it scored {scoreOutOf100(live.score)}</SectionTitle>
       <Card>
         {parts.map((part, index) => {
-          const value = card.components[part.key] ?? 0;
+          const value = components[part.key] ?? 0;
           const weight = weights[part.key] ?? 0;
           return (
             <View
@@ -342,17 +443,68 @@ function TheScore({ card }: { card: Recommendation }) {
             marginTop: 4,
           }}
         >
-          <Text style={{ flex: 1, color: theme.text, fontWeight: '700' }}>Total</Text>
-          <Text style={{ color: theme.accent, fontWeight: '800' }}>
+          <Text style={{ flex: 1, color: theme.text, fontWeight: live.withLine ? '600' : '700' }}>
+            {live.withLine ? 'Matchup score' : 'Total'}
+          </Text>
+          <Text style={{ color: live.withLine ? theme.text : theme.accent, fontWeight: '800' }}>
             {(card.score * 100).toFixed(1)} / 100
           </Text>
         </View>
+        {live.withLine ? (
+          <>
+            <View style={{ paddingTop: 10, marginTop: 6, borderTopWidth: 1, borderTopColor: theme.border }}>
+              <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <Text style={{ flex: 1, color: theme.text, fontWeight: '600' }}>Value vs line</Text>
+                <Text
+                  style={{
+                    color: live.adjustment >= 0 ? theme.accent : theme.warn,
+                    fontWeight: '700',
+                  }}
+                >
+                  {live.adjustment >= 0 ? '+' : '−'}
+                  {Math.abs(live.adjustment * 100).toFixed(1)}
+                </Text>
+              </View>
+              <Text style={{ color: theme.faint, fontSize: 11, marginTop: 5 }}>
+                {valueDetail(card, live, lines)}
+              </Text>
+            </View>
+            <View
+              style={{
+                flexDirection: 'row',
+                borderTopWidth: 1,
+                borderTopColor: theme.border,
+                paddingTop: 10,
+                marginTop: 10,
+              }}
+            >
+              <Text style={{ flex: 1, color: theme.text, fontWeight: '700' }}>Total</Text>
+              <Text style={{ color: theme.accent, fontWeight: '800' }}>
+                {(live.score * 100).toFixed(1)} / 100
+              </Text>
+            </View>
+            <Text style={{ color: theme.faint, fontSize: 11, marginTop: 8, lineHeight: 16 }}>
+              A line right at the projection changes nothing; the further off it is, the more it
+              moves the score, up to {Math.round(live.lineWeight * 100)} points either way.
+            </Text>
+          </>
+        ) : null}
       </Card>
     </>
   );
 }
 
-function Caveats({ card }: { card: Recommendation }) {
+function valueDetail(card: Recommendation, live: LiveScore, lines: Lines | null): string {
+  if (live.edge === null || !lines) return 'how the projection compares with the line';
+  if (lines.isTd) {
+    const points = Math.round(live.edge * 100);
+    return `his projected TD chance is ${Math.abs(points)} points ${points >= 0 ? 'above' : 'below'} the books'`;
+  }
+  const pct = Math.round(live.edge * 100);
+  return `projection ${trim(card.projection ?? 0)} is ${Math.abs(pct)}% ${pct >= 0 ? 'over' : 'under'} the ${trim(lines.consensus ?? 0)} line`;
+}
+
+function Caveats({ card, hasLine }: { card: Recommendation; hasLine: boolean }) {
   const theme = useTheme();
   const { player, defense } = card;
   const notes: string[] = [];
@@ -370,7 +522,11 @@ function Caveats({ card }: { card: Recommendation }) {
   if (player.status !== 'active') {
     notes.push(`He is listed ${player.status.toLowerCase()} — check before kickoff.`);
   }
-  notes.push('No betting line is involved. Compare this against the number in your book.');
+  notes.push(
+    hasLine
+      ? 'Lines come from the books listed above and can move before kickoff. They inform the score; they are not a prediction.'
+      : 'No sportsbook line is posted for this prop yet, so the score is matchup and usage only.',
+  );
 
   return (
     <>
