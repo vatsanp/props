@@ -123,6 +123,14 @@ SHARE_COLUMNS = {
 RECEIVING_COLUMNS = {"receptions", "receiving_yards", "receiving_tds"}
 RUSHING_COLUMNS = {"carries", "rushing_yards", "rushing_tds"}
 
+#: The per-game stats that grow with each share when a player inherits a
+#: teammate's work: more carries means more rushing yards and rushing TDs, more
+#: targets means more catches, receiving yards and receiving TDs.
+SCALES_WITH = {
+    "carries": RUSHING_COLUMNS,
+    "targets": {"targets"} | RECEIVING_COLUMNS,
+}
+
 
 def share_column_for(market: Market) -> str:
     """Which share makes this market's usage claim true."""

@@ -4,7 +4,7 @@ import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import { useDvp, useProps, useSchedule, useUsage } from '../../src/api/queries';
 import type { Recommendation, UsagePlayer } from '../../src/api/schemas';
 import { Card, Chip, Empty, Loading, SectionTitle } from '../../src/components/common';
-import { ordinal, scoreOutOf100, trim } from '../../src/format';
+import { basisSummary, ordinal, scoreOutOf100, trim } from '../../src/format';
 import { MARKETS } from '../../src/domain/markets';
 import { ago, bookName, formatAmerican, type Lines } from '../../src/domain/odds';
 import type { LiveScore } from '../../src/domain/score';
@@ -309,11 +309,29 @@ function HisUsage({ card }: { card: Recommendation }) {
   const entry: UsagePlayer | undefined = usage.data?.teams?.[player.team]?.[
     player.position
   ]?.find((p) => (player.id ? p.id === player.id : p.name === player.name));
+  // A teammate is out: the numbers are his bigger role, with the season beside.
+  const basis = player.basis;
+  const season = entry?.season_per_game;
 
   return (
     <>
-      <SectionTitle>{player.name}'s season</SectionTitle>
+      <SectionTitle>
+        {basis ? `${player.name}'s role now` : `${player.name}'s season`}
+      </SectionTitle>
       <Card>
+        {basis ? (
+          <Text
+            style={{
+              color: theme.accent,
+              fontSize: 13,
+              lineHeight: 19,
+              fontWeight: '600',
+              marginBottom: 8,
+            }}
+          >
+            {basisSummary(basis)}
+          </Text>
+        ) : null}
         {!entry ? (
           <Text style={{ color: theme.muted, fontSize: 13 }}>
             {usage.isLoading ? 'Loading his production…' : 'No production data available.'}
@@ -335,6 +353,11 @@ function HisUsage({ card }: { card: Recommendation }) {
                   <Text style={{ flex: 1, color: theme.muted, fontSize: 13 }}>
                     {metricLabel(column)}
                   </Text>
+                  {season && season[column] !== undefined && season[column] !== value ? (
+                    <Text style={{ color: theme.faint, fontSize: 12, marginRight: 10 }}>
+                      season {trim(season[column]!)}
+                    </Text>
+                  ) : null}
                   <Text style={{ color: theme.text, fontWeight: '600' }}>{trim(value)}</Text>
                 </View>
               ))}
@@ -342,7 +365,11 @@ function HisUsage({ card }: { card: Recommendation }) {
             <View style={{ flexDirection: 'row', gap: 16, marginTop: 14 }}>
               <Figure
                 label={shareLabel(player.share_of)}
-                value={`${Math.round(player.share * 100)}%`}
+                value={
+                  basis && Math.round(basis.season_share * 100) !== Math.round(player.share * 100)
+                    ? `${Math.round(basis.season_share * 100)}% → ${Math.round(player.share * 100)}%`
+                    : `${Math.round(player.share * 100)}%`
+                }
               />
               <Figure
                 label="Depth chart"
@@ -521,6 +548,15 @@ function Caveats({ card, hasLine }: { card: Recommendation; hasLine: boolean }) 
   }
   if (player.status !== 'active') {
     notes.push(`He is listed ${player.status.toLowerCase()} — check before kickoff.`);
+  }
+  if (player.basis?.kind === 'estimated') {
+    notes.push(
+      'His bigger role is an estimate: the work his injured teammates leave is shared out in proportion to what everyone else already gets. It costs the score some confidence.',
+    );
+  } else if (player.basis && player.basis.games <= 2) {
+    notes.push(
+      `His role without them rests on ${player.basis.games} game${player.basis.games === 1 ? '' : 's'}, so it can move a lot.`,
+    );
   }
   notes.push(
     hasLine

@@ -197,6 +197,18 @@ def _check_props(out: pathlib.Path, problems: List[str]) -> None:
             problems.append(f"props: {player['name']} matchup allows nothing")
         if not card.get("rationale"):
             problems.append(f"props: {player['name']} has no rationale")
+        if not 0.0 <= player["share"] <= 1.0:
+            problems.append(f"props: {player['name']} share {player['share']} out of range")
+        basis = player.get("basis")
+        if basis is not None:
+            if basis.get("kind") not in {"without", "estimated"}:
+                problems.append(f"props: {player['name']} basis kind {basis.get('kind')!r}")
+            if not basis.get("games") or basis["games"] <= 0:
+                problems.append(f"props: {player['name']} basis has no games")
+            if not basis.get("without"):
+                problems.append(f"props: {player['name']} basis names nobody out")
+            elif player["name"] in basis["without"]:
+                problems.append(f"props: {player['name']} is out in his own basis")
 
 
 def main(out_dir: str) -> int:

@@ -61,3 +61,30 @@ export function formatKickoff(iso: string | null): string {
     minute: '2-digit',
   });
 }
+
+/** "A", "A and B", "A, B and C". */
+export function listNames(names: string[]): string {
+  if (names.length <= 1) return names[0] ?? '';
+  return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+}
+
+/**
+ * Where a player's numbers come from when a teammate is out (see the pipeline's
+ * usage.py): the games since he went down, or an estimate.
+ */
+export function basisSummary(basis: {
+  kind: string;
+  without: string[];
+  since_week: number | null;
+  games: number;
+}): string {
+  const who = `${listNames(basis.without)} ${basis.without.length > 1 ? 'are' : 'is'} out`;
+  const games = `${basis.games} game${basis.games === 1 ? '' : 's'}`;
+  if (basis.kind === 'without') {
+    return `${who}: these are his ${games} since week ${basis.since_week}.`;
+  }
+  const from = basis.since_week
+    ? `his ${games} since week ${basis.since_week}`
+    : 'his season';
+  return `${who}: estimated from ${from}, scaled up for the work left behind.`;
+}

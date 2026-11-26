@@ -173,6 +173,12 @@ TeamRankings when a team relocates or rebrands.
   one September game moves a defense twenty ranks. Player usage is *not*
   blended: a player may have changed teams or lost his job, and last year's
   target share would point at the wrong man.
+- **An injured teammate's work goes to the men left.** When a player with a
+  real share is out (injury report, or off the active roster: IR, released),
+  his teammates' usage comes from the games the team has played without him,
+  if there are at least two; for a fresh injury his share is handed out in
+  proportion, capped at double, and the card trusts it less. Depth is ranked
+  among available players, so the backup moves up. The card says which.
 - **Head-to-head applies franchise continuity.** Oakland-era Raiders games count
   toward LV, with the era split reported separately. History starts in 1999,
   which is where nflverse starts, and the UI says so.
@@ -181,7 +187,8 @@ TeamRankings when a team relocates or rebrands.
 
 - [TeamRankings](https://www.teamrankings.com/nfl/) — the 20 team stat tables.
 - [nflverse](https://github.com/nflverse) — game results and schedule
-  (`nfldata/games.csv`), weekly player stats, injury reports. CC-BY 4.0.
+  (`nfldata/games.csv`), weekly player stats, injury reports, and weekly
+  rosters (for injured reserve). CC-BY 4.0.
 - [ESPN](https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard) —
   team metadata, and live scores if that gets wired up.
 

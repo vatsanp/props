@@ -78,7 +78,7 @@ export default function SettingsScreen() {
         </View>
         <Text style={{ color: theme.muted, fontSize: 12, marginTop: 10, lineHeight: 18 }}>
           Team stats from TeamRankings. Schedule, results and player production from
-          nflverse, back to 1999. Injury reports from the weekly nflverse feed.
+          nflverse, back to 1999. Injury reports and injured reserve from nflverse's weekly feeds.
         </Text>
       </Card>
 

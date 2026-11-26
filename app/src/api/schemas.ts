@@ -8,6 +8,18 @@ import { z } from 'zod';
 
 const nullableNumber = z.number().nullable();
 
+/**
+ * Set when a teammate who carried real weight is out and this player's usage
+ * was rebuilt: from the games since (`without`) or by estimate (`estimated`).
+ * Optional so payloads from before it parse.
+ */
+const usageBasisSchema = z.object({
+  kind: z.string(),
+  without: z.array(z.string()),
+  since_week: nullableNumber,
+  games: z.number(),
+});
+
 export const manifestSchema = z.object({
   schema_version: z.number(),
   generated_at: z.string(),
@@ -191,6 +203,10 @@ export const propsSchema = z.object({
         share_of: z.string(),
         per_game: z.number(),
         unit: z.string(),
+        /** Plus this market's season figures, to show season -> now. */
+        basis: usageBasisSchema
+          .extend({ season_per_game: z.number(), season_share: z.number() })
+          .optional(),
       }),
       defense: z.object({
         team: z.string(),
@@ -280,6 +296,9 @@ export const usageSchema = z.object({
           status: z.string(),
           depth: z.record(z.string(), z.number()),
           roles: z.record(z.string(), z.string()),
+          basis: usageBasisSchema.optional(),
+          season_shares: z.record(z.string(), z.number()).optional(),
+          season_per_game: z.record(z.string(), z.number()).optional(),
         }),
       ),
     ),
@@ -291,6 +310,7 @@ export type Dvp = z.infer<typeof dvpSchema>;
 export type DvpCell = z.infer<typeof dvpCellSchema>;
 export type Usage = z.infer<typeof usageSchema>;
 export type UsagePlayer = Usage['teams'][string][string][number];
+export type UsageBasis = z.infer<typeof usageBasisSchema>;
 export type Stats = z.infer<typeof statsSchema>;
 export type Game = z.infer<typeof gameSchema>;
 export type Schedule = z.infer<typeof scheduleSchema>;

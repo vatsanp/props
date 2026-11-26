@@ -27,6 +27,20 @@ export const BOOK_NAMES: Record<string, string> = {
 
 export const bookName = (key: string): string => BOOK_NAMES[key] ?? key;
 
+/** Short names for a prop row, where the full name does not fit. */
+const BOOK_SHORT: Record<string, string> = {
+  fanduel: 'FD',
+  draftkings: 'DK',
+  espnbet: 'theScore',
+  betmgm: 'MGM',
+  fanatics: 'Fanatics',
+  williamhill_us: 'CZR',
+  betrivers: 'BetRivers',
+  hardrockbet: 'Hard Rock',
+};
+
+export const bookShort = (key: string): string => BOOK_SHORT[key] ?? bookName(key);
+
 export interface BookLine {
   book: string;
   /** Null for anytime TD, which is priced yes/no rather than over/under. */

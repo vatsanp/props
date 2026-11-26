@@ -2,7 +2,7 @@ import { Pressable, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 
 import type { Recommendation } from '../api/schemas';
-import { formatAmerican, type Lines } from '../domain/odds';
+import { bookShort, formatAmerican, type Lines } from '../domain/odds';
 import type { LiveScore } from '../domain/score';
 import { ordinal, scoreOutOf100, shortName, trim } from '../format';
 import { team as lookupTeam } from '../domain/teams';
@@ -13,8 +13,12 @@ import { rankTone, useTheme } from '../theme';
  * it is here. Everything else — the defense's full profile, his usage, how the
  * score was arrived at — lives on the detail screen a tap away.
  *
- * With a sportsbook line, the row shows the consensus number beside his
- * average, and the score is the line-aware one (src/domain/score.ts).
+ * With a sportsbook line, the row shows the best one beside his average -- the
+ * lowest over line across books (best price breaking ties), or the best "yes"
+ * price for anytime TD -- with the book, e.g. "avg 61.2  o54.5 -115 · FD".
+ * The score is the line-aware one (src/domain/score.ts). An arrow after the
+ * average means a teammate is out and it is his bigger role since, not his
+ * season (usage.py in the pipeline); the detail screen shows both.
  */
 export function PropRow({
   card,
@@ -28,6 +32,7 @@ export function PropRow({
   const theme = useTheme();
   const router = useRouter();
   const { player, defense } = card;
+  const best = lines?.best ?? null;
 
   // softness_rank 1 = allows the most, which reads as 32nd of 32.
   const worstness = 33 - defense.softness_rank;
@@ -74,30 +79,43 @@ export function PropRow({
         </View>
 
         <View
-          style={{ flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 6 }}
+          style={{
+            flexDirection: 'row',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+            columnGap: 8,
+            rowGap: 4,
+            marginTop: 6,
+          }}
         >
           <Text style={{ color: theme.text, fontSize: 14, fontWeight: '600' }}>
             {card.market_label}
           </Text>
-          <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '700' }}>
-            {trim(player.per_game)}
+          <Text style={{ color: theme.muted, fontSize: 12 }}>
+            avg{' '}
+            <Text style={{ color: theme.accent, fontSize: 14, fontWeight: '700' }}>
+              {trim(player.per_game)}
+              {/* A teammate is out and this is his bigger role, not his season. */}
+              {player.basis ? ' ↑' : ''}
+            </Text>
           </Text>
-          {lines ? (
+          {best ? (
             <Text
               style={{
                 color: theme.muted,
                 fontSize: 12,
-                fontWeight: '600',
                 borderColor: theme.border,
                 borderWidth: 1,
                 borderRadius: 6,
                 paddingHorizontal: 5,
                 paddingVertical: 1,
               }}
+              numberOfLines={1}
             >
-              {lines.isTd
-                ? `Yes ${formatAmerican(lines.best?.over ?? null)}`
-                : `O/U ${trim(lines.consensus ?? 0)}`}
+              <Text style={{ color: theme.text, fontWeight: '700' }}>
+                {lines?.isTd ? 'Yes' : `o${trim(best.line ?? 0)}`}
+              </Text>{' '}
+              {formatAmerican(best.over)} · {bookShort(best.book)}
             </Text>
           ) : null}
           {player.status !== 'active' ? (

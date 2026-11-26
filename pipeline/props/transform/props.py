@@ -10,6 +10,11 @@ model, because every card has to be explainable in one sentence:
 
     score = 0.45*softness + 0.35*usage + 0.20*confidence
 
+Usage is the player's share as of now: when a teammate is out, usage.py swaps
+in the games since he went down, or an estimate for a fresh injury, and the
+card carries that `basis` and says so in its rationale. An estimate costs
+confidence (ESTIMATE_CONFIDENCE).
+
 Sportsbook lines are not known here: they move every few minutes and arrive
 through the Worker, not the pipeline. Instead each card carries a `projection`
 (and, for touchdown markets, a `td_prob`), and the payload publishes
@@ -34,6 +39,11 @@ MAX_SOFTNESS_RANK = 10
 
 #: Games of evidence at which confidence saturates.
 CONFIDENCE_GAMES = 6.0
+
+#: Confidence multiplier when a player's bigger role is an estimate (a
+#: teammate out for the first time) rather than games already played without
+#: him. See usage.py.
+ESTIMATE_CONFIDENCE = 0.75
 
 WEIGHTS = {"softness": 0.45, "usage": 0.35, "confidence": 0.20}
 
@@ -184,7 +194,11 @@ def _card(
     usage_pct = usage_pcts.get(market.position, {}).get(share_column, {}).get(
         _player_key(player), 0.0
     )
-    conf = confidence(cell["games"], player["games"])
+    # With a teammate out, the evidence is the games since (or an estimate).
+    basis = player.get("basis")
+    conf = confidence(cell["games"], basis["games"] if basis else player["games"])
+    if basis and basis["kind"] == "estimated":
+        conf = round(conf * ESTIMATE_CONFIDENCE, 4)
     total = score(cell["softness_pct"], usage_pct, conf)
     projected = projection(produced, cell["allowed_per_game"], league_avg)
 
@@ -214,6 +228,7 @@ def _card(
             "share_of": share_column,
             "per_game": round(produced, 2),
             "unit": market.unit,
+            **({"basis": _card_basis(basis, player, market, share_column)} if basis else {}),
         },
         "defense": {
             "team": defense,
@@ -246,6 +261,42 @@ SHARE_NOUN = {
 }
 
 
+def _card_basis(basis: dict, player: dict, market: Market, share_column: str) -> dict:
+    """The usage basis, plus this market's season figures to compare against."""
+    season_per_game = player.get("season_per_game", player["per_game"])
+    return {
+        **basis,
+        "season_per_game": round(
+            sum(season_per_game.get(column, 0.0) for column in market.columns), 2
+        ),
+        "season_share": player.get("season_shares", player["shares"]).get(share_column, 0.0),
+    }
+
+
+def _names(names: List[str]) -> str:
+    return names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1]
+
+
+def _basis_sentence(market: Market, player: dict, produced: float, share_column: str) -> str:
+    card_basis = _card_basis(player["basis"], player, market, share_column)
+    who = _names(card_basis["without"])
+    season = card_basis["season_per_game"]
+    if card_basis["kind"] == "without":
+        games = card_basis["games"]
+        return (
+            f" With {who} out: {produced:g} {market.unit} per game over his {games}"
+            f" game{'s' if games != 1 else ''} since week {card_basis['since_week']}"
+            f" (season {season:g})."
+        )
+    before = round(card_basis["season_share"] * 100)
+    after = round(player["shares"][share_column] * 100)
+    noun = SHARE_NOUN[share_column]
+    return (
+        f" With {who} out, his {noun} is estimated up from {before}% to {after}%"
+        f" (season {season:g} {market.unit} per game)."
+    )
+
+
 def _rationale(
     market: Market,
     defense: str,
@@ -270,6 +321,8 @@ def _rationale(
             f" Based on {cell['games']} game{'s' if cell['games'] != 1 else ''} this"
             " season, blended with last season."
         )
+    if player.get("basis"):
+        sentence += _basis_sentence(market, player, produced, share_column)
     if player["status"] in usage_module.WARN_STATUSES:
         sentence += f" Listed {player['status'].lower()}."
     return sentence

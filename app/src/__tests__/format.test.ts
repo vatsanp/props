@@ -3,7 +3,15 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { localDayKey, ordinal, scoreOutOf100, shortName, trim } from '../format';
+import {
+  basisSummary,
+  listNames,
+  localDayKey,
+  ordinal,
+  scoreOutOf100,
+  shortName,
+  trim,
+} from '../format';
 
 // Per-game figures always carry one decimal so columns align.
 assert.equal(trim(2), '2.0');
@@ -36,6 +44,23 @@ assert.equal(shortName('Kenneth Walker III'), 'K. Walker III');
 assert.equal(shortName('Amon-Ra St. Brown'), 'A. St. Brown');
 // A single token cannot be abbreviated without losing the whole name.
 assert.equal(shortName('Supercalifragilistic'), 'Supercalifragilistic');
+
+// A teammate out: say where the numbers come from.
+assert.equal(listNames(['A']), 'A');
+assert.equal(listNames(['A', 'B']), 'A and B');
+assert.equal(listNames(['A', 'B', 'C']), 'A, B and C');
+assert.equal(
+  basisSummary({ kind: 'without', without: ['Jeremiyah Love'], since_week: 9, games: 3 }),
+  'Jeremiyah Love is out: these are his 3 games since week 9.',
+);
+assert.equal(
+  basisSummary({ kind: 'estimated', without: ['Starter'], since_week: null, games: 6 }),
+  'Starter is out: estimated from his season, scaled up for the work left behind.',
+);
+assert.equal(
+  basisSummary({ kind: 'estimated', without: ['A', 'B'], since_week: 7, games: 1 }),
+  'A and B are out: estimated from his 1 game since week 7, scaled up for the work left behind.',
+);
 
 // Night games stay on the day they kick off locally, not the UTC date.
 // Run under TZ=America/New_York (or any US zone) for these to hold.

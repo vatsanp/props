@@ -1,4 +1,4 @@
-"""nflverse datasets: game results, weekly player stats, injuries.
+"""nflverse datasets: game results, weekly player stats, injuries, rosters.
 
 One CSV covers 1999 through the current season's full schedule — completed
 games carry scores, future ones do not, so the same file answers "who plays
@@ -23,6 +23,7 @@ GAMES_URL = "https://raw.githubusercontent.com/nflverse/nfldata/master/data/game
 RELEASE = "https://github.com/nflverse/nflverse-data/releases/download"
 PLAYER_WEEK_URL = RELEASE + "/stats_player/stats_player_week_{season}.csv"
 INJURIES_URL = RELEASE + "/injuries/injuries_{season}.csv"
+ROSTERS_URL = RELEASE + "/weekly_rosters/roster_weekly_{season}.csv"
 
 
 class DatasetError(RuntimeError):
@@ -84,6 +85,29 @@ def fetch_injuries(season: int, cache_dir: Optional[str] = ".cache", sess=None) 
         _require_columns(
             rows, ["season", "week", "team", "full_name", "position", "report_status"],
             f"injuries_{season}.csv",
+        )
+    return rows
+
+
+def fetch_rosters(season: int, cache_dir: Optional[str] = ".cache", sess=None) -> List[dict]:
+    """Weekly rosters, with each player's roster status (ACT, RES for injured
+    reserve and other reserve lists, CUT, DEV for the practice squad...).
+
+    The injury report only covers players who might play this week: a man on
+    season-ending IR drops off it, so this is the only place he shows up as
+    out. Missing early in a season, which is not an error.
+    """
+    sess = sess or http.session()
+    url = ROSTERS_URL.format(season=season)
+    try:
+        text = _fetch_cached(sess, url, cache_dir, f"roster_weekly_{season}.csv")
+    except http.FetchError:
+        return []
+    rows = _rows(text)
+    if rows:
+        _require_columns(
+            rows, ["season", "week", "team", "full_name", "gsis_id", "status"],
+            f"roster_weekly_{season}.csv",
         )
     return rows
 

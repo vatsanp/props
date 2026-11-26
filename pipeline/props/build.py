@@ -95,19 +95,21 @@ def build(
             current_rows = nflverse.fetch_player_weeks(state.season, cache_dir=cache_dir)
             prior_rows = nflverse.fetch_player_weeks(state.season - 1, cache_dir=cache_dir)
             injuries = nflverse.fetch_injuries(state.season, cache_dir=cache_dir)
+            rosters = nflverse.fetch_rosters(state.season, cache_dir=cache_dir)
             record_source(
                 "nflverse_players",
                 True,
                 player_weeks=len(current_rows),
                 prior_player_weeks=len(prior_rows),
                 injuries=len(injuries),
+                rosters=len(rosters),
             )
 
             dvp_payload = dvp_module.build(
                 current_rows, prior_rows, season=state.season, prior_season=state.season - 1
             )
             usage_payload = usage_module.build(
-                current_rows, injuries, season=state.season, week=state.week
+                current_rows, injuries, season=state.season, week=state.week, rosters=rosters
             )
             if "dvp" in wanted:
                 written["dvp.json"] = write_json(out / "dvp.json", _wrap(dvp_payload))

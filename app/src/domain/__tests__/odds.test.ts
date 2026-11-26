@@ -9,6 +9,7 @@ import assert from 'node:assert/strict';
 import type { Odds, PropsPayload, Recommendation } from '../../api/schemas';
 import {
   americanToProb,
+  bookShort,
   findQuote,
   formatAmerican,
   linesFor,
@@ -128,6 +129,10 @@ test('lines: every book, the median, and the lowest line as the best over', () =
   assert.equal(lines.books.length, 3);
   assert.equal(lines.consensus, 55.5);
   assert.equal(lines.best?.book, 'fanduel', 'the lowest line is the best over');
+  assert.deepEqual([lines.best?.line, lines.best?.over], [54.5, -115]);
+  assert.equal(bookShort(lines.best!.book), 'FD');
+  assert.equal(bookShort('espnbet'), 'theScore');
+  assert.equal(bookShort('somenewbook'), 'somenewbook');
   assert.equal(lines.isTd, false);
 });
 
