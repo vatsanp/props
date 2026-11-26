@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-16T20:55:51Z",
+ "generated_at": "2026-11-26T20:05:13Z",
  "team": "GB",
  "since": 1999,
  "opponents": {
@@ -4024,20 +4024,20 @@
    ]
   },
   "LAR": {
-   "games": 15,
+   "games": 16,
    "wins": 11,
-   "losses": 4,
+   "losses": 5,
    "ties": 0,
-   "streak": "GB W5",
+   "streak": "LAR W1",
    "splits": {
     "all": {
      "w": 11,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     "regular": {
      "w": 10,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "postseason": {
@@ -4052,17 +4052,17 @@
     },
     "away": {
      "w": 4,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     "last5": {
-     "w": 5,
-     "l": 0,
+     "w": 4,
+     "l": 1,
      "t": 0
     },
     "last10": {
-     "w": 9,
-     "l": 1,
+     "w": 8,
+     "l": 2,
      "t": 0
     }
    },
@@ -4085,14 +4085,26 @@
       "LA"
      ],
      "wins": {
-      "LA": 1,
+      "LA": 2,
       "GB": 5
      },
      "ties": 0,
-     "games": 6
+     "games": 7
     }
    ],
    "recent": [
+    {
+     "date": "2026-11-25",
+     "season": 2026,
+     "week": 12,
+     "type": "REG",
+     "home": "LAR",
+     "away": "GB",
+     "home_score": 26,
+     "away_score": 13,
+     "winner": "LAR",
+     "neutral": false
+    },
     {
      "date": "2024-10-06",
      "season": 2024,
@@ -4223,18 +4235,6 @@
      "home_score": 14,
      "away_score": 33,
      "winner": "GB",
-     "neutral": false
-    },
-    {
-     "date": "2006-10-08",
-     "season": 2006,
-     "week": 5,
-     "type": "REG",
-     "home": "GB",
-     "away": "LAR",
-     "home_score": 20,
-     "away_score": 23,
-     "winner": "LAR",
      "neutral": false
     }
    ]
