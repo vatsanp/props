@@ -28,7 +28,7 @@ nflverse games.csv ├─► Python pipeline ─► data/v1/*.json ─► git �
 nflverse players   ┘     (GitHub Actions)                        │
                                                                  ▼
                               Expo app ◄── KV ◄── Cloudflare Worker
-                                                   (hourly cron, plus
+                                                   (sync every 15 min,
                      The Odds API ──────────────►   odds every 5 min)
 ```
 

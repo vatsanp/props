@@ -3,7 +3,7 @@
  *
  * The pipeline (pipeline/props/, Python) scrapes and builds the payloads, and
  * GitHub Actions commits them to data/v1/. This Worker does not repeat any of
- * that: an hourly cron mirrors the *bytes* of any changed payload into KV, and
+ * that: a cron every 15 minutes mirrors the *bytes* of any changed payload into KV, and
  * the fetch handler serves them from the edge with CORS and cache headers.
  *
  * Serving rather than computing is deliberate. The free plan allows 10 ms of
@@ -90,7 +90,7 @@ const H2H_SUMMARY = 'h2h.json';
 /** Superseded team files are never read again; this is just the bin collection. */
 const H2H_TTL_SECONDS = 30 * 24 * 60 * 60;
 
-/** Origin hiccups shouldn't cost an hour's freshness. Cheap, given the budget. */
+/** Origin hiccups shouldn't cost a sync's freshness. Cheap, given the budget. */
 const FETCH_ATTEMPTS = 3;
 /** Gentle on origin, and irrelevant to CPU since these are all waiting on IO. */
 const CONCURRENCY = 4;
@@ -107,8 +107,9 @@ const CORS_HEADERS: Record<string, string> = {
 
 /** Odds move; the app polls every minute and an edge copy may lag by 30 s. */
 const ODDS_CACHE = 'public, max-age=30';
-/** The existing hourly sync. Any other cron is the odds poller. */
-const SYNC_CRON = '17 * * * *';
+/** The payload sync, every 15 minutes. Any other cron is the odds poller. Must
+ * match wrangler.jsonc exactly: scheduled() dispatches on the string. */
+const SYNC_CRON = '7,22,37,52 * * * *';
 
 /** The app cache-busts the manifest itself; never let an edge hold onto it. */
 const MANIFEST_CACHE = 'no-store';

@@ -1,12 +1,12 @@
 # props-data
 
 The read path for the app. GitHub Actions builds and commits `data/v1/`; this
-Worker mirrors it into Cloudflare KV once an hour and serves it from the edge
+Worker mirrors it into Cloudflare KV every 15 minutes and serves it from the edge
 with CORS, ETags and cache headers.
 
 ```
 Python pipeline ─► git ─► raw.githubusercontent.com ─► Worker cron ─► KV ─► app
-   (Actions)                     (origin)              (hourly)      (edge)
+   (Actions)                     (origin)             (every 15 min)  (edge)
 ```
 
 It computes nothing. Team matchup edges are calculated on-device in
@@ -38,7 +38,7 @@ origin on first request and cached under a key carrying `h2h.json`'s content
 hash, so a new build supersedes them with no invalidation pass. The app only
 asks for one when a matchup is opened.
 
-KV writes are capped at 1,000/day on the free plan. A steady hour writes
+KV writes are capped at 1,000/day on the free plan. A sync with nothing new writes
 **nothing**: every file is gated on the content hash the pipeline publishes in
 `manifest.json`, and the manifest itself is gated on its `generated_at`.
 
@@ -72,7 +72,7 @@ npx wrangler kv namespace create MISMATCH_STORE
 # 4. Ship it
 npx wrangler deploy
 
-# 5. Fill KV now rather than waiting for the top of the hour. A KV miss falls
+# 5. Fill KV now rather than waiting for the next sync (up to 15 minutes). A KV miss falls
 #    through to origin and backfills, so one request per file is enough.
 #    (/__scheduled only exists under `wrangler dev --test-scheduled`.)
 curl -s https://props-data.<your-subdomain>.workers.dev/v1/manifest.json

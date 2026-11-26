@@ -26,17 +26,18 @@
     }
   ],
 
-  // Hourly, at :17. The daily pipeline commits at ~11:10 UTC and the game-day
-  // workflow commits on :00 and :30, so a run at :17 picks up either within the
-  // hour. Cron invocations count against the free plan's 100k/day requests;
-  // 24 a day is nothing.
+  // Every 15 minutes, at :07/:22/:37/:52. The game-day workflow commits on :00
+  // and :30 and the daily one at ~11:10 UTC, so each lands a few minutes after a
+  // build; a manual run waits at most 15. A sync that finds nothing changed is
+  // 1 KV list + 1 manifest fetch and writes nothing, so 96 a day is nothing
+  // against the free plan (100k requests, 1,000 lists per day).
   //
   // Every 5 minutes: the sportsbook-lines poller (src/odds.ts). It decides for
   // itself which games are due, so this only sets the finest granularity. Five
   // minutes, not one, because KV takes up to ~60 s to show a write everywhere:
   // a faster tick could read stale state and pay for the same game twice.
   "triggers": {
-    "crons": ["17 * * * *", "*/5 * * * *"]
+    "crons": ["7,22,37,52 * * * *", "*/5 * * * *"]
   },
 
   "vars": {
