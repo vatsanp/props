@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-26T20:05:13Z",
+ "generated_at": "2026-11-27T06:02:02Z",
  "season": 2026,
  "current_week": 12,
  "games": [
@@ -2800,9 +2800,9 @@
    "kickoff": "2026-11-26T18:00:00Z",
    "away": "CHI",
    "home": "DET",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 39,
+   "home_score": 35,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": -1.5,
@@ -2817,9 +2817,9 @@
    "kickoff": "2026-11-26T21:30:00Z",
    "away": "PHI",
    "home": "DAL",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 39,
+   "home_score": 38,
+   "status": "final",
    "neutral": false,
    "div_game": true,
    "spread": 8.5,
@@ -2834,13 +2834,13 @@
    "kickoff": "2026-11-27T01:20:00Z",
    "away": "KC",
    "home": "BUF",
-   "away_score": null,
-   "home_score": null,
-   "status": "scheduled",
+   "away_score": 10,
+   "home_score": 13,
+   "status": "final",
    "neutral": false,
    "div_game": false,
    "spread": 3.0,
-   "total": 45.5,
+   "total": 46.5,
    "venue": "Highmark Stadium"
   },
   {
@@ -2857,7 +2857,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -4.5,
-   "total": 36.5,
+   "total": 37.5,
    "venue": "Acrisure Stadium"
   },
   {
@@ -2941,7 +2941,7 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": true,
-   "spread": -4.5,
+   "spread": -5.5,
    "total": 39.5,
    "venue": "Hard Rock Stadium"
   },
@@ -3094,8 +3094,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": -3.5,
+   "total": 49.5,
    "venue": "Mercedes-Benz Stadium"
   },
   {
@@ -3128,8 +3128,8 @@
    "status": "scheduled",
    "neutral": false,
    "div_game": false,
-   "spread": null,
-   "total": null,
+   "spread": 3.0,
+   "total": 49.5,
    "venue": "Soldier Field"
   },
   {
@@ -3214,7 +3214,7 @@
    "neutral": false,
    "div_game": false,
    "spread": -3.0,
-   "total": 36.5,
+   "total": 37.5,
    "venue": "State Farm Stadium"
   },
   {
@@ -3282,7 +3282,7 @@
    "neutral": false,
    "div_game": false,
    "spread": 6.0,
-   "total": 50.5,
+   "total": 51.5,
    "venue": "Lumen Field"
   },
   {
