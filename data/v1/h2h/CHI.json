@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-23T22:33:22Z",
+ "generated_at": "2026-11-27T19:53:13Z",
  "team": "CHI",
  "since": 1999,
  "opponents": {
@@ -1807,19 +1807,19 @@
    ]
   },
   "DET": {
-   "games": 54,
-   "wins": 28,
+   "games": 55,
+   "wins": 29,
    "losses": 26,
    "ties": 0,
-   "streak": "DET W4",
+   "streak": "CHI W1",
    "splits": {
     "all": {
-     "w": 28,
+     "w": 29,
      "l": 26,
      "t": 0
     },
     "regular": {
-     "w": 28,
+     "w": 29,
      "l": 26,
      "t": 0
     },
@@ -1834,7 +1834,7 @@
      "t": 0
     },
     "away": {
-     "w": 12,
+     "w": 13,
      "l": 15,
      "t": 0
     },
@@ -1851,6 +1851,18 @@
    },
    "eras": [],
    "recent": [
+    {
+     "date": "2026-11-26",
+     "season": 2026,
+     "week": 12,
+     "type": "REG",
+     "home": "DET",
+     "away": "CHI",
+     "home_score": 35,
+     "away_score": 39,
+     "winner": "CHI",
+     "neutral": false
+    },
     {
      "date": "2026-01-04",
      "season": 2025,
@@ -1981,18 +1993,6 @@
      "home_score": 30,
      "away_score": 34,
      "winner": "DET",
-     "neutral": false
-    },
-    {
-     "date": "2020-09-13",
-     "season": 2020,
-     "week": 1,
-     "type": "REG",
-     "home": "DET",
-     "away": "CHI",
-     "home_score": 23,
-     "away_score": 27,
-     "winner": "CHI",
      "neutral": false
     }
    ]
